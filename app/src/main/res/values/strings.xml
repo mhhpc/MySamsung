@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">MySamsung</string>
+    <string name="app_name_persian">سامسونگ من</string>
+
+    <string name="app_version">نسخه 1.0</string>
+
+    <string name="title_suggest">پیشنهادات</string>
+
+
+    //menu_drawer
+    <string name="menu_channel">ارتباط با ما</string>
+    <string name="menu_rate">امتیاز به برنامه</string>
+    <string name="menu_share">اشتراک گذاری برنامه</string>
+    <string name="menu_aboutUs">درباره سامسونگ من</string>
+    <string name="menu_exit">خروج</string>
+
+    //Home_activity
+    <string name="home_start">شروع با:</string>
+    <string name="home_all">همه‌گوشی‌ها</string>
+    <string name="home_series">سری‌ها</string>
+    <string name="home_year">سال ساخت</string>
+    <string name="home_compare">مقایسه گوشی ها</string>
+    <string name="home_option">شخصی سازی</string>
+    <string name="home_tip">اخبار و نکات جذاب</string>
+    <string name="home_about">درباره ما</string>
+
+    //Search_activity
+    <string name="app_search">جستجو</string>
+    <string name="search_hint">جستجو کنید ...</string>
+
+    //Series_activity
+    <string name="series_title">سری ها</string>
+    <string name="series_s">Galaxy S</string>
+    <string name="series_z">Galaxy Z</string>
+    <string name="series_note">Galaxy Note</string>
+    <string name="series_a">Galaxy A</string>
+    <string name="series_m">Galaxy M</string>
+    <string name="series_f">Galaxy F</string>
+    <string name="series_tab">Galaxy Tab</string>
+    <string name="series_j">Galaxy J</string>
+    <string name="series_s1">توضیحاتی درباره سری گوشی های سامسونگ</string>
+
+    //Year_activity
+    <string name="year_title">سال ساخت</string>
+    <string name="year_2022">2022</string>
+    <string name="year_2021">2021</string>
+    <string name="year_s1">پشتیبانی نرم افزاری سامسونگ چند سال است؟</string>
+
+    //Phones_activity
+    <string name="phones_title">همه گوشی های سامسونگ</string>
+    <string name="phones_zfold4">Galaxy Z Fold4</string>
+    <string name="phones_zflip4">Galaxy Z Flip4</string>
+    <string name="phones_zfold3">Galaxy Z Fold3</string>
+    <string name="phones_zflip3">Galaxy Z Flip3</string>
+    <string name="phones_a73">Galaxy A73</string>
+    <string name="phones_a53">Galaxy A53</string>
+    <string name="phones_a33">Galaxy A33</string>
+    <string name="phones_s22ultra">Galaxy S22 Ultra</string>
+    <string name="phones_s22plus">Galaxy S22 Plus</string>
+    <string name="phones_s22">Galaxy S22</string>
+    <string name="phones_s21fe">Galaxy S21 FE</string>
+    <string name="phones_a52s">Galaxy A52s 5G</string>
+    <string name="phones_note20ultra">Galaxy Note20 Ultra</string>
+    <string name="phones_note20">Galaxy Note20</string>
+    <string name="phones_m62">Galaxy M62</string>
+    <string name="phones_m53">Galaxy M53</string>
+    <string name="phones_m33">Galaxy M33</string>
+    <string name="phones_f23">Galaxy F23</string>
+    <string name="phones_f42">Galaxy F42</string>
+    <string name="phones_f13">Galaxy F13</string>
+    <string name="phones_s1">تنظیمات</string>
+    <string name="phones_s2">جستجو</string>
+
+    //About_activity
+    <string name="about_b1">ارتباط با ما</string>
+    <string name="about_b2">امتیاز به برنامه</string>
+    <string name="about_b3">اشتراک گذاری برنامه</string>
+    <string name="about_tx1">ساخته شده توسط محمد حسین حمیدی</string>
+    <string name="about_tx2">Copyright © 1401 MHH Releases</string>
+    <string name="about_tx3">1 Mehr 1401 Release</string>
+
+    //Serie_s_activity
+    <string name="serie_s_title">سری S</string>
+    <string name="serie_s_s1">توضیحاتی درباره سری S سامسونگ</string>
+
+    //Serie_z_activity
+    <string name="serie_z_title">سری Z</string>
+    <string name="serie_z_s1">توضیحاتی درباره سری Z سامسونگ</string>
+
+    //Serie_note_activity
+    <string name="serie_note_title">سری Note</string>
+    <string name="serie_note_s1">توضیحاتی درباره سری Note سامسونگ</string>
+
+    //Serie_a_activity
+    <string name="serie_a_title">سری A</string>
+    <string name="serie_a_s1">توضیحاتی درباره سری A سامسونگ</string>
+
+    //Serie_m_activity
+    <string name="serie_m_title">سری M</string>
+    <string name="serie_m_s1">توضیحاتی درباره سری M سامسونگ</string>
+
+    //Serie_f_activity
+    <string name="serie_f_title">سری F</string>
+    <string name="serie_f_s1">توضیحاتی درباره سری F سامسونگ</string>
+
+</resources>

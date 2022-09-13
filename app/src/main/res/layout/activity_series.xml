@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/series"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:layoutDirection="rtl"
+    tools:context=".views.Series_activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titleView"
+                style="@style/Title"
+                android:gravity="center"
+                android:text="@string/series_title" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv1"
+                style="@style/SeriesCardView"
+                android:layout_below="@+id/titleView"
+                android:layout_marginHorizontal="15dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/s"
+                        style="@style/CircleImage"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        app:civ_border_color="#FFD700"
+                        app:civ_border_width="5dp" />
+
+                    <TextView
+                        android:id="@+id/tx1"
+                        style="@style/SeriesTextView"
+                        android:layout_below="@+id/s"
+                        android:layout_alignStart="@+id/s"
+                        android:layout_alignEnd="@+id/s"
+                        android:layout_marginEnd="-10dp"
+                        android:text="@string/series_s" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/z"
+                        style="@style/CircleImage"
+                        android:layout_alignParentRight="true"
+                        app:civ_border_color="#FFD700"
+                        app:civ_border_width="5dp" />
+
+                    <TextView
+                        android:id="@+id/tx2"
+                        style="@style/SeriesTextView"
+                        android:layout_below="@+id/z"
+                        android:layout_alignStart="@+id/z"
+                        android:layout_alignEnd="@+id/z"
+                        android:layout_marginStart="-10dp"
+
+                        android:text="@string/series_z" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv2"
+                style="@style/SeriesCardView"
+                android:layout_below="@+id/cv1"
+                android:layout_marginHorizontal="15dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/note"
+                        style="@style/CircleImage"
+                        android:layout_alignParentLeft="true"
+                        app:civ_border_color="#FFD700"
+                        app:civ_border_width="5dp" />
+
+                    <TextView
+                        android:id="@+id/tx3"
+                        style="@style/SeriesTextView"
+                        android:layout_below="@+id/note"
+                        android:layout_alignStart="@+id/note"
+                        android:layout_alignEnd="@+id/note"
+                        android:layout_marginEnd="-10dp"
+                        android:text="@string/series_note" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/a"
+                        style="@style/CircleImage"
+                        android:layout_alignParentRight="true"
+                        app:civ_border_color="#FFD700"
+                        app:civ_border_width="5dp" />
+
+                    <TextView
+                        android:id="@+id/tx4"
+                        style="@style/SeriesTextView"
+                        android:layout_below="@+id/a"
+                        android:layout_alignStart="@+id/a"
+                        android:layout_alignEnd="@+id/a"
+                        android:layout_marginStart="-10dp"
+                        android:text="@string/series_a" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv3"
+                style="@style/SeriesCardView"
+                android:layout_below="@+id/cv2"
+                android:layout_marginHorizontal="15dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/m"
+                        style="@style/CircleImage"
+                        android:layout_alignParentLeft="true"
+                        app:civ_border_color="#FFD700"
+                        app:civ_border_width="5dp" />
+
+                    <TextView
+                        android:id="@+id/tx5"
+                        style="@style/SeriesTextView"
+                        android:layout_below="@+id/m"
+                        android:layout_alignStart="@+id/m"
+                        android:layout_alignEnd="@+id/m"
+                        android:layout_marginEnd="-10dp"
+                        android:text="@string/series_m" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/f"
+                        style="@style/CircleImage"
+                        android:layout_alignParentRight="true"
+                        app:civ_border_color="#FFD700"
+                        app:civ_border_width="5dp" />
+
+                    <TextView
+                        android:id="@+id/tx6"
+                        style="@style/SeriesTextView"
+                        android:layout_below="@+id/f"
+                        android:layout_alignStart="@+id/f"
+                        android:layout_alignEnd="@+id/f"
+                        android:layout_marginStart="-10dp"
+                        android:text="@string/series_f" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv4"
+                style="@style/SeriesCardView"
+                android:layout_below="@+id/cv3"
+                android:layout_marginHorizontal="15dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/tab"
+                        style="@style/CircleImage"
+                        android:layout_alignParentLeft="true"
+                        app:civ_border_color="#FFD700"
+                        app:civ_border_width="5dp" />
+
+                    <TextView
+                        android:id="@+id/tx7"
+                        style="@style/SeriesTextView"
+                        android:layout_below="@+id/tab"
+                        android:layout_alignStart="@+id/tab"
+                        android:layout_alignEnd="@+id/tab"
+                        android:layout_marginEnd="-10dp"
+                        android:text="@string/series_tab" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/j"
+                        style="@style/CircleImage"
+                        android:layout_alignParentRight="true"
+                        app:civ_border_color="#FFD700"
+                        app:civ_border_width="5dp" />
+
+                    <TextView
+                        android:id="@+id/tx8"
+                        style="@style/SeriesTextView"
+                        android:layout_below="@+id/j"
+                        android:layout_alignStart="@+id/j"
+                        android:layout_alignEnd="@+id/j"
+                        android:layout_marginStart="-10dp"
+                        android:text="@string/series_j" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv5"
+                style="@style/SuggestCardView"
+                android:layout_below="@+id/cv4"
+                android:layout_marginHorizontal="15dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tx9"
+                        style="@style/Suggesttv1"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/title_suggest" />
+
+                    <TextView
+                        android:id="@+id/tx10"
+                        style="@style/Suggesttv2"
+                        android:layout_below="@+id/tx9"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/series_s1" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

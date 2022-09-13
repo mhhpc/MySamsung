@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/phones"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context=".views.Phones_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleView"
+                style="@style/Title"
+                android:gravity="center"
+                android:text="@string/phones_title"
+                android:textSize="27dp" />
+
+            <Button
+                android:id="@+id/ph1"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/phones_zfold4" />
+
+            <Button
+                android:id="@+id/ph2"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_zflip4" />
+
+            <Button
+                android:id="@+id/ph3"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_a73" />
+
+            <Button
+                android:id="@+id/ph4"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_a53" />
+
+            <Button
+                android:id="@+id/ph5"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_a33" />
+
+            <Button
+                android:id="@+id/ph6"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_s22ultra" />
+
+            <Button
+                android:id="@+id/ph7"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_s22plus" />
+
+            <Button
+                android:id="@+id/ph8"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_s22" />
+
+            <Button
+                android:id="@+id/ph9"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_s21fe" />
+
+            <Button
+                android:id="@+id/ph10"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_a52s" />
+
+            <Button
+                android:id="@+id/ph11"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_note20ultra" />
+
+            <Button
+                android:id="@+id/ph12"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_note20" />
+
+            <Button
+                android:id="@+id/ph13"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phones_zfold3" />
+
+            <Button
+                android:id="@+id/ph14"
+                style="@style/MyButton2"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/phones_zflip3" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv1"
+                style="@style/SuggestCardView"
+                android:layout_marginHorizontal="15dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tx1"
+                        style="@style/Suggesttv1"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/title_suggest" />
+
+                    <TextView
+                        android:id="@+id/tx2"
+                        style="@style/Suggesttv2"
+                        android:layout_below="@+id/tx1"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/phones_s1" />
+
+                    <TextView
+                        android:id="@+id/tx3"
+                        style="@style/Suggesttv2"
+                        android:layout_below="@+id/tx2"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/phones_s2" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

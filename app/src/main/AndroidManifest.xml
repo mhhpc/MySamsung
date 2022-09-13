@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mhh.mysamsung">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MySamsung"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".phones_detail.full.Ph_zflip4_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.Ph_zfold4_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_z.Ph_zflip3"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_z.Ph_zfold3"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_note.Ph_note20"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_note.Ph_note20ultra"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_s.Ph_s21fe"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_a.Ph_a52s"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_s.Ph_s22"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_s.Ph_s22plus"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_s.Ph_s22ultra"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_a.Ph_a33"
+            android:exported="false" />
+        <activity
+            android:name=".year.Year_2021"
+            android:exported="false" />
+        <activity
+            android:name=".year.Year_2022"
+            android:exported="false" />
+        <activity
+            android:name=".series.Serie_j"
+            android:exported="false" />
+        <activity
+            android:name=".series.Serie_tab"
+            android:exported="false" />
+        <activity
+            android:name=".series.Serie_f"
+            android:exported="false" />
+        <activity
+            android:name=".series.Serie_m"
+            android:exported="false" />
+        <activity
+            android:name=".series.Serie_a"
+            android:exported="false" />
+        <activity
+            android:name=".series.Serie_note"
+            android:exported="false" />
+        <activity
+            android:name=".series.Serie_s"
+            android:exported="false" />
+        <activity
+            android:name=".series.Serie_z"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_a.Ph_a53"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_a.Ph_a73"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_z.Ph_zflip4"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_z.Ph_zfold4"
+            android:exported="false" />
+        <activity
+            android:name=".views.Phones_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Year_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Series_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Settings_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Search_activity"
+            android:exported="false"
+            android:theme="@style/Theme.searchtheme" />
+        <activity
+            android:name=".views.About_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Ertebat_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Home_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Splash_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
