@@ -15,7 +15,10 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.phones_detail.full.Ph_zfold4_full;
+import com.mhh.mysamsung.app.DownloadImageTask;
+import com.mhh.mysamsung.phones_detail.check.Ph_zfold4_check;
+import com.mhh.mysamsung.phones_detail.full.galaxy_z.Ph_zfold4_full;
+import com.mhh.mysamsung.phones_detail.pictures.Ph_zfold4_picture;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -72,11 +75,29 @@ public class Ph_zfold4 extends AppCompatActivity {
             }
         },200);
 
+        //Image links
+        CircleImageView circleImageView = (CircleImageView) findViewById(R.id.civ1);
+        new DownloadImageTask(circleImageView).execute("https://s6.uupload.ir/files/galaxy-z-fold4-share-image_ljha.jpg");
+
         //button onclick
         @SuppressLint("CutPasteId") Button ph1 = (Button) findViewById(R.id.b1);
         ph1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Ph_zfold4.this , Ph_zfold4_full.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph2 = (Button) findViewById(R.id.b2);
+        ph2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_zfold4.this , Ph_zfold4_check.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph3 = (Button) findViewById(R.id.b3);
+        ph3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_zfold4.this , Ph_zfold4_picture.class));
             }
         });
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/phones"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,110 +26,549 @@
                 android:text="@string/phones_title"
                 android:textSize="27dp" />
 
-            <Button
-                android:id="@+id/ph1"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="25dp"
-                android:text="@string/phones_zfold4" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie"
+                android:layout_width="270dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="-30dp"
+                android:layout_marginTop="-10dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:visibility="visible"
+                app:lottie_rawRes="@raw/phones" />
 
-            <Button
-                android:id="@+id/ph2"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
                 android:layout_marginTop="10dp"
-                android:text="@string/phones_zflip4" />
+                android:background="@drawable/corner_text"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/search_hint"
+                android:textColor="@color/colorBlack"
+                android:visibility="invisible"
+                android:textSize="25sp" />
 
-            <Button
-                android:id="@+id/ph3"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/phones_a73" />
+            <RelativeLayout
+                android:id="@+id/rl1"
+                style="@style/Phones_rl"
+                android:layout_marginTop="10dp" >
 
-            <Button
-                android:id="@+id/ph4"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/phones_a53" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ1"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
 
-            <Button
-                android:id="@+id/ph5"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/phones_a33" />
+                <Button
+                    android:id="@+id/ph1"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ1"
+                    android:text="@string/phones_zfold4" />
+            </RelativeLayout>
 
-            <Button
-                android:id="@+id/ph6"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/phones_s22ultra" />
+            <RelativeLayout
+                android:id="@+id/rl2"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
 
-            <Button
-                android:id="@+id/ph7"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/phones_s22plus" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ2"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
 
-            <Button
-                android:id="@+id/ph8"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/phones_s22" />
+                <Button
+                    android:id="@+id/ph2"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ2"
+                    android:text="@string/phones_zflip4" />
+            </RelativeLayout>
 
-            <Button
-                android:id="@+id/ph9"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
+            <RelativeLayout
+                android:id="@+id/rl3"
                 android:layout_marginTop="10dp"
-                android:text="@string/phones_s21fe" />
+                style="@style/Phones_rl">
 
-            <Button
-                android:id="@+id/ph10"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/phones_a52s" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ3"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
 
-            <Button
-                android:id="@+id/ph11"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/phones_note20ultra" />
+                <Button
+                    android:id="@+id/ph3"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ3"
+                    android:text="@string/phones_a73" />
+            </RelativeLayout>
 
-            <Button
-                android:id="@+id/ph12"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/phones_note20" />
+            <RelativeLayout
+                android:id="@+id/rl4"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
 
-            <Button
-                android:id="@+id/ph13"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/phones_zfold3" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ4"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
 
-            <Button
-                android:id="@+id/ph14"
-                style="@style/MyButton2"
-                android:layout_marginHorizontal="22dp"
+                <Button
+                    android:id="@+id/ph4"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ4"
+                    android:text="@string/phones_a53" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl5"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="20dp"
-                android:text="@string/phones_zflip3" />
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ5"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph5"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ5"
+                    android:text="@string/phones_a33" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl6"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ6"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph6"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ6"
+                    android:text="@string/phones_s22ultra" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl7"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ7"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph7"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ7"
+                    android:text="@string/phones_s22plus" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl8"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ8"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph8"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ8"
+                    android:text="@string/phones_s22" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl9"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ9"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph9"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ9"
+                    android:text="@string/phones_s21fe" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl10"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ10"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph10"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ10"
+                    android:text="@string/phones_a52s" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl11"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ11"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph11"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ11"
+                    android:text="@string/phones_note20ultra" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl11_5"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ11_5"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph11_5"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ11_5"
+                    android:text="@string/phones_note20_5g" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl12"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ12"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph12"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ12"
+                    android:text="@string/phones_note20" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl13"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ13"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph13"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ13"
+                    android:text="@string/phones_zfold3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl14"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ14"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph14"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ14"
+                    android:text="@string/phones_zflip3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl15"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ15"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph15"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ15"
+                    android:text="@string/phones_m53" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl16"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ16"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph16"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ16"
+                    android:text="@string/phones_m62" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl17"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ17"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph17"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ17"
+                    android:text="@string/phones_m33" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl18"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ18"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph18"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ18"
+                    android:text="@string/phones_f23" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl19"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ19"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph19"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ19"
+                    android:text="@string/phones_f42" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl20"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ20"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph20"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ20"
+                    android:text="@string/phones_f13" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl21"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ21"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph21"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ21"
+                    android:text="@string/phones_tab_s8ultra" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl22"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ22"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph22"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ22"
+                    android:text="@string/phones_tab_s8plus" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl23"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ23"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph23"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ23"
+                    android:text="@string/phones_tab_s8" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl24"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ24"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph24"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ24"
+                    android:text="@string/phones_j8" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl25"
+                android:layout_marginTop="0dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ25"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/ph25"
+                    style="@style/MyButton4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@id/civ25"
+                    android:text="@string/phones_j6" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl26"
+                android:layout_marginTop="10dp"
+                style="@style/Phones_rl">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ26"
+                    style="@style/CircleImage_phones3"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:id="@+id/ph26"
+                    style="@style/MyButton4"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toStartOf="@id/civ26"
+                    android:text="@string/phones_j4" />
+            </RelativeLayout>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv1"
                 style="@style/SuggestCardView"
-                android:layout_marginHorizontal="15dp"
-                app:cardCornerRadius="20dp">
+                android:layout_marginHorizontal="15dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"

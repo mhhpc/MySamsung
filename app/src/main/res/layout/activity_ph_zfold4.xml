@@ -58,7 +58,7 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_toStartOf="@+id/im1"
-                        android:text="7.6 اینچ"
+                        android:text="@string/ph_zfold4_screen1"
                         android:textSize="15sp" />
 
                     <TextView
@@ -67,7 +67,7 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
                         android:layout_toStartOf="@+id/im1"
-                        android:text="1812 x 2176 پیکسل"
+                        android:text="@string/ph_zfold4_screen2"
                         android:textSize="13sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -95,7 +95,7 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_toStartOf="@+id/im2"
-                        android:text="12 گیگابایت رم"
+                        android:text="@string/ph_zfold4_hardware1"
                         android:textSize="15sp" />
 
                     <TextView
@@ -104,7 +104,7 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
                         android:layout_toStartOf="@+id/im2"
-                        android:text="Snapdragon 8+ Gen 1"
+                        android:text="@string/ph_zfold4_hardware2"
                         android:textSize="13sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -132,7 +132,7 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_toStartOf="@+id/im3"
-                        android:text="50/12/10 مگاپیکسل"
+                        android:text="@string/ph_zfold4_camera1"
                         android:textSize="15sp" />
 
                     <TextView
@@ -141,7 +141,7 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
                         android:layout_toStartOf="@+id/im3"
-                        android:text="سلفی 10/4 مگاپیکسل"
+                        android:text="@string/ph_zfold4_camera2"
                         android:textSize="13sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -169,7 +169,7 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_toStartOf="@+id/im4"
-                        android:text="4400 میلی آمپر ساعت"
+                        android:text="@string/ph_zfold4_battery1"
                         android:textSize="15sp" />
 
                     <TextView
@@ -178,7 +178,7 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
                         android:layout_toStartOf="@+id/im4"
-                        android:text="لیتیوم پلیمری"
+                        android:text="@string/ph_zfold4_battery2"
                         android:textSize="13sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -194,8 +194,8 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/myselector2"
-                    android:drawableEnd="@drawable/detail"
-                    android:text="مشخصات کامل" />
+                    android:drawableStart="@drawable/detail"
+                    android:text="@string/ph_b1" />
 
                 <Button
                     android:id="@+id/b2"
@@ -205,7 +205,7 @@
                     android:layout_marginTop="8dp"
                     android:background="@drawable/myselector3"
                     android:drawableEnd="@drawable/magnifying"
-                    android:text="بررسی تخصصی" />
+                    android:text="@string/ph_b2" />
 
                 <Button
                     android:id="@+id/b3"
@@ -214,8 +214,8 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_marginTop="8dp"
                     android:background="@drawable/myselector4"
-                    android:drawableEnd="@drawable/pictures"
-                    android:text="تصاویر" />
+                    android:drawableStart="@drawable/pictures"
+                    android:text="@string/ph_b3" />
 
                 <Button
                     android:id="@+id/b4"
@@ -225,7 +225,7 @@
                     android:layout_marginTop="8dp"
                     android:background="@drawable/myselector5"
                     android:drawableEnd="@drawable/option"
-                    android:text="شخصی سازی" />
+                    android:text="@string/ph_b4" />
 
                 <Button
                     android:id="@+id/b5"
@@ -235,15 +235,14 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/myselector6"
-                    android:drawableEnd="@drawable/compare"
-                    android:text="مقایسه" />
+                    android:drawableStart="@drawable/compare"
+                    android:text="@string/ph_b5" />
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv5"
                     style="@style/SuggestCardView"
                     android:layout_below="@+id/b5"
-                    android:layout_marginHorizontal="15dp"
-                    app:cardCornerRadius="20dp">
+                    android:layout_marginHorizontal="15dp">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -261,8 +260,25 @@
                             android:layout_below="@+id/tx9"
                             android:layout_marginHorizontal="5dp"
                             android:layout_marginTop="5dp"
+                            android:text="@string/phones_zflip4" />
+
+                        <TextView
+                            android:id="@+id/tx11"
+                            style="@style/Suggesttv2"
+                            android:layout_below="@+id/tx10"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/phones_zfold3" />
+
+                        <TextView
+                            android:id="@+id/tx12"
+                            style="@style/Suggesttv2"
+                            android:layout_below="@+id/tx11"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginTop="5dp"
                             android:layout_marginBottom="10dp"
-                            android:text="zflip4" />
+                            android:text="@string/phones_s22ultra" />
+
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 

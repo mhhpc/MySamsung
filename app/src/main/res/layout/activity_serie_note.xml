@@ -17,8 +17,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/titleView"
@@ -27,49 +26,63 @@
                 android:text="@string/serie_note_title" />
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/civ2"
-                style="@style/CircleImage_series2"
+                android:id="@+id/civ1"
+                style="@style/CircleImage_series1"
                 android:layout_below="@+id/titleView"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="20dp" />
+                android:layout_marginTop="10dp" />
 
             <TextView
-                android:id="@+id/tv2"
-                style="@style/SeriesTextView3"
-                android:layout_below="@+id/civ2"
-                android:layout_alignStart="@+id/civ2"
-                android:layout_alignEnd="@+id/civ2"
-                android:layout_marginStart="-15dp"
+                android:id="@+id/tv1"
+                style="@style/SeriesTextView2"
+                android:layout_below="@+id/civ1"
+                android:layout_centerHorizontal="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginEnd="-15dp"
                 android:text="@string/phones_note20ultra" />
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/civ3"
-                style="@style/CircleImage_series2"
-                android:layout_below="@+id/titleView"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="15dp" />
-
-            <TextView
-                android:id="@+id/tv3"
-                style="@style/SeriesTextView3"
-                android:layout_below="@+id/civ3"
-                android:layout_alignStart="@+id/civ3"
-                android:layout_alignEnd="@+id/civ3"
-                android:layout_marginStart="-15dp"
+            <LinearLayout
+                android:id="@+id/main"
+                android:layout_below="@id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:layout_marginEnd="-15dp"
-                android:text="@string/phones_note20" />
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ2"
+                    style="@style/CircleImage_series2"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ3"
+                    style="@style/CircleImage_series2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view"
+                android:layout_below="@id/main"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    style="@style/SeriesTextView3"
+                    android:text="@string/phones_note20_5g" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    style="@style/SeriesTextView3"
+                    android:text="@string/phones_note20" />
+
+            </LinearLayout>
+
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv1"
                 style="@style/SuggestCardView"
-                android:layout_below="@+id/tv2"
-                android:layout_marginHorizontal="15dp"
-                app:cardCornerRadius="20dp">
+                android:layout_below="@+id/view"
+                android:layout_marginHorizontal="15dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"

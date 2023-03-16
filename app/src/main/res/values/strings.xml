@@ -2,7 +2,7 @@
     <string name="app_name">MySamsung</string>
     <string name="app_name_persian">سامسونگ من</string>
 
-    <string name="app_version">نسخه 1.0</string>
+    <string name="app_version">نسخه 0.2</string>
 
     <string name="title_suggest">پیشنهادات</string>
 
@@ -19,9 +19,9 @@
     <string name="home_all">همه‌گوشی‌ها</string>
     <string name="home_series">سری‌ها</string>
     <string name="home_year">سال ساخت</string>
-    <string name="home_compare">مقایسه گوشی ها</string>
+    <string name="home_compare">مقایسه</string>
     <string name="home_option">شخصی سازی</string>
-    <string name="home_tip">اخبار و نکات جذاب</string>
+    <string name="home_tip">ترفندها و نکات جذاب</string>
     <string name="home_about">درباره ما</string>
 
     //Search_activity
@@ -42,8 +42,9 @@
 
     //Year_activity
     <string name="year_title">سال ساخت</string>
-    <string name="year_2022">2022</string>
-    <string name="year_2021">2021</string>
+    <string name="year_2023">سال 2023</string>
+    <string name="year_2022">سال 2022</string>
+    <string name="year_2021">سال 2021</string>
     <string name="year_s1">پشتیبانی نرم افزاری سامسونگ چند سال است؟</string>
 
     //Phones_activity
@@ -52,15 +53,16 @@
     <string name="phones_zflip4">Galaxy Z Flip4</string>
     <string name="phones_zfold3">Galaxy Z Fold3</string>
     <string name="phones_zflip3">Galaxy Z Flip3</string>
-    <string name="phones_a73">Galaxy A73</string>
-    <string name="phones_a53">Galaxy A53</string>
-    <string name="phones_a33">Galaxy A33</string>
+    <string name="phones_a73">Galaxy A73 5G</string>
+    <string name="phones_a53">Galaxy A53 5G</string>
+    <string name="phones_a33">Galaxy A33 5G</string>
     <string name="phones_s22ultra">Galaxy S22 Ultra</string>
     <string name="phones_s22plus">Galaxy S22 Plus</string>
     <string name="phones_s22">Galaxy S22</string>
     <string name="phones_s21fe">Galaxy S21 FE</string>
     <string name="phones_a52s">Galaxy A52s 5G</string>
     <string name="phones_note20ultra">Galaxy Note20 Ultra</string>
+    <string name="phones_note20_5g">Galaxy Note20 5G</string>
     <string name="phones_note20">Galaxy Note20</string>
     <string name="phones_m62">Galaxy M62</string>
     <string name="phones_m53">Galaxy M53</string>
@@ -68,6 +70,12 @@
     <string name="phones_f23">Galaxy F23</string>
     <string name="phones_f42">Galaxy F42</string>
     <string name="phones_f13">Galaxy F13</string>
+    <string name="phones_tab_s8ultra">Galaxy Tab S8 Ultra</string>
+    <string name="phones_tab_s8plus">Galaxy Tab S8 Plus</string>
+    <string name="phones_tab_s8">Galaxy Tab S8</string>
+    <string name="phones_j8">Galaxy J8</string>
+    <string name="phones_j6">Galaxy J6</string>
+    <string name="phones_j4">Galaxy J4</string>
     <string name="phones_s1">تنظیمات</string>
     <string name="phones_s2">جستجو</string>
 
@@ -77,7 +85,48 @@
     <string name="about_b3">اشتراک گذاری برنامه</string>
     <string name="about_tx1">ساخته شده توسط محمد حسین حمیدی</string>
     <string name="about_tx2">Copyright © 1401 MHH Releases</string>
-    <string name="about_tx3">1 Mehr 1401 Release</string>
+    <string name="about_tx3">1 Azar 1401 Release</string>
+
+    //Ertebat_activity
+    <string name="ertebat_title">ارتباط با ما</string>
+    <string name="ertebat_b1">ایمیل</string>
+    <string name="ertebat_b2">وبلاگ</string>
+    <string name="ertebat_b3">تلگرام</string>
+    <string name="ertebat_b4">اینستاگرام</string>
+    <string name="ertebat_b5">ایتا</string>
+    <string name="ertebat_b6">آپارات</string>
+    <string name="ertebat_b7">بازار</string>
+
+    //Ertebat_activity
+    <string name="tips_title">ترفندها و نکات جذاب</string>
+    <string name="tips_titr">تو این بخش میتونی ترفندها و نکاتی رو پیدا کنی که هم جذاب هستن هم کاربردی ...</string>
+    <string name="tips_t1">توضیحاتی درباره سری گوشی های سامسونگ</string>
+    <string name="tips_t2">پشتیبانی نرم افزاری سامسونگ چند سال است؟</string>
+    <string name="tips_t3">ترفند های اندروید 13 \n OneUi 5</string>
+    <string name="tips_t4">جزئیات سری Z سامسونگ \n (گوشی های تاشو)</string>
+    <string name="tips_t5">جزئیات سری Note سامسونگ \n (توقف تولید)</string>
+    <string name="tips_t6">جزئیات سری S سامسونگ \n (گوشی پرچمدار)</string>
+    <string name="tips_t7">جزئیات سری A سامسونگ \n (میانرده ای قدرتمند)</string>
+    <string name="tips_t8">جزئیات سری M سامسونگ \n (میانرده‌ی اقتصادی)</string>
+    <string name="tips_t9">جزئیات سری F سامسونگ \n (گوشی‌های به صرفه)</string>
+    <string name="tips_t10">جزئیات سری Tab سامسونگ \n (تبلت)</string>
+    <string name="tips_t11">جزئیات سری J سامسونگ \n (توقف تولید)</string>
+    <string name="tips_t12">پردازنده اگزینوس یا اسنپدراگون؟</string>
+
+    //Customize_activity
+    <string name="customize_title">شخصی سازی</string>
+    <string name="customize_titr">تو این بخش میتونی ظاهر گوشیت رو هر طور دوست داری تغییر بدی ...</string>
+    <string name="customize_t1">دوست داری ظاهر گوشیت مثل یه گوشی دیگه باشه؟</string>
+    <string name="customize_t2">روش های شخصی سازی گوشی سامسونگ</string>
+    <string name="customize_t3">معرفی برنامه های شخصی سازی گوشی</string>
+    <string name="customize_t4">قابلیت های مخفی گوشی سامسونگ</string>
+
+    //Compare_activity
+    <string name="compare_title">مقایسه</string>
+    <string name="compare_titr">تو این بخش میتونی همه چی رو باهم مقایسه کنی ...</string>
+    <string name="compare_t1">مقایسه گوشی ها</string>
+    <string name="compare_t2">مقایسه نسخه های اندروید</string>
+    <string name="compare_t3">مقایسه سری گوشی های سامسونگ</string>
 
     //Serie_s_activity
     <string name="serie_s_title">سری S</string>
@@ -102,5 +151,1113 @@
     //Serie_f_activity
     <string name="serie_f_title">سری F</string>
     <string name="serie_f_s1">توضیحاتی درباره سری F سامسونگ</string>
+
+    //Serie_tab_activity
+    <string name="serie_tab_title">سری Tab</string>
+    <string name="serie_tab_s1">توضیحاتی درباره سری Tab سامسونگ</string>
+
+    //Serie_j_activity
+    <string name="serie_j_title">سری J</string>
+    <string name="serie_j_s1">توضیحاتی درباره سری J سامسونگ</string>
+
+    //all_ph
+    <string name="ph_b1">مشخصات کامل</string>
+    <string name="ph_b2">بررسی تخصصی</string>
+    <string name="ph_b3">تصاویر</string>
+    <string name="ph_b4">شخصی سازی</string>
+    <string name="ph_b5">مقایسه</string>
+
+    //###
+    // Galaxy Z **********************
+    //###
+
+    //ph_zfold4
+    <string name="ph_zfold4_screen1">7.6 اینچ</string>
+    <string name="ph_zfold4_screen2">1812 x 2176 پیکسل</string>
+    <string name="ph_zfold4_hardware1">12 گیگابایت رم</string>
+    <string name="ph_zfold4_hardware2">Snapdragon 8+ Gen 1</string>
+    <string name="ph_zfold4_camera1">50/12/10 مگاپیکسل</string>
+    <string name="ph_zfold4_camera2">سلفی 10/4 مگاپیکسل</string>
+    <string name="ph_zfold4_battery1">4400 میلی آمپر ساعت</string>
+    <string name="ph_zfold4_battery2">لیتیوم پلیمری</string>
+
+    //ph_zflip4
+    <string name="ph_zflip4_screen1">6.7 اینچ</string>
+    <string name="ph_zflip4_screen2">1080 x 2640 پیکسل</string>
+    <string name="ph_zflip4_hardware1">8 گیگابایت رم</string>
+    <string name="ph_zflip4_hardware2">Snapdragon 8+ Gen 1</string>
+    <string name="ph_zflip4_camera1">12/12 مگاپیکسل</string>
+    <string name="ph_zflip4_camera2">سلفی 10 مگاپیکسل</string>
+    <string name="ph_zflip4_battery1">3700 میلی آمپر ساعت</string>
+    <string name="ph_zflip4_battery2">لیتیوم پلیمری</string>
+
+    //ph_zfold3
+    <string name="ph_zfold3_screen1">7.6 اینچ</string>
+    <string name="ph_zfold3_screen2">1768 x 2208 پیکسل</string>
+    <string name="ph_zfold3_hardware1">12 گیگابایت رم</string>
+    <string name="ph_zfold3_hardware2">Snapdragon 888 5G</string>
+    <string name="ph_zfold3_camera1">12/12/12 مگاپیکسل</string>
+    <string name="ph_zfold3_camera2">سلفی 4/10 مگاپیکسل</string>
+    <string name="ph_zfold3_battery1">4400 میلی آمپر ساعت</string>
+    <string name="ph_zfold3_battery2">لیتیوم پلیمری</string>
+
+    //ph_zflip3
+    <string name="ph_zflip3_screen1">6.7 اینچ</string>
+    <string name="ph_zflip3_screen2">1080 x 2640 پیکسل</string>
+    <string name="ph_zflip3_hardware1">8 گیگابایت رم</string>
+    <string name="ph_zflip3_hardware2">Snapdragon 888 5G</string>
+    <string name="ph_zflip3_camera1">12/12 مگاپیکسل</string>
+    <string name="ph_zflip3_camera2">سلفی 10 مگاپیکسل</string>
+    <string name="ph_zflip3_battery1">3300 میلی آمپر ساعت</string>
+    <string name="ph_zflip3_battery2">لیتیوم پلیمری</string>
+
+
+    //###
+    // Galaxy A **********************
+    //###
+
+    //ph_a73 5G
+    <string name="ph_a73_screen1">6.7 اینچ</string>
+    <string name="ph_a73_screen2">1080 x 2400 پیکسل</string>
+    <string name="ph_a73_hardware1">6/8 گیگابایت رم</string>
+    <string name="ph_a73_hardware2">Snapdragon 778G 5G</string>
+    <string name="ph_a73_camera1">108/12/5/5 مگاپیکسل</string>
+    <string name="ph_a73_camera2">سلفی 32 مگاپیکسل</string>
+    <string name="ph_a73_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_a73_battery2">لیتیوم پلیمری</string>
+
+    //ph_a53 5G
+    <string name="ph_a53_screen1">6.5 اینچ</string>
+    <string name="ph_a53_screen2">1080 x 2400 پیکسل</string>
+    <string name="ph_a53_hardware1">4/6/8 گیگابایت رم</string>
+    <string name="ph_a53_hardware2">Exynos 1280</string>
+    <string name="ph_a53_camera1">64/12/5/5 مگاپیکسل</string>
+    <string name="ph_a53_camera2">سلفی 32 مگاپیکسل</string>
+    <string name="ph_a53_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_a53_battery2">لیتیوم پلیمری</string>
+
+    //ph_a52s 5G
+    <string name="ph_a52s_screen1">6.5 اینچ</string>
+    <string name="ph_a52s_screen2">1080 x 2400 پیکسل</string>
+    <string name="ph_a52s_hardware1">4/6/8 گیگابایت رم</string>
+    <string name="ph_a52s_hardware2">Snapdragon 778G 5G</string>
+    <string name="ph_a52s_camera1">64/12/5/5 مگاپیکسل</string>
+    <string name="ph_a52s_camera2">سلفی 32 مگاپیکسل</string>
+    <string name="ph_a52s_battery1">4500 میلی آمپر ساعت</string>
+    <string name="ph_a52s_battery2">لیتیوم یونی</string>
+
+    //ph_a33 5G
+    <string name="ph_a33_screen1">6.4 اینچ</string>
+    <string name="ph_a33_screen2">1080 x 2400 پیکسل</string>
+    <string name="ph_a33_hardware1">4/6/8 گیگابایت رم</string>
+    <string name="ph_a33_hardware2">Exynos 1280</string>
+    <string name="ph_a33_camera1">48/8/5/2 مگاپیکسل</string>
+    <string name="ph_a33_camera2">سلفی 13 مگاپیکسل</string>
+    <string name="ph_a33_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_a33_battery2">لیتیوم پلیمری</string>
+
+    //###
+    // Galaxy S **********************
+    //###
+
+    //ph_s22ultra
+    <string name="ph_s22ultra_screen1">6.8 اینچ</string>
+    <string name="ph_s22ultra_screen2">1440 x 3080 پیکسل</string>
+    <string name="ph_s22ultra_hardware1">8/12 گیگابایت رم</string>
+    <string name="ph_s22ultra_hardware2">Exynos 2200 / Snapdragon 8 Gen 1</string>
+    <string name="ph_s22ultra_camera1">108/12/10/10 مگاپیکسل</string>
+    <string name="ph_s22ultra_camera2">سلفی 40 مگاپیکسل</string>
+    <string name="ph_s22ultra_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_s22ultra_battery2">لیتیوم یونی</string>
+
+    //ph_s22plus
+    <string name="ph_s22plus_screen1">6.6 اینچ</string>
+    <string name="ph_s22plus_screen2">1080 x 2340 پیکسل</string>
+    <string name="ph_s22plus_hardware1">8 گیگابایت رم</string>
+    <string name="ph_s22plus_hardware2">Exynos 2200 / Snapdragon 8 Gen 1</string>
+    <string name="ph_s22plus_camera1">50/12/10 مگاپیکسل</string>
+    <string name="ph_s22plus_camera2">سلفی 10 مگاپیکسل</string>
+    <string name="ph_s22plus_battery1">4500 میلی آمپر ساعت</string>
+    <string name="ph_s22plus_battery2">لیتیوم یونی</string>
+
+    //ph_s22
+    <string name="ph_s22_screen1">6.1 اینچ</string>
+    <string name="ph_s22_screen2">1080 x 2340 پیکسل</string>
+    <string name="ph_s22_hardware1">8 گیگابایت رم</string>
+    <string name="ph_s22_hardware2">Exynos 2200 / Snapdragon 8 Gen 1</string>
+    <string name="ph_s22_camera1">50/12/10 مگاپیکسل</string>
+    <string name="ph_s22_camera2">سلفی 10 مگاپیکسل</string>
+    <string name="ph_s22_battery1">3700 میلی آمپر ساعت</string>
+    <string name="ph_s22_battery2">لیتیوم یونی</string>
+
+    //ph_s21fe
+    <string name="ph_s21fe_screen1">6.4 اینچ</string>
+    <string name="ph_s21fe_screen2">1080 x 2400 پیکسل</string>
+    <string name="ph_s21fe_hardware1">6/8 گیگابایت رم</string>
+    <string name="ph_s21fe_hardware2">Exynos 2100 / Snapdragon 888 5G</string>
+    <string name="ph_s21fe_camera1">12/12/8 مگاپیکسل</string>
+    <string name="ph_s21fe_camera2">سلفی 32 مگاپیکسل</string>
+    <string name="ph_s21fe_battery1">4500 میلی آمپر ساعت</string>
+    <string name="ph_s21fe_battery2">لیتیوم یونی</string>
+
+    //###
+    // Galaxy Note **********************
+    //###
+
+    //ph_note20ultra
+    <string name="ph_note20ultra_screen1">6.9 اینچ</string>
+    <string name="ph_note20ultra_screen2">1440 x 3088 پیکسل</string>
+    <string name="ph_note20ultra_hardware1">8/12 گیگابایت رم</string>
+    <string name="ph_note20ultra_hardware2">Exynos 990 / Snapdragon 865 5G+</string>
+    <string name="ph_note20ultra_camera1">108/12/12 مگاپیکسل</string>
+    <string name="ph_note20ultra_camera2">سلفی 10 مگاپیکسل</string>
+    <string name="ph_note20ultra_battery1">4500 میلی آمپر ساعت</string>
+    <string name="ph_note20ultra_battery2">لیتیوم یونی</string>
+
+    //ph_note20_5g
+    <string name="ph_note20_5g_screen1">6.7 اینچ</string>
+    <string name="ph_note20_5g_screen2">1080 x 2400 پیکسل</string>
+    <string name="ph_note20_5g_hardware1">8 گیگابایت رم</string>
+    <string name="ph_note20_5g_hardware2">Exynos 990 / Snapdragon 865 5G+</string>
+    <string name="ph_note20_5g_camera1">12/64/12 مگاپیکسل</string>
+    <string name="ph_note20_5g_camera2">سلفی 10 مگاپیکسل</string>
+    <string name="ph_note20_5g_battery1">4300 میلی آمپر ساعت</string>
+    <string name="ph_note20_5g_battery2">لیتیوم یونی</string>
+
+    //ph_note20
+    <string name="ph_note20_screen1">6.7 اینچ</string>
+    <string name="ph_note20_screen2">1080 x 2400 پیکسل</string>
+    <string name="ph_note20_hardware1">8 گیگابایت رم</string>
+    <string name="ph_note20_hardware2">Exynos 990 / Snapdragon 865 5G+</string>
+    <string name="ph_note20_camera1">12/64/12 مگاپیکسل</string>
+    <string name="ph_note20_camera2">سلفی 10 مگاپیکسل</string>
+    <string name="ph_note20_battery1">4300 میلی آمپر ساعت</string>
+    <string name="ph_note20_battery2">لیتیوم یونی</string>
+
+    //###
+    // Galaxy M **********************
+    //###
+
+    //ph_m53
+    <string name="ph_m53_screen1">6.7 اینچ</string>
+    <string name="ph_m53_screen2">1080 x 2408 پیکسل</string>
+    <string name="ph_m53_hardware1">6/8 گیگابایت رم</string>
+    <string name="ph_m53_hardware2">Dimensity 900 5G</string>
+    <string name="ph_m53_camera1">108/8/2/2 مگاپیکسل</string>
+    <string name="ph_m53_camera2">سلفی 32 مگاپیکسل</string>
+    <string name="ph_m53_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_m53_battery2">لیتیوم یونی</string>
+
+    //ph_m62
+    <string name="ph_m62_screen1">6.7 اینچ</string>
+    <string name="ph_m62_screen2">1080 x 2400 پیکسل</string>
+    <string name="ph_m62_hardware1">8 گیگابایت رم</string>
+    <string name="ph_m62_hardware2">Exynos 9825</string>
+    <string name="ph_m62_camera1">64/12/5/5 مگاپیکسل</string>
+    <string name="ph_m62_camera2">سلفی 32 مگاپیکسل</string>
+    <string name="ph_m62_battery1">7000 میلی آمپر ساعت</string>
+    <string name="ph_m62_battery2">لیتیوم پلیمری</string>
+
+    //ph_m33
+    <string name="ph_m33_screen1">6.6 اینچ</string>
+    <string name="ph_m33_screen2">1080 x 2408 پیکسل</string>
+    <string name="ph_m33_hardware1">6/8 گیگابایت رم</string>
+    <string name="ph_m33_hardware2">Exynos 1280</string>
+    <string name="ph_m33_camera1">50/5/2/2 مگاپیکسل</string>
+    <string name="ph_m33_camera2">سلفی 8 مگاپیکسل</string>
+    <string name="ph_m33_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_m33_battery2">لیتیوم یونی</string>
+
+    //###
+    // Galaxy F **********************
+    //###
+
+    //ph_f23
+    <string name="ph_f23_screen1">6.6 اینچ</string>
+    <string name="ph_f23_screen2">1080 x 2408 پیکسل</string>
+    <string name="ph_f23_hardware1">4/6 گیگابایت رم</string>
+    <string name="ph_f23_hardware2">Snapdragon 750G 5G</string>
+    <string name="ph_f23_camera1">50/8/2 مگاپیکسل</string>
+    <string name="ph_f23_camera2">سلفی 8 مگاپیکسل</string>
+    <string name="ph_f23_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_f23_battery2">لیتیوم پلیمری</string>
+
+    //ph_f42
+    <string name="ph_f42_screen1">6.6 اینچ</string>
+    <string name="ph_f42_screen2">1080 x 2408 پیکسل</string>
+    <string name="ph_f42_hardware1">6/8 گیگابایت رم</string>
+    <string name="ph_f42_hardware2">Dimensity 700 5G</string>
+    <string name="ph_f42_camera1">64/5/2 مگاپیکسل</string>
+    <string name="ph_f42_camera2">سلفی 8 مگاپیکسل</string>
+    <string name="ph_f42_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_f42_battery2">لیتیوم پلیمری</string>
+
+    //ph_f13
+    <string name="ph_f13_screen1">6.6 اینچ</string>
+    <string name="ph_f13_screen2">1080 x 2408 پیکسل</string>
+    <string name="ph_f13_hardware1">4 گیگابایت رم</string>
+    <string name="ph_f13_hardware2">Exynos 850</string>
+    <string name="ph_f13_camera1">50/5/2 مگاپیکسل</string>
+    <string name="ph_f13_camera2">سلفی 8 مگاپیکسل</string>
+    <string name="ph_f13_battery1">6000 میلی آمپر ساعت</string>
+    <string name="ph_f13_battery2">لیتیوم پلیمری</string>
+
+    //###
+    // Galaxy Tab **********************
+    //###
+
+    //ph_tab_s8ultra
+    <string name="ph_tabs8ultra_screen1">14.6 اینچ</string>
+    <string name="ph_tabs8ultra_screen2">1848 x 2960 پیکسل</string>
+    <string name="ph_tabs8ultra_hardware1">8/12/16 گیگابایت رم</string>
+    <string name="ph_tabs8ultra_hardware2">Snapdragon 8 Gen 1</string>
+    <string name="ph_tabs8ultra_camera1">13/6 مگاپیکسل</string>
+    <string name="ph_tabs8ultra_camera2">سلفی 12/12 مگاپیکسل</string>
+    <string name="ph_tabs8ultra_battery1">11200 میلی آمپر ساعت</string>
+    <string name="ph_tabs8ultra_battery2">لیتیوم پلیمری</string>
+
+    //ph_tab_s8plus
+    <string name="ph_tabs8plus_screen1">12.4 اینچ</string>
+    <string name="ph_tabs8plus_screen2">1752 x 2800 پیکسل</string>
+    <string name="ph_tabs8plus_hardware1">8/12 گیگابایت رم</string>
+    <string name="ph_tabs8plus_hardware2">Snapdragon 8 Gen 1</string>
+    <string name="ph_tabs8plus_camera1">13/6 مگاپیکسل</string>
+    <string name="ph_tabs8plus_camera2">سلفی 12 مگاپیکسل</string>
+    <string name="ph_tabs8plus_battery1">10090 میلی آمپر ساعت</string>
+    <string name="ph_tabs8plus_battery2">لیتیوم پلیمری</string>
+
+    //ph_tab_s8
+    <string name="ph_tabs8_screen1">11.0 اینچ</string>
+    <string name="ph_tabs8_screen2">1600 x 2560 پیکسل</string>
+    <string name="ph_tabs8_hardware1">8/12 گیگابایت رم</string>
+    <string name="ph_tabs8_hardware2">Snapdragon 8 Gen 1</string>
+    <string name="ph_tabs8_camera1">13/6 مگاپیکسل</string>
+    <string name="ph_tabs8_camera2">سلفی 12 مگاپیکسل</string>
+    <string name="ph_tabs8_battery1">8000 میلی آمپر ساعت</string>
+    <string name="ph_tabs8_battery2">لیتیوم پلیمری</string>
+
+    //###
+    // Galaxy J **********************
+    //###
+
+    //ph_j8
+    <string name="ph_j8_screen1">6.0 اینچ</string>
+    <string name="ph_j8_screen2">720 × 1480 پیکسل</string>
+    <string name="ph_j8_hardware1">3/4 گیگابایت رم</string>
+    <string name="ph_j8_hardware2">Snapdragon 450</string>
+    <string name="ph_j8_camera1">16/5 مگاپیکسل</string>
+    <string name="ph_j8_camera2">سلفی 16 مگاپیکسل</string>
+    <string name="ph_j8_battery1">3500 میلی آمپر ساعت</string>
+    <string name="ph_j8_battery2">لیتیوم یونی</string>
+
+    //ph_j6
+    <string name="ph_j6_screen1">5.6 اینچ</string>
+    <string name="ph_j6_screen2">720 × 1480 پیکسل</string>
+    <string name="ph_j6_hardware1">2/3/4 گیگابایت رم</string>
+    <string name="ph_j6_hardware2">Exynos 7870 Octa</string>
+    <string name="ph_j6_camera1">13 مگاپیکسل</string>
+    <string name="ph_j6_camera2">سلفی 8 مگاپیکسل</string>
+    <string name="ph_j6_battery1">3000 میلی آمپر ساعت</string>
+    <string name="ph_j6_battery2">لیتیوم یونی</string>
+
+    //ph_j4
+    <string name="ph_j4_screen1">5.5 اینچ</string>
+    <string name="ph_j4_screen2">720 × 1280 پیکسل</string>
+    <string name="ph_j4_hardware1">2/3 گیگابایت رم</string>
+    <string name="ph_j4_hardware2">Exynos 7570 Quad</string>
+    <string name="ph_j4_camera1">13 مگاپیکسل</string>
+    <string name="ph_j4_camera2">سلفی 5 مگاپیکسل</string>
+    <string name="ph_j4_battery1">3000 میلی آمپر ساعت</string>
+    <string name="ph_j4_battery2">لیتیوم یونی</string>
+
+    //phones_full
+    <string name="phones_full_more">بیشتر بخوانید</string>
+    <string name="phones_full_more_samsung">مشخصات کامل این گوشی در سایت سامسونگ</string>
+    <string name="phones_full_more_zoomit">مشخصات کامل این گوشی در زومیت</string>
+    <string name="phones_full_more_gsm">مشخصات کامل این گوشی در GSMArena</string>
+
+    //phones_full_t
+    <string name="phones_full_title">مشخصات کامل</string>
+    <string name="phones_full_t1">عرضه</string>
+    <string name="phones_full_t2">بدنه</string>
+    <string name="phones_full_t3">نمایشگر</string>
+    <string name="phones_full_t4">پلتفرم</string>
+    <string name="phones_full_t5">حافظه</string>
+    <string name="phones_full_t6">دوربین پشت</string>
+    <string name="phones_full_t7">دوربین سلفی</string>
+    <string name="phones_full_t8">صدا</string>
+    <string name="phones_full_t9">ارتباطات</string>
+    <string name="phones_full_t10">امکانات</string>
+    <string name="phones_full_t11">باتری و شارژ</string>
+    <string name="phones_full_t12">متفرقه</string>
+
+    //phones_full_tv
+    <string name="phones_full_tv1_1">معرفی</string>
+    <string name="phones_full_tv2_1">وضعیت</string>
+    <string name="phones_full_tv1_2">ابعاد</string>
+    <string name="phones_full_tv2_2">وزن</string>
+    <string name="phones_full_tv3_2">ساخت</string>
+    <string name="phones_full_tv1_3">نوع</string>
+    <string name="phones_full_tv2_3">ابعاد</string>
+    <string name="phones_full_tv3_3">رزولوشن</string>
+    <string name="phones_full_tv4_3">محافظ</string>
+    <string name="phones_full_tv5_3">امکانات</string>
+    <string name="phones_full_tv1_4">سیستم‌عامل</string>
+    <string name="phones_full_tv2_4">تراشه</string>
+    <string name="phones_full_tv3_4">پردازنده‌مرکزی</string>
+    <string name="phones_full_tv4_4">پردازنده‌گرافیکی</string>
+    <string name="phones_full_tv1_5">درگاه‌حافظه</string>
+    <string name="phones_full_tv2_5">حافظه‌داخلی</string>
+    <string name="phones_full_tv1_6">سه‌گانه</string>
+    <string name="phones_full_tv1_6.1">دوگانه</string>
+    <string name="phones_full_tv1_6.2">چهارگانه</string>
+    <string name="phones_full_tv2_6">امکانات</string>
+    <string name="phones_full_tv3_6">فیلم‌برداری</string>
+    <string name="phones_full_tv1_7">یگانه</string>
+    <string name="phones_full_tv2_7">امکانات</string>
+    <string name="phones_full_tv3_7">فیلم‌برداری</string>
+    <string name="phones_full_tv1_8">نوع‌اسپیکر</string>
+    <string name="phones_full_tv2_8">جک 3.5م.م</string>
+    <string name="phones_full_tv3_8">امکانات</string>
+    <string name="phones_full_tv0_9">فناوری</string>
+    <string name="phones_full_tv1_9">Wi-Fi</string>
+    <string name="phones_full_tv3_9">بلوتوث</string>
+    <string name="phones_full_tv5_9">GPS</string>
+    <string name="phones_full_tv6_9">NFC</string>
+    <string name="phones_full_tv7_9">رادیو</string>
+    <string name="phones_full_tv8_9">سیم‌کارت</string>
+    <string name="phones_full_tv1_10">حسگرها</string>
+    <string name="phones_full_tv2_10">ویژگی‌ها</string>
+    <string name="phones_full_tv1_11">نوع</string>
+    <string name="phones_full_tv2_11">شارژ</string>
+    <string name="phones_full_tv1_12">رنگ‌ها</string>
+    <string name="phones_full_tv2_12">مدل‌ها</string>
+
+    //phones_check
+    <string name="phones_check_title">بررسی تخصصی</string>
+    <string name="phones_check_more_samsung">بررسی تخصصی این گوشی در سایت سامسونگ</string>
+    <string name="phones_check_more_zoomit">بررسی تخصصی این گوشی در زومیت</string>
+    <string name="phones_check_more_gsm">بررسی تخصصی این گوشی در GSMArena</string>
+
+    //phones_pictures
+    <string name="phones_picture_title">تصاویر</string>
+    <string name="phones_picture_more">بیشتر ببینید</string>
+    <string name="phones_picture_more_zoomit">تصاویر این گوشی در زومیت</string>
+    <string name="phones_picture_more_gsm">تصاویر این گوشی در GSMArena</string>
+
+    //###
+    // Galaxy Z Full**********************
+    //###
+
+    //phones_full_zfold4_full_tvv
+    <string name="ph_zfold4_full_tvv1_1">10 آگوست 2022</string>
+    <string name="ph_zfold4_full_tvv2_1">عرضه شده در 25 آگوست 2022</string>
+    <string name="ph_zfold4_full_tvv1_2">155.1 در 130.1 در 6.3 میلی‌متر (در حالت باز)</string>
+    <string name="ph_zfold4_full_tvv2_2">155.1 در 67.1 در 15.8 میلی‌متر (تا شده)</string>
+    <string name="ph_zfold4_full_tvv3_2">263 گرم</string>
+    <string name="ph_zfold4_full_tvv4_2">جلوی شیشه‌ای (گوریلا گلس +Victus) (تا شده)، جلوی پلاستیکی (در حالت باز)، پشت شیشه‌ای (گوریلا گلس +Victus)، فریم آلومینیومی</string>
+    <string name="ph_zfold4_full_tvv5_2">گواهی IPX8 برای مقاوت در برابر نفوذ آب (تا 1.5 متر برای 30 دقیقه)</string>
+    <string name="ph_zfold4_full_tvv6_2">قلم استایلوس</string>
+    <string name="ph_zfold4_full_tvv1_3">Dynamic AMOLED 2X</string>
+    <string name="ph_zfold4_full_tvv2_3">در حالت باز: 7.6 اینچ، 183.2 سانتی متر مربع (~90.9% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_zfold4_full_tvv3_3"> تا شده: 6.2 اینچ</string>
+    <string name="ph_zfold4_full_tvv4_3">در حالت باز: 1812 در 2176 پیکسل، 21.6:18 (~373 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_zfold4_full_tvv5_3">تا شده: 904 در 2316 پیکسل، 23.1:9</string>
+    <string name="ph_zfold4_full_tvv6_3">کورنینگ گوریلا گلس +Victus</string>
+    <string name="ph_zfold4_full_tvv7_3">پشتیبانی از +HDR10</string>
+    <string name="ph_zfold4_full_tvv8_3">حداکثر روشنایی 1200 نیت (peak)</string>
+    <string name="ph_zfold4_full_tvv9_3">نرخ نوسازی تصویر در حالت باز 1 تا 120 هرتز</string>
+    <string name="ph_zfold4_full_tvv10_3">نرخ نوسازی تصویر در حالت تا شده 48 تا 120 هرتز</string>
+    <string name="ph_zfold4_full_tvv11_3">قابل تا شدن از وسط</string>
+    <string name="ph_zfold4_full_tvv1_4">در زمان عرضه اندروید 12L و One UI 4.1.1</string>
+    <string name="ph_zfold4_full_tvv2_4">Qualcomm SM8475 Snapdragon 8+ Gen 1 (چهار نانومتر)</string>
+    <string name="ph_zfold4_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 3.19 گیگاهرتز Cortex-X2 و سه هسته‌ی 2.75 گیگاهرتز Cortex-A710 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A510)</string>
+    <string name="ph_zfold4_full_tvv4_4">Adreno 730</string>
+    <string name="ph_zfold4_full_tvv1_5">خیر</string>
+    <string name="ph_zfold4_full_tvv2_5">256 گیگابایت با 12 گیگابایت رم، 512 گیگابایت با 12 گیگابایت رم، 1 ترابایت با 12 گیگابایت رم</string>
+    <string name="ph_zfold4_full_tvv3_5">UFS 3.1</string>
+    <string name="ph_zfold4_full_tvv1_6">لنز واید: 50 مگاپیکسل، f1.8، پوشش 85 درجه، 23 میلی‌متر، 1.0 میکرومتر سایز پیکسل، فوکوس خودکار دوال پیکسل، لرزش‌گیر اپتیکال تصویر</string>
+    <string name="ph_zfold4_full_tvv2_6">لنز تله‌فوتو: 10 مگاپیکسل، 66میلی‌متر، 1.0 میکرومتر سایز پیکسل، f2.4، فوکوس خودکار با تشخیص فاز، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 3 برابر</string>
+    <string name="ph_zfold4_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 123 درجه، 12 میلی‌متر، 1.12 میکرومتر سایز پیکسل</string>
+    <string name="ph_zfold4_full_tvv4_6">فلش LED، پانوراما، HDR</string>
+    <string name="ph_zfold4_full_tvv5_6">4K@30/60fps, 1080p@60/240fps (gyro-EIS), 720p@960fps (gyro-EIS), HDR10+</string>
+    <string name="ph_zfold4_full_tvv1_7">زیر صفحه نمایش: 4 مگاپیکسل، f1.8، پوشش 80 درجه، 26 میلی‌متر (واید)، 2.0 میکرومتر سایز پیکسل</string>
+    <string name="ph_zfold4_full_tvv2_7">سلفی دوم: 10 مگاپیکسل، f2.2، پوشش 85 درجه، 24 میلی‌متر (واید)، 1.22 میکرومتر سایز پیکسل، 1.3 اینچ سایز سنسور</string>
+    <string name="ph_zfold4_full_tvv3_7">HDR</string>
+    <string name="ph_zfold4_full_tvv4_7">4K@30/60fps, 1080p@30/60fps, gyro-EIS</string>
+    <string name="ph_zfold4_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_zfold4_full_tvv2_8">خیر</string>
+    <string name="ph_zfold4_full_tvv3_8">صدای 32 بیت / 384 کیلوهرتز</string>
+    <string name="ph_zfold4_full_tvv4_8">تنظیم شده توسط AKG</string>
+    <string name="ph_zfold4_full_tvv0_9">GSM / CDMA / HSPA / EVDO / LTE / 5G</string>
+    <string name="ph_zfold4_full_tvv1_9">Wi-Fi 6E (802.11ax) a/b/g/n/ac/ax</string>
+    <string name="ph_zfold4_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_zfold4_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_zfold4_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_zfold4_full_tvv5_9">نسخه 5.2</string>
+    <string name="ph_zfold4_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_zfold4_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_zfold4_full_tvv8_9">پشتیبانی از aptX HD</string>
+    <string name="ph_zfold4_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_zfold4_full_tvv10_9">بله</string>
+    <string name="ph_zfold4_full_tvv11_9">خیر</string>
+    <string name="ph_zfold4_full_tvv12_9">تا دو عدد نانو-سیم و یک eSIM</string>
+    <string name="ph_zfold4_full_tvv1_10">حسگر اثرانگشت (کنار گوشی)، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، فشارسنج هوا، حسگر ژئومغناطیسی، حسگر هال، حسگر نورسنج</string>
+    <string name="ph_zfold4_full_tvv2_10">دستیار صوتی Bixby</string>
+    <string name="ph_zfold4_full_tvv3_10">Samsung DeX (پشتیبانی ار تجربه دسکتاپ)</string>
+    <string name="ph_zfold4_full_tvv4_10">Samsung Pay (ویزا، تاییدیه مسترکارت)</string>
+    <string name="ph_zfold4_full_tvv5_10">پشتیبانی از پهنای باند فوق‌العاده (UWB)</string>
+    <string name="ph_zfold4_full_tvv1_11">لیتیوم پلیمری، 4400 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_zfold4_full_tvv2_11">شارژ سریع 25 وات، 50% در 30 دقیقه</string>
+    <string name="ph_zfold4_full_tvv3_11">شارژ سریع بی‌سیم 15 وات</string>
+    <string name="ph_zfold4_full_tvv4_11">شارژ معکوس بی‌سیم 4.5 وات</string>
+    <string name="ph_zfold4_full_tvv5_11">درگاه USB Type-C 3.2</string>
+    <string name="ph_zfold4_full_tvv1_12">مشکی، سبز، بژ، شرابی</string>
+    <string name="ph_zfold4_full_tvv2_12">SM-F936B, SM-F936B/DS, SM-F936U, SM-F936U1, SM-F936N, SM-F936W</string>
+
+    //phones_full_zflip4_full_tvv
+    <string name="ph_zflip4_full_tvv1_1">10 آگوست 2022</string>
+    <string name="ph_zflip4_full_tvv2_1">عرضه شده در 25 آگوست 2022</string>
+    <string name="ph_zflip4_full_tvv1_2">165.2 در 71.9 در 6.9 میلی‌متر (در حالت باز)</string>
+    <string name="ph_zflip4_full_tvv2_2">84.9 در 71.9 در 15.9 (تا شده)</string>
+    <string name="ph_zflip4_full_tvv3_2">187 گرم</string>
+    <string name="ph_zflip4_full_tvv4_2">جلوی پلاستیک (در حالت باز)، پشت شیشه‌ای (گوریلا گلس +Victus)، فریم آلومینیومی</string>
+    <string name="ph_zflip4_full_tvv5_2">گواهی IPX8 برای مقاوت در برابر نفوذ آب (تا 1.5 متر برای 30 دقیقه)</string>
+    <string name="ph_zflip4_full_tvv1_3">صفحه نمایش اصلی: Dynamic AMOLED 2X</string>
+    <string name="ph_zflip4_full_tvv1_3.1">صفحه نمایش دوم: Super AMOLED</string>
+    <string name="ph_zflip4_full_tvv2_3">در حالت باز: 6.7 اینچ، 101.5 سانتی متر مربع (~85.4% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_zflip4_full_tvv3_3"> تا شده: 1.9 اینچ</string>
+    <string name="ph_zflip4_full_tvv4_3">در حالت باز: 1080 در 2640 پیکسل، (~426 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_zflip4_full_tvv5_3">تا شده: 260 در 512 پیکسل</string>
+    <string name="ph_zflip4_full_tvv6_3">کورنینگ گوریلا گلس +Victus (نمایشگر دوم)</string>
+    <string name="ph_zflip4_full_tvv7_3">پشتیبانی از +HDR10</string>
+    <string name="ph_zflip4_full_tvv8_3">حداکثر روشنایی 1200 نیت (peak)</string>
+    <string name="ph_zflip4_full_tvv9_3">نرخ نوسازی 120 هرتز</string>
+    <string name="ph_zflip4_full_tvv11_3">قابل تا شدن از وسط</string>
+    <string name="ph_zflip4_full_tvv1_4">در زمان عرضه اندروید 12 و One UI 4.1.1</string>
+    <string name="ph_zflip4_full_tvv2_4">Qualcomm SM8475 Snapdragon 8+ Gen 1 (چهار نانومتر)</string>
+    <string name="ph_zflip4_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 3.19 گیگاهرتز Cortex-X2 و سه هسته‌ی 2.75 گیگاهرتز Cortex-A710 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A510)</string>
+    <string name="ph_zflip4_full_tvv4_4">Adreno 730</string>
+    <string name="ph_zflip4_full_tvv1_5">خیر</string>
+    <string name="ph_zflip4_full_tvv2_5">128 گیگابایت با 8 گیگابایت رم، 256 گیگابایت با 8 گیگابایت رم، 512 گیگابایت با 8 گیگابایت رم</string>
+    <string name="ph_zflip4_full_tvv3_5">UFS 3.1</string>
+    <string name="ph_zflip4_full_tvv1_6">لنز واید: 12 مگاپیکسل، f1.8، فوکوس خودکار دوال پیکسل، 24 میلی‌متر، لرزش‌گیر اپتیکال تصویر، 1.8 میکرومتر سایز پیکسل، 1/1.76 اینچ سایز سنسور</string>
+    <string name="ph_zflip4_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 123 درجه، 1.12 میکرومتر سایز پیکسل</string>
+    <string name="ph_zflip4_full_tvv4_6">فلش LED، پانوراما، HDR</string>
+    <string name="ph_zflip4_full_tvv5_6">4K@30/60fps, 1080p@60/240fps, 720p@960fps, HDR10+</string>
+    <string name="ph_zflip4_full_tvv2_7">10 مگاپیکسل، 26 میلی‌متر (واید)، 1.22 میکرومتر سایز پیکسل، f2.4</string>
+    <string name="ph_zflip4_full_tvv3_7">HDR</string>
+    <string name="ph_zflip4_full_tvv4_7">4K@30fps</string>
+    <string name="ph_zflip4_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_zflip4_full_tvv2_8">خیر</string>
+    <string name="ph_zflip4_full_tvv3_8">صدای 32 بیت / 384 کیلوهرتز</string>
+    <string name="ph_zflip4_full_tvv4_8">تنظیم شده توسط AKG</string>
+    <string name="ph_zflip4_full_tvv0_9">GSM / CDMA / HSPA / EVDO / LTE / 5G</string>
+    <string name="ph_zflip4_full_tvv1_9">Wi-Fi 6 (802.11) a/b/g/n/ac/6</string>
+    <string name="ph_zflip4_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_zflip4_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_zflip4_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_zflip4_full_tvv5_9">نسخه 5.2</string>
+    <string name="ph_zflip4_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_zflip4_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_zflip4_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_zflip4_full_tvv10_9">بله</string>
+    <string name="ph_zflip4_full_tvv11_9">خیر</string>
+    <string name="ph_zflip4_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم یا eSIM)</string>
+    <string name="ph_zflip4_full_tvv1_10">حسگر اثرانگشت (کنار گوشی)، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، فشارسنج هوا، حسگر ژئومغناطیسی، حسگر هال، حسگر نورسنج</string>
+    <string name="ph_zflip4_full_tvv2_10">دستیار صوتی Bixby</string>
+    <string name="ph_zflip4_full_tvv4_10">Samsung Pay (ویزا، تاییدیه مسترکارت)</string>
+    <string name="ph_zflip4_full_tvv1_11">لیتیوم پلیمری، 3700 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_zflip4_full_tvv2_11">شارژ سریع 25 وات، 50% در 30 دقیقه</string>
+    <string name="ph_zflip4_full_tvv3_11">شارژ سریع بی‌سیم 15 وات</string>
+    <string name="ph_zflip4_full_tvv4_11">شارژ معکوس بی‌سیم 4.5 وات</string>
+    <string name="ph_zflip4_full_tvv5_11">درگاه USB Type-C 2.0</string>
+    <string name="ph_zflip4_full_tvv1_12">بنفش، گرافیتی، صورتی، آبی</string>
+    <string name="ph_zflip4_full_tvv2_12">SM-F721B, SM-F721B/DS, SM-F721N, SM-F721U, SM-F721U1, SM-F721W</string>
+
+    //phones_full_zfold3_full_tvv
+    <string name="ph_zfold3_full_tvv1_1">11 آگوست 2027</string>
+    <string name="ph_zfold3_full_tvv2_1">عرضه شده در 27 آگوست 2027</string>
+    <string name="ph_zfold3_full_tvv1_2">158.2 در 128.1 در 6.4 میلی‌متر (در حالت باز)</string>
+    <string name="ph_zfold3_full_tvv2_2">158.2 در 67.1 در 14.4 تا 16 میلی‌متر (تا شده)</string>
+    <string name="ph_zfold3_full_tvv3_2">271 گرم</string>
+    <string name="ph_zfold3_full_tvv4_2">جلوی شیشه‌ای (گوریلا گلس Victus) (تا شده)، جلوی پلاستیکی (در حالت باز)، پشت شیشه‌ای (گوریلا گلس Victus)، فریم آلومینیومی</string>
+    <string name="ph_zfold3_full_tvv5_2">گواهی IPX8 برای مقاوت در برابر نفوذ آب (تا 1.5 متر برای 30 دقیقه)</string>
+    <string name="ph_zfold3_full_tvv6_2">قلم استایلوس</string>
+    <string name="ph_zfold3_full_tvv1_3">Dynamic AMOLED 2X</string>
+    <string name="ph_zfold3_full_tvv2_3">در حالت باز: 7.6 اینچ، 179.9 سانتی متر مربع (~88.8% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_zfold3_full_tvv3_3"> تا شده: 6.2 اینچ</string>
+    <string name="ph_zfold3_full_tvv4_3">در حالت باز: 1768 در 2208 پیکسل (~374 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_zfold3_full_tvv5_3">تا شده: 832 در 2268 پیکسل، نسبت تصویر 25:9</string>
+    <string name="ph_zfold3_full_tvv6_3">کورنینگ گوریلا گلس Victus</string>
+    <string name="ph_zfold3_full_tvv7_3">پشتیبانی از +HDR10</string>
+    <string name="ph_zfold3_full_tvv8_3">حداکثر روشنایی 1200 نیت (peak)</string>
+    <string name="ph_zfold3_full_tvv9_3">نرخ نوسازی تصویر در حالت باز 120 هرتز</string>
+    <string name="ph_zfold3_full_tvv10_3">نرخ نوسازی تصویر در حالت تا شده 120 هرتز</string>
+    <string name="ph_zfold3_full_tvv11_3">قابل تا شدن از وسط</string>
+    <string name="ph_zfold3_full_tvv1_4">در زمان عرضه اندروید 11 و One UI 3.5 ، قابل ارتقاء به اندروید 12 و One Ui 4.1.1</string>
+    <string name="ph_zfold3_full_tvv2_4">Qualcomm SM8350 Snapdragon 888 5G (پنج نانومتر)</string>
+    <string name="ph_zfold3_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 2.84 گیگاهرتز Cortex-X1 و سه هسته‌ی 2.42 گیگاهرتز Cortex-A78 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A55)</string>
+    <string name="ph_zfold3_full_tvv4_4">Adreno 660</string>
+    <string name="ph_zfold3_full_tvv1_5">خیر</string>
+    <string name="ph_zfold3_full_tvv2_5">256 گیگابایت با 12 گیگابایت رم، 512 گیگابایت با 12 گیگابایت رم</string>
+    <string name="ph_zfold3_full_tvv3_5">UFS 3.1</string>
+    <string name="ph_zfold3_full_tvv1_6">لنز واید: 12 مگاپیکسل، f1.8، پوشش 85 درجه، 26 میلی‌متر، 1.8 میکرومتر سایز پیکسل، 1/76 اینچ سایز سنسور، فوکوس خودکار دوال پیکسل، لرزش‌گیر اپتیکال تصویر</string>
+    <string name="ph_zfold3_full_tvv2_6">لنز تله‌فوتو: 12 مگاپیکسل، 52 میلی‌متر، 1.0 میکرومتر سایز پیکسل، f2.4، فوکوس خودکار با تشخیص فاز، 1/36 اینچ سایز سنسور، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 2 برابر</string>
+    <string name="ph_zfold3_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 123 درجه، 12 میلی‌متر، 1.12 میکرومتر سایز پیکسل</string>
+    <string name="ph_zfold3_full_tvv4_6">فلش LED، پانوراما، HDR</string>
+    <string name="ph_zfold3_full_tvv5_6">4K@60fps, 1080p@60/240fps (gyro-EIS), 720p@960fps (gyro-EIS), HDR10+</string>
+    <string name="ph_zfold3_full_tvv1_7">زیر صفحه نمایش: 4 مگاپیکسل (واید)، 2.0 میکرومتر سایز پیکسل، f1.8</string>
+    <string name="ph_zfold3_full_tvv2_7">سلفی دوم: 10 مگاپیکسل، 26 میلی‌متر (واید)، 1.22 میکرومتر سایز پیکسل، 1.3 اینچ سایز سنسور، f2.2</string>
+    <string name="ph_zfold3_full_tvv3_7">HDR</string>
+    <string name="ph_zfold3_full_tvv4_7">4K@30fps, 1080p@30fps, gyro-EIS</string>
+    <string name="ph_zfold3_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_zfold3_full_tvv2_8">خیر</string>
+    <string name="ph_zfold3_full_tvv3_8">صدای 32 بیت / 384 کیلوهرتز</string>
+    <string name="ph_zfold3_full_tvv4_8">تنظیم شده توسط AKG</string>
+    <string name="ph_zfold3_full_tvv0_9">GSM / CDMA / HSPA / EVDO / LTE / 5G</string>
+    <string name="ph_zfold3_full_tvv1_9">Wi-Fi 6E (802.11) a/b/g/n/ac/6e</string>
+    <string name="ph_zfold3_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_zfold3_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_zfold3_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_zfold3_full_tvv5_9">نسخه 5.2</string>
+    <string name="ph_zfold3_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_zfold3_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_zfold3_full_tvv8_9">پشتیبانی از aptX HD</string>
+    <string name="ph_zfold3_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_zfold3_full_tvv10_9">بله</string>
+    <string name="ph_zfold3_full_tvv11_9">خیر</string>
+    <string name="ph_zfold3_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم یا eSIM)</string>
+    <string name="ph_zfold3_full_tvv1_10">حسگر اثرانگشت (کنار گوشی)، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، فشارسنج هوا، حسگر ژئومغناطیسی، حسگر هال، حسگر نورسنج</string>
+    <string name="ph_zfold3_full_tvv2_10">دستیار صوتی Bixby</string>
+    <string name="ph_zfold3_full_tvv3_10">Samsung DeX (پشتیبانی ار تجربه دسکتاپ)</string>
+    <string name="ph_zfold3_full_tvv4_10">Samsung Pay (ویزا، تاییدیه مسترکارت)</string>
+    <string name="ph_zfold3_full_tvv5_10">پشتیبانی از پهنای باند فوق‌العاده (UWB)</string>
+    <string name="ph_zfold3_full_tvv1_11">لیتیوم پلیمری، 4400 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_zfold3_full_tvv2_11">شارژ سریع 25 وات</string>
+    <string name="ph_zfold3_full_tvv3_11">شارژ سریع بی‌سیم 11 وات</string>
+    <string name="ph_zfold3_full_tvv4_11">شارژ معکوس بی‌سیم 4.5 وات</string>
+    <string name="ph_zfold3_full_tvv5_11">درگاه USB Type-C 3.2</string>
+    <string name="ph_zfold3_full_tvv1_12">مشکی، نقره‌ای، سبز</string>
+    <string name="ph_zfold3_full_tvv2_12">SM-F926B, SM-F926B/DS, SM-F926U, SM-F926U1, SM-F926W, SM-F9260, SM-F926N</string>
+
+    //phones_full_zflip3_full_tvv
+    <string name="ph_zflip3_full_tvv1_1">11 آگوست 2022</string>
+    <string name="ph_zflip3_full_tvv2_1">عرضه شده در 27 آگوست 2022</string>
+    <string name="ph_zflip3_full_tvv1_2">166 در 72.2 در 6.9 میلی‌متر (در حالت باز)</string>
+    <string name="ph_zflip3_full_tvv2_2">86.4 در 72.2 در 15.9-17.1 میلی‌متر (تا شده)</string>
+    <string name="ph_zflip3_full_tvv3_2">183 گرم</string>
+    <string name="ph_zflip3_full_tvv4_2">جلوی پلاستیک (در حالت باز)، پشت شیشه‌ای (گوریلا گلس Victus)، فریم آلومینیومی</string>
+    <string name="ph_zflip3_full_tvv5_2">گواهی IPX8 برای مقاوت در برابر نفوذ آب (تا 1.5 متر برای 30 دقیقه)</string>
+    <string name="ph_zflip3_full_tvv1_3">صفحه نمایش اصلی: Dynamic AMOLED 2X</string>
+    <string name="ph_zflip3_full_tvv1_3.1">صفحه نمایش دوم: Super AMOLED</string>
+    <string name="ph_zflip3_full_tvv2_3">در حالت باز: 6.7 اینچ، 101.5 سانتی متر مربع (~84.7% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_zflip3_full_tvv3_3"> تا شده: 1.9 اینچ</string>
+    <string name="ph_zflip3_full_tvv4_3">در حالت باز: 1080 در 2640 پیکسل، (~426 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_zflip3_full_tvv5_3">تا شده: 260 در 512 پیکسل</string>
+    <string name="ph_zflip3_full_tvv6_3">کورنینگ گوریلا گلس Victus (نمایشگر دوم)</string>
+    <string name="ph_zflip3_full_tvv7_3">پشتیبانی از +HDR10</string>
+    <string name="ph_zflip3_full_tvv8_3">حداکثر روشنایی 1200 نیت (peak)</string>
+    <string name="ph_zflip3_full_tvv9_3">نرخ نوسازی 120 هرتز</string>
+    <string name="ph_zflip3_full_tvv11_3">قابل تا شدن از وسط</string>
+    <string name="ph_zflip3_full_tvv1_4">در زمان عرضه اندروید 11 و One UI 3.5 قابل ارتقاء به اندروید 12 و One Ui 4.1.1</string>
+    <string name="ph_zflip3_full_tvv2_4">Qualcomm SM8350 Snapdragon 888 5G (پنج نانومتر)</string>
+    <string name="ph_zflip3_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 2.84 گیگاهرتز Cortex-X1 و سه هسته‌ی 2.42 گیگاهرتز Cortex-A78 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A55)</string>
+    <string name="ph_zflip3_full_tvv4_4">Adreno 660</string>
+    <string name="ph_zflip3_full_tvv1_5">خیر</string>
+    <string name="ph_zflip3_full_tvv2_5">128 گیگابایت با 8 گیگابایت رم، 256 گیگابایت با 8 گیگابایت رم</string>
+    <string name="ph_zflip3_full_tvv3_5">UFS 3.1</string>
+    <string name="ph_zflip3_full_tvv1_6">لنز واید: 12 مگاپیکسل، f1.8، فوکوس خودکار دوال پیکسل، 27 میلی‌متر، لرزش‌گیر اپتیکال تصویر، 1.4 میکرومتر سایز پیکسل، 1/2.55 اینچ سایز سنسور</string>
+    <string name="ph_zflip3_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 123 درجه، 1.12 میکرومتر سایز پیکسل</string>
+    <string name="ph_zflip3_full_tvv4_6">فلش LED، پانوراما، HDR</string>
+    <string name="ph_zflip3_full_tvv5_6">4K@30/60fps, 1080p@60/240fps, 720p@960fps, HDR10+</string>
+    <string name="ph_zflip3_full_tvv2_7">10 مگاپیکسل، 26 میلی‌متر (واید)، 1.22 میکرومتر سایز پیکسل، f2.4</string>
+    <string name="ph_zflip3_full_tvv3_7">HDR</string>
+    <string name="ph_zflip3_full_tvv4_7">4K@30fps</string>
+    <string name="ph_zflip3_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_zflip3_full_tvv2_8">خیر</string>
+    <string name="ph_zflip3_full_tvv3_8">صدای 32 بیت / 384 کیلوهرتز</string>
+    <string name="ph_zflip3_full_tvv4_8">تنظیم شده توسط AKG</string>
+    <string name="ph_zflip3_full_tvv0_9">GSM / CDMA / HSPA / EVDO / LTE / 5G</string>
+    <string name="ph_zflip3_full_tvv1_9">Wi-Fi 6 (802.11) a/b/g/n/ac/6</string>
+    <string name="ph_zflip3_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_zflip3_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_zflip3_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_zflip3_full_tvv5_9">نسخه 5.1</string>
+    <string name="ph_zflip3_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_zflip3_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_zflip3_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_zflip3_full_tvv10_9">بله</string>
+    <string name="ph_zflip3_full_tvv11_9">خیر</string>
+    <string name="ph_zflip3_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم یا eSIM)</string>
+    <string name="ph_zflip3_full_tvv1_10">حسگر اثرانگشت (کنار گوشی)، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، فشارسنج هوا</string>
+    <string name="ph_zflip3_full_tvv2_10">دستیار صوتی Bixby</string>
+    <string name="ph_zflip3_full_tvv4_10">Samsung Pay (ویزا، تاییدیه مسترکارت)</string>
+    <string name="ph_zflip3_full_tvv1_11">لیتیوم پلیمری، 3300 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_zflip3_full_tvv2_11">شارژ سریع 15 وات</string>
+    <string name="ph_zflip3_full_tvv3_11">شارژ سریع بی‌سیم 10 وات</string>
+    <string name="ph_zflip3_full_tvv4_11">شارژ معکوس بی‌سیم 4.5 وات</string>
+    <string name="ph_zflip3_full_tvv5_11">درگاه USB Type-C 2.0</string>
+    <string name="ph_zflip3_full_tvv1_12">مشکی، سبز و بنفش، کرم، سفید، صورتی ،خاکستری</string>
+    <string name="ph_zflip3_full_tvv2_12">SM-F711B, SM-F711N, SM-F711U, SM-F711U1, SM-F711W, SM-F7110</string>
+
+    //###
+    // Galaxy A Full**********************
+    //###
+
+    //phones_full_a73_full_tvv
+    <string name="ph_a73_full_tvv1_1">17 مارس 2022</string>
+    <string name="ph_a73_full_tvv2_1">عرضه شده در 22 آوریل 2022</string>
+    <string name="ph_a73_full_tvv1_2">163.7 در 76.1 در 7.6 میلی‌متر</string>
+    <string name="ph_a73_full_tvv3_2">181 گرم</string>
+    <string name="ph_a73_full_tvv4_2">جلو: شیشه-گوریلاگلس 5، پشت: پلاستیک، فریم: پلاستیک</string>
+    <string name="ph_a73_full_tvv5_2">گواهی IP67 برای مقاوت در برابر نفوذ آب و گرد و غبار (تا 1 متر برای 30 دقیقه)</string>
+    <string name="ph_a73_full_tvv1_3">Super AMOLED Plus</string>
+    <string name="ph_a73_full_tvv2_3">6.7 اینچ، 108.4 سانتی متر مربع (~87.0% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_a73_full_tvv4_3">1080 در 2400 پیکسل، نسبت تصویر: 20:9 ، (~393 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_a73_full_tvv6_3">کورنینگ گوریلا گلس 5</string>
+    <string name="ph_a73_full_tvv8_3">حداکثر روشنایی 800 نیت (HBM)</string>
+    <string name="ph_a73_full_tvv9_3">نرخ نوسازی 120 هرتز</string>
+    <string name="ph_a73_full_tvv1_4">در زمان عرضه اندروید 12 و One UI 4.1</string>
+    <string name="ph_a73_full_tvv2_4">Qualcomm SM7325 Snapdragon 778G 5G (شش نانومتر)</string>
+    <string name="ph_a73_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 2.4 گیگاهرتز Cortex-A78 و سه هسته‌ی 2.2 گیگاهرتز Cortex-A78 و چهار هسته‌ی 1.90 گیگاهرتز Cortex-A55)</string>
+    <string name="ph_a73_full_tvv4_4">Adreno 642L</string>
+    <string name="ph_a73_full_tvv1_5">بله (جایگاه مشترک با سیم‌کارت دوم)</string>
+    <string name="ph_a73_full_tvv2_5">128 گیگابایت با 6 گیگابایت رم، 128 گیگابایت با 8 گیگابایت رم، 256 گیگابایت با 8 گیگابایت رم</string>
+    <string name="ph_a73_full_tvv3_5">UFS 2.2</string>
+    <string name="ph_a73_full_tvv1_6">لنز واید: 108 مگاپیکسل، f1.8، فوکوس خودکار دوال پیکسل، لرزش‌گیر اپتیکال تصویر</string>
+    <string name="ph_a73_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2</string>
+    <string name="ph_a73_full_tvv3_6.1">لنز ماکرو: 5 مگاپیکسل، f2.4</string>
+    <string name="ph_a73_full_tvv3_6.2">لنز تشخیص عمق: 5 مگاپیکسل، f2.4</string>
+    <string name="ph_a73_full_tvv4_6">فلش LED، پانوراما، HDR</string>
+    <string name="ph_a73_full_tvv5_6">4K@30fps, 1080p@30/60fps; gyro-EIS</string>
+    <string name="ph_a73_full_tvv2_7">32 مگاپیکسل، 26 میلی‌متر (واید)، 1.28 اینچ سایز سنسور، 0.8 میکرومتر سایز پیکسل، f2.2</string>
+    <string name="ph_a73_full_tvv3_7">HDR</string>
+    <string name="ph_a73_full_tvv4_7">4K@30fps, 1080p@30fps</string>
+    <string name="ph_a73_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_a73_full_tvv2_8">خیر</string>
+    <string name="ph_a73_full_tvv0_9">GSM / HSPA / LTE / 5G</string>
+    <string name="ph_a73_full_tvv1_9">Wi-Fi 6 (802.11) a/b/g/n/ac/6</string>
+    <string name="ph_a73_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_a73_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_a73_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_a73_full_tvv5_9">نسخه 5.0</string>
+    <string name="ph_a73_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_a73_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_a73_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS/QZSS</string>
+    <string name="ph_a73_full_tvv10_9">بله(وابسته به بازار/منطقه)</string>
+    <string name="ph_a73_full_tvv11_9">نامشخص</string>
+    <string name="ph_a73_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم) یا دو سیم‌کارت dual stand-by (نانو سیم)</string>
+    <string name="ph_a73_full_tvv1_10">حسگر اثرانگشت (زیر نمایشگر(اپتیکال))، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما</string>
+    <string name="ph_a73_full_tvv1_11">لیتیوم پلیمری، 5000 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_a73_full_tvv2_11">شارژ سریع 25 وات</string>
+    <string name="ph_a73_full_tvv5_11">درگاه اتصال USB Type-C 2.0</string>
+    <string name="ph_a73_full_tvv1_12">خاکستری، سبز، سفید</string>
+    <string name="ph_a73_full_tvv2_12">SM-A736B, SM-A736B/DS</string>
+
+    //phones_full_a53_full_tvv
+    <string name="ph_a53_full_tvv1_1">17 مارس 2022</string>
+    <string name="ph_a53_full_tvv2_1">عرضه شده در 24 مارس 2022</string>
+    <string name="ph_a53_full_tvv1_2">159.6 در 74.8 در 8.1 میلی‌متر</string>
+    <string name="ph_a53_full_tvv3_2">189 گرم</string>
+    <string name="ph_a53_full_tvv4_2">جلو: شیشه-گوریلاگلس 5، پشت: پلاستیک، فریم: پلاستیک</string>
+    <string name="ph_a53_full_tvv5_2">گواهی IP67 برای مقاوت در برابر نفوذ آب و گرد و غبار (تا 1 متر برای 30 دقیقه)</string>
+    <string name="ph_a53_full_tvv1_3">Super AMOLED</string>
+    <string name="ph_a53_full_tvv2_3">6.5 اینچ، 102.0 سانتی متر مربع (~85.4% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_a53_full_tvv4_3">1080 در 2400 پیکسل، نسبت تصویر: 20:9 ، (~405 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_a53_full_tvv6_3">کورنینگ گوریلا گلس 5</string>
+    <string name="ph_a53_full_tvv8_3">حداکثر روشنایی 800 نیت (HBM)</string>
+    <string name="ph_a53_full_tvv9_3">نرخ نوسازی 120 هرتز</string>
+    <string name="ph_a53_full_tvv1_4">در زمان عرضه اندروید 12 و One UI 4.1</string>
+    <string name="ph_a53_full_tvv2_4">Exynos 1280 (پنج نانومتر)</string>
+    <string name="ph_a53_full_tvv3_4">8 هسته‌ای (دو هسته‌ی 2.4 گیگاهرتز Cortex-A78 و شش هسته‌ی 2.0 گیگاهرتز Cortex-A55)</string>
+    <string name="ph_a53_full_tvv4_4">Mali-G68</string>
+    <string name="ph_a53_full_tvv1_5">بله (جایگاه مشترک با سیم‌کارت دوم)</string>
+    <string name="ph_a53_full_tvv2_5">128 گیگابایت با 4 گیگابایت رم، 128 گیگابایت با 6 گیگابایت رم، 128 گیگابایت با 8 گیگابایت رم، 256 گیگابایت با 6 گیگابایت رم، 256 گیگابایت با 8 گیگابایت رم</string>
+    <string name="ph_a53_full_tvv3_5">UFS 2.2</string>
+    <string name="ph_a53_full_tvv1_6">لنز واید: 64 مگاپیکسل، 24میلی‌متر، 1/1.7 اینچ سایز سنسور، f1.8، فوکوس خودکار با تشخیص فاز، لرزش‌گیر اپتیکال تصویر</string>
+    <string name="ph_a53_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 123 درجه، 1.12 میکرومتر سایز پیکسل</string>
+    <string name="ph_a53_full_tvv3_6.1">لنز ماکرو: 5 مگاپیکسل، f2.4</string>
+    <string name="ph_a53_full_tvv3_6.2">لنز تشخیص عمق: 5 مگاپیکسل، f2.4</string>
+    <string name="ph_a53_full_tvv4_6">فلش LED، پانوراما، HDR</string>
+    <string name="ph_a53_full_tvv5_6">4K@30fps, 1080p@30/60fps; gyro-EIS</string>
+    <string name="ph_a53_full_tvv2_7">32 مگاپیکسل، 26 میلی‌متر (واید)، 1.28 اینچ سایز سنسور، 0.8 میکرومتر سایز پیکسل، f2.2</string>
+    <string name="ph_a53_full_tvv3_7">HDR</string>
+    <string name="ph_a53_full_tvv4_7">4K@30fps, 1080p@30fps</string>
+    <string name="ph_a53_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_a53_full_tvv2_8">خیر</string>
+    <string name="ph_a53_full_tvv0_9">GSM / HSPA / LTE / 5G</string>
+    <string name="ph_a53_full_tvv1_9">Wi-Fi 5 (802.11ac) a/b/g/n/ac</string>
+    <string name="ph_a53_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_a53_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_a53_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_a53_full_tvv5_9">نسخه 5.1</string>
+    <string name="ph_a53_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_a53_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_a53_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_a53_full_tvv10_9">بله(وابسته به بازار/منطقه)</string>
+    <string name="ph_a53_full_tvv11_9">خیر</string>
+    <string name="ph_a53_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم) یا دو سیم‌کارت dual stand-by (نانو سیم)</string>
+    <string name="ph_a53_full_tvv1_10">حسگر اثرانگشت (زیر نمایشگر(اپتیکال))، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، سنجش مجاورت مجازی</string>
+    <string name="ph_a53_full_tvv1_11">لیتیوم پلیمری، 5000 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_a53_full_tvv2_11">شارژ سریع 25 وات</string>
+    <string name="ph_a53_full_tvv5_11">درگاه اتصال USB Type-C 2.0</string>
+    <string name="ph_a53_full_tvv1_12">مشکی، سفید، آبی، گلبهی</string>
+    <string name="ph_a53_full_tvv2_12">SM-A536B, SM-A536B/DS, SM-A536U, SM-A536U1, SM-A5360, SM-A536E, SM-A536E/DS, SM-A536V</string>
+
+    //phones_full_a33_full_tvv
+    <string name="ph_a33_full_tvv1_1">17 مارس 2022</string>
+    <string name="ph_a33_full_tvv2_1">عرضه شده در 20 آوریل 2022</string>
+    <string name="ph_a33_full_tvv1_2">159.7 در 74 در 8.1 میلی‌متر</string>
+    <string name="ph_a33_full_tvv3_2">186 گرم</string>
+    <string name="ph_a33_full_tvv4_2">جلو: شیشه-گوریلاگلس 5، پشت: پلاستیک، فریم: پلاستیک</string>
+    <string name="ph_a33_full_tvv5_2">گواهی IP67 برای مقاوت در برابر نفوذ آب و گرد و غبار (تا 1 متر برای 30 دقیقه)</string>
+    <string name="ph_a33_full_tvv1_3">Super AMOLED</string>
+    <string name="ph_a33_full_tvv2_3">6.4 اینچ، 98.9 سانتی متر مربع (~83.7% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_a33_full_tvv4_3">1080 در 2400 پیکسل، نسبت تصویر: 20:9 ، (~411 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_a33_full_tvv6_3">کورنینگ گوریلا گلس 5</string>
+    <string name="ph_a33_full_tvv9_3">نرخ نوسازی 90 هرتز</string>
+    <string name="ph_a33_full_tvv1_4">در زمان عرضه اندروید 12 و One UI 4.1</string>
+    <string name="ph_a33_full_tvv2_4">Exynos 1280 (پنج نانومتر)</string>
+    <string name="ph_a33_full_tvv3_4">8 هسته‌ای (دو هسته‌ی 2.4 گیگاهرتز Cortex-A78 و شش هسته‌ی 2.0 گیگاهرتز Cortex-A55)</string>
+    <string name="ph_a33_full_tvv4_4">Mali-G68</string>
+    <string name="ph_a33_full_tvv1_5">بله (جایگاه مشترک با سیم‌کارت دوم)</string>
+    <string name="ph_a33_full_tvv2_5">128 گیگابایت با 4 گیگابایت رم، 128 گیگابایت با 6 گیگابایت رم، 128 گیگابایت با 8 گیگابایت رم، 256 گیگابایت با 8 گیگابایت رم</string>
+    <string name="ph_a33_full_tvv1_6">لنز واید: 48 مگاپیکسل، 26میلی‌متر، 1/2.0 اینچ سایز سنسور، 0.8 میکرومتر سایز پیکسل، f1.8، فوکوس خودکار با تشخیص فاز، لرزش‌گیر اپتیکال تصویر</string>
+    <string name="ph_a33_full_tvv3_6">لنز اولتراواید: 8 مگاپیکسل، f2.2، پوشش 123 درجه، 1.12 میکرومتر سایز پیکسل، 1/4.0 اینچ سایز سنسور</string>
+    <string name="ph_a33_full_tvv3_6.1">لنز ماکرو: 5 مگاپیکسل، f2.4</string>
+    <string name="ph_a33_full_tvv3_6.2">لنز تشخیص عمق: 5 مگاپیکسل، f2.4</string>
+    <string name="ph_a33_full_tvv4_6">فلش LED، پانوراما، HDR</string>
+    <string name="ph_a33_full_tvv5_6">4K@30fps, 1080p@30/60fps; gyro-EIS</string>
+    <string name="ph_a33_full_tvv2_7">13 مگاپیکسل، (واید)، 1.31 اینچ سایز سنسور، 1.12 میکرومتر سایز پیکسل، f2.2</string>
+    <string name="ph_a33_full_tvv4_7">4K@30fps, 1080p@30fps</string>
+    <string name="ph_a33_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_a33_full_tvv2_8">خیر</string>
+    <string name="ph_a33_full_tvv0_9">GSM / HSPA / LTE / 5G</string>
+    <string name="ph_a33_full_tvv1_9">Wi-Fi 5 (802.11ac) a/b/g/n/ac</string>
+    <string name="ph_a33_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_a33_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_a33_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_a33_full_tvv5_9">نسخه 5.1</string>
+    <string name="ph_a33_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_a33_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_a33_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_a33_full_tvv10_9">بله(وابسته به بازار/منطقه)</string>
+    <string name="ph_a33_full_tvv11_9">خیر</string>
+    <string name="ph_a33_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم) یا دو سیم‌کارت dual stand-by (نانو سیم)</string>
+    <string name="ph_a33_full_tvv1_10">حسگر اثرانگشت (زیر نمایشگر(اپتیکال))، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، سنجش مجاورت مجازی</string>
+    <string name="ph_a33_full_tvv1_11">لیتیوم پلیمری، 5000 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_a33_full_tvv2_11">شارژ سریع 25 وات</string>
+    <string name="ph_a33_full_tvv5_11">درگاه اتصال USB Type-C 2.0</string>
+    <string name="ph_a33_full_tvv1_12">مشکی، سفید، آبی، گلبهی</string>
+    <string name="ph_a33_full_tvv2_12">SM-A336E, SM-A336B, SM-A336B/DS, SM-A336B/DSN, SM-A336E/DS, SM-A336M</string>
+
+    //phones_full_a52s_full_tvv
+    <string name="ph_a52s_full_tvv1_1">17 آگوست 2021</string>
+    <string name="ph_a52s_full_tvv2_1">عرضه شده در 1 سپتامبر 2021</string>
+    <string name="ph_a52s_full_tvv1_2">159.9 در 75.1 در 8.4 میلی‌متر</string>
+    <string name="ph_a52s_full_tvv3_2">189 گرم</string>
+    <string name="ph_a52s_full_tvv4_2">جلو: شیشه-گوریلاگلس 5، پشت: پلاستیک، فریم: پلاستیک</string>
+    <string name="ph_a52s_full_tvv5_2">گواهی IP67 برای مقاوت در برابر نفوذ آب و گرد و غبار (تا 1 متر برای 30 دقیقه)</string>
+    <string name="ph_a52s_full_tvv1_3">Super AMOLED</string>
+    <string name="ph_a52s_full_tvv2_3">6.5 اینچ، 102.0 سانتی متر مربع (~84.9% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_a52s_full_tvv4_3">1080 در 2400 پیکسل، نسبت تصویر: 20:9 ، (~405 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_a52s_full_tvv6_3">کورنینگ گوریلا گلس 5</string>
+    <string name="ph_a52s_full_tvv7_3">پشتیبانی از HDR10</string>
+    <string name="ph_a52s_full_tvv8_3">حداکثر روشنایی 800 نیت (HBM)</string>
+    <string name="ph_a52s_full_tvv9_3">نرخ نوسازی 120 هرتز</string>
+    <string name="ph_a52s_full_tvv1_4">در زمان عرضه اندروید 11 و One Ui 3.1 (قابل ارتقاء به اندروید 12 و One Ui 4.1)</string>
+    <string name="ph_a52s_full_tvv2_4">Qualcomm SM7325 Snapdragon 778G 5G (شش نانومتر)</string>
+    <string name="ph_a52s_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 2.4 گیگاهرتز Cortex-A78 و سه هسته‌ی 2.2 گیگاهرتز Cortex-A78 و چهار هسته‌ی 1.9 گیگاهرتز Cortex-A55)</string>
+    <string name="ph_a52s_full_tvv4_4">Adreno 642L</string>
+    <string name="ph_a52s_full_tvv1_5">بله (جایگاه مشترک با سیم‌کارت دوم)</string>
+    <string name="ph_a52s_full_tvv2_5">128 گیگابایت با 4 گیگابایت رم، 128 گیگابایت با 6 گیگابایت رم، 128 گیگابایت با 8 گیگابایت رم، 256 گیگابایت با 6 گیگابایت رم، 256 گیگابایت با 8 گیگابایت رم</string>
+    <string name="ph_a52s_full_tvv3_5">UFS 2.1</string>
+    <string name="ph_a52s_full_tvv1_6">لنز واید: 64 مگاپیکسل، 26میلی‌متر، 1/1.7 اینچ سایز سنسور، f1.8، فوکوس خودکار با تشخیص فاز، لرزش‌گیر اپتیکال تصویر، 0.8 میکرومتر سایز پیکسل</string>
+    <string name="ph_a52s_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 123 درجه، 1.12 میکرومتر سایز پیکسل</string>
+    <string name="ph_a52s_full_tvv3_6.1">لنز ماکرو: 5 مگاپیکسل، f2.4</string>
+    <string name="ph_a52s_full_tvv3_6.2">لنز تشخیص عمق: 5 مگاپیکسل، f2.4</string>
+    <string name="ph_a52s_full_tvv4_6">فلش LED، پانوراما، HDR</string>
+    <string name="ph_a52s_full_tvv5_6">4K@30fps, 1080p@30/60fps; gyro-EIS</string>
+    <string name="ph_a52s_full_tvv2_7">32 مگاپیکسل، 26 میلی‌متر (واید)، 1.28 اینچ سایز سنسور، 0.8 میکرومتر سایز پیکسل، f2.2</string>
+    <string name="ph_a52s_full_tvv3_7">HDR</string>
+    <string name="ph_a52s_full_tvv4_7">4K@30fps, 1080p@30/60fps</string>
+    <string name="ph_a52s_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_a52s_full_tvv2_8">بله</string>
+    <string name="ph_a52s_full_tvv0_9">GSM / HSPA / LTE / 5G</string>
+    <string name="ph_a52s_full_tvv1_9">Wi-Fi 6 (802.11) a/b/g/n/ac/6</string>
+    <string name="ph_a52s_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_a52s_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_a52s_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_a52s_full_tvv5_9">نسخه 5.0</string>
+    <string name="ph_a52s_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_a52s_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_a52s_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_a52s_full_tvv10_9">بله(وابسته به بازار/منطقه)</string>
+    <string name="ph_a52s_full_tvv11_9">خیر</string>
+    <string name="ph_a52s_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم) یا دو سیم‌کارت dual stand-by (نانو سیم)</string>
+    <string name="ph_a52s_full_tvv1_10">حسگر اثرانگشت (زیر نمایشگر(اپتیکال))، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، سنجش مجاورت مجازی</string>
+    <string name="ph_a52s_full_tvv1_11">لیتیوم یونی، 4500 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_a52s_full_tvv2_11">شارژ سریع 25 وات</string>
+    <string name="ph_a52s_full_tvv5_11">درگاه اتصال USB Type-C 2.0</string>
+    <string name="ph_a52s_full_tvv1_12">مشکی، سفید، سبز، بنفش</string>
+    <string name="ph_a52s_full_tvv2_12">SM-A528B, SM-A528B/DS, SM-A528N</string>
+
+    //###
+    // Galaxy S Full**********************
+    //###
+
+    //phones_full_s22ultra_full_tvv
+    <string name="ph_s22ultra_full_tvv1_1">9 فوریه 2022</string>
+    <string name="ph_s22ultra_full_tvv2_1">عرضه شده در 25 فوریه 2022</string>
+    <string name="ph_s22ultra_full_tvv1_2">163.3 در 77.9 در 8.9 میلی‌متر</string>
+    <string name="ph_s22ultra_full_tvv3_2">227 گرم</string>
+    <string name="ph_s22ultra_full_tvv4_2">جلوی شیشه‌ای (گوریلا گلس +Victus)، پشت شیشه‌ای (گوریلا گلس +Victus)، فریم آلومینیومی</string>
+    <string name="ph_s22ultra_full_tvv5_2">گواهی IP68 برای مقاوت در برابر نفوذ آب و گرد و غبار (تا 1.5 متر برای 30 دقیقه)</string>
+    <string name="ph_s22ultra_full_tvv6_2">قلم استایلوس ، تاخیر 2.8 میلی‌ثانیه(ادغام بلوتوث، شتاب‌سنج، ژیروسکوپ)</string>
+    <string name="ph_s22ultra_full_tvv1_3">Dynamic AMOLED 2X</string>
+    <string name="ph_s22ultra_full_tvv2_3">6.8 اینچ، 114.7 سانتی متر مربع (~90.2% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_s22ultra_full_tvv4_3">1440 در 3088 پیکسل (~500 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_s22ultra_full_tvv6_3">کورنینگ گوریلا گلس +Victus</string>
+    <string name="ph_s22ultra_full_tvv7_3">پشتیبانی از +HDR10</string>
+    <string name="ph_s22ultra_full_tvv8_3">حداکثر روشنایی 1750 نیت (peak)</string>
+    <string name="ph_s22ultra_full_tvv9_3">نرخ نوسازی تصویر 120 هرتز</string>
+    <string name="ph_s22ultra_full_tvv10_3">نرخ ثبت لمس 240 هرتز</string>
+    <string name="ph_s22ultra_full_tvv1_4">در زمان عرضه اندروید 12 و One UI 4.1.1</string>
+    <string name="ph_s22ultra_full_tvv2_4">Exynos 2200 (چهار نانومتر)- Europe</string>
+    <string name="ph_s22ultra_full_tvv2_4.1">Qualcomm SM8450 Snapdragon 8 Gen 1 (چهار نانومتر)- ROW</string>
+    <string name="ph_s22ultra_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 2.8 گیگاهرتز Cortex-X2 و سه هسته‌ی 2.5 گیگاهرتز Cortex-A710 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A510)- Europe</string>
+    <string name="ph_s22ultra_full_tvv3_4.1">8 هسته‌ای (یک هسته‌ی 3.0 گیگاهرتز Cortex-X2 و سه هسته‌ی 2.5 گیگاهرتز Cortex-A710 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A510)- ROW</string>
+    <string name="ph_s22ultra_full_tvv4_4">Xclipse 920 - Europe</string>
+    <string name="ph_s22ultra_full_tvv4_4.1">Adreno 730 - ROW</string>
+    <string name="ph_s22ultra_full_tvv1_5">خیر</string>
+    <string name="ph_s22ultra_full_tvv2_5">128 گیگابایت با 8 گیگابایت رم، 256 گیگابایت با 12 گیگابایت رم، 512 گیگابایت با 12 گیگابایت رم، 1 ترابایت با 12 گیگابایت رم</string>
+    <string name="ph_s22ultra_full_tvv3_5">UFS 3.1</string>
+    <string name="ph_s22ultra_full_tvv1_6">لنز واید: 108 مگاپیکسل، 23 میلی‌متر، 0.8 میکرومتر سایز پیکسل، 1/1.33 اینچ سایز سنسور، فوکوس خودکار دوال پیکسل، لرزش‌گیر اپتیکال تصویر، f1.8</string>
+    <string name="ph_s22ultra_full_tvv2_6">لنز پریسکوپ تله‌فوتو: 10 مگاپیکسل، 230میلی‌متر، 1.12 میکرومتر سایز پیکسل، f4.9، فوکوس خودکار با تشخیص فاز، 1/3.52 اینچ سایز سنسور، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 10 برابر</string>
+    <string name="ph_s22ultra_full_tvv2_6.1">لنز تله‌فوتو: 10 مگاپیکسل، 70میلی‌متر، 1.12 میکرومتر سایز پیکسل، f2.4، فوکوس خودکار با تشخیص فاز، 1/3.52 اینچ سایز سنسور، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 3 برابر</string>
+    <string name="ph_s22ultra_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 120 درجه، 13 میلی‌متر، 1.4 میکرومتر سایز پیکسل، 1/2.55 اینچ سایز سنسور</string>
+    <string name="ph_s22ultra_full_tvv4_6">فلش LED، پانوراما، auto-HDR</string>
+    <string name="ph_s22ultra_full_tvv5_6">8K@24fps, 4K@30/60fps, 1080p@30/60/240fps, 720p@960fps, HDR10+, stereo sound rec., gyro-EIS</string>
+    <string name="ph_s22ultra_full_tvv1_7">40 مگاپیکسل، 26 میلی‌متر (واید)، فوکوس خودکار دوال پیکسل، 0.7 میکرومتر سایز پیکسل، 1/2.82 اینچ سایز سنسور، f2.2</string>
+    <string name="ph_s22ultra_full_tvv3_7">Dual video call, Auto-HDR</string>
+    <string name="ph_s22ultra_full_tvv4_7">4K@30/60fps, 1080p@30fps</string>
+    <string name="ph_s22ultra_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_s22ultra_full_tvv2_8">خیر</string>
+    <string name="ph_s22ultra_full_tvv3_8">صدای 32 بیت / 384 کیلوهرتز</string>
+    <string name="ph_s22ultra_full_tvv4_8">تنظیم شده توسط AKG</string>
+    <string name="ph_s22ultra_full_tvv0_9">GSM / CDMA / HSPA / EVDO / LTE / 5G</string>
+    <string name="ph_s22ultra_full_tvv1_9">Wi-Fi 6E (802.11ax) a/b/g/n/ac/ax</string>
+    <string name="ph_s22ultra_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_s22ultra_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_s22ultra_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_s22ultra_full_tvv5_9">نسخه 5.2</string>
+    <string name="ph_s22ultra_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_s22ultra_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_s22ultra_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_s22ultra_full_tvv10_9">بله</string>
+    <string name="ph_s22ultra_full_tvv11_9">خیر</string>
+    <string name="ph_s22ultra_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم) یا دو سیم‌کارت dual stand-by (2 نانو سیم + eSIM)</string>
+    <string name="ph_s22ultra_full_tvv1_10">حسگر اثرانگشت (زیر نمایشگر (اولتراسونیک))، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، فشارسنج هوا</string>
+    <string name="ph_s22ultra_full_tvv2_10">دستیار صوتی Bixby</string>
+    <string name="ph_s22ultra_full_tvv3_10">Samsung DeX (پشتیبانی ار تجربه دسکتاپ)، Samsung Wireless DeX(desktop experience support)</string>
+    <string name="ph_s22ultra_full_tvv4_10">Samsung Pay (ویزا، تاییدیه مسترکارت)</string>
+    <string name="ph_s22ultra_full_tvv5_10">پشتیبانی از پهنای باند فوق‌العاده (UWB)</string>
+    <string name="ph_s22ultra_full_tvv1_11">لیتیوم یونی، 5000 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_s22ultra_full_tvv2_11">شارژ سریع 45 وات</string>
+    <string name="ph_s22ultra_full_tvv3_11">شارژ سریع بی‌سیم 15 وات Qi و PMA</string>
+    <string name="ph_s22ultra_full_tvv4_11">شارژ معکوس بی‌سیم 4.5 وات</string>
+    <string name="ph_s22ultra_full_tvv4_11.1">پشتیبانی از فناوری Power Delivery 3</string>
+    <string name="ph_s22ultra_full_tvv5_11">درگاه USB Type-C 3.2</string>
+    <string name="ph_s22ultra_full_tvv1_12">مشکی، سفید، شرابی، سبز</string>
+    <string name="ph_s22ultra_full_tvv2_12">SM-S908B, SM-S908B/DS, SM-S908U, SM-S908U1, SM-S908W, SM-S908N, SM-S9080, SM-S908E, SM-S908E/DS</string>
+
+    //phones_full_s22plus_full_tvv
+    <string name="ph_s22plus_full_tvv1_1">9 فوریه 2022</string>
+    <string name="ph_s22plus_full_tvv2_1">عرضه شده در 25 فوریه 2022</string>
+    <string name="ph_s22plus_full_tvv1_2">157.4 در 75.8 در 7.6 میلی‌متر</string>
+    <string name="ph_s22plus_full_tvv3_2">195 گرم</string>
+    <string name="ph_s22plus_full_tvv4_2">جلوی شیشه‌ای (گوریلا گلس +Victus)، پشت شیشه‌ای (گوریلا گلس +Victus)، فریم آلومینیومی</string>
+    <string name="ph_s22plus_full_tvv5_2">گواهی IP68 برای مقاوت در برابر نفوذ آب و گرد و غبار (تا 1.5 متر برای 30 دقیقه)</string>
+    <string name="ph_s22plus_full_tvv1_3">Dynamic AMOLED 2X</string>
+    <string name="ph_s22plus_full_tvv2_3">6.6 اینچ، 105.3 سانتی متر مربع (~88.3% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_s22plus_full_tvv4_3">1080 در 2340 پیکسل (~393 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_s22plus_full_tvv6_3">کورنینگ گوریلا گلس +Victus</string>
+    <string name="ph_s22plus_full_tvv7_3">پشتیبانی از +HDR10</string>
+    <string name="ph_s22plus_full_tvv8_3">حداکثر روشنایی 1750 نیت (peak)</string>
+    <string name="ph_s22plus_full_tvv9_3">نرخ نوسازی تصویر 120 هرتز</string>
+    <string name="ph_s22plus_full_tvv1_4">در زمان عرضه اندروید 12 و One UI 4.1.1</string>
+    <string name="ph_s22plus_full_tvv2_4">Exynos 2200 (چهار نانومتر)- Europe</string>
+    <string name="ph_s22plus_full_tvv2_4.1">Qualcomm SM8450 Snapdragon 8 Gen 1 (چهار نانومتر)- ROW</string>
+    <string name="ph_s22plus_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 2.8 گیگاهرتز Cortex-X2 و سه هسته‌ی 2.5 گیگاهرتز Cortex-A710 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A510)- Europe</string>
+    <string name="ph_s22plus_full_tvv3_4.1">8 هسته‌ای (یک هسته‌ی 3.0 گیگاهرتز Cortex-X2 و سه هسته‌ی 2.5 گیگاهرتز Cortex-A710 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A510)- ROW</string>
+    <string name="ph_s22plus_full_tvv4_4">Xclipse 920 - Europe</string>
+    <string name="ph_s22plus_full_tvv4_4.1">Adreno 730 - ROW</string>
+    <string name="ph_s22plus_full_tvv1_5">خیر</string>
+    <string name="ph_s22plus_full_tvv2_5">128 گیگابایت با 8 گیگابایت رم، 256 گیگابایت با 8 گیگابایت رم</string>
+    <string name="ph_s22plus_full_tvv3_5">UFS 3.1</string>
+    <string name="ph_s22plus_full_tvv1_6">لنز واید: 50 مگاپیکسل، 23 میلی‌متر، 1.0 میکرومتر سایز پیکسل، 1/1.56 اینچ سایز سنسور، فوکوس خودکار دوال پیکسل، لرزش‌گیر اپتیکال تصویر، f1.8</string>
+    <string name="ph_s22plus_full_tvv2_6.1">لنز تله‌فوتو: 10 مگاپیکسل، 70میلی‌متر، 1.0 میکرومتر سایز پیکسل، f2.4، فوکوس خودکار با تشخیص فاز، 1/3.94 اینچ سایز سنسور، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 3 برابر</string>
+    <string name="ph_s22plus_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 120 درجه، 13 میلی‌متر، 1.4 میکرومتر سایز پیکسل، 1/2.55 اینچ سایز سنسور</string>
+    <string name="ph_s22plus_full_tvv4_6">فلش LED، پانوراما، auto-HDR</string>
+    <string name="ph_s22plus_full_tvv5_6">8K@24fps, 4K@30/60fps, 1080p@30/60/240fps, 720p@960fps, HDR10+, stereo sound rec., gyro-EIS</string>
+    <string name="ph_s22plus_full_tvv1_7">10 مگاپیکسل، 26 میلی‌متر (واید)، فوکوس خودکار دوال پیکسل، 1.22 میکرومتر سایز پیکسل، 1/3.24 اینچ سایز سنسور، f2.2</string>
+    <string name="ph_s22plus_full_tvv3_7">Dual video call, Auto-HDR</string>
+    <string name="ph_s22plus_full_tvv4_7">4K@30/60fps, 1080p@30fps</string>
+    <string name="ph_s22plus_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_s22plus_full_tvv2_8">خیر</string>
+    <string name="ph_s22plus_full_tvv3_8">صدای 32 بیت / 384 کیلوهرتز</string>
+    <string name="ph_s22plus_full_tvv4_8">تنظیم شده توسط AKG</string>
+    <string name="ph_s22plus_full_tvv0_9">GSM / CDMA / HSPA / EVDO / LTE / 5G</string>
+    <string name="ph_s22plus_full_tvv1_9">Wi-Fi 6E (802.11ax) a/b/g/n/ac/ax</string>
+    <string name="ph_s22plus_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_s22plus_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_s22plus_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_s22plus_full_tvv5_9">نسخه 5.2</string>
+    <string name="ph_s22plus_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_s22plus_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_s22plus_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_s22plus_full_tvv10_9">بله</string>
+    <string name="ph_s22plus_full_tvv11_9">خیر</string>
+    <string name="ph_s22plus_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم) یا دو سیم‌کارت dual stand-by (2 نانو سیم + eSIM)</string>
+    <string name="ph_s22plus_full_tvv1_10">حسگر اثرانگشت (زیر نمایشگر (اولتراسونیک))، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، فشارسنج هوا</string>
+    <string name="ph_s22plus_full_tvv2_10">دستیار صوتی Bixby</string>
+    <string name="ph_s22plus_full_tvv3_10">Samsung DeX (پشتیبانی ار تجربه دسکتاپ)، Samsung Wireless DeX(desktop experience support)</string>
+    <string name="ph_s22plus_full_tvv4_10">Samsung Pay (ویزا، تاییدیه مسترکارت)</string>
+    <string name="ph_s22plus_full_tvv5_10">پشتیبانی از پهنای باند فوق‌العاده (UWB)</string>
+    <string name="ph_s22plus_full_tvv1_11">لیتیوم یونی، 4500 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_s22plus_full_tvv2_11">شارژ سریع 45 وات</string>
+    <string name="ph_s22plus_full_tvv3_11">شارژ سریع بی‌سیم 15 وات Qi و PMA</string>
+    <string name="ph_s22plus_full_tvv4_11">شارژ معکوس بی‌سیم 4.5 وات</string>
+    <string name="ph_s22plus_full_tvv4_11.1">پشتیبانی از فناوری Power Delivery 3</string>
+    <string name="ph_s22plus_full_tvv5_11">درگاه USB Type-C 3.2</string>
+    <string name="ph_s22plus_full_tvv1_12">مشکی، سفید، صورتی، خاکستری، آبی، بنفش، کرم</string>
+    <string name="ph_s22plus_full_tvv2_12">SM-S906B, SM-S906B/DS, SM-S906U, SM-S906U1, SM-S906W, SM-S906N, SM-S9060, SM-S906E, SM-S906E/DS</string>
+
+    //phones_full_s22_full_tvv
+    <string name="ph_s22_full_tvv1_1">9 فوریه 2022</string>
+    <string name="ph_s22_full_tvv2_1">عرضه شده در 25 فوریه 2022</string>
+    <string name="ph_s22_full_tvv1_2">146 در 70.6 در 7.6 میلی‌متر</string>
+    <string name="ph_s22_full_tvv3_2">167 گرم</string>
+    <string name="ph_s22_full_tvv4_2">جلوی شیشه‌ای (گوریلا گلس +Victus)، پشت شیشه‌ای (گوریلا گلس +Victus)، فریم آلومینیومی</string>
+    <string name="ph_s22_full_tvv5_2">گواهی IP68 برای مقاوت در برابر نفوذ آب و گرد و غبار (تا 1.5 متر برای 30 دقیقه)</string>
+    <string name="ph_s22_full_tvv1_3">Dynamic AMOLED 2X</string>
+    <string name="ph_s22_full_tvv2_3">6.1 اینچ، 90.1 سانتی متر مربع (~87.4% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_s22_full_tvv4_3">1080 در 2340 پیکسل (~425 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_s22_full_tvv6_3">کورنینگ گوریلا گلس +Victus</string>
+    <string name="ph_s22_full_tvv7_3">پشتیبانی از +HDR10</string>
+    <string name="ph_s22_full_tvv8_3">حداکثر روشنایی 1300 نیت (peak)</string>
+    <string name="ph_s22_full_tvv9_3">نرخ نوسازی تصویر 120 هرتز</string>
+    <string name="ph_s22_full_tvv1_4">در زمان عرضه اندروید 12 و One UI 4.1.1</string>
+    <string name="ph_s22_full_tvv2_4">Exynos 2200 (چهار نانومتر)- Europe</string>
+    <string name="ph_s22_full_tvv2_4.1">Qualcomm SM8450 Snapdragon 8 Gen 1 (چهار نانومتر)- ROW</string>
+    <string name="ph_s22_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 2.8 گیگاهرتز Cortex-X2 و سه هسته‌ی 2.5 گیگاهرتز Cortex-A710 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A510)- Europe</string>
+    <string name="ph_s22_full_tvv3_4.1">8 هسته‌ای (یک هسته‌ی 3.0 گیگاهرتز Cortex-X2 و سه هسته‌ی 2.5 گیگاهرتز Cortex-A710 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A510)- ROW</string>
+    <string name="ph_s22_full_tvv4_4">Xclipse 920 - Europe</string>
+    <string name="ph_s22_full_tvv4_4.1">Adreno 730 - ROW</string>
+    <string name="ph_s22_full_tvv1_5">خیر</string>
+    <string name="ph_s22_full_tvv2_5">128 گیگابایت با 8 گیگابایت رم، 256 گیگابایت با 8 گیگابایت رم</string>
+    <string name="ph_s22_full_tvv3_5">UFS 3.1</string>
+    <string name="ph_s22_full_tvv1_6">لنز واید: 50 مگاپیکسل، 23 میلی‌متر، 1.0 میکرومتر سایز پیکسل، 1/1.56 اینچ سایز سنسور، فوکوس خودکار دوال پیکسل، لرزش‌گیر اپتیکال تصویر، f1.8</string>
+    <string name="ph_s22_full_tvv2_6.1">لنز تله‌فوتو: 10 مگاپیکسل، 70میلی‌متر، 1.0 میکرومتر سایز پیکسل، f2.4، فوکوس خودکار با تشخیص فاز، 1/3.94 اینچ سایز سنسور، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 3 برابر</string>
+    <string name="ph_s22_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 120 درجه، 13 میلی‌متر، 1.4 میکرومتر سایز پیکسل، 1/2.55 اینچ سایز سنسور</string>
+    <string name="ph_s22_full_tvv4_6">فلش LED، پانوراما، auto-HDR</string>
+    <string name="ph_s22_full_tvv5_6">8K@24fps, 4K@30/60fps, 1080p@30/60/240fps, 720p@960fps, HDR10+, stereo sound rec., gyro-EIS</string>
+    <string name="ph_s22_full_tvv1_7">10 مگاپیکسل، 26 میلی‌متر (واید)، فوکوس خودکار دوال پیکسل، 1.22 میکرومتر سایز پیکسل، 1/3.24 اینچ سایز سنسور، f2.2</string>
+    <string name="ph_s22_full_tvv3_7">Dual video call, Auto-HDR</string>
+    <string name="ph_s22_full_tvv4_7">4K@30/60fps, 1080p@30fps</string>
+    <string name="ph_s22_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_s22_full_tvv2_8">خیر</string>
+    <string name="ph_s22_full_tvv3_8">صدای 32 بیت / 384 کیلوهرتز</string>
+    <string name="ph_s22_full_tvv4_8">تنظیم شده توسط AKG</string>
+    <string name="ph_s22_full_tvv0_9">GSM / CDMA / HSPA / EVDO / LTE / 5G</string>
+    <string name="ph_s22_full_tvv1_9">Wi-Fi 6 (802.11ax) a/b/g/n/ac/ax</string>
+    <string name="ph_s22_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_s22_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_s22_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_s22_full_tvv5_9">نسخه 5.2</string>
+    <string name="ph_s22_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_s22_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_s22_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_s22_full_tvv10_9">بله</string>
+    <string name="ph_s22_full_tvv11_9">خیر</string>
+    <string name="ph_s22_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم) یا دو سیم‌کارت dual stand-by (2 نانو سیم + eSIM)</string>
+    <string name="ph_s22_full_tvv1_10">حسگر اثرانگشت (زیر نمایشگر (اولتراسونیک))، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، فشارسنج هوا</string>
+    <string name="ph_s22_full_tvv2_10">دستیار صوتی Bixby</string>
+    <string name="ph_s22_full_tvv3_10">Samsung DeX (پشتیبانی ار تجربه دسکتاپ)، Samsung Wireless DeX(desktop experience support)</string>
+    <string name="ph_s22_full_tvv4_10">Samsung Pay (ویزا، تاییدیه مسترکارت)</string>
+    <string name="ph_s22_full_tvv1_11">لیتیوم یونی، 3700 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_s22_full_tvv2_11">شارژ سریع 25 وات</string>
+    <string name="ph_s22_full_tvv3_11">شارژ سریع بی‌سیم 15 وات Qi و PMA</string>
+    <string name="ph_s22_full_tvv4_11">شارژ معکوس بی‌سیم 4.5 وات</string>
+    <string name="ph_s22_full_tvv4_11.1">پشتیبانی از فناوری Power Delivery 3</string>
+    <string name="ph_s22_full_tvv5_11">درگاه USB Type-C 3.2</string>
+    <string name="ph_s22_full_tvv1_12">مشکی، سفید، صورتی، سبز، خاکستری، آبی، بنفش، کرم</string>
+    <string name="ph_s22_full_tvv2_12">SM-S901B, SM-S901B/DS, SM-S901U, SM-S901U1, SM-S901W, SM-S901N, SM-S9010, SM-S901E, SM-S901E/DS</string>
+
+    //phones_full_s21fe_full_tvv
+    <string name="ph_s21fe_full_tvv1_1">4 ژانویه 2022</string>
+    <string name="ph_s21fe_full_tvv2_1">عرضه شده در 7 ژانویه 2022</string>
+    <string name="ph_s21fe_full_tvv1_2">155.7 در 74.5 در 7.9 میلی‌متر</string>
+    <string name="ph_s21fe_full_tvv3_2">177 گرم</string>
+    <string name="ph_s21fe_full_tvv4_2">جلوی شیشه‌ای (گوریلا گلس Victus)، پشت پلاستیک، فریم آلومینیومی</string>
+    <string name="ph_s21fe_full_tvv5_2">گواهی IP68 برای مقاوت در برابر نفوذ آب و گرد و غبار (تا 1.5 متر برای 30 دقیقه)</string>
+    <string name="ph_s21fe_full_tvv1_3">Dynamic AMOLED 2X</string>
+    <string name="ph_s21fe_full_tvv2_3">6.4 اینچ، 103.9 سانتی متر مربع (~89.6% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_s21fe_full_tvv4_3">1080 در 2400 پیکسل، نسبت 20:9 (~401 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_s21fe_full_tvv6_3">کورنینگ گوریلا گلس Victus</string>
+    <string name="ph_s21fe_full_tvv7_3">پشتیبانی از +HDR10</string>
+    <string name="ph_s21fe_full_tvv9_3">نرخ نوسازی تصویر 120 هرتز</string>
+    <string name="ph_s21fe_full_tvv1_4">در زمان عرضه اندروید 12 و One UI 4</string>
+    <string name="ph_s21fe_full_tvv2_4">Qualcomm SM8350 Snapdragon 888 5G (پنج نانومتر)- Version 1</string>
+    <string name="ph_s21fe_full_tvv2_4.1">Exynos 2100 (پنج نانومتر)- Version 2</string>
+    <string name="ph_s21fe_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 2.84 گیگاهرتز Cortex-X1 و سه هسته‌ی 2.42 گیگاهرتز Cortex-A78 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A55)- Version 1</string>
+    <string name="ph_s21fe_full_tvv3_4.1">8 هسته‌ای (یک هسته‌ی 2.9 گیگاهرتز Cortex-X1 و سه هسته‌ی 2.80 گیگاهرتز Cortex-A78 و چهار هسته‌ی 2.2 گیگاهرتز Cortex-A55)- Version 2</string>
+    <string name="ph_s21fe_full_tvv4_4">Adreno 660 - Version 1</string>
+    <string name="ph_s21fe_full_tvv4_4.1">Mali-G78 MP14 - Version 2</string>
+    <string name="ph_s21fe_full_tvv1_5">خیر</string>
+    <string name="ph_s21fe_full_tvv2_5">128 گیگابایت با 6 گیگابایت رم، 128 گیگابایت با 8 گیگابایت رم، 256 گیگابایت با 8 گیگابایت رم</string>
+    <string name="ph_s21fe_full_tvv3_5">UFS 3.1</string>
+    <string name="ph_s21fe_full_tvv1_6">لنز واید: 12 مگاپیکسل، 26 میلی‌متر، 1.8 میکرومتر سایز پیکسل، 1/1.76 اینچ سایز سنسور، فوکوس خودکار دوال پیکسل، لرزش‌گیر اپتیکال تصویر، f1.8</string>
+    <string name="ph_s21fe_full_tvv2_6.1">لنز تله‌فوتو: 8 مگاپیکسل، 76میلی‌متر، 1.0 میکرومتر سایز پیکسل، f2.4، فوکوس خودکار با تشخیص فاز، 1/4.5 اینچ سایز سنسور، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 3 برابر</string>
+    <string name="ph_s21fe_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 123 درجه، 13 میلی‌متر، 1.12 میکرومتر سایز پیکسل، 1/3.0 اینچ سایز سنسور</string>
+    <string name="ph_s21fe_full_tvv4_6">فلش LED، پانوراما، auto-HDR</string>
+    <string name="ph_s21fe_full_tvv5_6">4K@30/60fps, 1080p@30/60/240fps, 720p@960fps, HDR10+, gyro-EIS</string>
+    <string name="ph_s21fe_full_tvv1_7">32 مگاپیکسل، 26 میلی‌متر (واید)، 0.8 میکرومتر سایز پیکسل، 1/2.74 اینچ سایز سنسور، f2.2</string>
+    <string name="ph_s21fe_full_tvv3_7">HDR</string>
+    <string name="ph_s21fe_full_tvv4_7">4K@30/60fps, 1080p@30/60fps, gyro-EIS</string>
+    <string name="ph_s21fe_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_s21fe_full_tvv2_8">خیر</string>
+    <string name="ph_s21fe_full_tvv3_8">صدای 32 بیت / 384 کیلوهرتز</string>
+    <string name="ph_s21fe_full_tvv0_9">GSM / CDMA / HSPA / EVDO / LTE / 5G</string>
+    <string name="ph_s21fe_full_tvv1_9">Wi-Fi 6 (802.11ax) a/b/g/n/ac/ax</string>
+    <string name="ph_s21fe_full_tvv2_9">دو بانده (Dual Band)</string>
+    <string name="ph_s21fe_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_s21fe_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_s21fe_full_tvv5_9">نسخه 5.0</string>
+    <string name="ph_s21fe_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_s21fe_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_s21fe_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_s21fe_full_tvv10_9">بله</string>
+    <string name="ph_s21fe_full_tvv11_9">نامشخص</string>
+    <string name="ph_s21fe_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم) یا دو سیم‌کارت dual stand-by (2 نانو سیم)</string>
+    <string name="ph_s21fe_full_tvv1_10">حسگر اثرانگشت (زیر نمایشگر (اپتیکال))، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، فشارسنج هوا</string>
+    <string name="ph_s21fe_full_tvv2_10">دستیار صوتی Bixby</string>
+    <string name="ph_s21fe_full_tvv4_10">Samsung Pay (ویزا، تاییدیه مسترکارت)</string>
+    <string name="ph_s21fe_full_tvv1_11">لیتیوم یونی، 4500 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_s21fe_full_tvv2_11">شارژ سریع 25 وات، 50% در 30 دقیقه</string>
+    <string name="ph_s21fe_full_tvv3_11">شارژ سریع بی‌سیم 15 وات</string>
+    <string name="ph_s21fe_full_tvv4_11">شارژ معکوس بی‌سیم</string>
+    <string name="ph_s21fe_full_tvv4_11.1">پشتیبانی از فناوری Power Delivery 3</string>
+    <string name="ph_s21fe_full_tvv5_11">درگاه USB Type-C</string>
+    <string name="ph_s21fe_full_tvv1_12">مشکی، سفید، زیتونی، بنفش</string>
+    <string name="ph_s21fe_full_tvv2_12">SM-G990B, SM-G990B/DS, SM-G990U, SM-G990U1, SM-G990W, SM-G990E, SM-G9900</string>
+
+    //###
+    // Galaxy Note Full**********************
+    //###
+
+    //phones_full_Note20ultra_full_tvv
+
 
 </resources>

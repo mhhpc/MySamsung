@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/zfold4_full"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ph_zfold4_full"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_list"
-    tools:context=".phones_detail.full.Ph_zfold4_full">
+    tools:context=".phones_detail.full.galaxy_z.Ph_zfold4_full">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -16,13 +16,55 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+
+            <RelativeLayout
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <io.github.florent37.shapeofview.shapes.ArcView
+                    android:id="@+id/v1"
+                    style="@style/PhoneFullArcview"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        android:id="@+id/iv1"
+                        style="@style/PhoneFullIamge"
+                        android:elevation="4dp"
+                        android:src="@drawable/ic_launcher_background" />
+
+
+                </io.github.florent37.shapeofview.shapes.ArcView>
+
+                <io.github.florent37.shapeofview.shapes.CircleView
+                    android:id="@+id/circle"
+                    style="@style/PhoneFullCircleimage"
+                    android:layout_below="@+id/v1"
+                    android:layout_marginTop="-60dp"
+                    android:layout_marginBottom="3dp">
+
+                    <ImageView
+                        android:id="@+id/iv2"
+                        style="@style/PhoneFullIamge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/phone" />
+
+                </io.github.florent37.shapeofview.shapes.CircleView>
+
+            </RelativeLayout>
+
             <TextView
                 android:id="@+id/titleView1"
                 style="@style/Title2"
+                android:layout_below="@+id/view"
                 android:layout_marginHorizontal="5dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/corner_ph1"
-                android:text="مشخصات کامل" />
+                android:text="@string/phones_full_title" />
 
             <TextView
                 android:id="@+id/titleView2"
@@ -34,13 +76,11 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="15dp"
-                android:backgroundTint="#00BA08"
-                android:layout_marginTop="15dp"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/titleView2"
                 android:layout_marginHorizontal="5dp"
-                android:layout_below="@id/titleView2">
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#9052FF">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -49,7 +89,7 @@
                     <TextView
                         android:id="@+id/t1"
                         style="@style/PhoneTextView3"
-                        android:text="عرضه" />
+                        android:text="@string/phones_full_t1" />
 
                     <TextView
                         android:id="@+id/tv1_1"
@@ -59,40 +99,38 @@
                         android:layout_marginTop="3dp"
                         android:layout_marginEnd="3dp"
                         android:layout_marginBottom="3dp"
-                        android:text="معرفی" />
+                        android:text="@string/phones_full_tv1_1" />
 
                     <TextView
                         android:id="@+id/tvv1_1"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t1"
                         android:layout_toStartOf="@+id/tv2_1"
-                        android:text="10 آگست 2022" />
+                        android:text="@string/ph_zfold4_full_tvv1_1" />
 
                     <TextView
                         android:id="@+id/tv2_1"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv1_1"
-                        android:text="وضعیت" />
+                        android:text="@string/phones_full_tv2_1" />
 
                     <TextView
                         android:id="@+id/tvv2_1"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv1_1"
                         android:layout_toStartOf="@+id/tv2_1"
-                        android:text="عرضه در 27 آگست 2022" />
+                        android:text="@string/ph_zfold4_full_tvv2_1" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="15dp"
-                android:backgroundTint="#E237FF"
-                android:layout_marginTop="10dp"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv1"
                 android:layout_marginHorizontal="5dp"
-                android:layout_below="@id/cv1">
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#009688">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -101,13 +139,13 @@
                     <TextView
                         android:id="@+id/t2"
                         style="@style/PhoneTextView3"
-                        android:text="بدنه" />
+                        android:text="@string/phones_full_t2" />
 
                     <TextView
                         android:id="@+id/tv1_2"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/t2"
-                        android:text="ابعاد" />
+                        android:text="@string/phones_full_tv1_2" />
 
                     <TextView
                         android:id="@+id/tvv1_2"
@@ -115,8 +153,8 @@
                         android:layout_below="@+id/t2"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv4_2"
-                        android:text="155.1 در 130.1 در 6.3 میلی‌متر (در حالت باز)" />
+                        android:layout_toStartOf="@+id/tv3_2"
+                        android:text="@string/ph_zfold4_full_tvv1_2" />
 
                     <TextView
                         android:id="@+id/tvv2_2"
@@ -125,27 +163,27 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv4_2"
-                        android:text="155.1 در 67.1 در 15.8 میلی‌متر (تا شده)" />
+                        android:layout_toStartOf="@+id/tv3_2"
+                        android:text="@string/ph_zfold4_full_tvv2_2" />
 
                     <TextView
                         android:id="@+id/tv2_2"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv2_2"
-                        android:text="وزن" />
+                        android:text="@string/phones_full_tv2_2" />
 
                     <TextView
                         android:id="@+id/tvv3_2"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv2_2"
-                        android:layout_toStartOf="@+id/tv4_2"
-                        android:text="263 گرم" />
+                        android:layout_toStartOf="@+id/tv3_2"
+                        android:text="@string/ph_zfold4_full_tvv3_2" />
 
                     <TextView
                         android:id="@+id/tv3_2"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv3_2"
-                        android:text="ساخت" />
+                        android:text="@string/phones_full_tv3_2" />
 
                     <TextView
                         android:id="@+id/tvv4_2"
@@ -153,8 +191,8 @@
                         android:layout_below="@+id/tvv3_2"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv4_2"
-                        android:text="جلوی شیشه‌ای (گوریلا گلس +Victus) (تا شده)، جلوی پلاستیکی (در حالت باز)، پشت شیشه‌ای (گوریلا گلس +Victus)، فریم آلومینیومی" />
+                        android:layout_toStartOf="@+id/tv3_2"
+                        android:text="@string/ph_zfold4_full_tvv4_2" />
 
                     <TextView
                         android:id="@+id/tvv5_2"
@@ -162,8 +200,8 @@
                         android:layout_below="@+id/tvv4_2"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/tv4_2"
-                        android:text="گواهی IPX8 برای مقاوت در برابر نفوذ آب (تا 1.5 متر برای 30 دقیقه)" />
+                        android:layout_toStartOf="@+id/tv3_2"
+                        android:text="@string/ph_zfold4_full_tvv5_2" />
 
                     <TextView
                         android:id="@+id/tvv6_2"
@@ -172,34 +210,19 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv4_2"
-                        android:text="قلم استایلوس" />
-
-                    <TextView
-                        android:id="@+id/tv4_2"
-                        style="@style/PhoneTextView4"
-                        android:layout_below="@+id/tvv6_2"
-                        android:text="سیم‌کارت" />
-
-                    <TextView
-                        android:id="@+id/tvv7_2"
-                        style="@style/PhoneTextView5"
-                        android:layout_below="@+id/tvv6_2"
-                        android:layout_toStartOf="@+id/tv4_2"
-                        android:text="تا دو عدد نانو-سیم و یک eSIM" />
+                        android:layout_toStartOf="@+id/tv3_2"
+                        android:text="@string/ph_zfold4_full_tvv6_2" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="15dp"
-                android:backgroundTint="#2BA1FF"
-                android:layout_marginTop="10dp"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv2"
                 android:layout_marginHorizontal="5dp"
-                android:layout_below="@id/cv2">
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#9052FF">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -208,26 +231,26 @@
                     <TextView
                         android:id="@+id/t3"
                         style="@style/PhoneTextView3"
-                        android:text="نمایشگر" />
+                        android:text="@string/phones_full_t3" />
 
                     <TextView
                         android:id="@+id/tv1_3"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/t3"
-                        android:text="نوع" />
+                        android:text="@string/phones_full_tv1_3" />
 
                     <TextView
                         android:id="@+id/tvv1_3"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t3"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text="Dynamic AMOLED 2X" />
+                        android:text="@string/ph_zfold4_full_tvv1_3" />
 
                     <TextView
                         android:id="@+id/tv2_3"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv1_3"
-                        android:text="ابعاد" />
+                        android:text="@string/phones_full_tv2_3" />
 
                     <TextView
                         android:id="@+id/tvv2_3"
@@ -236,7 +259,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text="در حالت باز: 7.6 اینچ، 183.2 سانتی متر مربع (~90.9% نسبت صفحه نمایش به بدنه)" />
+                        android:text="@string/ph_zfold4_full_tvv2_3" />
 
                     <TextView
                         android:id="@+id/tvv3_3"
@@ -246,13 +269,13 @@
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text=" تا شده: 6.2 اینچ" />
+                        android:text="@string/ph_zfold4_full_tvv3_3" />
 
                     <TextView
                         android:id="@+id/tv3_3"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv3_3"
-                        android:text="رزولوشن" />
+                        android:text="@string/phones_full_tv3_3" />
 
                     <TextView
                         android:id="@+id/tvv4_3"
@@ -261,7 +284,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text="در حالت باز: 1812 در 2176 پیکسل، 21.6:18 (~373 پیکسل در اینچ تراکم پیکسلی)" />
+                        android:text="@string/ph_zfold4_full_tvv4_3" />
 
                     <TextView
                         android:id="@+id/tvv5_3"
@@ -271,26 +294,26 @@
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text="تا شده: 904 در 2316 پیکسل، 23.1:9" />
+                        android:text="@string/ph_zfold4_full_tvv5_3" />
 
                     <TextView
                         android:id="@+id/tv4_3"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv5_3"
-                        android:text="محافظ" />
+                        android:text="@string/phones_full_tv4_3" />
 
                     <TextView
                         android:id="@+id/tvv6_3"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv5_3"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text="کورنینگ گوریلا گلس +Victus" />
+                        android:text="@string/ph_zfold4_full_tvv6_3" />
 
                     <TextView
                         android:id="@+id/tv5_3"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv6_3"
-                        android:text="امکانات" />
+                        android:text="@string/phones_full_tv5_3" />
 
                     <TextView
                         android:id="@+id/tvv7_3"
@@ -299,25 +322,25 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text="پشتیبانی از +HDR10" />
+                        android:text="@string/ph_zfold4_full_tvv7_3" />
 
                     <TextView
                         android:id="@+id/tvv8_3"
                         style="@style/PhoneTextView6"
-                        android:layout_marginTop="1dp"
-                        android:layout_marginHorizontal="3dp"
                         android:layout_below="@+id/tvv7_3"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text="حداکثر روشنایی 1200 نیت" />
+                        android:text="@string/ph_zfold4_full_tvv8_3" />
 
                     <TextView
                         android:id="@+id/tvv9_3"
                         style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv8_3"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_below="@+id/tvv8_3"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text="نرخ نوسازی تصویر در حالت باز 1 تا 120 هرتز" />
+                        android:text="@string/ph_zfold4_full_tvv9_3" />
 
                     <TextView
                         android:id="@+id/tvv10_3"
@@ -326,7 +349,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text="نرخ نوسازی تصویر در حالت تا شده 48 تا 120 هرتز" />
+                        android:text="@string/ph_zfold4_full_tvv10_3" />
 
                     <TextView
                         android:id="@+id/tvv11_3"
@@ -336,7 +359,7 @@
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
                         android:layout_toStartOf="@+id/tv3_3"
-                        android:text="قابل تا شدن از وسط" />
+                        android:text="@string/ph_zfold4_full_tvv11_3" />
 
 
                 </RelativeLayout>
@@ -344,13 +367,11 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv4"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="15dp"
-                android:backgroundTint="#FF5891"
-                android:layout_marginTop="10dp"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv3"
                 android:layout_marginHorizontal="5dp"
-                android:layout_below="@id/cv3">
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#009688">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -359,72 +380,73 @@
                     <TextView
                         android:id="@+id/t4"
                         style="@style/PhoneTextView3"
-                        android:text="پلتفرم" />
+                        android:text="@string/phones_full_t4" />
 
                     <TextView
                         android:id="@+id/tv1_4"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/t4"
-                        android:text="سیستم‌عامل" />
+                        android:text="@string/phones_full_tv1_4"
+                        android:textSize="13sp" />
 
                     <TextView
                         android:id="@+id/tvv1_4"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t4"
                         android:layout_toStartOf="@+id/tv4_4"
-                        android:text="در زمان عرضه اندروید 12L و One UI 4.1.1" />
+                        android:text="@string/ph_zfold4_full_tvv1_4" />
 
                     <TextView
                         android:id="@+id/tv2_4"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv1_4"
-                        android:text="تراشه" />
+                        android:text="@string/phones_full_tv2_4" />
 
                     <TextView
                         android:id="@+id/tvv2_4"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv1_4"
                         android:layout_toStartOf="@+id/tv4_4"
-                        android:text="Qualcomm SM8475 Snapdragon 8+ Gen 1 (چهار نانومتر)" />
+                        android:text="@string/ph_zfold4_full_tvv2_4" />
 
                     <TextView
                         android:id="@+id/tv3_4"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv2_4"
-                        android:text="پردازنده‌مرکزی" />
+                        android:text="@string/phones_full_tv3_4"
+                        android:textSize="13sp" />
 
                     <TextView
                         android:id="@+id/tvv3_4"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv2_4"
                         android:layout_toStartOf="@+id/tv4_4"
-                        android:text="8 هسته‌ای (یک هسته‌ی 3.19 گیگاهرتز Cortex-X2 و سه هسته‌ی 2.75 گیگاهرتز Cortex-A710 و چهار هسته‌ی 1.80 گیگاهرتز Cortex-A510)" />
+                        android:text="@string/ph_zfold4_full_tvv3_4" />
 
                     <TextView
                         android:id="@+id/tv4_4"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv3_4"
-                        android:text="پردازنده‌گرافیکی" />
+                        android:text="@string/phones_full_tv4_4"
+                        android:textSize="13sp" />
 
                     <TextView
                         android:id="@+id/tvv4_4"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv3_4"
                         android:layout_toStartOf="@+id/tv4_4"
-                        android:text="Adreno 730" />
+                        android:text="@string/ph_zfold4_full_tvv4_4" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="15dp"
-                android:backgroundTint="#8D4DFF"
-                android:layout_marginTop="10dp"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv4"
                 android:layout_marginHorizontal="5dp"
-                android:layout_below="@id/cv4">
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#9052FF">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -433,52 +455,721 @@
                     <TextView
                         android:id="@+id/t5"
                         style="@style/PhoneTextView3"
-                        android:text="حافظه" />
+                        android:text="@string/phones_full_t5" />
 
                     <TextView
                         android:id="@+id/tv1_5"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/t5"
-                        android:layout_marginStart="3dp"
-                        android:layout_marginTop="3dp"
-                        android:layout_marginEnd="3dp"
-                        android:layout_marginBottom="3dp"
-                        android:text="درگاه‌حافظه" />
+                        android:text="@string/phones_full_tv1_5"
+                        android:textSize="13sp" />
 
                     <TextView
                         android:id="@+id/tvv1_5"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t5"
                         android:layout_toStartOf="@+id/tv2_5"
-                        android:text="خیر" />
+                        android:text="@string/ph_zfold4_full_tvv1_5" />
 
                     <TextView
                         android:id="@+id/tv2_5"
                         style="@style/PhoneTextView4"
                         android:layout_below="@+id/tvv1_5"
-                        android:text="حافظه‌داخلی" />
+                        android:text="@string/phones_full_tv2_5"
+                        android:textSize="13sp" />
 
                     <TextView
                         android:id="@+id/tvv2_5"
                         style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv1_5"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_below="@+id/tvv1_5"
                         android:layout_toStartOf="@+id/tv2_5"
-                        android:text="256 گیگابایت با 12 گیگابایت رم، 512 گیگابایت با 12 گیگابایت رم، 1 ترابایت با 12 گیگابایت رم" />
+                        android:text="@string/ph_zfold4_full_tvv2_5" />
 
                     <TextView
                         android:id="@+id/tvv3_5"
                         style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv2_5"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_below="@+id/tvv2_5"
                         android:layout_toStartOf="@+id/tv2_5"
-                        android:text="UFS 3.1" />
+                        android:text="@string/ph_zfold4_full_tvv3_5" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv6"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv5"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#009688">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/t6"
+                        style="@style/PhoneTextView3"
+                        android:text="@string/phones_full_t6" />
+
+                    <TextView
+                        android:id="@+id/tv1_6"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/t6"
+                        android:text="@string/phones_full_tv1_6" />
+
+                    <TextView
+                        android:id="@+id/tvv1_6"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/t6"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toStartOf="@+id/tv3_6"
+                        android:text="@string/ph_zfold4_full_tvv1_6" />
+
+                    <TextView
+                        android:id="@+id/tvv2_6"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv1_6"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toStartOf="@+id/tv3_6"
+                        android:text="@string/ph_zfold4_full_tvv2_6" />
+
+                    <TextView
+                        android:id="@+id/tvv3_6"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv2_6"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_toStartOf="@+id/tv3_6"
+                        android:text="@string/ph_zfold4_full_tvv3_6" />
+
+                    <TextView
+                        android:id="@+id/tv2_6"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv3_6"
+                        android:text="@string/phones_full_tv2_6" />
+
+                    <TextView
+                        android:id="@+id/tvv4_6"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/tvv3_6"
+                        android:layout_toStartOf="@+id/tv3_6"
+                        android:text="@string/ph_zfold4_full_tvv4_6" />
+
+                    <TextView
+                        android:id="@+id/tv3_6"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv4_6"
+                        android:text="@string/phones_full_tv3_6"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tvv5_6"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/tvv4_6"
+                        android:layout_toStartOf="@+id/tv3_6"
+                        android:text="@string/ph_zfold4_full_tvv5_6" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv7"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv6"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#9052FF">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/t7"
+                        style="@style/PhoneTextView3"
+                        android:text="@string/phones_full_t7" />
+
+                    <TextView
+                        android:id="@+id/tv1_7"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/t7"
+                        android:text="@string/phones_full_tv1_7" />
+
+                    <TextView
+                        android:id="@+id/tvv1_7"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/t7"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toStartOf="@+id/tv3_7"
+                        android:text="@string/ph_zfold4_full_tvv1_7" />
+
+                    <TextView
+                        android:id="@+id/tvv2_7"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv1_7"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_toStartOf="@+id/tv3_7"
+                        android:text="@string/ph_zfold4_full_tvv2_7" />
+
+                    <TextView
+                        android:id="@+id/tv2_7"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv2_7"
+                        android:text="@string/phones_full_tv2_7" />
+
+                    <TextView
+                        android:id="@+id/tvv3_7"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/tvv2_7"
+                        android:layout_toStartOf="@+id/tv3_7"
+                        android:text="@string/ph_zfold4_full_tvv3_7" />
+
+                    <TextView
+                        android:id="@+id/tv3_7"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv3_7"
+                        android:text="@string/phones_full_tv3_7"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tvv4_7"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/tvv3_7"
+                        android:layout_toStartOf="@+id/tv3_7"
+                        android:text="@string/ph_zfold4_full_tvv4_7" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv8"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv7"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#009688">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/t8"
+                        style="@style/PhoneTextView3"
+                        android:text="@string/phones_full_t8" />
+
+                    <TextView
+                        android:id="@+id/tv1_8"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/t8"
+                        android:text="@string/phones_full_tv1_8"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tvv1_8"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/t8"
+                        android:layout_toStartOf="@+id/tv2_8"
+                        android:text="@string/ph_zfold4_full_tvv1_8" />
+
+                    <TextView
+                        android:id="@+id/tv2_8"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv1_8"
+                        android:text="@string/phones_full_tv2_8"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tvv2_8"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/tvv1_8"
+                        android:layout_toStartOf="@+id/tv2_8"
+                        android:text="@string/ph_zfold4_full_tvv2_8" />
+
+                    <TextView
+                        android:id="@+id/tv3_8"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv2_8"
+                        android:text="@string/phones_full_tv3_8" />
+
+                    <TextView
+                        android:id="@+id/tvv3_8"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv2_8"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toStartOf="@+id/tv2_8"
+                        android:text="@string/ph_zfold4_full_tvv3_8" />
+
+                    <TextView
+                        android:id="@+id/tvv4_8"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv3_8"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_toStartOf="@+id/tv2_8"
+                        android:text="@string/ph_zfold4_full_tvv4_8" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv9"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv8"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#9052FF">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/t9"
+                        style="@style/PhoneTextView3"
+                        android:text="@string/phones_full_t9" />
+
+                    <TextView
+                        android:id="@+id/tv0_9"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/t9"
+                        android:text="@string/phones_full_tv0_9" />
+
+                    <TextView
+                        android:id="@+id/tvv0_9"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/t9"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv0_9" />
+
+                    <TextView
+                        android:id="@+id/tv1_9"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv0_9"
+                        android:text="@string/phones_full_tv1_9" />
+
+                    <TextView
+                        android:id="@+id/tvv1_9"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv0_9"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv1_9" />
+
+                    <TextView
+                        android:id="@+id/tvv2_9"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv1_9"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv2_9" />
+
+                    <TextView
+                        android:id="@+id/tvv3_9"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv2_9"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv3_9" />
+
+                    <TextView
+                        android:id="@+id/tvv4_9"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv3_9"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv4_9" />
+
+                    <TextView
+                        android:id="@+id/tv3_9"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv4_9"
+                        android:text="@string/phones_full_tv3_9" />
+
+                    <TextView
+                        android:id="@+id/tvv5_9"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv4_9"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv5_9" />
+
+                    <TextView
+                        android:id="@+id/tvv6_9"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv5_9"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv6_9" />
+
+                    <TextView
+                        android:id="@+id/tvv7_9"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv6_9"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv7_9" />
+
+                    <TextView
+                        android:id="@+id/tvv8_9"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv7_9"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv8_9" />
+
+                    <TextView
+                        android:id="@+id/tv5_9"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv8_9"
+                        android:text="@string/phones_full_tv5_9" />
+
+                    <TextView
+                        android:id="@+id/tvv9_9"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/tvv8_9"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv9_9" />
+
+                    <TextView
+                        android:id="@+id/tv6_9"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv9_9"
+                        android:text="@string/phones_full_tv6_9" />
+
+                    <TextView
+                        android:id="@+id/tvv10_9"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/tvv9_9"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv10_9" />
+
+                    <TextView
+                        android:id="@+id/tv7_9"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv10_9"
+                        android:text="@string/phones_full_tv7_9" />
+
+                    <TextView
+                        android:id="@+id/tvv11_9"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/tvv10_9"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv11_9" />
+
+                    <TextView
+                        android:id="@+id/tv8_9"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv11_9"
+                        android:text="@string/phones_full_tv8_9" />
+
+                    <TextView
+                        android:id="@+id/tvv12_9"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/tvv11_9"
+                        android:layout_toStartOf="@+id/tv8_9"
+                        android:text="@string/ph_zfold4_full_tvv12_9" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv10"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv9"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#009688">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/t10"
+                        style="@style/PhoneTextView3"
+                        android:text="@string/phones_full_t10" />
+
+                    <TextView
+                        android:id="@+id/tv1_10"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/t10"
+                        android:text="@string/phones_full_tv1_10" />
+
+                    <TextView
+                        android:id="@+id/tvv1_10"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/t10"
+                        android:layout_toStartOf="@+id/tv2_10"
+                        android:text="@string/ph_zfold4_full_tvv1_10" />
+
+                    <TextView
+                        android:id="@+id/tv2_10"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv1_10"
+                        android:text="@string/phones_full_tv2_10" />
+
+                    <TextView
+                        android:id="@+id/tvv2_10"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv1_10"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toStartOf="@+id/tv2_10"
+                        android:text="@string/ph_zfold4_full_tvv2_10" />
+
+                    <TextView
+                        android:id="@+id/tvv3_10"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv2_10"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toStartOf="@+id/tv2_10"
+                        android:text="@string/ph_zfold4_full_tvv3_10" />
+
+                    <TextView
+                        android:id="@+id/tvv4_10"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv3_10"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toStartOf="@+id/tv2_10"
+                        android:text="@string/ph_zfold4_full_tvv4_10" />
+
+                    <TextView
+                        android:id="@+id/tvv5_10"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv4_10"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_toStartOf="@+id/tv2_10"
+                        android:text="@string/ph_zfold4_full_tvv5_10" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv11"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv10"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#9052FF">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/t11"
+                        style="@style/PhoneTextView3"
+                        android:text="@string/phones_full_t11" />
+
+                    <TextView
+                        android:id="@+id/tv1_11"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/t11"
+                        android:text="@string/phones_full_tv1_11" />
+
+                    <TextView
+                        android:id="@+id/tvv1_11"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/t11"
+                        android:layout_toStartOf="@+id/tv2_11"
+                        android:text="@string/ph_zfold4_full_tvv1_11" />
+
+                    <TextView
+                        android:id="@+id/tv2_11"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv1_11"
+                        android:text="@string/phones_full_tv2_11" />
+
+                    <TextView
+                        android:id="@+id/tvv2_11"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv1_11"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toStartOf="@+id/tv2_11"
+                        android:text="@string/ph_zfold4_full_tvv2_11" />
+
+                    <TextView
+                        android:id="@+id/tvv3_11"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv2_11"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toStartOf="@+id/tv2_11"
+                        android:text="@string/ph_zfold4_full_tvv3_11" />
+
+                    <TextView
+                        android:id="@+id/tvv4_11"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv3_11"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_toStartOf="@+id/tv2_11"
+                        android:text="@string/ph_zfold4_full_tvv4_11" />
+
+                    <TextView
+                        android:id="@+id/tvv5_11"
+                        style="@style/PhoneTextView6"
+                        android:layout_below="@+id/tvv4_11"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_toStartOf="@+id/tv2_11"
+                        android:text="@string/ph_zfold4_full_tvv5_11" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv12"
+                style="@style/PhoneCardView_full"
+                android:layout_below="@id/cv11"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#009688">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/t12"
+                        style="@style/PhoneTextView3"
+                        android:text="@string/phones_full_t12" />
+
+                    <TextView
+                        android:id="@+id/tv1_12"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/t12"
+                        android:text="@string/phones_full_tv1_12" />
+
+                    <TextView
+                        android:id="@+id/tvv1_12"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/t12"
+                        android:layout_toStartOf="@+id/tv2_12"
+                        android:text="@string/ph_zfold4_full_tvv1_12" />
+
+                    <TextView
+                        android:id="@+id/tv2_12"
+                        style="@style/PhoneTextView4"
+                        android:layout_below="@+id/tvv1_12"
+                        android:text="@string/phones_full_tv2_12" />
+
+                    <TextView
+                        android:id="@+id/tvv2_12"
+                        style="@style/PhoneTextView5"
+                        android:layout_below="@+id/tvv1_12"
+                        android:layout_toStartOf="@+id/tv2_12"
+                        android:text="@string/ph_zfold4_full_tvv2_12" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/more"
+                style="@style/PhoneTextView7"
+                android:layout_below="@id/cv12"
+                android:layout_marginTop="5dp"
+                android:text="@string/phones_full_more" />
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                style="@style/TipsLinearLayout"
+                android:layout_below="@+id/more"
+                android:layout_marginTop="0dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ncv1"
+                    style="@style/TipsCardView"
+                    android:layout_height="135dp"
+                    app:cardCornerRadius="30dp">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        style="@style/TipsImageView" />
+
+                    <TextView
+                        style="@style/TipsTextView"
+                        android:text="@string/phones_full_more_samsung" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                style="@style/TipsLinearLayout"
+                android:layout_below="@+id/ll1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ncv2"
+                    style="@style/TipsCardView"
+                    android:layout_height="135dp"
+                    app:cardCornerRadius="30dp">
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        style="@style/TipsImageView" />
+
+                    <TextView
+                        style="@style/TipsTextView"
+                        android:text="@string/phones_full_more_zoomit" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll3"
+                style="@style/TipsLinearLayout"
+                android:layout_below="@+id/ll2">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ncv3"
+                    style="@style/TipsCardView"
+                    android:layout_height="135dp"
+                    app:cardCornerRadius="30dp">
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        style="@style/TipsImageView" />
+
+                    <TextView
+                        style="@style/TipsTextView"
+                        android:text="@string/phones_full_more_gsm" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
 
         </RelativeLayout>
 

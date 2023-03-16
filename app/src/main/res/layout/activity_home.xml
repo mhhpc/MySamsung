@@ -86,27 +86,24 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
-                <TextView
-                    android:id="@+id/txt"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="-30dp"
+                    android:layout_marginBottom="-30dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginHorizontal="80dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/corner_text_start"
-                    android:gravity="center"
-                    android:text="@string/home_start"
-                    android:textColor="@color/ColorSubBlack"
-                    android:textSize="30sp" />
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/top" />
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardView"
                     android:layout_width="match_parent"
-                    android:layout_height="125dp"
-                    android:layout_below="@+id/txt"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lottie"
                     android:layout_centerHorizontal="true"
                     android:layout_marginHorizontal="15dp"
                     android:backgroundTint="@color/ColorWhite"
@@ -115,78 +112,91 @@
                     <RelativeLayout
                         android:id="@+id/rl"
                         android:layout_width="match_parent"
-                        android:layout_height="125dp">
+                        android:layout_height="wrap_content">
 
-                        <ImageButton
-                            android:id="@+id/b1"
-                            android:layout_width="wrap_content"
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:id="@+id/main"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginRight="20dp"
-                            android:background="?android:selectableItemBackground"
-                            android:src="@drawable/all" />
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
 
-                        <TextView
-                            android:id="@+id/t1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/b1"
-                            android:layout_alignStart="@+id/b1"
-                            android:layout_alignEnd="@+id/b1"
-                            android:layout_marginStart="-10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="-10dp"
-                            android:gravity="center"
-                            android:text="@string/home_all"
-                            android:textColor="@color/colorBlack"
-                            android:textSize="15sp" />
+                            <ImageButton
+                                android:id="@+id/b1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="1"
+                                android:background="?android:selectableItemBackground"
+                                android:src="@drawable/all" />
 
-                        <ImageButton
-                            android:id="@+id/b2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="10dp"
-                            android:background="?android:selectableItemBackground"
-                            android:src="@drawable/model" />
+                            <ImageButton
+                                android:id="@+id/b3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="1"
+                                android:background="?android:selectableItemBackground"
+                                android:src="@drawable/year" />
 
-                        <TextView
-                            android:id="@+id/t2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/b2"
-                            android:layout_alignStart="@+id/b2"
-                            android:layout_alignEnd="@+id/b2"
-                            android:layout_marginStart="-10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="-10dp"
-                            android:gravity="center"
-                            android:text="@string/home_series"
-                            android:textColor="@color/colorBlack"
-                            android:textSize="15sp" />
+                            <ImageButton
+                                android:id="@+id/b2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="1"
+                                android:background="?android:selectableItemBackground"
+                                android:src="@drawable/model" />
 
-                        <ImageButton
-                            android:id="@+id/b3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginLeft="30dp"
-                            android:layout_marginTop="10dp"
-                            android:background="?android:selectableItemBackground"
-                            android:src="@drawable/year" />
+                        </LinearLayout>
 
-                        <TextView
-                            android:id="@+id/t3"
-                            android:layout_width="wrap_content"
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/b3"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginLeft="32dp"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/home_year"
-                            android:textColor="@color/colorBlack"
-                            android:textSize="15sp" />
+                            android:layout_below="@id/main"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/t1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="@string/home_all"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/t3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="@string/home_year"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/t2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="@string/home_series"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="15sp" />
+
+                        </LinearLayout>
 
                     </RelativeLayout>
 
@@ -198,7 +208,7 @@
                     android:layout_below="@+id/cardView"
                     android:layout_marginHorizontal="22dp"
                     android:layout_marginTop="25dp"
-                    android:drawableEnd="@drawable/compare"
+                    android:drawableLeft="@drawable/compare"
                     android:text="@string/home_compare" />
 
                 <Button
@@ -207,7 +217,7 @@
                     android:layout_below="@+id/compare"
                     android:layout_marginHorizontal="22dp"
                     android:layout_marginTop="10dp"
-                    android:drawableEnd="@drawable/option"
+                    android:drawableRight="@drawable/option"
                     android:text="@string/home_option" />
 
                 <Button
@@ -216,7 +226,7 @@
                     android:layout_below="@+id/option"
                     android:layout_marginHorizontal="22dp"
                     android:layout_marginTop="10dp"
-                    android:drawableEnd="@drawable/tip"
+                    android:drawableLeft="@drawable/tip"
                     android:text="@string/home_tip" />
 
                 <Button
@@ -226,7 +236,7 @@
                     android:layout_marginHorizontal="22dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="30dp"
-                    android:drawableEnd="@drawable/info"
+                    android:drawableRight="@drawable/info"
                     android:text="@string/home_about" />
 
             </RelativeLayout>

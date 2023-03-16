@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -15,6 +17,13 @@ import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
+import com.mhh.mysamsung.phones.galaxy_f.Ph_f13;
+import com.mhh.mysamsung.phones.galaxy_s.Ph_s21fe;
+import com.mhh.mysamsung.phones.galaxy_s.Ph_s22;
+import com.mhh.mysamsung.phones.galaxy_s.Ph_s22plus;
+import com.mhh.mysamsung.phones.galaxy_s.Ph_s22ultra;
+import com.mhh.mysamsung.views.Phones_activity;
+import com.mhh.mysamsung.views.Series_activity;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -73,6 +82,64 @@ public class Serie_s extends AppCompatActivity {
 
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.civ3);
         new DownloadImageTask(circleImageView3).execute("https://s6.uupload.ir/files/311440-469190-medium_dcmu.jpg");
+
+
+        //text onclick =========================================
+
+        @SuppressLint("CutPasteId") TextView txt1 = (TextView) findViewById(R.id.tv1);
+        txt1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_s.this , Ph_s22ultra.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView txt2 = (TextView) findViewById(R.id.tv2);
+        txt2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_s.this , Ph_s22plus.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView txt3 = (TextView) findViewById(R.id.tv3);
+        txt3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_s.this , Ph_s22.class));
+            }
+        });
+
+
+        //CIV onclick =======================================
+
+        @SuppressLint("CutPasteId") CircleImageView btn1 = (CircleImageView) findViewById(R.id.civ1);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_s.this , Ph_s22ultra.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CircleImageView btn2 = (CircleImageView) findViewById(R.id.civ2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_s.this , Ph_s22plus.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CircleImageView btn3 = (CircleImageView) findViewById(R.id.civ3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_s.this , Ph_s22.class));
+            }
+        });
+
+
+        //Button onclick =======================================
+
+        @SuppressLint("CutPasteId") Button b1 = (Button) findViewById(R.id.b1);
+        b1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_s.this , Ph_s21fe.class));
+            }
+        });
 
     }
 }

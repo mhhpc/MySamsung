@@ -12,8 +12,11 @@ import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.mhh.mysamsung.R;
+import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold4;
 import com.mhh.mysamsung.year.Year_2021;
 import com.mhh.mysamsung.year.Year_2022;
@@ -37,9 +40,10 @@ public class Year_activity extends AppCompatActivity {
 
         //Animation ------------
         final ViewGroup r = findViewById(R.id.year);
-        final Button t1 = findViewById(R.id.b1);
-        final Button t2 = findViewById(R.id.b2);
-        final CardView t3 = findViewById(R.id.cv1);
+        final LinearLayout t1 = findViewById(R.id.ll1);
+        final LinearLayout t2 = findViewById(R.id.ll2);
+        final LinearLayout t3 = findViewById(R.id.ll3);
+        final CardView tc = findViewById(R.id.cv);
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -50,23 +54,21 @@ public class Year_activity extends AppCompatActivity {
                 t1.setVisibility(View.VISIBLE);
                 t2.setVisibility(View.VISIBLE);
                 t3.setVisibility(View.VISIBLE);
+                tc.setVisibility(View.VISIBLE);
             }
         },200);
 
-        //button onclick
-        @SuppressLint("CutPasteId") Button b1 = (Button) findViewById(R.id.b1);
-        b1.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Year_activity.this , Year_2022.class));
-            }
-        });
+        ImageView ImageView = (ImageView) findViewById(R.id.iv1);
+        new DownloadImageTask(ImageView).execute("https://s2.uupload.ir/files/2023_3im.jpg");
 
-        @SuppressLint("CutPasteId") Button b2 = (Button) findViewById(R.id.b2);
-        b2.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Year_activity.this , Year_2021.class));
-            }
-        });
+        ImageView ImageView2 = (ImageView) findViewById(R.id.iv2);
+        new DownloadImageTask(ImageView2).execute("https://s2.uupload.ir/files/golden-2022-happy-new-year-card-with-swirl-lines_1017-34605_wekf.jpg");
+
+        ImageView ImageView3 = (ImageView) findViewById(R.id.iv3);
+        new DownloadImageTask(ImageView3).execute("https://s2.uupload.ir/files/golden-numbers-2021-happy-new-year_134830-708_syf.jpg");
+
+        //button onclick
+
 
     }
 }

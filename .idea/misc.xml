@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/drawable-v24/corner_card.xml" value="0.2175" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/drawable-v24/corner_edittext.xml" value="0.22" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/drawable-v24/gradient_image.xml" value="0.2205" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/drawable-v24/myselector2.xml" value="0.2175" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/drawable/corner_blue.xml" value="0.204" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/drawable/corner_card.xml" value="0.2175" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/drawable/corner_edittext.xml" value="0.22" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/drawable/corner_ph1.xml" value="0.2165" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/drawable/corner_ph2.xml" value="0.2165" />
@@ -38,29 +40,57 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/drawable/myselector6.xml" value="0.2165" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/font/font_app.xml" value="0.37777777777777777" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_about.xml" value="0.25" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ertebat.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_compare.xml" value="0.33" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_compare_test.xml" value="0.17373939091362955" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_customize.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ertebat.xml" value="0.2851851851851852" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_a33.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_a33.xml" value="0.33" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_a33_full.xml" value="0.22993062438057482" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_a52s.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_a52s_full.xml" value="0.2458495231367008" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_a53.xml" value="0.2859375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_a53_full.xml" value="0.22343499197431782" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_a73.xml" value="0.2859375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_a73_full.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_f13.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_f23.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_f42.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_j4.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_j4_full.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_j6.xml" value="0.3484375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_j8.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_m33.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_m53.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_m62.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_note20.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_note205g.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_note205g_full.xml" value="0.3625" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_note20ultra.xml" value="0.3625" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_s21fe.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_s21fe.xml" value="0.3101851851851852" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_s21fe_full.xml" value="0.18694601128122482" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_s22.xml" value="0.3484375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_s22_full.xml" value="0.21501390176088972" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_s22plus.xml" value="0.3484375" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_s22ultra.xml" value="0.3484375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_s22plus_full.xml" value="0.21180766889835667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_s22ultra.xml" value="0.3101851851851852" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_s22ultra_full.xml" value="0.33" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_tab_s8.xml" value="0.3484375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_tab_s8plus.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_tab_s8ultra.xml" value="0.3625" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_zflip3.xml" value="0.3484375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_zflip3_full.xml" value="0.30925925925925923" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_zflip4.xml" value="0.2859375" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_zflip4_full.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_zflip4_full.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_zfold3.xml" value="0.3484375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_zfold3_full.xml" value="0.30925925925925923" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_zfold4.xml" value="0.2859375" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_zfold4_full.xml" value="0.33" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_phones.xml" value="0.33" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_ph_zfold4_full.xml" value="0.20470588235294118" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_phones.xml" value="0.29680170575692966" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_search.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_searching.xml" value="0.3625" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_serie.xml" value="0.2859375" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_serie_a.xml" value="0.3625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_serie_a.xml" value="0.3074074074074074" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_serie_f.xml" value="0.2859375" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_serie_j.xml" value="0.2859375" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_serie_m.xml" value="0.2859375" />
@@ -68,9 +98,10 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_serie_s.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_serie_tab.xml" value="0.2859375" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_serie_z.xml" value="0.25" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_series.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_series.xml" value="0.3569230769230769" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_settings.xml" value="0.3625" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_splash.xml" value="0.18" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_tips.xml" value="0.3569230769230769" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_year.xml" value="0.2859375" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_year2021.xml" value="0.3484375" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MySamsung/app/src/main/res/layout/activity_year2022.xml" value="0.3625" />
@@ -83,7 +114,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -24,50 +24,69 @@
                 android:gravity="center"
                 android:text="@string/series_title" />
 
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginBottom="-20dp"
+                android:layout_marginTop="-15dp"
+                app:lottie_autoPlay="true"
+                android:layout_below="@id/titleView"
+                android:layout_centerHorizontal="true"
+                app:lottie_loop="true"
+                android:visibility="visible"
+                app:lottie_rawRes="@raw/series" />
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv1"
                 style="@style/SeriesCardView"
-                android:layout_below="@+id/titleView"
+                android:layout_below="@+id/lottie"
                 android:layout_marginHorizontal="15dp"
                 app:cardCornerRadius="20dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/s"
-                        style="@style/CircleImage"
-                        android:layout_alignParentLeft="true"
-                        android:layout_marginLeft="10dp"
-                        app:civ_border_color="#FFD700"
-                        app:civ_border_width="5dp" />
+                    <LinearLayout
+                        android:id="@+id/main"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/tx1"
-                        style="@style/SeriesTextView"
-                        android:layout_below="@+id/s"
-                        android:layout_alignStart="@+id/s"
-                        android:layout_alignEnd="@+id/s"
-                        android:layout_marginEnd="-10dp"
-                        android:text="@string/series_s" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/s"
+                            style="@style/CircleImage"
+                            app:civ_border_color="#FFD700"
+                            app:civ_border_width="5dp" />
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/z"
-                        style="@style/CircleImage"
-                        android:layout_alignParentRight="true"
-                        app:civ_border_color="#FFD700"
-                        app:civ_border_width="5dp" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/z"
+                            style="@style/CircleImage"
+                            app:civ_border_color="#FFD700"
+                            app:civ_border_width="5dp" />
 
-                    <TextView
-                        android:id="@+id/tx2"
-                        style="@style/SeriesTextView"
-                        android:layout_below="@+id/z"
-                        android:layout_alignStart="@+id/z"
-                        android:layout_alignEnd="@+id/z"
-                        android:layout_marginStart="-10dp"
+                    </LinearLayout>
 
-                        android:text="@string/series_z" />
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/main"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tx1"
+                            style="@style/SeriesTextView"
+                            android:text="@string/series_s" />
+
+                        <TextView
+                            android:id="@+id/tx2"
+                            style="@style/SeriesTextView"
+                            android:text="@string/series_z" />
+
+                    </LinearLayout>
 
                 </RelativeLayout>
 
@@ -82,39 +101,47 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/note"
-                        style="@style/CircleImage"
-                        android:layout_alignParentLeft="true"
-                        app:civ_border_color="#FFD700"
-                        app:civ_border_width="5dp" />
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/main2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/tx3"
-                        style="@style/SeriesTextView"
-                        android:layout_below="@+id/note"
-                        android:layout_alignStart="@+id/note"
-                        android:layout_alignEnd="@+id/note"
-                        android:layout_marginEnd="-10dp"
-                        android:text="@string/series_note" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/note"
+                            style="@style/CircleImage"
+                            app:civ_border_color="#FFD700"
+                            app:civ_border_width="5dp" />
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/a"
-                        style="@style/CircleImage"
-                        android:layout_alignParentRight="true"
-                        app:civ_border_color="#FFD700"
-                        app:civ_border_width="5dp" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/a"
+                            style="@style/CircleImage"
+                            app:civ_border_color="#FFD700"
+                            app:civ_border_width="5dp" />
 
-                    <TextView
-                        android:id="@+id/tx4"
-                        style="@style/SeriesTextView"
-                        android:layout_below="@+id/a"
-                        android:layout_alignStart="@+id/a"
-                        android:layout_alignEnd="@+id/a"
-                        android:layout_marginStart="-10dp"
-                        android:text="@string/series_a" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/main2"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tx3"
+                            style="@style/SeriesTextView"
+                            android:text="@string/series_note" />
+
+                        <TextView
+                            android:id="@+id/tx4"
+                            style="@style/SeriesTextView"
+                            android:text="@string/series_a" />
+
+                    </LinearLayout>
 
                 </RelativeLayout>
 
@@ -129,39 +156,47 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/m"
-                        style="@style/CircleImage"
-                        android:layout_alignParentLeft="true"
-                        app:civ_border_color="#FFD700"
-                        app:civ_border_width="5dp" />
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/main3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/tx5"
-                        style="@style/SeriesTextView"
-                        android:layout_below="@+id/m"
-                        android:layout_alignStart="@+id/m"
-                        android:layout_alignEnd="@+id/m"
-                        android:layout_marginEnd="-10dp"
-                        android:text="@string/series_m" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/m"
+                            style="@style/CircleImage"
+                            app:civ_border_color="#FFD700"
+                            app:civ_border_width="5dp" />
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/f"
-                        style="@style/CircleImage"
-                        android:layout_alignParentRight="true"
-                        app:civ_border_color="#FFD700"
-                        app:civ_border_width="5dp" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/f"
+                            style="@style/CircleImage"
+                            app:civ_border_color="#FFD700"
+                            app:civ_border_width="5dp" />
 
-                    <TextView
-                        android:id="@+id/tx6"
-                        style="@style/SeriesTextView"
-                        android:layout_below="@+id/f"
-                        android:layout_alignStart="@+id/f"
-                        android:layout_alignEnd="@+id/f"
-                        android:layout_marginStart="-10dp"
-                        android:text="@string/series_f" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/main3"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tx5"
+                            style="@style/SeriesTextView"
+                            android:text="@string/series_m" />
+
+                        <TextView
+                            android:id="@+id/tx6"
+                            style="@style/SeriesTextView"
+                            android:text="@string/series_f" />
+
+                    </LinearLayout>
 
                 </RelativeLayout>
 
@@ -176,39 +211,47 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/tab"
-                        style="@style/CircleImage"
-                        android:layout_alignParentLeft="true"
-                        app:civ_border_color="#FFD700"
-                        app:civ_border_width="5dp" />
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/main4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/tx7"
-                        style="@style/SeriesTextView"
-                        android:layout_below="@+id/tab"
-                        android:layout_alignStart="@+id/tab"
-                        android:layout_alignEnd="@+id/tab"
-                        android:layout_marginEnd="-10dp"
-                        android:text="@string/series_tab" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/tab"
+                            style="@style/CircleImage"
+                            app:civ_border_color="#FFD700"
+                            app:civ_border_width="5dp" />
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/j"
-                        style="@style/CircleImage"
-                        android:layout_alignParentRight="true"
-                        app:civ_border_color="#FFD700"
-                        app:civ_border_width="5dp" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/j"
+                            style="@style/CircleImage"
+                            app:civ_border_color="#FFD700"
+                            app:civ_border_width="5dp" />
 
-                    <TextView
-                        android:id="@+id/tx8"
-                        style="@style/SeriesTextView"
-                        android:layout_below="@+id/j"
-                        android:layout_alignStart="@+id/j"
-                        android:layout_alignEnd="@+id/j"
-                        android:layout_marginStart="-10dp"
-                        android:text="@string/series_j" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/main4"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tx7"
+                            style="@style/SeriesTextView"
+                            android:text="@string/series_tab" />
+
+                        <TextView
+                            android:id="@+id/tx8"
+                            style="@style/SeriesTextView"
+                            android:text="@string/series_j" />
+
+                    </LinearLayout>
 
                 </RelativeLayout>
 
@@ -218,8 +261,7 @@
                 android:id="@+id/cv5"
                 style="@style/SuggestCardView"
                 android:layout_below="@+id/cv4"
-                android:layout_marginHorizontal="15dp"
-                app:cardCornerRadius="20dp">
+                android:layout_marginHorizontal="15dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"

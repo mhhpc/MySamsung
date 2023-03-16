@@ -1,9 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ertebat"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
     tools:context=".views.Ertebat_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleView"
+                style="@style/Title"
+                android:gravity="center"
+                android:text="@string/ertebat_title"
+                android:textSize="27dp" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginBottom="-30dp"
+                android:layout_marginTop="-40dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:visibility="visible"
+                app:lottie_rawRes="@raw/ertebat" />
+
+            <Button
+                android:id="@+id/b1"
+                style="@style/MyButton"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/gmail"
+                android:text="@string/ertebat_b1" />
+
+            <Button
+                android:id="@+id/b2"
+                style="@style/MyButton"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@drawable/weblog"
+                android:text="@string/ertebat_b2" />
+
+            <Button
+                android:id="@+id/b3"
+                style="@style/MyButton"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/telegram"
+                android:text="@string/ertebat_b3" />
+
+            <Button
+                android:id="@+id/b4"
+                style="@style/MyButton"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@drawable/instagram"
+                android:text="@string/ertebat_b4" />
+
+            <Button
+                android:id="@+id/b5"
+                style="@style/MyButton"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/eitaa"
+                android:text="@string/ertebat_b5" />
+
+            <Button
+                android:id="@+id/b6"
+                style="@style/MyButton"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@drawable/aparat"
+                android:text="@string/ertebat_b6" />
+
+            <Button
+                android:id="@+id/b7"
+                style="@style/MyButton"
+                android:layout_marginHorizontal="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:drawableLeft="@drawable/bazaar"
+                android:text="@string/ertebat_b7" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

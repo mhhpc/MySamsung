@@ -124,6 +124,27 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
             }
         });
 
+        @SuppressLint("CutPasteId") Button rbtn2 = (Button) findViewById(R.id.tip);
+        rbtn2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this , Tips_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button rbtn3 = (Button) findViewById(R.id.option);
+        rbtn3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this , Customize_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button rbtn4 = (Button) findViewById(R.id.compare);
+        rbtn4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this , Compare_activity.class));
+            }
+        });
+
         //-------------
         init();
         onclick();
@@ -173,7 +194,7 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
                     case R.id.menu_share:
                         Intent intentSend = new Intent();
                         intentSend.setAction(Intent.ACTION_SEND);
-                        intentSend.putExtra(Intent.EXTRA_TEXT, "اپلیکیشن سامسونگ من رو از لینک زیر دانلود کن \n https://cafebazaar.ir/developer/mhhossein");
+                        intentSend.putExtra(Intent.EXTRA_TEXT, "سلام \n به راحتی میتونی اپلیکیشن سامسونگ من رو از لینک زیر دانلود کنی ;) \n https://cafebazaar.ir/developer/mhhossein");
                         intentSend.setType("text/plain");
 
                         Intent share = Intent.createChooser(intentSend, null);

@@ -17,10 +17,145 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".phones_detail.full.Ph_zflip4_full"
+            android:name=".phones_detail.customize.Ph_zfold4_customize"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.full.Ph_zfold4_full"
+            android:name=".phones_detail.pictures.Ph_zfold4_picture"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.Ph_zfold4_check"
+            android:exported="false" />
+        <activity
+            android:name=".views.Webview_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Compare_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Customize_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Tips_activity"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_note.Ph_note20_5g"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_j.Ph_j4_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_j.Ph_j6_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_j.Ph_j8_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_tab.Ph_tab_s8_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_tab.Ph_tab_s8plus_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_tab.Ph_tab_s8ultra_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_f.Ph_f13_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_f.Ph_f42_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_f.Ph_f23_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_m.Ph_m33_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_m.Ph_m62_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_m.Ph_m53_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_z.Ph_zflip3_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_z.Ph_zfold3_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_note.Ph_note20_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_note.Ph_note20_5g_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_note.Ph_note20ultra_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_a.Ph_a52s_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_s.Ph_s21fe_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_s.Ph_s22_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_s.Ph_s22plus_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_s.Ph_s22ultra_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_a.Ph_a33_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_a.Ph_a53_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_a.Ph_a73_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_j.Ph_j4"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_j.Ph_j6"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_j.Ph_j8"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_tab.Ph_tab_s8"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_tab.Ph_tab_s8plus"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_tab.Ph_tab_s8ultra"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_f.Ph_f13"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_f.Ph_f42"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_f.Ph_f23"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_m.Ph_m33"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_m.Ph_m62"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_m.Ph_m53"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_z.Ph_zflip4_full"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.full.galaxy_z.Ph_zfold4_full"
             android:exported="false" />
         <activity
             android:name=".phones.galaxy_z.Ph_zflip3"

@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,6 +16,12 @@ import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
+import com.mhh.mysamsung.phones.galaxy_note.Ph_note20;
+import com.mhh.mysamsung.phones.galaxy_note.Ph_note20_5g;
+import com.mhh.mysamsung.phones.galaxy_note.Ph_note20ultra;
+import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip4;
+import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold3;
+import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold4;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -36,6 +44,8 @@ public class Serie_note extends AppCompatActivity {
 
         //Animation ------------
         final ViewGroup r = findViewById(R.id.serie_note);
+        final CircleImageView t1 = findViewById(R.id.civ1);
+        final TextView t2 = findViewById(R.id.tv1);
         final CircleImageView t3 = findViewById(R.id.civ2);
         final TextView t4 = findViewById(R.id.tv2);
         final CircleImageView t5 = findViewById(R.id.civ3);
@@ -48,6 +58,8 @@ public class Serie_note extends AppCompatActivity {
                 Transition transition = new Slide();
                 transition.setDuration(1200);
                 TransitionManager.beginDelayedTransition(r,transition);
+                t1.setVisibility(View.VISIBLE);
+                t2.setVisibility(View.VISIBLE);
                 t3.setVisibility(View.VISIBLE);
                 t4.setVisibility(View.VISIBLE);
                 t5.setVisibility(View.VISIBLE);
@@ -58,11 +70,62 @@ public class Serie_note extends AppCompatActivity {
 
         //Image links
 
+        CircleImageView circleImageView1 = (CircleImageView) findViewById(R.id.civ1);
+        new DownloadImageTask(circleImageView1).execute("https://s6.uupload.ir/files/1_ip3a.jpg");
+
         CircleImageView circleImageView2 = (CircleImageView) findViewById(R.id.civ2);
-        new DownloadImageTask(circleImageView2).execute("https://s6.uupload.ir/files/1_ip3a.jpg");
+        new DownloadImageTask(circleImageView2).execute("https://s6.uupload.ir/files/galaxy-note-20-5g-256gb-moi-99-like-new-han-quoc-chip-snapdragon-865_5pon.jpg");
 
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.civ3);
         new DownloadImageTask(circleImageView3).execute("https://s6.uupload.ir/files/003_galaxynote20_mysticbronze_front_with_pen_5vj3.jpg");
+
+
+        //text onclick =========================================
+
+        @SuppressLint("CutPasteId") TextView txt1 = (TextView) findViewById(R.id.tv1);
+        txt1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_note.this , Ph_note20ultra.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView txt2 = (TextView) findViewById(R.id.tv2);
+        txt2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_note.this , Ph_note20_5g.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView txt3 = (TextView) findViewById(R.id.tv3);
+        txt3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_note.this , Ph_note20.class));
+            }
+        });
+
+
+        //CIV onclick =======================================
+
+        @SuppressLint("CutPasteId") CircleImageView btn1 = (CircleImageView) findViewById(R.id.civ1);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_note.this , Ph_note20ultra.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CircleImageView btn2 = (CircleImageView) findViewById(R.id.civ2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_note.this , Ph_note20_5g.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CircleImageView btn3 = (CircleImageView) findViewById(R.id.civ3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_note.this , Ph_note20.class));
+            }
+        });
 
     }
 }
