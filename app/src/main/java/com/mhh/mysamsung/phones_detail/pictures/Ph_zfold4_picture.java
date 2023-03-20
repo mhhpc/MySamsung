@@ -27,9 +27,6 @@ import io.github.florent37.shapeofview.shapes.RoundRectView;
 
 public class Ph_zfold4_picture extends AppCompatActivity {
 
-    // Your Video URL
-    String videoUrl = "https://media.geeksforgeeks.org/wp-content/uploads/20201217192146/Screenrecorder-2020-12-17-19-17-36-828.mp4?_=1";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -104,19 +101,19 @@ public class Ph_zfold4_picture extends AppCompatActivity {
         new DownloadImageTask(imageView2).execute("https://s6.uupload.ir/files/galaxy-z-fold4-share-image_ljha.jpg");
 
         ImageView imageView3 = (ImageView) findViewById(R.id.im1);
-        new DownloadImageTask(imageView3).execute("https://images.samsung.com/iran/smartphones/galaxy-z-fold4/images/galaxy-z-fold4_highlights_kv.jpg");
+        new DownloadImageTask(imageView3).execute("https://s2.uupload.ir/files/galaxy-z-fold4_highlights_kv_x23r.jpg");
 
         ImageView imageView4 = (ImageView) findViewById(R.id.im2);
-        new DownloadImageTask(imageView4).execute("https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-fold4-5g-1.jpg");
+        new DownloadImageTask(imageView4).execute("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-1(1)_ej4x.jpg");
 
         ImageView imageView5 = (ImageView) findViewById(R.id.im3);
-        new DownloadImageTask(imageView5).execute("https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-fold4-5g-2.jpg");
+        new DownloadImageTask(imageView5).execute("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-2_j146_5161.jpg");
 
         ImageView imageView6 = (ImageView) findViewById(R.id.im4);
-        new DownloadImageTask(imageView6).execute("https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-fold4-5g-4.jpg");
+        new DownloadImageTask(imageView6).execute("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-4_muht.jpg");
 
         ImageView imageView7 = (ImageView) findViewById(R.id.im5);
-        new DownloadImageTask(imageView7).execute("https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-fold4-5g-3.jpg");
+        new DownloadImageTask(imageView7).execute("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-3_rwc.jpg");
 
         ImageView ImageView8 = (ImageView) findViewById(R.id.image1);
         new DownloadImageTask(ImageView8).execute("https://s2.uupload.ir/files/2019-7-0a8eee1d-c70b-4033-95c8-ea1b2615aa64-638baac6506e38df57e9cb02_gqp9.jpg");

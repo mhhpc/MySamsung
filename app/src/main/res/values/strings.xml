@@ -128,6 +128,9 @@
     <string name="compare_t2">مقایسه نسخه های اندروید</string>
     <string name="compare_t3">مقایسه سری گوشی های سامسونگ</string>
 
+    //Customize_phone
+    <string name="customize_phone_title">ظاهر کدوم گوشی رو دوست داری؟</string>
+
     //Serie_s_activity
     <string name="serie_s_title">سری S</string>
     <string name="serie_s_s1">توضیحاتی درباره سری S سامسونگ</string>
@@ -544,6 +547,20 @@
     <string name="phones_picture_more">بیشتر ببینید</string>
     <string name="phones_picture_more_zoomit">تصاویر این گوشی در زومیت</string>
     <string name="phones_picture_more_gsm">تصاویر این گوشی در GSMArena</string>
+
+    //phones_customize
+    <string name="phones_customize_title">شخصی سازی به سبک</string>
+    <string name="phones_customize_t1">پس زمینه</string>
+    <string name="phones_customize_t2">آهنگ زنگ</string>
+    <string name="phones_customize_tv1">این گوشی دارای پس زمینه‌ی متحرک و ثابت است</string>
+    <string name="phones_customize_tv2">باتوجه به اینکه ابعاد این گوشی با ابعاد اکثر گوشی ها متفاوت است امکان دارد که پس زمینه‌ی پویا به درستی تنظیم نشود</string>
+    <string name="phones_customize_cv1">دانلود تمام پس زمینه های ثابت این گوشی</string>
+    <string name="phones_customize_cv1_1">دانلود تمام پس زمینه های متحرک این گوشی</string>
+    <string name="phones_customize_cv2">دانلود آهنگ زنگ اصلی این گوشی</string>
+    <string name="phones_customize_b1">راهنمای تنظیم پس زمینه</string>
+    <string name="phones_customize_b2">تنظیم مستقیم پس زمینه</string>
+    <string name="phones_customize_b3">تنظیم مستقیم آهنگ زنگ</string>
+
 
     //###
     // Galaxy Z Full**********************

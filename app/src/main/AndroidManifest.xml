@@ -17,6 +17,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".guide.Guide_background"
+            android:exported="false" />
+        <activity
+            android:name=".views.Customize_phone_activity"
+            android:exported="false" />
+        <activity
             android:name=".phones_detail.customize.Ph_zfold4_customize"
             android:exported="false" />
         <activity

@@ -40,7 +40,7 @@
 
                 <io.github.florent37.shapeofview.shapes.CircleView
                     android:id="@+id/circle"
-                    style="@style/PhoneCheckCircleimage"
+                    style="@style/PhonePictureCircleimage"
                     android:layout_below="@+id/v1"
                     android:layout_marginTop="-60dp"
                     android:layout_marginBottom="3dp">
@@ -211,9 +211,11 @@
 
             <TextView
                 android:id="@+id/more"
-                style="@style/PhoneTextView7"
-                android:layout_below="@id/imv5"
+                style="@style/Customize_text"
+                android:layout_below="@+id/imv5"
+                android:layout_marginHorizontal="5dp"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/corner_ph_picture"
                 android:text="@string/phones_picture_more" />
 
             <LinearLayout

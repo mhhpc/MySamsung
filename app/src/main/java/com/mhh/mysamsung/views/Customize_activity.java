@@ -3,6 +3,8 @@ package com.mhh.mysamsung.views;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -14,6 +16,8 @@ import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
+import com.mhh.mysamsung.phones.galaxy_a.Ph_a73;
+import com.mhh.mysamsung.series.Serie_a;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -35,6 +39,7 @@ public class Customize_activity extends AppCompatActivity {
 
 
 
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -47,6 +52,14 @@ public class Customize_activity extends AppCompatActivity {
                 t4.setVisibility(View.VISIBLE);
             }
         },200);
+
+        //onclock
+        @SuppressLint("CutPasteId") CardView crd1 = (CardView) findViewById(R.id.cv1);
+        crd1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Customize_activity.this , Customize_phone_activity.class));
+            }
+        });
 
         //Image links
         ImageView ImageView = (ImageView) findViewById(R.id.iv1);

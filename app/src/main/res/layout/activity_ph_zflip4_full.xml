@@ -1046,9 +1046,11 @@
 
             <TextView
                 android:id="@+id/more"
-                style="@style/PhoneTextView7"
-                android:layout_below="@id/cv12"
-                android:layout_marginTop="5dp"
+                style="@style/Customize_text"
+                android:layout_below="@+id/cv12"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/corner_ph_full"
                 android:text="@string/phones_full_more" />
 
             <LinearLayout
