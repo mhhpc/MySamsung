@@ -106,7 +106,7 @@
                 android:layout_marginHorizontal="22dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="5dp"
-                android:drawableStart="@drawable/background"
+                android:drawableLeft="@drawable/background"
                 android:text="@string/phones_customize_b1" />
 
             <LinearLayout
@@ -153,7 +153,7 @@
                 android:layout_marginHorizontal="22dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:drawableEnd="@drawable/shotcut"
+                android:drawableRight="@drawable/shotcut"
                 android:text="@string/phones_customize_b2" />
 
             <TextView
@@ -194,7 +194,7 @@
                 android:layout_marginHorizontal="22dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:drawableStart="@drawable/music"
+                android:drawableLeft="@drawable/music"
                 android:text="@string/phones_customize_b3" />
 
 

@@ -98,7 +98,7 @@
             android:name=".phones_detail.full.galaxy_note.Ph_note20ultra_full"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.full.galaxy_a.Ph_a52s_full"
+            android:name=".phones_detail.full.galaxy_s.galaxy_a.Ph_a52s_full"
             android:exported="false" />
         <activity
             android:name=".phones_detail.full.galaxy_s.Ph_s21fe_full"
@@ -113,13 +113,13 @@
             android:name=".phones_detail.full.galaxy_s.Ph_s22ultra_full"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.full.galaxy_a.Ph_a33_full"
+            android:name=".phones_detail.full.galaxy_s.galaxy_a.Ph_a33_full"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.full.galaxy_a.Ph_a53_full"
+            android:name=".phones_detail.full.galaxy_s.galaxy_a.Ph_a53_full"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.full.galaxy_a.Ph_a73_full"
+            android:name=".phones_detail.full.galaxy_s.galaxy_a.Ph_a73_full"
             android:exported="false" />
         <activity
             android:name=".phones.galaxy_j.Ph_j4"

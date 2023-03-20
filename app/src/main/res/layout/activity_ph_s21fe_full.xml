@@ -105,7 +105,7 @@
                         android:id="@+id/tvv1_1"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t1"
-                        android:layout_toStartOf="@+id/tv2_1"
+                        android:layout_toLeftOf="@+id/tv2_1"
                         android:text="@string/ph_s21fe_full_tvv1_1" />
 
                     <TextView
@@ -118,7 +118,7 @@
                         android:id="@+id/tvv2_1"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv1_1"
-                        android:layout_toStartOf="@+id/tv2_1"
+                        android:layout_toLeftOf="@+id/tv2_1"
                         android:text="@string/ph_s21fe_full_tvv2_1" />
 
                 </RelativeLayout>
@@ -151,7 +151,7 @@
                         android:id="@+id/tvv1_2"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t2"
-                        android:layout_toStartOf="@+id/tv3_2"
+                        android:layout_toLeftOf="@+id/tv3_2"
                         android:text="@string/ph_s21fe_full_tvv1_2" />
 
                     <TextView
@@ -164,7 +164,7 @@
                         android:id="@+id/tvv3_2"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv1_2"
-                        android:layout_toStartOf="@+id/tv3_2"
+                        android:layout_toLeftOf="@+id/tv3_2"
                         android:text="@string/ph_s21fe_full_tvv3_2" />
 
                     <TextView
@@ -179,7 +179,7 @@
                         android:layout_below="@+id/tvv3_2"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv3_2"
+                        android:layout_toLeftOf="@+id/tv3_2"
                         android:text="@string/ph_s21fe_full_tvv4_2" />
 
                     <TextView
@@ -189,7 +189,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv3_2"
+                        android:layout_toLeftOf="@+id/tv3_2"
                         android:text="@string/ph_s21fe_full_tvv5_2" />
 
                 </RelativeLayout>
@@ -222,7 +222,7 @@
                         android:id="@+id/tvv1_3"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t3"
-                        android:layout_toStartOf="@+id/tv3_3"
+                        android:layout_toLeftOf="@+id/tv3_3"
                         android:text="@string/ph_s21fe_full_tvv1_3" />
 
                     <TextView
@@ -235,7 +235,7 @@
                         android:id="@+id/tvv2_3"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv1_3"
-                        android:layout_toStartOf="@+id/tv3_3"
+                        android:layout_toLeftOf="@+id/tv3_3"
                         android:text="@string/ph_s21fe_full_tvv2_3" />
 
                     <TextView
@@ -248,7 +248,7 @@
                         android:id="@+id/tvv4_3"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv2_3"
-                        android:layout_toStartOf="@+id/tv3_3"
+                        android:layout_toLeftOf="@+id/tv3_3"
                         android:text="@string/ph_s21fe_full_tvv4_3" />
 
                     <TextView
@@ -261,7 +261,7 @@
                         android:id="@+id/tvv6_3"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv4_3"
-                        android:layout_toStartOf="@+id/tv3_3"
+                        android:layout_toLeftOf="@+id/tv3_3"
                         android:text="@string/ph_s21fe_full_tvv6_3" />
 
                     <TextView
@@ -276,7 +276,7 @@
                         android:layout_below="@+id/tvv6_3"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv3_3"
+                        android:layout_toLeftOf="@+id/tv3_3"
                         android:text="@string/ph_s21fe_full_tvv7_3" />
 
                     <TextView
@@ -286,7 +286,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv3_3"
+                        android:layout_toLeftOf="@+id/tv3_3"
                         android:text="@string/ph_s21fe_full_tvv9_3" />
 
                 </RelativeLayout>
@@ -320,7 +320,7 @@
                         android:id="@+id/tvv1_4"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t4"
-                        android:layout_toStartOf="@+id/tv4_4"
+                        android:layout_toLeftOf="@+id/tv4_4"
                         android:text="@string/ph_s21fe_full_tvv1_4" />
 
                     <TextView
@@ -335,7 +335,7 @@
                         android:layout_below="@+id/tvv1_4"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv4_4"
+                        android:layout_toLeftOf="@+id/tv4_4"
                         android:text="@string/ph_s21fe_full_tvv2_4" />
 
                     <TextView
@@ -345,7 +345,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv4_4"
+                        android:layout_toLeftOf="@+id/tv4_4"
                         android:text="@string/ph_s21fe_full_tvv2_4.1" />
 
                     <TextView
@@ -361,7 +361,7 @@
                         android:layout_below="@+id/tvv2_4.1"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv4_4"
+                        android:layout_toLeftOf="@+id/tv4_4"
                         android:text="@string/ph_s21fe_full_tvv3_4" />
 
                     <TextView
@@ -371,7 +371,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv4_4"
+                        android:layout_toLeftOf="@+id/tv4_4"
                         android:text="@string/ph_s21fe_full_tvv3_4.1" />
 
                     <TextView
@@ -387,7 +387,7 @@
                         android:layout_below="@+id/tvv3_4.1"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv4_4"
+                        android:layout_toLeftOf="@+id/tv4_4"
                         android:text="@string/ph_s21fe_full_tvv4_4" />
 
                     <TextView
@@ -397,7 +397,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv4_4"
+                        android:layout_toLeftOf="@+id/tv4_4"
                         android:text="@string/ph_s21fe_full_tvv4_4.1" />
 
                 </RelativeLayout>
@@ -431,7 +431,7 @@
                         android:id="@+id/tvv1_5"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t5"
-                        android:layout_toStartOf="@+id/tv2_5"
+                        android:layout_toLeftOf="@+id/tv2_5"
                         android:text="@string/ph_s21fe_full_tvv1_5" />
 
                     <TextView
@@ -447,7 +447,7 @@
                         android:layout_below="@+id/tvv1_5"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv2_5"
+                        android:layout_toLeftOf="@+id/tv2_5"
                         android:text="@string/ph_s21fe_full_tvv2_5" />
 
                     <TextView
@@ -457,7 +457,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv2_5"
+                        android:layout_toLeftOf="@+id/tv2_5"
                         android:text="@string/ph_s21fe_full_tvv3_5" />
 
                 </RelativeLayout>
@@ -492,7 +492,7 @@
                         android:layout_below="@+id/t6"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv3_6"
+                        android:layout_toLeftOf="@+id/tv3_6"
                         android:text="@string/ph_s21fe_full_tvv1_6" />
 
                     <TextView
@@ -501,7 +501,7 @@
                         android:layout_below="@+id/tvv1_6"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/tv3_6"
+                        android:layout_toLeftOf="@+id/tv3_6"
                         android:text="@string/ph_s21fe_full_tvv2_6.1" />
 
                     <TextView
@@ -511,7 +511,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv3_6"
+                        android:layout_toLeftOf="@+id/tv3_6"
                         android:text="@string/ph_s21fe_full_tvv3_6" />
 
                     <TextView
@@ -524,7 +524,7 @@
                         android:id="@+id/tvv4_6"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv3_6"
-                        android:layout_toStartOf="@+id/tv3_6"
+                        android:layout_toLeftOf="@+id/tv3_6"
                         android:text="@string/ph_s21fe_full_tvv4_6" />
 
                     <TextView
@@ -538,7 +538,7 @@
                         android:id="@+id/tvv5_6"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv4_6"
-                        android:layout_toStartOf="@+id/tv3_6"
+                        android:layout_toLeftOf="@+id/tv3_6"
                         android:text="@string/ph_s21fe_full_tvv5_6" />
 
 
@@ -574,7 +574,7 @@
                         android:layout_below="@+id/t7"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv3_7"
+                        android:layout_toLeftOf="@+id/tv3_7"
                         android:text="@string/ph_s21fe_full_tvv1_7" />
 
 
@@ -588,7 +588,7 @@
                         android:id="@+id/tvv3_7"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv1_7"
-                        android:layout_toStartOf="@+id/tv3_7"
+                        android:layout_toLeftOf="@+id/tv3_7"
                         android:text="@string/ph_s21fe_full_tvv3_7" />
 
                     <TextView
@@ -602,7 +602,7 @@
                         android:id="@+id/tvv4_7"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv3_7"
-                        android:layout_toStartOf="@+id/tv3_7"
+                        android:layout_toLeftOf="@+id/tv3_7"
                         android:text="@string/ph_s21fe_full_tvv4_7" />
 
                 </RelativeLayout>
@@ -636,7 +636,7 @@
                         android:id="@+id/tvv1_8"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t8"
-                        android:layout_toStartOf="@+id/tv2_8"
+                        android:layout_toLeftOf="@+id/tv2_8"
                         android:text="@string/ph_s21fe_full_tvv1_8" />
 
                     <TextView
@@ -650,7 +650,7 @@
                         android:id="@+id/tvv2_8"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv1_8"
-                        android:layout_toStartOf="@+id/tv2_8"
+                        android:layout_toLeftOf="@+id/tv2_8"
                         android:text="@string/ph_s21fe_full_tvv2_8" />
 
                     <TextView
@@ -663,7 +663,7 @@
                         android:id="@+id/tvv3_8"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv2_8"
-                        android:layout_toStartOf="@+id/tv2_8"
+                        android:layout_toLeftOf="@+id/tv2_8"
                         android:text="@string/ph_s21fe_full_tvv3_8" />
 
                 </RelativeLayout>
@@ -696,7 +696,7 @@
                         android:id="@+id/tvv0_9"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t9"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv0_9" />
 
                     <TextView
@@ -711,7 +711,7 @@
                         android:layout_below="@+id/tvv0_9"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv1_9" />
 
                     <TextView
@@ -720,7 +720,7 @@
                         android:layout_below="@+id/tvv1_9"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv2_9" />
 
                     <TextView
@@ -729,7 +729,7 @@
                         android:layout_below="@+id/tvv2_9"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv3_9" />
 
                     <TextView
@@ -739,7 +739,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv4_9" />
 
                     <TextView
@@ -754,7 +754,7 @@
                         android:layout_below="@+id/tvv4_9"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv5_9" />
 
                     <TextView
@@ -763,7 +763,7 @@
                         android:layout_below="@+id/tvv5_9"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv6_9" />
 
                     <TextView
@@ -772,7 +772,7 @@
                         android:layout_below="@+id/tvv6_9"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv7_9" />
 
                     <TextView
@@ -785,33 +785,33 @@
                         android:id="@+id/tvv9_9"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv7_9"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv9_9" />
 
                     <TextView
                         android:id="@+id/tv6_9"
                         style="@style/PhoneTextView4"
-                        android:layout_below="@+id/tvv9_9"
+                        android:layout_toLeftOf="@+id/tvv9_9"
                         android:text="@string/phones_full_tv6_9" />
 
                     <TextView
                         android:id="@+id/tvv10_9"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv9_9"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv10_9" />
 
                     <TextView
                         android:id="@+id/tv7_9"
                         style="@style/PhoneTextView4"
-                        android:layout_below="@+id/tvv10_9"
+                        android:layout_toLeftOf="@+id/tvv10_9"
                         android:text="@string/phones_full_tv7_9" />
 
                     <TextView
                         android:id="@+id/tvv11_9"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv10_9"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv11_9" />
 
                     <TextView
@@ -824,7 +824,7 @@
                         android:id="@+id/tvv12_9"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv11_9"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s21fe_full_tvv12_9" />
 
                 </RelativeLayout>
@@ -857,7 +857,7 @@
                         android:id="@+id/tvv1_10"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t10"
-                        android:layout_toStartOf="@+id/tv2_10"
+                        android:layout_toLeftOf="@+id/tv2_10"
                         android:text="@string/ph_s21fe_full_tvv1_10" />
 
                     <TextView
@@ -872,7 +872,7 @@
                         android:layout_below="@+id/tvv1_10"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv2_10"
+                        android:layout_toLeftOf="@+id/tv2_10"
                         android:text="@string/ph_s21fe_full_tvv2_10" />
 
                     <TextView
@@ -882,7 +882,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv2_10"
+                        android:layout_toLeftOf="@+id/tv2_10"
                         android:text="@string/ph_s21fe_full_tvv4_10" />
 
                 </RelativeLayout>
@@ -915,7 +915,7 @@
                         android:id="@+id/tvv1_11"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t11"
-                        android:layout_toStartOf="@+id/tv2_11"
+                        android:layout_toLeftOf="@+id/tv2_11"
                         android:text="@string/ph_s21fe_full_tvv1_11" />
 
                     <TextView
@@ -930,7 +930,7 @@
                         android:layout_below="@+id/tvv1_11"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="3dp"
-                        android:layout_toStartOf="@+id/tv2_11"
+                        android:layout_toLeftOf="@+id/tv2_11"
                         android:text="@string/ph_s21fe_full_tvv2_11" />
 
                     <TextView
@@ -939,7 +939,7 @@
                         android:layout_below="@+id/tvv2_11"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/tv2_11"
+                        android:layout_toLeftOf="@+id/tv2_11"
                         android:text="@string/ph_s21fe_full_tvv3_11" />
 
                     <TextView
@@ -948,7 +948,7 @@
                         android:layout_below="@+id/tvv3_11"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/tv2_11"
+                        android:layout_toLeftOf="@+id/tv2_11"
                         android:text="@string/ph_s21fe_full_tvv4_11" />
 
                     <TextView
@@ -957,7 +957,7 @@
                         android:layout_below="@+id/tvv4_11"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/tv2_11"
+                        android:layout_toLeftOf="@+id/tv2_11"
                         android:text="@string/ph_s21fe_full_tvv4_11.1" />
 
                     <TextView
@@ -967,7 +967,7 @@
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
                         android:layout_marginBottom="3dp"
-                        android:layout_toStartOf="@+id/tv2_11"
+                        android:layout_toLeftOf="@+id/tv2_11"
                         android:text="@string/ph_s21fe_full_tvv5_11" />
 
                 </RelativeLayout>
@@ -1001,7 +1001,7 @@
                         android:id="@+id/tvv1_12"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/t12"
-                        android:layout_toStartOf="@+id/tv2_12"
+                        android:layout_toLeftOf="@+id/tv2_12"
                         android:text="@string/ph_s21fe_full_tvv1_12" />
 
                     <TextView
@@ -1014,7 +1014,7 @@
                         android:id="@+id/tvv2_12"
                         style="@style/PhoneTextView5"
                         android:layout_below="@+id/tvv1_12"
-                        android:layout_toStartOf="@+id/tv2_12"
+                        android:layout_toLeftOf="@+id/tv2_12"
                         android:text="@string/ph_s21fe_full_tvv2_12" />
 
                 </RelativeLayout>

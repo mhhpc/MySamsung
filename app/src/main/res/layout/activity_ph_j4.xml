@@ -56,7 +56,7 @@
                         style="@style/PhoneTextView2"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
-                        android:layout_toStartOf="@+id/im1"
+                        android:layout_toLeftOf="@+id/im1"
                         android:text="@string/ph_j4_screen1"
                         android:textSize="15sp" />
 
@@ -65,7 +65,7 @@
                         android:layout_below="@+id/tv1"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/im1"
+                        android:layout_toLeftOf="@+id/im1"
                         android:text="@string/ph_j4_screen2"
                         android:textSize="13sp" />
                 </RelativeLayout>
@@ -93,7 +93,7 @@
                         style="@style/PhoneTextView2"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
-                        android:layout_toStartOf="@+id/im2"
+                        android:layout_toLeftOf="@+id/im2"
                         android:text="@string/ph_j4_hardware1"
                         android:textSize="15sp" />
 
@@ -102,7 +102,7 @@
                         android:layout_below="@+id/tv2"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/im2"
+                        android:layout_toLeftOf="@+id/im2"
                         android:text="@string/ph_j4_hardware2"
                         android:textSize="13sp" />
                 </RelativeLayout>
@@ -130,7 +130,7 @@
                         style="@style/PhoneTextView2"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
-                        android:layout_toStartOf="@+id/im3"
+                        android:layout_toLeftOf="@+id/im3"
                         android:text="@string/ph_j4_camera1"
                         android:textSize="15sp" />
 
@@ -139,7 +139,7 @@
                         android:layout_below="@+id/tv3"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/im3"
+                        android:layout_toLeftOf="@+id/im3"
                         android:text="@string/ph_j4_camera2"
                         android:textSize="13sp" />
                 </RelativeLayout>
@@ -167,7 +167,7 @@
                         style="@style/PhoneTextView2"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
-                        android:layout_toStartOf="@+id/im4"
+                        android:layout_toLeftOf="@+id/im4"
                         android:text="@string/ph_j4_battery1"
                         android:textSize="15sp" />
 
@@ -176,7 +176,7 @@
                         android:layout_below="@+id/tv4"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/im4"
+                        android:layout_toLeftOf="@+id/im4"
                         android:text="@string/ph_j4_battery2"
                         android:textSize="13sp" />
                 </RelativeLayout>
@@ -193,7 +193,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/myselector2"
-                    android:drawableStart="@drawable/detail"
+                    android:drawableLeft="@drawable/detail"
                     android:text="@string/ph_b1" />
 
                 <Button
@@ -203,7 +203,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_marginTop="8dp"
                     android:background="@drawable/myselector3"
-                    android:drawableEnd="@drawable/magnifying"
+                    android:drawableRight="@drawable/magnifying"
                     android:text="@string/ph_b2" />
 
                 <Button
@@ -213,7 +213,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_marginTop="8dp"
                     android:background="@drawable/myselector4"
-                    android:drawableStart="@drawable/pictures"
+                    android:drawableLeft="@drawable/pictures"
                     android:text="@string/ph_b3" />
 
                 <Button
@@ -223,7 +223,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_marginTop="8dp"
                     android:background="@drawable/myselector5"
-                    android:drawableEnd="@drawable/option"
+                    android:drawableRight="@drawable/option"
                     android:text="@string/ph_b4" />
 
                 <Button
@@ -234,7 +234,7 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/myselector6"
-                    android:drawableStart="@drawable/compare"
+                    android:drawableLeft="@drawable/compare"
                     android:text="@string/ph_b5" />
 
                 <androidx.cardview.widget.CardView
