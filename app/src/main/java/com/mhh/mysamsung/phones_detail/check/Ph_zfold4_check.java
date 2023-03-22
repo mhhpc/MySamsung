@@ -31,14 +31,14 @@ public class Ph_zfold4_check extends AppCompatActivity {
         setContentView(R.layout.activity_ph_zfold4_check);
 
         //Gradient -----------
-        ConstraintLayout constraintLayout = findViewById(R.id.ph_zfold4_chekc);
+        ConstraintLayout constraintLayout = findViewById(R.id.ph_zfold4_check);
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
 
         //Animation ------------
-        final ViewGroup r = findViewById(R.id.ph_zfold4_chekc);
+        final ViewGroup r = findViewById(R.id.ph_zfold4_check);
         final RelativeLayout t1 = findViewById(R.id.view);
         final TextView t2 = findViewById(R.id.titleView1);
         final TextView t3 = findViewById(R.id.titleView2);

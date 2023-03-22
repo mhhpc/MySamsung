@@ -1,17 +1,23 @@
 package com.mhh.mysamsung.views;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
+import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold4;
+import com.mhh.mysamsung.phones_detail.compare.Ph_zfold4_compare;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -44,6 +50,15 @@ public class Compare_activity extends AppCompatActivity {
             }
         }, 200);
 
+        //onclick
+        @SuppressLint("CutPasteId") CardView ph1 = (CardView) findViewById(R.id.cv1);
+        ph1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_activity.this , Compare_phone_activity.class));
+            }
+        });
+
+        //image_link
         ImageView ImageView = (ImageView) findViewById(R.id.iv1);
         new DownloadImageTask(ImageView).execute("https://s2.uupload.ir/files/e8f9c0a830e73ba0caf375611fabd1fe_cx1d.jpg");
 

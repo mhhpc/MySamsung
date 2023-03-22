@@ -17,6 +17,7 @@ import android.widget.TextView;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.phones_detail.check.Ph_zfold4_check;
+import com.mhh.mysamsung.phones_detail.compare.Ph_zfold4_compare;
 import com.mhh.mysamsung.phones_detail.customize.Ph_zfold4_customize;
 import com.mhh.mysamsung.phones_detail.full.galaxy_z.Ph_zfold4_full;
 import com.mhh.mysamsung.phones_detail.pictures.Ph_zfold4_picture;
@@ -106,6 +107,13 @@ public class Ph_zfold4 extends AppCompatActivity {
         ph4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Ph_zfold4.this , Ph_zfold4_customize.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph5 = (Button) findViewById(R.id.b5);
+        ph5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_zfold4.this , Ph_zfold4_compare.class));
             }
         });
 

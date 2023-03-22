@@ -113,6 +113,7 @@
                 android:id="@+id/ll1"
                 style="@style/TipsLinearLayout"
                 android:layout_below="@+id/bt1"
+                android:layout_marginHorizontal="10dp"
                 android:layout_marginTop="5dp">
 
                 <androidx.cardview.widget.CardView
@@ -168,7 +169,8 @@
             <LinearLayout
                 android:id="@+id/ll2"
                 style="@style/TipsLinearLayout"
-                android:layout_below="@+id/ct2">
+                android:layout_below="@+id/ct2"
+                android:layout_marginHorizontal="10dp">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv3"

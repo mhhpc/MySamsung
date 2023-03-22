@@ -147,7 +147,7 @@ public class Ph_zfold4_customize extends AppCompatActivity {
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DomainName("https://uupload.ir/view/samsung-galaxy-s22-ultra-original_fqed.mp3");
+                DomainName("https://uupload.ir/view/galaxy_32rm.mp3/");
             }
         });
 

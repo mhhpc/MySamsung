@@ -1,4 +1,4 @@
-package com.mhh.mysamsung.phones_detail.full.galaxy_s.galaxy_a;
+package com.mhh.mysamsung.phones_detail.full.galaxy_a;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -83,6 +83,7 @@ public class Ph_a52s_full extends AppCompatActivity {
                 t15.setVisibility(View.VISIBLE);
                 t16.setVisibility(View.VISIBLE);
                 t17.setVisibility(View.VISIBLE);
+                t18.setVisibility(View.VISIBLE);
                 t19.setVisibility(View.VISIBLE);
             }
         },200);

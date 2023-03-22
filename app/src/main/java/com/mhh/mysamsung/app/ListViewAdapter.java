@@ -89,6 +89,14 @@ public class ListViewAdapter extends BaseAdapter{
                     Intent intent = new Intent(mContext, About_activity.class);
                     mContext.startActivity(intent);
                 }
+                if (modellist.get(postition).getTitle().equals("A52s")){
+                    Intent intent = new Intent(mContext, Series_activity.class);
+                    mContext.startActivity(intent);
+                }
+                if (modellist.get(postition).getTitle().equals("a52s")){
+                    Intent intent = new Intent(mContext, About_activity.class);
+                    mContext.startActivity(intent);
+                }
             }
         });
 

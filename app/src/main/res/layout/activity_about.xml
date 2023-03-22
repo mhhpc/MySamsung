@@ -104,7 +104,7 @@
                 android:padding="7dp"
                 android:text="@string/about_tx2"
                 android:textColor="@color/colorBlack"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:visibility="invisible" />
 
             <TextView
@@ -116,7 +116,7 @@
                 android:padding="7dp"
                 android:text="@string/about_tx3"
                 android:textColor="@color/colorBlack"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:visibility="invisible" />
 
         </LinearLayout>

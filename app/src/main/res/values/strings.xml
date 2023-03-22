@@ -2,7 +2,7 @@
     <string name="app_name">MySamsung</string>
     <string name="app_name_persian">سامسونگ من</string>
 
-    <string name="app_version">نسخه 0.2</string>
+    <string name="app_version">نسخه 0.3</string>
 
     <string name="title_suggest">پیشنهادات</string>
 
@@ -84,8 +84,8 @@
     <string name="about_b2">امتیاز به برنامه</string>
     <string name="about_b3">اشتراک گذاری برنامه</string>
     <string name="about_tx1">ساخته شده توسط محمد حسین حمیدی</string>
-    <string name="about_tx2">Copyright © 1401 MHH Releases</string>
-    <string name="about_tx3">1 Azar 1401 Release</string>
+    <string name="about_tx2">Copyright © 1401-1402 MHH Releases</string>
+    <string name="about_tx3">1 Farvardin 1402 Released</string>
 
     //Ertebat_activity
     <string name="ertebat_title">ارتباط با ما</string>
@@ -127,6 +127,9 @@
     <string name="compare_t1">مقایسه گوشی ها</string>
     <string name="compare_t2">مقایسه نسخه های اندروید</string>
     <string name="compare_t3">مقایسه سری گوشی های سامسونگ</string>
+
+    //Customize_phone
+    <string name="compare_phone_title">کدوم گوشی رو میخای مقایسه کنی؟</string>
 
     //Customize_phone
     <string name="customize_phone_title">ظاهر کدوم گوشی رو دوست داری؟</string>

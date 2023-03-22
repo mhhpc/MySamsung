@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
-import com.mhh.mysamsung.phones_detail.full.galaxy_s.galaxy_a.Ph_a33_full;
+import com.mhh.mysamsung.phones_detail.full.galaxy_a.Ph_a33_full;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;

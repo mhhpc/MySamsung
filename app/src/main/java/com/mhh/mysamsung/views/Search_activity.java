@@ -68,8 +68,8 @@ public class Search_activity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("");
 
-        title = new String[]{"شروع", "درباره", "درباره", "درباره", "درباره", "درباره"};
-        description = new String[]{"دسته بندی ها", "درباره برنامه", "درباره برنامه", "درباره برنامه", "درباره برنامه", "درباره برنامه"};
+        title = new String[]{"شروع", "درباره", "درباره", "درباره", "درباره", "درباره", "A52s", "a52s"};
+        description = new String[]{"دسته بندی ها", "درباره برنامه", "درباره برنامه", "درباره برنامه", "درباره برنامه", "درباره برنامه", "h", "i"};
 
 
         listView = findViewById(R.id.listView);

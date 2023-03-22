@@ -1,4 +1,4 @@
-package com.mhh.mysamsung.phones_detail.full.galaxy_s.galaxy_a;
+package com.mhh.mysamsung.phones_detail.full.galaxy_a;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -23,22 +23,22 @@ import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
-public class Ph_a73_full extends AppCompatActivity {
+public class Ph_a53_full extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ph_a73_full);
+        setContentView(R.layout.activity_ph_a53_full);
 
         //Gradient -----------
-        ConstraintLayout constraintLayout = findViewById(R.id.ph_a73_full);
+        ConstraintLayout constraintLayout = findViewById(R.id.ph_a53_full);
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
 
         //Animation ------------
-        final ViewGroup r = findViewById(R.id.ph_a73_full);
+        final ViewGroup r = findViewById(R.id.ph_a53_full);
         final RelativeLayout t1 = findViewById(R.id.view);
         final TextView t2 = findViewById(R.id.titleView1);
         final TextView t3 = findViewById(R.id.titleView2);
@@ -58,7 +58,6 @@ public class Ph_a73_full extends AppCompatActivity {
         final LinearLayout t17 = findViewById(R.id.ll2);
         final LinearLayout t18 = findViewById(R.id.ll3);
         final TextView t19 = findViewById(R.id.more);
-
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -93,21 +92,21 @@ public class Ph_a73_full extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DomainName("https://www.samsung.com/iran/smartphones/galaxy-a/galaxy-a73-5g-awesome-white-256gb-sm-a736bzwhmea/#specs");
+                DomainName("https://www.samsung.com/iran/smartphones/galaxy-a/galaxy-a53-5g-awesome-black-128gb-sm-a536ezkdmea/#specs");
             }
         });
         @SuppressLint("CutPasteId") CardView b2 = (CardView) findViewById(R.id.ncv2);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DomainName("https://www.zoomit.ir/product/samsung-galaxy-a73/");
+                DomainName("https://www.zoomit.ir/product/samsung-galaxy-a53-5g/");
             }
         });
         @SuppressLint("CutPasteId") CardView b3 = (CardView) findViewById(R.id.ncv3);
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DomainName("https://www.gsmarena.com/samsung_galaxy_a73_5g-11257.php");
+                DomainName("https://www.gsmarena.com/samsung_galaxy_a53_5g-11268.php");
             }
         });
 
@@ -116,7 +115,7 @@ public class Ph_a73_full extends AppCompatActivity {
         new DownloadImageTask(imageView).execute("https://s6.uupload.ir/files/infralist-com-sc1gjcninik-unsplash(1)_nuh4.jpg");
 
         ImageView imageView2 = (ImageView) findViewById(R.id.iv2);
-        new DownloadImageTask(imageView2).execute("https://s6.uupload.ir/files/182753_2020_nio9.jpg");
+        new DownloadImageTask(imageView2).execute("https://s6.uupload.ir/files/182332_2020_7zu6.jpg");
 
         ImageView ImageView3 = (ImageView) findViewById(R.id.image1);
         new DownloadImageTask(ImageView3).execute("https://s2.uupload.ir/files/360_197_1_kb1.jpg");
@@ -131,7 +130,7 @@ public class Ph_a73_full extends AppCompatActivity {
 
     private void DomainName(String s) {
 
-        Intent intent = new Intent(Ph_a73_full.this, Webview_activity.class);
+        Intent intent = new Intent(Ph_a53_full.this, Webview_activity.class);
         intent.putExtra("domin",s);
         startActivity(intent);
 

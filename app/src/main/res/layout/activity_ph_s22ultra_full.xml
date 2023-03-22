@@ -769,7 +769,7 @@
                         android:layout_below="@+id/tvv1_9"
                         android:layout_marginHorizontal="3dp"
                         android:layout_marginTop="1dp"
-                        android:layout_toStartOf="@+id/tv8_9"
+                        android:layout_toLeftOf="@+id/tv8_9"
                         android:text="@string/ph_s22ultra_full_tvv2_9" />
 
                     <TextView
