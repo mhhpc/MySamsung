@@ -393,11 +393,26 @@
         <item name="shape_arc_position">bottom</item>
     </style>
 
+    <style name="RelativeView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
     <style name="MainFullArcview">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">150dp</item>
         <item name="elevation">4dp</item>
         <item name="shape_arc_height">30dp</item>
+        <item name="shape_arc_position">bottom</item>
+    </style>
+
+    <style name="PhoneCompareArcview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="elevation">4dp</item>
+        <item name="shape_arc_height">0dp</item>
         <item name="shape_arc_position">bottom</item>
     </style>
 
@@ -452,6 +467,17 @@
         <item name="shape_circle_borderWidth">2dp</item>
     </style>
 
+    <style name="PhoneCompareCircleimage">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="elevation">4dp</item>
+        <item name="shape_circle_borderColor">#E447FF</item>
+        <item name="shape_circle_borderWidth">2dp</item>
+    </style>
+
     <style name="TipsLinearLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -462,6 +488,14 @@
     <style name="TipsCardView">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">250dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="TipsCardView2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">135dp</item>
         <item name="android:layout_margin">5dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:visibility">visible</item>
@@ -501,7 +535,7 @@
         <item name="android:gravity">center</item>
         <item name="android:padding">5dp</item>
         <item name="android:textColor">@color/colorBlack</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">17sp</item>
         <item name="android:background">@drawable/corner_text</item>
         <item name="android:visibility">invisible</item>
     </style>
@@ -512,7 +546,7 @@
         <item name="android:gravity">center</item>
         <item name="android:padding">5dp</item>
         <item name="android:textColor">@color/colorBlack</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">17sp</item>
         <item name="android:background">@drawable/corner_text</item>
         <item name="android:visibility">invisible</item>
     </style>
@@ -521,6 +555,27 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="PhoneShapeView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:elevation">4dp</item>
+        <item name="shape_roundRect_bottomLeftRadius">10dp</item>
+        <item name="shape_roundRect_bottomRightRadius">10dp</item>
+        <item name="shape_roundRect_topLeftRadius">10dp</item>
+        <item name="shape_roundRect_topRightRadius">10dp</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="PhoneImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:src">@drawable/loading</item>
     </style>
 
 

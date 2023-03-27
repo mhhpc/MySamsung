@@ -1,4 +1,4 @@
-package com.mhh.mysamsung.phones_detail.check;
+package com.mhh.mysamsung.phones_detail.check.galaxy_z;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;

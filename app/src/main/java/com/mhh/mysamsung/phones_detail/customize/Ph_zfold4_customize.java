@@ -23,17 +23,10 @@ import android.widget.Toast;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.guide.Guide_background;
-import com.mhh.mysamsung.phones_detail.check.Ph_zfold4_check;
-import com.mhh.mysamsung.views.About_activity;
-import com.mhh.mysamsung.views.Customize_activity;
-import com.mhh.mysamsung.views.Customize_phone_activity;
-import com.mhh.mysamsung.views.Ertebat_activity;
 import com.mhh.mysamsung.views.Webview_activity;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
-
-import io.github.florent37.shapeofview.shapes.RoundRectView;
 
 public class Ph_zfold4_customize extends AppCompatActivity {
 
@@ -97,17 +90,19 @@ public class Ph_zfold4_customize extends AppCompatActivity {
 
         @SuppressLint("CutPasteId") CardView b2 = (CardView) findViewById(R.id.cv1);
         b2.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                DomainName("https://drive.google.com/drive/folders/18onUtN17O4N4Goxx45f07oWVEkPiGhe2");
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://drive.google.com/drive/folders/18onUtN17O4N4Goxx45f07oWVEkPiGhe2"));
+                startActivity(intentRate);
             }
         });
 
         @SuppressLint("CutPasteId") CardView b3 = (CardView) findViewById(R.id.cv2);
         b3.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                DomainName("https://drive.google.com/drive/folders/1kt8XJNU6Tvn6MLmP5fNaXAKTm_L6ysM9");
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://drive.google.com/drive/folders/1kt8XJNU6Tvn6MLmP5fNaXAKTm_L6ysM9"));
+                startActivity(intentRate);
             }
         });
 

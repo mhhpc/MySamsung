@@ -17,6 +17,81 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".phones_detail.check.galaxy_j.Ph_j4_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_j.Ph_j6_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_j.Ph_j8_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_tab.Ph_tab_s8_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_tab.Ph_tab_s8plus_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_tab.Ph_tab_s8ultra_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_f.Ph_f13_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_f.Ph_f42_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_f.Ph_f23_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_m.Ph_m33_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_m.Ph_m62_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_m.Ph_m53_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_z.Ph_zflip3_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_z.Ph_zfold3_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_note.Ph_note20_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_note.Ph_note20_5g_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_note.Ph_note20ultra_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_a.Ph_a52s_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_s.Ph_s22_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_s.Ph_s22plus_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_s.Ph_s22ultra_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_a.Ph_a33_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_a.Ph_a53_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_a.Ph_a73_check"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.check.galaxy_z.Ph_zflip4_check"
+            android:exported="false" />
+        <activity
             android:name=".phones_detail.compare.Ph_zfold4_compare"
             android:exported="false" />
         <activity
@@ -35,7 +110,7 @@
             android:name=".phones_detail.pictures.Ph_zfold4_picture"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.check.Ph_zfold4_check"
+            android:name=".phones_detail.check.galaxy_z.Ph_zfold4_check"
             android:exported="false" />
         <activity
             android:name=".views.Webview_activity"

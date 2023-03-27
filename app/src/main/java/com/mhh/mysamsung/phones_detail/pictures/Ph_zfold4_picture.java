@@ -52,6 +52,7 @@ public class Ph_zfold4_picture extends AppCompatActivity {
         final TextView t9 = findViewById(R.id.more);
         final LinearLayout t10 = findViewById(R.id.ll1);
         final LinearLayout t11 = findViewById(R.id.ll2);
+        final LinearLayout t12 = findViewById(R.id.ll3);
 
 
 
@@ -72,6 +73,7 @@ public class Ph_zfold4_picture extends AppCompatActivity {
                 t9.setVisibility(View.VISIBLE);
                 t10.setVisibility(View.VISIBLE);
                 t11.setVisibility(View.VISIBLE);
+                t12.setVisibility(View.VISIBLE);
 
 
             }
@@ -82,7 +84,7 @@ public class Ph_zfold4_picture extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DomainName("https://www.zoomit.ir/product/samsung-galaxy-z-fold-4/photos/");
+                DomainName("https://www.samsung.com/iran/smartphones/galaxy-z-fold4/showroom/#see-in-360");
             }
         });
         @SuppressLint("CutPasteId") CardView b2 = (CardView) findViewById(R.id.ncv2);
@@ -90,6 +92,13 @@ public class Ph_zfold4_picture extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 DomainName("https://www.gsmarena.com/samsung_galaxy_z_fold4-pictures-11737.php");
+            }
+        });
+        @SuppressLint("CutPasteId") CardView b3 = (CardView) findViewById(R.id.ncv3);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DomainName("https://www.zoomit.ir/product/samsung-galaxy-z-fold-4/photos/");
             }
         });
 
@@ -116,10 +125,13 @@ public class Ph_zfold4_picture extends AppCompatActivity {
         new DownloadImageTask(imageView7).execute("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-3_rwc.jpg");
 
         ImageView ImageView8 = (ImageView) findViewById(R.id.image1);
-        new DownloadImageTask(ImageView8).execute("https://s2.uupload.ir/files/2019-7-0a8eee1d-c70b-4033-95c8-ea1b2615aa64-638baac6506e38df57e9cb02_gqp9.jpg");
+        new DownloadImageTask(ImageView8).execute("https://s2.uupload.ir/files/360_197_1_kb1.jpg");
 
         ImageView ImageView9 = (ImageView) findViewById(R.id.image2);
         new DownloadImageTask(ImageView9).execute("https://s2.uupload.ir/files/gsmarena-com-logo-vector_b5sw.jpg");
+
+        ImageView ImageView10 = (ImageView) findViewById(R.id.image3);
+        new DownloadImageTask(ImageView10).execute("https://s2.uupload.ir/files/2019-7-0a8eee1d-c70b-4033-95c8-ea1b2615aa64-638baac6506e38df57e9cb02_gqp9.jpg");
 
     }
 

@@ -545,18 +545,25 @@
     <string name="phones_check_more_zoomit">بررسی تخصصی این گوشی در زومیت</string>
     <string name="phones_check_more_gsm">بررسی تخصصی این گوشی در GSMArena</string>
 
+    //phones_compare
+    <string name="phones_compare_title">مقایسه گوشی</string>
+    <string name="phones_compare_more_samsung">مقایسه این گوشی در سایت سامسونگ</string>
+    <string name="phones_compare_more_zoomit">مقایسه این گوشی در زومیت</string>
+    <string name="phones_compare_more_gsm">مقایسه این گوشی در GSMArena</string>
+
     //phones_pictures
     <string name="phones_picture_title">تصاویر</string>
     <string name="phones_picture_more">بیشتر ببینید</string>
     <string name="phones_picture_more_zoomit">تصاویر این گوشی در زومیت</string>
     <string name="phones_picture_more_gsm">تصاویر این گوشی در GSMArena</string>
+    <string name="phones_picture_more_samsung">مشاهده 3D این گوشی در سایت سامسونگ</string>
 
     //phones_customize
     <string name="phones_customize_title">شخصی سازی به سبک</string>
     <string name="phones_customize_t1">پس زمینه</string>
     <string name="phones_customize_t2">آهنگ زنگ</string>
-    <string name="phones_customize_tv1">این گوشی دارای پس زمینه‌ی متحرک و ثابت است</string>
-    <string name="phones_customize_tv2">باتوجه به اینکه ابعاد این گوشی با ابعاد اکثر گوشی ها متفاوت است امکان دارد که پس زمینه‌ی پویا به درستی تنظیم نشود</string>
+    <string name="phones_customize_tv1">این گوشی دارای پس زمینه‌ی متحرک و ثابت است.</string>
+    <string name="phones_customize_tv2">باتوجه به اینکه ابعاد این گوشی با ابعاد اکثر گوشی ها متفاوت است امکان دارد که پس زمینه‌ی پویا به درستی تنظیم نشود.</string>
     <string name="phones_customize_cv1">دانلود تمام پس زمینه های ثابت این گوشی</string>
     <string name="phones_customize_cv1_1">دانلود تمام پس زمینه های متحرک این گوشی</string>
     <string name="phones_customize_cv2">دانلود آهنگ زنگ اصلی این گوشی</string>

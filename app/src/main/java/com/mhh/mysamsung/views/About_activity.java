@@ -81,7 +81,7 @@ public class About_activity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intentRate = new Intent(Intent.ACTION_VIEW);
-                intentRate.setData(Uri.parse("https://cafebazaar.ir/developer/mhhossein"));
+                intentRate.setData(Uri.parse("https://cafebazaar.ir/developer/781503171866"));
                 startActivity(intentRate);
             }
         });
@@ -91,7 +91,7 @@ public class About_activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentSend = new Intent();
                 intentSend.setAction(Intent.ACTION_SEND);
-                intentSend.putExtra(Intent.EXTRA_TEXT, "سلام \n به راحتی میتونی اپلیکیشن سامسونگ من رو از لینک زیر دانلود کنی ;) \n https://cafebazaar.ir/developer/mhhossein");
+                intentSend.putExtra(Intent.EXTRA_TEXT, "سلام \n به راحتی میتونی اپلیکیشن سامسونگ من رو از لینک زیر دانلود کنی ;) \n https://cafebazaar.ir/developer/781503171866");
                 intentSend.setType("text/plain");
 
                 Intent share = Intent.createChooser(intentSend, null);
