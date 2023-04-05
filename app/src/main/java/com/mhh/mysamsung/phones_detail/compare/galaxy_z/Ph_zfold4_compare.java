@@ -1,4 +1,4 @@
-package com.mhh.mysamsung.phones_detail.compare;
+package com.mhh.mysamsung.phones_detail.compare.galaxy_z;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;

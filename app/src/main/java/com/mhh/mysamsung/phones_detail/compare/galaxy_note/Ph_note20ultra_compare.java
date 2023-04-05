@@ -1,0 +1,16 @@
+package com.mhh.mysamsung.phones_detail.compare.galaxy_note;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import com.mhh.mysamsung.R;
+
+public class Ph_note20ultra_compare extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ph_note20ultra_compare);
+    }
+}

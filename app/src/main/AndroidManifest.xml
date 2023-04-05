@@ -17,6 +17,84 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".phones_detail.compare.galaxy_j.Ph_j4_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_j.Ph_j6_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_j.Ph_j8_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_tab.Ph_tab_s8_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_tab.Ph_tab_s8plus_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_tab.Ph_tab_s8ultra_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_f.Ph_f13_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_f.Ph_f42_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_f.Ph_f23_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_m.Ph_m33_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_m.Ph_m62_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_m.Ph_m53_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_z.Ph_zflip3_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_z.Ph_zfold3_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_note.Ph_note20_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_note.Ph_note20_5g_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_note.Ph_note20ultra_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_a.Ph_a52s_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_s.Ph_s21fe_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_s.Ph_s22_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_s.Ph_s22plus_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_s.Ph_s22ultra_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_a.Ph_a33_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_a.Ph_a53_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_a.Ph_a73_compare"
+            android:exported="false" />
+        <activity
+            android:name=".phones_detail.compare.galaxy_z.Ph_zflip4_compare"
+            android:exported="false" />
+        <activity
             android:name=".phones_detail.check.galaxy_j.Ph_j4_check"
             android:exported="false" />
         <activity
@@ -92,7 +170,7 @@
             android:name=".phones_detail.check.galaxy_z.Ph_zflip4_check"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.compare.Ph_zfold4_compare"
+            android:name=".phones_detail.compare.galaxy_z.Ph_zfold4_compare"
             android:exported="false" />
         <activity
             android:name=".views.Compare_phone_activity"
