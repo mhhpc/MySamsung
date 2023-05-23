@@ -8,8 +8,8 @@
         android:duration="500" />
     <item
         android:drawable="@drawable/gradient_3"
-        android:duration="7500" />
+        android:duration="500" />
     <item
         android:drawable="@drawable/gradient_4"
-        android:duration="1000" />
+        android:duration="5000" />
 </animation-list>

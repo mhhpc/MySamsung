@@ -2,7 +2,7 @@ package com.mhh.mysamsung.views;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.cardview.widget.CardView;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.annotation.SuppressLint;
@@ -15,23 +15,17 @@ import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.android.material.navigation.NavigationView;
 import com.mhh.mysamsung.R;
-import com.transitionseverywhere.AutoTransition;
-import com.transitionseverywhere.ChangeBounds;
-import com.transitionseverywhere.ChangeScroll;
-import com.transitionseverywhere.Crossfade;
-import com.transitionseverywhere.Explode;
-import com.transitionseverywhere.Fade;
+import com.mhh.mysamsung.goodlock.Goodlock_activity;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
-import com.transitionseverywhere.extra.Scale;
 
 public class Home_activity extends AppCompatActivity implements View.OnClickListener {
 
@@ -53,10 +47,9 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
 
         //Animation ------------
         final ViewGroup r = findViewById(R.id.home);
-        final Button t1 = findViewById(R.id.compare);
-        final Button t2 = findViewById(R.id.option);
-        final Button t3 = findViewById(R.id.tip);
-        final Button t4 = findViewById(R.id.about);
+        final LinearLayout t1 = findViewById(R.id.ll1);
+        final LinearLayout t2 = findViewById(R.id.ll2);
+        final LinearLayout t3 = findViewById(R.id.ll3);
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -67,7 +60,6 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
                 t1.setVisibility(View.VISIBLE);
                 t2.setVisibility(View.VISIBLE);
                 t3.setVisibility(View.VISIBLE);
-                t4.setVisibility(View.VISIBLE);
             }
         },200);
 
@@ -117,31 +109,38 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         });
 
         //Buttons onclick
-        @SuppressLint("CutPasteId") Button rbtn1 = (Button) findViewById(R.id.about);
+        @SuppressLint("CutPasteId") CardView rbtn1 = (CardView) findViewById(R.id.cv5);
         rbtn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Home_activity.this , About_activity.class));
             }
         });
 
-        @SuppressLint("CutPasteId") Button rbtn2 = (Button) findViewById(R.id.tip);
+        @SuppressLint("CutPasteId") CardView rbtn2 = (CardView) findViewById(R.id.cv3);
         rbtn2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Home_activity.this , Tips_activity.class));
             }
         });
 
-        @SuppressLint("CutPasteId") Button rbtn3 = (Button) findViewById(R.id.option);
+        @SuppressLint("CutPasteId") CardView rbtn3 = (CardView) findViewById(R.id.cv2);
         rbtn3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Home_activity.this , Customize_activity.class));
             }
         });
 
-        @SuppressLint("CutPasteId") Button rbtn4 = (Button) findViewById(R.id.compare);
+        @SuppressLint("CutPasteId") CardView rbtn4 = (CardView) findViewById(R.id.cv1);
         rbtn4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Home_activity.this , Compare_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView rbtn5 = (CardView) findViewById(R.id.cv4);
+        rbtn5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this , Goodlock_activity.class));
             }
         });
 

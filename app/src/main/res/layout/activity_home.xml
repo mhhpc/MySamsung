@@ -92,9 +92,9 @@
                     android:id="@+id/lottie"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="-30dp"
-                    android:layout_marginBottom="-30dp"
                     android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-35dp"
+                    android:layout_marginBottom="-30dp"
                     app:lottie_autoPlay="true"
                     app:lottie_loop="true"
                     app:lottie_rawRes="@raw/top" />
@@ -202,42 +202,113 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <Button
-                    android:id="@+id/compare"
-                    style="@style/MyButton"
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    style="@style/TipsLinearLayout"
                     android:layout_below="@+id/cardView"
-                    android:layout_marginHorizontal="22dp"
-                    android:layout_marginTop="25dp"
-                    android:drawableLeft="@drawable/compare"
-                    android:text="@string/home_compare" />
+                    android:layout_marginTop="5dp">
 
-                <Button
-                    android:id="@+id/option"
-                    style="@style/MyButton"
-                    android:layout_below="@+id/compare"
-                    android:layout_marginHorizontal="22dp"
-                    android:layout_marginTop="10dp"
-                    android:drawableRight="@drawable/option"
-                    android:text="@string/home_option" />
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv1"
+                        style="@style/TipsCardView"
+                        android:layout_height="200dp"
+                        app:cardCornerRadius="30dp">
 
-                <Button
-                    android:id="@+id/tip"
-                    style="@style/MyButton"
-                    android:layout_below="@+id/option"
-                    android:layout_marginHorizontal="22dp"
-                    android:layout_marginTop="10dp"
-                    android:drawableLeft="@drawable/tip"
-                    android:text="@string/home_tip" />
+                        <ImageView
+                            android:id="@+id/iv1"
+                            android:src="@drawable/home_im1"
+                            style="@style/TipsImageView" />
 
-                <Button
-                    android:id="@+id/about"
-                    style="@style/MyButton"
-                    android:layout_below="@+id/tip"
-                    android:layout_marginHorizontal="22dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="30dp"
-                    android:drawableRight="@drawable/info"
-                    android:text="@string/home_about" />
+                        <TextView
+                            style="@style/HomeTipsTextView"
+                            android:background="@drawable/home_corner_card1"
+                            android:text="@string/home_compare" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv2"
+                        style="@style/TipsCardView"
+                        android:layout_height="200dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            android:id="@+id/iv2"
+                            android:src="@drawable/home_im2"
+                            style="@style/TipsImageView" />
+
+                        <TextView
+                            style="@style/HomeTipsTextView"
+                            android:background="@drawable/home_corner_card2"
+                            android:text="@string/home_option" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll2"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll1">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv3"
+                        style="@style/TipsCardView"
+                        android:layout_height="200dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            android:id="@+id/iv3"
+                            android:src="@drawable/home_im3"
+                            style="@style/TipsImageView" />
+
+                        <TextView
+                            style="@style/HomeTipsTextView"
+                            android:background="@drawable/home_corner_card3"
+                            android:text="@string/home_tip" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv4"
+                        style="@style/TipsCardView"
+                        android:layout_height="200dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            android:id="@+id/iv4"
+                            android:src="@drawable/home_im4"
+                            style="@style/TipsImageView" />
+
+                        <TextView
+                            style="@style/HomeTipsTextView"
+                            android:background="@drawable/home_corner_card4"
+                            android:text="@string/home_goodlock" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll3"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll2">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@id/cv5"
+                        style="@style/TipsCardView"
+                        android:layout_height="150dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            android:id="@+id/iv5"
+                            style="@style/TipsImageView" />
+
+                        <TextView
+                            style="@style/HomeTipsTextView"
+                            android:background="@drawable/home_corner_card5"
+                            android:text="@string/home_about" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
 
             </RelativeLayout>
 

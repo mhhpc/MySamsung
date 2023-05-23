@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".goodlock.Goodlock_activity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ctr_bg">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            style="@style/AppbarTitle">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                style="@style/CollapsingToolbarLayout"
+                app:title="@string/goodlock_title">
+
+                <ImageView
+                    android:id="@+id/image"
+                    style="@style/AppbarImageview" />
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    style="@style/Toolbar" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/goodlock"
+            style="@style/NestedScrollView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll0"
+                    style="@style/TipsLinearLayout"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv01"
+                        style="@style/TipsCardView"
+                        android:layout_height="200dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            android:id="@+id/image1"
+                            style="@style/TipsImageView" />
+
+                        <TextView
+                            style="@style/TipsTextView"
+                            android:text="@string/goodlock_guide" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv02"
+                        style="@style/TipsCardView"
+                        android:layout_height="200dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            android:id="@+id/image2"
+                            style="@style/TipsImageView" />
+
+                        <TextView
+                            style="@style/TipsTextView"
+                            android:text="@string/goodlock_download" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ct"
+                    style="@style/Goodlock_text"
+                    android:layout_below="@+id/ll0"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/goodlock_titr1" />
+
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@id/ct"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv1"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv1"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv1"
+                                android:text="@string/goodlock_tv1" />
+
+                            <TextView
+                                android:id="@+id/t1"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv1"
+                                android:layout_toRightOf="@id/iv1"
+                                android:text="@string/goodlock_t1" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll2"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll1">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv2"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv2"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv2"
+                                android:layout_toRightOf="@id/iv2"
+                                android:textColor="#009688"
+                                style="@style/GoodlockTextView"
+                                android:text="@string/goodlock_tv2" />
+
+                            <TextView
+                                android:id="@+id/t2"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv2"
+                                android:layout_toRightOf="@id/iv2"
+                                android:text="@string/goodlock_t2" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll3"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll2">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv3"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv3"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv3"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv3"
+                                android:text="@string/goodlock_tv3" />
+
+                            <TextView
+                                android:id="@+id/t3"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv3"
+                                android:layout_toRightOf="@id/iv3"
+                                android:text="@string/goodlock_t3" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll4"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll3">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv4"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv4"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv4"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv4"
+                                android:text="@string/goodlock_tv4" />
+
+                            <TextView
+                                android:id="@+id/t4"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv4"
+                                android:layout_toRightOf="@id/iv4"
+                                android:text="@string/goodlock_t4" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll5"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll4">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv5"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv5"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv5"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv5"
+                                android:text="@string/goodlock_tv5" />
+
+                            <TextView
+                                android:id="@+id/t5"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv5"
+                                android:layout_toRightOf="@id/iv5"
+                                android:text="@string/goodlock_t5" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll6"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll5">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv6"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv6"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv6"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv6"
+                                android:text="@string/goodlock_tv6" />
+
+                            <TextView
+                                android:id="@+id/t6"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv6"
+                                android:layout_toRightOf="@id/iv6"
+                                android:text="@string/goodlock_t6" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll7"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll6">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv7"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv7"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv7"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv7"
+                                android:text="@string/goodlock_tv7" />
+
+                            <TextView
+                                android:id="@+id/t7"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv7"
+                                android:layout_toRightOf="@id/iv7"
+                                android:text="@string/goodlock_t7" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll8"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll7">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv8"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv8"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv8"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv8"
+                                android:text="@string/goodlock_tv8" />
+
+                            <TextView
+                                android:id="@+id/t8"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv8"
+                                android:layout_toRightOf="@id/iv8"
+                                android:text="@string/goodlock_t8" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll9"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll8">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv9"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv9"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv9"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv9"
+                                android:text="@string/goodlock_tv9" />
+
+                            <TextView
+                                android:id="@+id/t9"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv9"
+                                android:layout_toRightOf="@id/iv9"
+                                android:text="@string/goodlock_t9" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll10"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll9">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv10"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv10"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv10"
+                                style="@style/GoodlockTextView"
+                                android:textColor="#3F51B5"
+                                android:layout_toRightOf="@id/iv10"
+                                android:text="@string/goodlock_tv10" />
+
+                            <TextView
+                                android:id="@+id/t10"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv10"
+                                android:layout_toRightOf="@id/iv10"
+                                android:text="@string/goodlock_t10" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ct2"
+                    style="@style/Goodlock_text"
+                    android:layout_below="@+id/ll10"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/goodlock_titr2" />
+
+                <LinearLayout
+                    android:id="@+id/ll11"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@id/ct2"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv11"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv11"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv11"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv11"
+                                android:text="@string/goodlock_tv11" />
+
+                            <TextView
+                                android:id="@+id/t11"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv11"
+                                android:layout_toRightOf="@id/iv11"
+                                android:text="@string/goodlock_t11" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll12"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll11">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv12"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv12"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv12"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv12"
+                                android:text="@string/goodlock_tv12" />
+
+                            <TextView
+                                android:id="@+id/t12"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv12"
+                                android:layout_toRightOf="@id/iv12"
+                                android:text="@string/goodlock_t12" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll13"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll12">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv13"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv13"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv13"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv13"
+                                android:text="@string/goodlock_tv13" />
+
+                            <TextView
+                                android:id="@+id/t13"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv13"
+                                android:layout_toRightOf="@id/iv13"
+                                android:text="@string/goodlock_t13" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll14"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll13">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv14"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv14"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv14"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv14"
+                                android:text="@string/goodlock_tv14" />
+
+                            <TextView
+                                android:id="@+id/t14"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv14"
+                                android:layout_toRightOf="@id/iv14"
+                                android:text="@string/goodlock_t14" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll15"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll14">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv15"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv15"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv15"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv15"
+                                android:text="@string/goodlock_tv15" />
+
+                            <TextView
+                                android:id="@+id/t15"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv15"
+                                android:layout_toRightOf="@id/iv15"
+                                android:text="@string/goodlock_t15" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll16"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll15">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv16"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv16"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv16"
+                                style="@style/GoodlockTextView"
+                                android:textColor="#673AB7"
+                                android:layout_toRightOf="@id/iv16"
+                                android:text="@string/goodlock_tv16" />
+
+                            <TextView
+                                android:id="@+id/t16"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv16"
+                                android:layout_toRightOf="@id/iv16"
+                                android:text="@string/goodlock_t16" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll17"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll16">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv17"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv17"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv17"
+                                style="@style/GoodlockTextView"
+                                android:textColor="#3F51B5"
+                                android:layout_toRightOf="@id/iv17"
+                                android:text="@string/goodlock_tv17" />
+
+                            <TextView
+                                android:id="@+id/t17"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv17"
+                                android:layout_toRightOf="@id/iv17"
+                                android:text="@string/goodlock_t17" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll18"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll17">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv18"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv18"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv18"
+                                style="@style/GoodlockTextView"
+                                android:textColor="#CF0046"
+                                android:layout_toRightOf="@id/iv18"
+                                android:text="@string/goodlock_tv18" />
+
+                            <TextView
+                                android:id="@+id/t18"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv18"
+                                android:layout_toRightOf="@id/iv18"
+                                android:text="@string/goodlock_t18" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll19"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll18">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv19"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv19"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv19"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv19"
+                                android:text="@string/goodlock_tv19" />
+
+                            <TextView
+                                android:id="@+id/t19"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv19"
+                                android:layout_toRightOf="@id/iv19"
+                                android:text="@string/goodlock_t19" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll20"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll19">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv20"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv20"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv20"
+                                android:textColor="#9C27B0"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv20"
+                                android:text="@string/goodlock_tv20" />
+
+                            <TextView
+                                android:id="@+id/t20"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv20"
+                                android:layout_toRightOf="@id/iv20"
+                                android:text="@string/goodlock_t20" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ct3"
+                    style="@style/Goodlock_text"
+                    android:layout_below="@+id/ll20"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/goodlock_titr3" />
+
+                <LinearLayout
+                    android:id="@+id/ll21"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@id/ct3"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv21"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv21"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv21"
+                                style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv21"
+                                android:text="@string/goodlock_tv21" />
+
+                            <TextView
+                                android:id="@+id/t21"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv21"
+                                android:layout_toRightOf="@id/iv21"
+                                android:text="@string/goodlock_t21" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll22"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll21">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv22"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv22"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv22"
+                                android:layout_toRightOf="@id/iv22"
+                                style="@style/GoodlockTextView"
+                                android:text="@string/goodlock_tv22" />
+
+                            <TextView
+                                android:id="@+id/t22"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv22"
+                                android:layout_toRightOf="@id/iv22"
+                                android:text="@string/goodlock_t22" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll23"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll22">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv23"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv23"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv23"
+                                android:layout_toRightOf="@id/iv23"
+                                style="@style/GoodlockTextView"
+                                android:text="@string/goodlock_tv23" />
+
+                            <TextView
+                                android:id="@+id/t23"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv23"
+                                android:layout_toRightOf="@id/iv23"
+                                android:text="@string/goodlock_t23" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll24"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll23">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv24"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv24"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv24"
+                                android:layout_toRightOf="@id/iv24"
+                                style="@style/GoodlockTextView"
+                                android:text="@string/goodlock_tv24" />
+
+                            <TextView
+                                android:id="@+id/t24"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv24"
+                                android:layout_toRightOf="@id/iv24"
+                                android:text="@string/goodlock_t24" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll25"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll24">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv25"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv25"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv25"
+                                android:layout_toRightOf="@id/iv25"
+                                style="@style/GoodlockTextView"
+                                android:text="@string/goodlock_tv25" />
+
+                            <TextView
+                                android:id="@+id/t25"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv25"
+                                android:layout_toRightOf="@id/iv25"
+                                android:text="@string/goodlock_t25" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll26"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll25">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv26"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv26"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv26"
+                                android:layout_toRightOf="@id/iv26"
+                                style="@style/GoodlockTextView"
+                                android:text="@string/goodlock_tv26" />
+
+                            <TextView
+                                android:id="@+id/t26"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv26"
+                                android:layout_toRightOf="@id/iv26"
+                                android:text="@string/goodlock_t26" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll27"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll26">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv27"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv27"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv27"
+                                android:textColor="#CF0046"
+                                android:layout_toRightOf="@id/iv27"
+                                style="@style/GoodlockTextView"
+                                android:text="@string/goodlock_tv27" />
+
+                            <TextView
+                                android:id="@+id/t27"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv27"
+                                android:layout_toRightOf="@id/iv27"
+                                android:text="@string/goodlock_t27" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll28"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll27">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv28"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/iv28"
+                                style="@style/GoodlockImageView"
+                                android:layout_marginHorizontal="10dp" />
+
+                            <TextView
+                                android:id="@+id/tv28"
+                                android:textColor="#CF0046"
+                                android:layout_toRightOf="@id/iv28"
+                                style="@style/GoodlockTextView"
+                                android:text="@string/goodlock_tv28" />
+
+                            <TextView
+                                android:id="@+id/t28"
+                                style="@style/GoodlockTextView2"
+                                android:layout_below="@+id/tv28"
+                                android:layout_toRightOf="@id/iv28"
+                                android:text="@string/goodlock_t28" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

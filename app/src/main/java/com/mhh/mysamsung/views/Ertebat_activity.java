@@ -4,6 +4,8 @@ import static java.security.AccessController.getContext;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.widget.NestedScrollView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -18,6 +20,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -30,11 +33,17 @@ public class Ertebat_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ertebat);
 
-        ConstraintLayout constraintLayout = findViewById(R.id.ertebat);
-        AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
+        NestedScrollView nestedScrollView = findViewById(R.id.ertebat);
+        AnimationDrawable animationDrawable = (AnimationDrawable) nestedScrollView.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
+
+        CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsing_toolbar);
+        AnimationDrawable animationDrawable2 = (AnimationDrawable) collapsingToolbarLayout.getBackground();
+        animationDrawable2.setEnterFadeDuration(2000);
+        animationDrawable2.setExitFadeDuration(4000);
+        animationDrawable2.start();
 
         //Animation ------------
         final ViewGroup r = findViewById(R.id.ertebat);
@@ -137,7 +146,7 @@ public class Ertebat_activity extends AppCompatActivity {
         b7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intentRate = new Intent(Intent.ACTION_VIEW);
-                intentRate.setData(Uri.parse("https://cafebazaar.ir/developer/mhhossein"));
+                intentRate.setData(Uri.parse("https://cafebazaar.ir/developer/781503171866"));
                 startActivity(intentRate);
             }
         });

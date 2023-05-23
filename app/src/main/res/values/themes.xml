@@ -14,6 +14,74 @@
         <item name="android:fontFamily">@font/font</item>
     </style>
 
+    <style name="TextAppearance.MyApp.Title.Collapsed" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Title.Expanded" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppbarTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:theme">@style/Theme.MySamsung</item>
+    </style>
+
+    <style name="AppbarImageview">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="layout_collapseMode">parallax</item>
+        <item name="android:src">@drawable/phone</item>
+    </style>
+
+    <style name="AppbarLottie">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="layout_collapseMode">parallax</item>
+        <item name="lottie_autoPlay">true</item>
+        <item name="lottie_loop">true</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="layout_collapseMode">pin</item>
+    </style>
+
+    <style name="NestedScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/gradient_list</item>
+        <item name="layout_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</item>
+    </style>
+
+    <style name="CollapsingToolbarLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/gradient_list_toolbar</item>
+        <item name="expandedTitleTextAppearance">@style/TextAppearance.MyApp.Title.Expanded</item>
+        <item name="collapsedTitleTextAppearance">@style/TextAppearance.MyApp.Title.Collapsed</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="collapsedTitleGravity">center</item>
+        <item name="collapsedTitleTextColor">@color/ColorWhite</item>
+        <item name="contentScrim">@color/colorPrimary</item>
+        <item name="expandedTitleGravity">bottom|center_horizontal</item>
+        <item name="expandedTitleTextColor">@color/ColorWhite</item>
+        <item name="layout_scrollFlags">scroll|snap|exitUntilCollapsed</item>
+    </style>
+
     <style name="Theme.searchtheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -100,6 +168,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/corner_title</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:padding">15dp</item>
         <item name="android:textSize">25sp</item>
         <item name="android:gravity">center</item>
@@ -124,6 +193,18 @@
         <item name="android:gravity">center</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:visibility">invisible</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Goodlock_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:background">@drawable/corner_goodlock</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -493,6 +574,14 @@
         <item name="android:visibility">visible</item>
     </style>
 
+    <style name="TipsCardViewGoodlock">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
     <style name="TipsCardView2">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">135dp</item>
@@ -517,6 +606,15 @@
         <item name="android:src">@drawable/ic_launcher_background</item>
     </style>
 
+    <style name="GoodlockImageView">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/phone</item>
+    </style>
+
     <style name="TipsTextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -527,6 +625,41 @@
         <item name="android:textSize">15sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:background">@drawable/corner_card</item>
+    </style>
+
+    <style name="HomeTipsTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/home_corner_card1</item>
+    </style>
+
+    <style name="GoodlockTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GoodlockTextView2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TipsTitleTextView">

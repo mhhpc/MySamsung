@@ -23,6 +23,7 @@
     <string name="home_option">شخصی سازی</string>
     <string name="home_tip">ترفندها و نکات جذاب</string>
     <string name="home_about">درباره ما</string>
+    <string name="home_goodlock">برنامه Goodlock</string>
 
     //Search_activity
     <string name="app_search">جستجو</string>
@@ -120,6 +121,70 @@
     <string name="customize_t2">روش های شخصی سازی گوشی سامسونگ</string>
     <string name="customize_t3">معرفی برنامه های شخصی سازی گوشی</string>
     <string name="customize_t4">قابلیت های مخفی گوشی سامسونگ</string>
+
+    //Customize_activity
+    <string name="goodlock_title">Goodlock</string>
+    <string name="goodlock_download">دانلود و بروزرسانی</string>
+    <string name="goodlock_guide">راهنمایی</string>
+    <string name="goodlock_titr1">Unit</string>
+    <string name="goodlock_titr2">Family</string>
+    <string name="goodlock_titr3">Guardians</string>
+    <string name="goodlock_tv1">LockStar</string>
+    <string name="goodlock_t1">ساخت سبک جدید صفحه قفل و صفحه همیشه روشن</string>
+    <string name="goodlock_tv2">QuickStar (requires Theme Park)</string>
+    <string name="goodlock_t2">طراحی نوار تنظیمات سریع را جدید کنید</string>
+    <string name="goodlock_tv3">Routines+</string>
+    <string name="goodlock_t3">ویژگی های مختلفی به Bixby اضافه شده است. به شما کمک می کند که کارهای روزمره را سریع تر انجام دهید</string>
+    <string name="goodlock_tv4">ClockFace</string>
+    <string name="goodlock_t4">می‌توانید سبک های مختلف ساعت را روی صفحه قفل و صفحه همیشه روشن تنظیم کنید و آنها را به سبک خود شخصی سازی کنید</string>
+    <string name="goodlock_tv5">MultiStar</string>
+    <string name="goodlock_t5">حالت چند پنجره ای بهتری را تجربه کنید</string>
+    <string name="goodlock_tv6">NavStar</string>
+    <string name="goodlock_t6">به راحتی نوار ناوبری و سبک های مختلف را مدیریت کنید</string>
+    <string name="goodlock_tv7">NiceShot</string>
+    <string name="goodlock_t7">از صفحه گوشی راحت تر عکس و فیلم بگیرید</string>
+    <string name="goodlock_tv8">Home Up</string>
+    <string name="goodlock_t8">از بهتر کردن تجربه One Ui لذت ببرید</string>
+    <string name="goodlock_tv9">NotiStar</string>
+    <string name="goodlock_t9">تاریخچه اعلان ها را به سادگی مدیریت کنید</string>
+    <string name="goodlock_tv10">RegiStar (Android +13)</string>
+    <string name="goodlock_t10">چینش تنظیمات را تغییر دهید. کلیدهای کناری را مدیریت کنید. روش هایی برای راه اندازی سریع ویژگی های مفید ایجاد کنید</string>
+    <string name="goodlock_tv11">Theme Park</string>
+    <string name="goodlock_t11">به راحتی و به سرعت تم خود را بسازید و آنها را اعمال کنید</string>
+    <string name="goodlock_tv12">Nice Catch</string>
+    <string name="goodlock_t12">آیا تا به حال شده است که گوشی شما بلرزد اما اعلانی دریافت نکرده باشید؟ در این برنامه میتوانید علت اتفاقاتی مانند لرزش یا روشن شدن صفحه نمایش را ببینید</string>
+    <string name="goodlock_tv13">One Hand Operation +</string>
+    <string name="goodlock_t13">به راحتی از گوشی یا تبلت خود با انگشت شست استفاده کنید</string>
+    <string name="goodlock_tv14">Sound Assistant</string>
+    <string name="goodlock_t14">تنظیمات سیستم صوتی را گسترش داده و به راحتی افزایش دهید</string>
+    <string name="goodlock_tv15">Wonderland</string>
+    <string name="goodlock_t15">پس زمینه های سه بعدی متحرک با تنوع فراوان بسازید</string>
+    <string name="goodlock_tv16">Keys Cafe (requires ThemePark and One UI 2.1)</string>
+    <string name="goodlock_t16">صفحه کلید را برای خود بهینه سازی کنید و استیکر های متحرک منحصر به فرد هود را ایجاد کنید</string>
+    <string name="goodlock_tv17">Camera Assistant (S &amp; Z, One UI 5.1)</string>
+    <string name="goodlock_t17">تنظیمات دوربین را بر اساس ترجیحات خود شخصی سازی کنید</string>
+    <string name="goodlock_tv18">Good Lock (dependency)</string>
+    <string name="goodlock_t18">اجرا کننده‌ی مجموعه برنامه های Goodlock</string>
+    <string name="goodlock_tv19">Edge Touch</string>
+    <string name="goodlock_t19">با تنظیم محدودیت از لمس های ناخواسته در لبه گوشی خود جلوگیری کنید</string>
+    <string name="goodlock_tv20">Pentastic (Note &amp; Tab with S-Pen only)</string>
+    <string name="goodlock_t20">قلم S pen خود را منحصر به فرد کنید</string>
+    <string name="goodlock_tv21">Battery Tracker</string>
+    <string name="goodlock_t21">مصرف باتری خود را رهگیری کنید</string>
+    <string name="goodlock_tv22">Battery Guardian</string>
+    <string name="goodlock_t22">عمر باتری خود را افزایش دهید</string>
+    <string name="goodlock_tv23">Galaxy App Booster</string>
+    <string name="goodlock_t23">عملکرد برنامه ها را افزایش دهید</string>
+    <string name="goodlock_tv24">Thermal Guardian</string>
+    <string name="goodlock_t24">دمای دستگاه را مدیریت کنید</string>
+    <string name="goodlock_tv25">Memory Guardian</string>
+    <string name="goodlock_t25">برای عملکرد بهتر حافظه را آزاد کنید</string>
+    <string name="goodlock_tv26">Media File Guardian</string>
+    <string name="goodlock_t26">مدیریت فایل های رسانه ای</string>
+    <string name="goodlock_tv27">Good Guardians (dependency)</string>
+    <string name="goodlock_t27">اجرا کننده مجموعه برنامه های Good Guardians</string>
+    <string name="goodlock_tv28">Good Guardians Agent (dependency)</string>
+    <string name="goodlock_t28">نظارت برنامه های Good Guardians</string>
 
     //Compare_activity
     <string name="compare_title">مقایسه</string>
