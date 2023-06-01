@@ -25,9 +25,22 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="TextAppearance.MyApp.Title.Expanded2" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="AppbarTitle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">280dp</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:theme">@style/Theme.MySamsung</item>
+    </style>
+
+    <style name="AppbarTitle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
         <item name="android:fitsSystemWindows">true</item>
         <item name="android:theme">@style/Theme.MySamsung</item>
     </style>
@@ -40,7 +53,6 @@
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:scaleType">centerCrop</item>
         <item name="layout_collapseMode">parallax</item>
-        <item name="android:src">@drawable/phone</item>
     </style>
 
     <style name="AppbarLottie">
@@ -78,6 +90,36 @@
         <item name="collapsedTitleTextColor">@color/ColorWhite</item>
         <item name="contentScrim">@color/colorPrimary</item>
         <item name="expandedTitleGravity">bottom|center_horizontal</item>
+        <item name="expandedTitleTextColor">@color/ColorWhite</item>
+        <item name="layout_scrollFlags">scroll|snap|exitUntilCollapsed</item>
+    </style>
+
+    <style name="CollapsingToolbarLayout2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/gradient_list_toolbar</item>
+        <item name="expandedTitleTextAppearance">@style/TextAppearance.MyApp.Title.Expanded</item>
+        <item name="collapsedTitleTextAppearance">@style/TextAppearance.MyApp.Title.Collapsed</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="collapsedTitleGravity">center</item>
+        <item name="collapsedTitleTextColor">@color/ColorWhite</item>
+        <item name="contentScrim">@color/colorPrimary</item>
+        <item name="expandedTitleGravity">center</item>
+        <item name="expandedTitleTextColor">@color/ColorWhite</item>
+        <item name="layout_scrollFlags">scroll|snap|exitUntilCollapsed</item>
+    </style>
+
+    <style name="CollapsingToolbarLayout3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/gradient_list_toolbar</item>
+        <item name="expandedTitleTextAppearance">@style/TextAppearance.MyApp.Title.Expanded2</item>
+        <item name="collapsedTitleTextAppearance">@style/TextAppearance.MyApp.Title.Collapsed</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="collapsedTitleGravity">center</item>
+        <item name="collapsedTitleTextColor">@color/ColorWhite</item>
+        <item name="contentScrim">@color/colorPrimary</item>
+        <item name="expandedTitleGravity">center</item>
         <item name="expandedTitleTextColor">@color/ColorWhite</item>
         <item name="layout_scrollFlags">scroll|snap|exitUntilCollapsed</item>
     </style>
@@ -603,7 +645,6 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:scaleType">centerCrop</item>
-        <item name="android:src">@drawable/ic_launcher_background</item>
     </style>
 
     <style name="GoodlockImageView">
@@ -612,7 +653,6 @@
         <item name="android:scaleType">centerCrop</item>
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_centerVertical">true</item>
-        <item name="android:src">@drawable/phone</item>
     </style>
 
     <style name="TipsTextView">

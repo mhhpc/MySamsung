@@ -48,4 +48,6 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     //shape and view
     implementation 'io.github.florent37:shapeofview:1.4.7'
+    //picasso (ImageLoader)
+    implementation 'com.squareup.picasso:picasso:2.8'
 }

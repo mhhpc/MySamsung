@@ -2,104 +2,121 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/compare"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_list"
     tools:context=".views.Compare_activity">
 
-    <ScrollView
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/ctr_bg">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            style="@style/AppbarTitle2">
 
-            <TextView
-                android:id="@+id/titleView"
-                style="@style/Title"
-                android:gravity="center"
-                android:text="@string/compare_title" />
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                style="@style/CollapsingToolbarLayout2"
+                app:title="@string/compare_title">
 
-            <TextView
-                android:id="@+id/tv1"
-                style="@style/TipsTitleTextView"
-                android:layout_below="@id/titleView"
-                android:layout_marginHorizontal="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/compare_titr" />
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    style="@style/Toolbar" />
 
-            <LinearLayout
-                android:id="@+id/ll1"
-                style="@style/TipsLinearLayout"
-                android:layout_below="@+id/tv1"
-                android:layout_marginTop="5dp">
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
 
-                <androidx.cardview.widget.CardView
-                    android:id="@id/cv1"
-                    style="@style/TipsCardView"
-                    android:layout_height="170dp"
-                    app:cardCornerRadius="30dp">
+        </com.google.android.material.appbar.AppBarLayout>
 
-                    <ImageView
-                        android:id="@+id/iv1"
-                        style="@style/TipsImageView" />
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/compare"
+            style="@style/NestedScrollView">
 
-                    <TextView
-                        style="@style/TipsTextView"
-                        android:text="@string/compare_t1" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                </androidx.cardview.widget.CardView>
-            </LinearLayout>
+                <TextView
+                    android:id="@+id/tv1"
+                    style="@style/TipsTitleTextView"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/compare_titr" />
 
-            <LinearLayout
-                android:id="@+id/ll2"
-                style="@style/TipsLinearLayout"
-                android:layout_below="@+id/ll1"
-                android:layout_marginTop="5dp">
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/tv1"
+                    android:layout_marginTop="5dp">
 
-                <androidx.cardview.widget.CardView
-                    android:id="@id/cv2"
-                    style="@style/TipsCardView"
-                    android:layout_height="170dp"
-                    app:cardCornerRadius="30dp">
+                    <androidx.cardview.widget.CardView
+                        android:id="@id/cv1"
+                        style="@style/TipsCardView"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="30dp">
 
-                    <ImageView
-                        android:id="@+id/iv2"
-                        style="@style/TipsImageView" />
+                        <ImageView
+                            android:id="@+id/iv1"
+                            style="@style/TipsImageView" />
 
-                    <TextView
-                        style="@style/TipsTextView"
-                        android:text="@string/compare_t2" />
+                        <TextView
+                            style="@style/TipsTextView"
+                            android:text="@string/compare_t1" />
 
-                </androidx.cardview.widget.CardView>
-            </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/ll3"
-                style="@style/TipsLinearLayout"
-                android:layout_below="@+id/ll2"
-                android:layout_marginTop="5dp">
+                <LinearLayout
+                    android:id="@+id/ll2"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll1"
+                    android:layout_marginTop="5dp">
 
-                <androidx.cardview.widget.CardView
-                    android:id="@id/cv3"
-                    style="@style/TipsCardView"
-                    android:layout_height="170dp"
-                    app:cardCornerRadius="30dp">
+                    <androidx.cardview.widget.CardView
+                        android:id="@id/cv2"
+                        style="@style/TipsCardView"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="30dp">
 
-                    <ImageView
-                        android:id="@+id/iv3"
-                        style="@style/TipsImageView" />
+                        <ImageView
+                            android:id="@+id/iv2"
+                            style="@style/TipsImageView" />
 
-                    <TextView
-                        style="@style/TipsTextView"
-                        android:text="@string/compare_t3" />
+                        <TextView
+                            style="@style/TipsTextView"
+                            android:text="@string/compare_t2" />
 
-                </androidx.cardview.widget.CardView>
-            </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
 
-        </RelativeLayout>
-    </ScrollView>
+                <LinearLayout
+                    android:id="@+id/ll3"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll2"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@id/cv3"
+                        style="@style/TipsCardView"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            android:id="@+id/iv3"
+                            style="@style/TipsImageView" />
+
+                        <TextView
+                            style="@style/TipsTextView"
+                            android:text="@string/compare_t3" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

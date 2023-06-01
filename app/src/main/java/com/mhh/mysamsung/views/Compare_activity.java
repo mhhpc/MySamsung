@@ -2,6 +2,7 @@ package com.mhh.mysamsung.views;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -12,9 +13,12 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.core.widget.NestedScrollView;
 
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -25,6 +29,19 @@ public class Compare_activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compare);
+
+        //Gradient -----------
+        NestedScrollView nestedScrollView = findViewById(R.id.compare);
+        AnimationDrawable animationDrawable = (AnimationDrawable) nestedScrollView.getBackground();
+        animationDrawable.setEnterFadeDuration(2000);
+        animationDrawable.setExitFadeDuration(4000);
+        animationDrawable.start();
+
+        CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsing_toolbar);
+        AnimationDrawable animationDrawable2 = (AnimationDrawable) collapsingToolbarLayout.getBackground();
+        animationDrawable2.setEnterFadeDuration(2000);
+        animationDrawable2.setExitFadeDuration(4000);
+        animationDrawable2.start();
 
         //Animation ------------
         final ViewGroup r = findViewById(R.id.compare);
@@ -57,13 +74,13 @@ public class Compare_activity extends AppCompatActivity {
 
         //image_link
         ImageView ImageView = (ImageView) findViewById(R.id.iv1);
-        new DownloadImageTask(ImageView).execute("https://s2.uupload.ir/files/e8f9c0a830e73ba0caf375611fabd1fe_cx1d.jpg");
+        Picasso.get().load("https://s2.uupload.ir/files/e8f9c0a830e73ba0caf375611fabd1fe_cx1d.jpg").into(ImageView);
 
         ImageView ImageView2 = (ImageView) findViewById(R.id.iv2);
-        new DownloadImageTask(ImageView2).execute("https://s2.uupload.ir/files/2022-one-ui-17-1-own-your-privacy-for-peace-of-mind-mo_vkep.jpg");
+        Picasso.get().load("https://s2.uupload.ir/files/2022-one-ui-17-1-own-your-privacy-for-peace-of-mind-mo_vkep.jpg").into(ImageView2);
 
         ImageView ImageView3 = (ImageView) findViewById(R.id.iv3);
-        new DownloadImageTask(ImageView3).execute("https://s2.uupload.ir/files/hero-image.fill.size_1248x702.v1619019535_clhr.jpg");
+        Picasso.get().load("https://s2.uupload.ir/files/hero-image.fill.size_1248x702.v1619019535_clhr.jpg").into(ImageView3);
 
     }
 }

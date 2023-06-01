@@ -21,6 +21,7 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.guide.Goodlock_guide_activity;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -123,97 +124,97 @@ public class Goodlock_activity extends AppCompatActivity {
 
         //Image links
         ImageView imageView0 = (ImageView) findViewById(R.id.image);
-        new DownloadImageTask(imageView0).execute("https://s8.uupload.ir/files/64534068e0433_d0zg.png");
+        Picasso.get().load("https://s8.uupload.ir/files/64534068e0433_d0zg.png").placeholder(R.drawable.phone).into(imageView0);
 
         ImageView imageView01 = (ImageView) findViewById(R.id.image1);
-        new DownloadImageTask(imageView01).execute("https://s8.uupload.ir/files/samsung-good-lock-1581898262_euti.jpg");
+        Picasso.get().load("https://s8.uupload.ir/files/samsung-good-lock-1581898262_euti.jpg").into(imageView01);
 
         ImageView imageView02 = (ImageView) findViewById(R.id.image2);
-        new DownloadImageTask(imageView02).execute("https://s8.uupload.ir/files/good-lock-feature_a67.jpg");
+        Picasso.get().load("https://s8.uupload.ir/files/good-lock-feature_a67.jpg").into(imageView02);
 
         ImageView imageView = (ImageView) findViewById(R.id.iv1);
-        new DownloadImageTask(imageView).execute("https://s8.uupload.ir/files/640730fda4d57-384x384_rbg4.png");
+        Picasso.get().load("https://s8.uupload.ir/files/640730fda4d57-384x384_rbg4.png").placeholder(R.drawable.phone).into(imageView);
 
         ImageView imageView2 = (ImageView) findViewById(R.id.iv2);
-        new DownloadImageTask(imageView2).execute("https://s8.uupload.ir/files/645365d58d80c-384x384_1hzh.png");
+        Picasso.get().load("https://s8.uupload.ir/files/645365d58d80c-384x384_1hzh.png").placeholder(R.drawable.phone).into(imageView2);
 
         ImageView imageView3 = (ImageView) findViewById(R.id.iv3);
-        new DownloadImageTask(imageView3).execute("https://s8.uupload.ir/files/608d2d18994be-384x384_660o.png");
+        Picasso.get().load("https://s8.uupload.ir/files/608d2d18994be-384x384_660o.png").placeholder(R.drawable.phone).into(imageView3);
 
         ImageView imageView4 = (ImageView) findViewById(R.id.iv4);
-        new DownloadImageTask(imageView4).execute("https://s8.uupload.ir/files/6012ae750a497_mb8b.png");
+        Picasso.get().load("https://s8.uupload.ir/files/6012ae750a497_mb8b.png").placeholder(R.drawable.phone).into(imageView4);
 
         ImageView imageView5 = (ImageView) findViewById(R.id.iv5);
-        new DownloadImageTask(imageView5).execute("https://s8.uupload.ir/files/643ea63e856e9_r033.png");
+        Picasso.get().load("https://s8.uupload.ir/files/643ea63e856e9_r033.png").placeholder(R.drawable.phone).into(imageView5);
 
         ImageView imageView6 = (ImageView) findViewById(R.id.iv6);
-        new DownloadImageTask(imageView6).execute("https://s8.uupload.ir/files/643ea679c12ce-384x384_cw1n.png");
+        Picasso.get().load("https://s8.uupload.ir/files/643ea679c12ce-384x384_cw1n.png").placeholder(R.drawable.phone).into(imageView6);
 
         ImageView imageView7 = (ImageView) findViewById(R.id.iv7);
-        new DownloadImageTask(imageView7).execute("https://s8.uupload.ir/files/635ad4f21231f-384x384_q76g.png");
+        Picasso.get().load("https://s8.uupload.ir/files/635ad4f21231f-384x384_q76g.png").placeholder(R.drawable.phone).into(imageView7);
 
         ImageView imageView8 = (ImageView) findViewById(R.id.iv8);
-        new DownloadImageTask(imageView8).execute("https://s8.uupload.ir/files/642684ba180f4_o1rw.png");
+        Picasso.get().load("https://s8.uupload.ir/files/642684ba180f4_o1rw.png").placeholder(R.drawable.phone).into(imageView8);
 
         ImageView imageView9 = (ImageView) findViewById(R.id.iv9);
-        new DownloadImageTask(imageView9).execute("https://s8.uupload.ir/files/63d747e96d5d0_1loz.png");
+        Picasso.get().load("https://s8.uupload.ir/files/63d747e96d5d0_1loz.png").placeholder(R.drawable.phone).into(imageView9);
 
         ImageView imageView10 = (ImageView) findViewById(R.id.iv10);
-        new DownloadImageTask(imageView10).execute("https://s8.uupload.ir/files/645c5470b3527-384x384_eyl8.png");
+        Picasso.get().load("https://s8.uupload.ir/files/645c5470b3527-384x384_eyl8.png").placeholder(R.drawable.phone).into(imageView10);
 
         ImageView imageView11 = (ImageView) findViewById(R.id.iv11);
-        new DownloadImageTask(imageView11).execute("https://s8.uupload.ir/files/6449ec451244f_hrsj.png");
+        Picasso.get().load("https://s8.uupload.ir/files/6449ec451244f_hrsj.png").placeholder(R.drawable.phone).into(imageView11);
 
         ImageView imageView12 = (ImageView) findViewById(R.id.iv12);
-        new DownloadImageTask(imageView12).execute("https://s8.uupload.ir/files/63f2fe7f1680d_4hqz.png");
+        Picasso.get().load("https://s8.uupload.ir/files/63f2fe7f1680d_4hqz.png").placeholder(R.drawable.phone).into(imageView12);
 
         ImageView imageView13 = (ImageView) findViewById(R.id.iv13);
-        new DownloadImageTask(imageView13).execute("https://s8.uupload.ir/files/62a19c45e090e_1j3.png");
+        Picasso.get().load("https://s8.uupload.ir/files/62a19c45e090e_1j3.png").placeholder(R.drawable.phone).into(imageView13);
 
         ImageView imageView14 = (ImageView) findViewById(R.id.iv14);
-        new DownloadImageTask(imageView14).execute("https://s8.uupload.ir/files/64212badef7d7-384x384_j3e.png");
+        Picasso.get().load("https://s8.uupload.ir/files/64212badef7d7-384x384_j3e.png").placeholder(R.drawable.phone).into(imageView14);
 
         ImageView imageView15 = (ImageView) findViewById(R.id.iv15);
-        new DownloadImageTask(imageView15).execute("https://s8.uupload.ir/files/6355ff30e588e_yq7s.png");
+        Picasso.get().load("https://s8.uupload.ir/files/6355ff30e588e_yq7s.png").placeholder(R.drawable.phone).into(imageView15);
 
         ImageView imageView16 = (ImageView) findViewById(R.id.iv16);
-        new DownloadImageTask(imageView16).execute("https://s8.uupload.ir/files/644bb492ee2ed_0vfc.png");
+        Picasso.get().load("https://s8.uupload.ir/files/644bb492ee2ed_0vfc.png").placeholder(R.drawable.phone).into(imageView16);
 
         ImageView imageView17 = (ImageView) findViewById(R.id.iv17);
-        new DownloadImageTask(imageView17).execute("https://s8.uupload.ir/files/63564289d9bbd-384x384_iq33.png");
+        Picasso.get().load("https://s8.uupload.ir/files/63564289d9bbd-384x384_iq33.png").placeholder(R.drawable.phone).into(imageView17);
 
         ImageView imageView18 = (ImageView) findViewById(R.id.iv18);
-        new DownloadImageTask(imageView18).execute("https://s8.uupload.ir/files/64534068e0433_d0zg.png");
+        Picasso.get().load("https://s8.uupload.ir/files/64534068e0433_d0zg.png").placeholder(R.drawable.phone).into(imageView18);
 
         ImageView imageView19 = (ImageView) findViewById(R.id.iv19);
-        new DownloadImageTask(imageView19).execute("https://s8.uupload.ir/files/6356f7eca936c_uc3g.png");
+        Picasso.get().load("https://s8.uupload.ir/files/6356f7eca936c_uc3g.png").placeholder(R.drawable.phone).into(imageView19);
 
         ImageView imageView20 = (ImageView) findViewById(R.id.iv20);
-        new DownloadImageTask(imageView20).execute("https://s8.uupload.ir/files/6368dd04933be_uju2.png");
+        Picasso.get().load("https://s8.uupload.ir/files/6368dd04933be_uju2.png").placeholder(R.drawable.phone).into(imageView20);
 
         ImageView imageView21 = (ImageView) findViewById(R.id.iv21);
-        new DownloadImageTask(imageView21).execute("https://s8.uupload.ir/files/63c6c6b04da62_6hyr.png");
+        Picasso.get().load("https://s8.uupload.ir/files/63c6c6b04da62_6hyr.png").placeholder(R.drawable.phone).into(imageView21);
 
         ImageView imageView22 = (ImageView) findViewById(R.id.iv22);
-        new DownloadImageTask(imageView22).execute("https://s8.uupload.ir/files/63c6c6cba7c10_tqoy.png");
+        Picasso.get().load("https://s8.uupload.ir/files/63c6c6cba7c10_tqoy.png").placeholder(R.drawable.phone).into(imageView22);
 
         ImageView imageView23 = (ImageView) findViewById(R.id.iv23);
-        new DownloadImageTask(imageView23).execute("https://s8.uupload.ir/files/63c6c60c9dfc7-384x384_ai5x.png");
+        Picasso.get().load("https://s8.uupload.ir/files/63c6c60c9dfc7-384x384_ai5x.png").placeholder(R.drawable.phone).into(imageView23);
 
         ImageView imageView24 = (ImageView) findViewById(R.id.iv24);
-        new DownloadImageTask(imageView24).execute("https://s8.uupload.ir/files/63c6c5efe7889_pkta.png");
+        Picasso.get().load("https://s8.uupload.ir/files/63c6c5efe7889_pkta.png").placeholder(R.drawable.phone).into(imageView24);
 
         ImageView imageView25 = (ImageView) findViewById(R.id.iv25);
-        new DownloadImageTask(imageView25).execute("https://s8.uupload.ir/files/63c6c6ed92dbc_wn1r.png");
+        Picasso.get().load("https://s8.uupload.ir/files/63c6c6ed92dbc_wn1r.png").placeholder(R.drawable.phone).into(imageView25);
 
         ImageView imageView26 = (ImageView) findViewById(R.id.iv26);
-        new DownloadImageTask(imageView26).execute("https://s8.uupload.ir/files/64162f5f3c148-384x384_bgs8.png");
+        Picasso.get().load("https://s8.uupload.ir/files/64162f5f3c148-384x384_bgs8.png").placeholder(R.drawable.phone).into(imageView26);
 
         ImageView imageView27 = (ImageView) findViewById(R.id.iv27);
-        new DownloadImageTask(imageView27).execute("https://s8.uupload.ir/files/63c6c629db296_bqb.png");
+        Picasso.get().load("https://s8.uupload.ir/files/63c6c629db296_bqb.png").placeholder(R.drawable.phone).into(imageView27);
 
         ImageView imageView28 = (ImageView) findViewById(R.id.iv28);
-        new DownloadImageTask(imageView28).execute("https://s8.uupload.ir/files/63c6c629db296_bqb.png");
+        Picasso.get().load("https://s8.uupload.ir/files/63c6c629db296_bqb.png").placeholder(R.drawable.phone).into(imageView28);
 
         //Onclick
 

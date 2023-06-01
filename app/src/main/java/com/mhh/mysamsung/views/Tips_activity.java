@@ -2,7 +2,9 @@ package com.mhh.mysamsung.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.core.widget.NestedScrollView;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -11,8 +13,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -26,6 +30,19 @@ public class Tips_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tips);
 
+        //Gradient -----------
+        NestedScrollView nestedScrollView = findViewById(R.id.tips);
+        AnimationDrawable animationDrawable = (AnimationDrawable) nestedScrollView.getBackground();
+        animationDrawable.setEnterFadeDuration(2000);
+        animationDrawable.setExitFadeDuration(4000);
+        animationDrawable.start();
+
+        CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsing_toolbar);
+        AnimationDrawable animationDrawable2 = (AnimationDrawable) collapsingToolbarLayout.getBackground();
+        animationDrawable2.setEnterFadeDuration(2000);
+        animationDrawable2.setExitFadeDuration(4000);
+        animationDrawable2.start();
+
         //Animation ------------
         final ViewGroup r = findViewById(R.id.tips);
         final TextView t1 = findViewById(R.id.tv1);
@@ -35,9 +52,7 @@ public class Tips_activity extends AppCompatActivity {
         final LinearLayout t5 = findViewById(R.id.ll4);
         final LinearLayout t6 = findViewById(R.id.ll5);
         final LinearLayout t7 = findViewById(R.id.ll6);
-
-
-
+        
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -56,40 +71,40 @@ public class Tips_activity extends AppCompatActivity {
 
         //Image links
         ImageView ImageView = (ImageView) findViewById(R.id.iv1);
-        new DownloadImageTask(ImageView).execute("https://s6.uupload.ir/files/07_cross-device-experience_no_asset_mo_7cqz.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/07_cross-device-experience_no_asset_mo_7cqz.jpg").into(ImageView);
 
         ImageView ImageView2 = (ImageView) findViewById(R.id.iv2);
-        new DownloadImageTask(ImageView2).execute("https://s6.uupload.ir/files/samsung-one-ui-3-with-android-11_main_2f_mjsp.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/samsung-one-ui-3-with-android-11_main_2f_mjsp.jpg").into(ImageView2);
 
         ImageView ImageView3 = (ImageView) findViewById(R.id.iv3);
-        new DownloadImageTask(ImageView3).execute("https://s6.uupload.ir/files/1_ba3h.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/1_ba3h.jpg").into(ImageView3);
 
         ImageView ImageView4 = (ImageView) findViewById(R.id.iv4);
-        new DownloadImageTask(ImageView4).execute("https://s6.uupload.ir/files/flip4_carousel_productkv_borapurple_mo_fku.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/flip4_carousel_productkv_borapurple_mo_fku.jpg").into(ImageView4);
 
         ImageView ImageView5 = (ImageView) findViewById(R.id.iv5);
-        new DownloadImageTask(ImageView5).execute("https://s6.uupload.ir/files/001-note20series-productimage_z1vw.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/001-note20series-productimage_z1vw.jpg").into(ImageView5);
 
         ImageView ImageView6 = (ImageView) findViewById(R.id.iv6);
-        new DownloadImageTask(ImageView6).execute("https://s6.uupload.ir/files/jze6zmkeb4zycmndqg8wvb-1200-80_pcgb.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/jze6zmkeb4zycmndqg8wvb-1200-80_pcgb.jpg").into(ImageView6);
 
         ImageView ImageView7 = (ImageView) findViewById(R.id.iv7);
-        new DownloadImageTask(ImageView7).execute("https://s6.uupload.ir/files/gadgetmatch-20220317-samsung-galaxy-a23-a13-01-1000x600_sjgr.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/gadgetmatch-20220317-samsung-galaxy-a23-a13-01-1000x600_sjgr.jpg").into(ImageView7);
 
         ImageView ImageView8 = (ImageView) findViewById(R.id.iv8);
-        new DownloadImageTask(ImageView8).execute("https://s6.uupload.ir/files/samsung_galaxy_m22_black_128gb-1_1(1)_309l.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/samsung_galaxy_m22_black_128gb-1_1(1)_309l.jpg").into(ImageView8);
 
         ImageView ImageView9 = (ImageView) findViewById(R.id.iv9);
-        new DownloadImageTask(ImageView9).execute("https://s6.uupload.ir/files/1bca7c83b535efe01398b720121599f8(1)_nty.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/1bca7c83b535efe01398b720121599f8(1)_nty.jpg").into(ImageView9);
 
         ImageView ImageView10 = (ImageView) findViewById(R.id.iv10);
-        new DownloadImageTask(ImageView10).execute("https://s6.uupload.ir/files/za-feature-the-tablet-that-goes-where-you-go-172164262_yeba.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/za-feature-the-tablet-that-goes-where-you-go-172164262_yeba.jpg").into(ImageView10);
 
         ImageView ImageView11 = (ImageView) findViewById(R.id.iv11);
-        new DownloadImageTask(ImageView11).execute("https://s6.uupload.ir/files/samsung-galaxy-j4plus-j6plus-price-philippines-1000x563_ckrd.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-j4plus-j6plus-price-philippines-1000x563_ckrd.jpg").into(ImageView11);
 
         ImageView ImageView12 = (ImageView) findViewById(R.id.iv12);
-        new DownloadImageTask(ImageView12).execute("https://s6.uupload.ir/files/20170729_snapdragon_835_vs_exynos_8895_1b3.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/20170729_snapdragon_835_vs_exynos_8895_1b3.jpg").into(ImageView12);
 
     }
 }
