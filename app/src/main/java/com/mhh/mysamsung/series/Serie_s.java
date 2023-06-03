@@ -3,6 +3,7 @@ package com.mhh.mysamsung.series;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.widget.NestedScrollView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -15,6 +16,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.phones.galaxy_f.Ph_f13;
@@ -24,6 +26,7 @@ import com.mhh.mysamsung.phones.galaxy_s.Ph_s22plus;
 import com.mhh.mysamsung.phones.galaxy_s.Ph_s22ultra;
 import com.mhh.mysamsung.views.Phones_activity;
 import com.mhh.mysamsung.views.Series_activity;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -39,11 +42,17 @@ public class Serie_s extends AppCompatActivity {
         setContentView(R.layout.activity_serie_s);
 
         //Gradient -----------
-        ConstraintLayout constraintLayout = findViewById(R.id.serie_s);
-        AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
+        NestedScrollView nestedScrollView = findViewById(R.id.serie_s);
+        AnimationDrawable animationDrawable = (AnimationDrawable) nestedScrollView.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
+
+        CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsing_toolbar);
+        AnimationDrawable animationDrawable2 = (AnimationDrawable) collapsingToolbarLayout.getBackground();
+        animationDrawable2.setEnterFadeDuration(2000);
+        animationDrawable2.setExitFadeDuration(4000);
+        animationDrawable2.start();
 
         //Animation ------------
         final ViewGroup r = findViewById(R.id.serie_s);
@@ -75,14 +84,13 @@ public class Serie_s extends AppCompatActivity {
 
         //Image links
         CircleImageView circleImageView = (CircleImageView) findViewById(R.id.civ1);
-        new DownloadImageTask(circleImageView).execute("https://s6.uupload.ir/files/csm_untitled_2_7_432bb95979(1)_0m0d.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/csm_untitled_2_7_432bb95979(1)_0m0d.jpg").placeholder(R.drawable.phone).into(circleImageView);
 
         CircleImageView circleImageView2 = (CircleImageView) findViewById(R.id.civ2);
-        new DownloadImageTask(circleImageView2).execute("https://s6.uupload.ir/files/s22_5w1i.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/s22_5w1i.jpg").placeholder(R.drawable.phone).into(circleImageView2);
 
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.civ3);
-        new DownloadImageTask(circleImageView3).execute("https://s6.uupload.ir/files/311440-469190-medium_dcmu.jpg");
-
+        Picasso.get().load("https://s6.uupload.ir/files/311440-469190-medium_dcmu.jpg").placeholder(R.drawable.phone).into(circleImageView3);
 
         //text onclick =========================================
 

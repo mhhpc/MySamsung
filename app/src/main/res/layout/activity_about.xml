@@ -20,19 +20,19 @@
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/lottie"
-                android:layout_width="170dp"
-                android:layout_height="170dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
                 android:layout_marginBottom="-180dp"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
                 android:visibility="invisible"
-                app:lottie_rawRes="@raw/icon" />
+                app:lottie_rawRes="@raw/icon2" />
 
             <ImageView
                 android:id="@+id/logo"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="15dp"
                 android:src="@drawable/logo"
                 android:visibility="invisible" />
 

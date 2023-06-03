@@ -1,141 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/year"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_list"
     android:layoutDirection="rtl"
     tools:context=".views.Year_activity">
 
-    <ScrollView
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/ctr_bg">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            style="@style/AppbarTitle">
 
-            <TextView
-                android:id="@+id/titleView"
-                style="@style/Title"
-                android:gravity="center"
-                android:text="@string/year_title" />
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                style="@style/CollapsingToolbarLayout"
+                app:title="@string/year_title">
 
-            <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/lottie"
-                android:layout_width="270dp"
-                android:layout_height="150dp"
-                android:layout_marginBottom="-5dp"
-                android:layout_marginTop="00dp"
-                app:lottie_autoPlay="true"
-                android:layout_below="@id/titleView"
-                android:layout_centerHorizontal="true"
-                app:lottie_loop="true"
-                android:visibility="visible"
-                app:lottie_rawRes="@raw/year" />
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie"
+                    android:layout_width="230dp"
+                    android:layout_height="230dp"
+                    style="@style/AppbarLottie"
+                    app:lottie_rawRes="@raw/year" />
 
-            <LinearLayout
-                android:id="@+id/ll1"
-                style="@style/TipsLinearLayout"
-                android:layout_below="@+id/lottie"
-                android:layout_marginTop="5dp">
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    style="@style/Toolbar" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/year"
+            style="@style/NestedScrollView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    style="@style/TipsLinearLayout"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@id/cv1"
+                        style="@style/TipsCardView"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            android:id="@+id/iv1"
+                            style="@style/TipsImageView" />
+
+                        <TextView
+                            style="@style/TipsTextView"
+                            android:text="@string/year_2023" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll2"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll1"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@id/cv2"
+                        style="@style/TipsCardView"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            android:id="@+id/iv2"
+                            style="@style/TipsImageView" />
+
+                        <TextView
+                            style="@style/TipsTextView"
+                            android:text="@string/year_2022" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll3"
+                    style="@style/TipsLinearLayout"
+                    android:layout_below="@+id/ll2"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@id/cv3"
+                        style="@style/TipsCardView"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            android:id="@+id/iv3"
+                            style="@style/TipsImageView" />
+
+                        <TextView
+                            style="@style/TipsTextView"
+                            android:text="@string/year_2021" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@id/cv1"
-                    style="@style/TipsCardView"
-                    android:layout_height="170dp"
-                    app:cardCornerRadius="30dp">
+                    android:id="@+id/cv"
+                    style="@style/SuggestCardView"
+                    android:layout_below="@+id/ll3"
+                    android:layout_marginHorizontal="15dp">
 
-                    <ImageView
-                        android:id="@+id/iv1"
-                        style="@style/TipsImageView" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
-                    <TextView
-                        style="@style/TipsTextView"
-                        android:text="@string/year_2023" />
+                        <TextView
+                            android:id="@+id/tx1"
+                            style="@style/Suggesttv1"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/title_suggest" />
 
-                </androidx.cardview.widget.CardView>
-            </LinearLayout>
+                        <TextView
+                            android:id="@+id/tx2"
+                            style="@style/Suggesttv2"
+                            android:layout_below="@+id/tx1"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="@string/year_s1" />
 
-            <LinearLayout
-                android:id="@+id/ll2"
-                style="@style/TipsLinearLayout"
-                android:layout_below="@+id/ll1"
-                android:layout_marginTop="5dp">
-
-                <androidx.cardview.widget.CardView
-                    android:id="@id/cv2"
-                    style="@style/TipsCardView"
-                    android:layout_height="170dp"
-                    app:cardCornerRadius="30dp">
-
-                    <ImageView
-                        android:id="@+id/iv2"
-                        style="@style/TipsImageView" />
-
-                    <TextView
-                        style="@style/TipsTextView"
-                        android:text="@string/year_2022" />
+                    </RelativeLayout>
 
                 </androidx.cardview.widget.CardView>
-            </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/ll3"
-                style="@style/TipsLinearLayout"
-                android:layout_below="@+id/ll2"
-                android:layout_marginTop="5dp">
+            </RelativeLayout>
 
-                <androidx.cardview.widget.CardView
-                    android:id="@id/cv3"
-                    style="@style/TipsCardView"
-                    android:layout_height="170dp"
-                    app:cardCornerRadius="30dp">
+        </androidx.core.widget.NestedScrollView>
 
-                    <ImageView
-                        android:id="@+id/iv3"
-                        style="@style/TipsImageView" />
-
-                    <TextView
-                        style="@style/TipsTextView"
-                        android:text="@string/year_2021" />
-
-                </androidx.cardview.widget.CardView>
-            </LinearLayout>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cv"
-                style="@style/SuggestCardView"
-                android:layout_below="@+id/ll3"
-                android:layout_marginHorizontal="15dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:id="@+id/tx1"
-                        style="@style/Suggesttv1"
-                        android:layout_alignParentRight="true"
-                        android:text="@string/title_suggest" />
-
-                    <TextView
-                        android:id="@+id/tx2"
-                        style="@style/Suggesttv2"
-                        android:layout_below="@+id/tx1"
-                        android:layout_marginHorizontal="5dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="10dp"
-                        android:text="@string/year_s1" />
-
-                </RelativeLayout>
-
-            </androidx.cardview.widget.CardView>
-
-        </RelativeLayout>
-
-    </ScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

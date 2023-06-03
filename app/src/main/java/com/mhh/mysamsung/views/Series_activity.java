@@ -3,6 +3,7 @@ package com.mhh.mysamsung.views;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.widget.NestedScrollView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -17,6 +18,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.series.Serie_a;
@@ -27,6 +29,7 @@ import com.mhh.mysamsung.series.Serie_note;
 import com.mhh.mysamsung.series.Serie_s;
 import com.mhh.mysamsung.series.Serie_tab;
 import com.mhh.mysamsung.series.Serie_z;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -41,12 +44,18 @@ public class Series_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_series);
 
-        //Gradient -----------
-        ConstraintLayout constraintLayout = findViewById(R.id.series);
-        AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
+        //Gradient
+        NestedScrollView nestedScrollView = findViewById(R.id.series);
+        AnimationDrawable animationDrawable = (AnimationDrawable) nestedScrollView.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
+
+        CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsing_toolbar);
+        AnimationDrawable animationDrawable2 = (AnimationDrawable) collapsingToolbarLayout.getBackground();
+        animationDrawable2.setEnterFadeDuration(2000);
+        animationDrawable2.setExitFadeDuration(4000);
+        animationDrawable2.start();
 
         //Animation ------------
         final ViewGroup r = findViewById(R.id.series);
@@ -187,27 +196,27 @@ public class Series_activity extends AppCompatActivity {
 
         //Image links
         CircleImageView circleImageView = (CircleImageView) findViewById(R.id.s);
-        new DownloadImageTask(circleImageView).execute("https://s6.uupload.ir/files/hwpti4nbfc1vdvpdf9jx_wrws.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/hwpti4nbfc1vdvpdf9jx_wrws.jpg").placeholder(R.drawable.phone).into(circleImageView);
 
         CircleImageView circleImageView2 = (CircleImageView) findViewById(R.id.z);
-        new DownloadImageTask(circleImageView2).execute("https://s6.uupload.ir/files/samsung-galaxy-z-fold-4-beige-for-use-in-product-box_184625_u863.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-z-fold-4-beige-for-use-in-product-box_184625_u863.jpg").placeholder(R.drawable.phone).into(circleImageView2);
 
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.note);
-        new DownloadImageTask(circleImageView3).execute("https://s6.uupload.ir/files/note-20-ultra-5g_jnhl.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/note-20-ultra-5g_jnhl.jpg").placeholder(R.drawable.phone).into(circleImageView3);
 
         CircleImageView circleImageView4 = (CircleImageView) findViewById(R.id.a);
-        new DownloadImageTask(circleImageView4).execute("https://s6.uupload.ir/files/samsung-galaxy-a52s-5g_2w0h.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-a52s-5g_2w0h.jpg").placeholder(R.drawable.phone).into(circleImageView4);
 
         CircleImageView circleImageView5 = (CircleImageView) findViewById(R.id.m);
-        new DownloadImageTask(circleImageView5).execute("https://s6.uupload.ir/files/181_ut89.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/181_ut89.jpg").placeholder(R.drawable.phone).into(circleImageView5);
 
         CircleImageView circleImageView6 = (CircleImageView) findViewById(R.id.f);
-        new DownloadImageTask(circleImageView6).execute("https://s6.uupload.ir/files/samsung-galaxy-f52-5g-1_fj57.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-f52-5g-1_fj57.jpg").placeholder(R.drawable.phone).into(circleImageView6);
 
         CircleImageView circleImageView7 = (CircleImageView) findViewById(R.id.tab);
-        new DownloadImageTask(circleImageView7).execute("https://s6.uupload.ir/files/ap6t2pi9l2tkdlpcigrr_vpjn.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/ap6t2pi9l2tkdlpcigrr_vpjn.jpg").placeholder(R.drawable.phone).into(circleImageView7);
 
         CircleImageView circleImageView8 = (CircleImageView) findViewById(R.id.j);
-        new DownloadImageTask(circleImageView8).execute("https://s6.uupload.ir/files/4_zu_3_teaser_farbvariante_lavendel_jdfj.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/4_zu_3_teaser_farbvariante_lavendel_jdfj.jpg").placeholder(R.drawable.phone).into(circleImageView8);
     }
 }

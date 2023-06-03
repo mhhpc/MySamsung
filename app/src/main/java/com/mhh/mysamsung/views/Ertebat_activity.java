@@ -33,6 +33,7 @@ public class Ertebat_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ertebat);
 
+        //Gradient
         NestedScrollView nestedScrollView = findViewById(R.id.ertebat);
         AnimationDrawable animationDrawable = (AnimationDrawable) nestedScrollView.getBackground();
         animationDrawable.setEnterFadeDuration(2000);

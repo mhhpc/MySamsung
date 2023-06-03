@@ -83,7 +83,6 @@
             android:layout_height="match_parent"
             android:layout_marginTop="56dp">
 
-
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -93,11 +92,11 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="-35dp"
-                    android:layout_marginBottom="-30dp"
+                    android:layout_marginTop="-25dp"
+                    android:layout_marginBottom="-28dp"
                     app:lottie_autoPlay="true"
                     app:lottie_loop="true"
-                    app:lottie_rawRes="@raw/top" />
+                    app:lottie_rawRes="@raw/top2" />
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardView"
