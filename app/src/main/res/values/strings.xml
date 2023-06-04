@@ -20,10 +20,12 @@
     <string name="home_series">سری‌ها</string>
     <string name="home_year">سال ساخت</string>
     <string name="home_compare">مقایسه</string>
-    <string name="home_option">شخصی سازی</string>
+    <string name="home_customize">شخصی سازی</string>
     <string name="home_tip">ترفندها و نکات جذاب</string>
     <string name="home_about">درباره ما</string>
     <string name="home_goodlock">برنامه Goodlock</string>
+    <string name="home_lte">LTE Only</string>
+    <string name="home_call">تماس جعلی</string>
 
     //Search_activity
     <string name="app_search">جستجو</string>
