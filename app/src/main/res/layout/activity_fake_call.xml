@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hidden_tip.Fake_call_activity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ctr_bg">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            style="@style/AppbarTitle2">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                style="@style/CollapsingToolbarLayout2"
+                app:title="@string/fake_call_title">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    style="@style/Toolbar" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/fake_call"
+            style="@style/NestedScrollView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    style="@style/SimpleTextview"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/fake_call_t1" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv1"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t2" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv2"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t3" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv3"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t4" />
+
+                <Button
+                    android:id="@+id/bt1"
+                    style="@style/MyButton6"
+                    android:layout_below="@+id/tv4"
+                    android:layout_marginHorizontal="22dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/fake_call_bt1" />
+
+                <io.github.florent37.shapeofview.shapes.RoundRectView
+                    android:id="@+id/imv1"
+                    style="@style/PhoneShapeView"
+                    android:layout_below="@id/bt1"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/iv1"
+                        style="@style/PhoneImageView" />
+
+                </io.github.florent37.shapeofview.shapes.RoundRectView>
+
+                <TextView
+                    android:id="@+id/tv5"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/imv1"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/fake_call_t5" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv5"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t6" />
+
+                <TextView
+                    android:id="@+id/tv7"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv6"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t7" />
+
+                <TextView
+                    android:id="@+id/tv8"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv7"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t8" />
+
+                <TextView
+                    android:id="@+id/tv9"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv8"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t9" />
+
+                <TextView
+                    android:id="@+id/tv10"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv9"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/fake_call_t10" />
+
+                <io.github.florent37.shapeofview.shapes.RoundRectView
+                    android:id="@+id/imv2"
+                    style="@style/PhoneShapeView"
+                    android:layout_below="@id/tv10"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/iv2"
+                        style="@style/PhoneImageView" />
+
+                </io.github.florent37.shapeofview.shapes.RoundRectView>
+
+                <TextView
+                    android:id="@+id/tv11"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/imv2"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/fake_call_t11" />
+
+                <TextView
+                    android:id="@+id/tv12"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv11"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t12" />
+
+                <TextView
+                    android:id="@+id/tv13"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv12"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t13" />
+
+                <TextView
+                    android:id="@+id/tv14"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv13"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t14" />
+
+                <TextView
+                    android:id="@+id/tv15"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv14"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/fake_call_t15" />
+
+                <TextView
+                    android:id="@+id/tv16"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv15"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/fake_call_t16" />
+
+                <io.github.florent37.shapeofview.shapes.RoundRectView
+                    android:id="@+id/imv3"
+                    style="@style/PhoneShapeView"
+                    android:layout_below="@id/tv16"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/iv3"
+                        style="@style/PhoneImageView" />
+
+                </io.github.florent37.shapeofview.shapes.RoundRectView>
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

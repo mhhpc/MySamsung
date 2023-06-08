@@ -26,9 +26,17 @@ import com.google.android.material.navigation.NavigationView;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.goodlock.Goodlock_activity;
 import com.mhh.mysamsung.goodlock.Goodlock_download_activity;
+import com.mhh.mysamsung.hidden_tip.Fake_call_activity;
+import com.mhh.mysamsung.hidden_tip.Lte_only_activity;
+import com.transitionseverywhere.AutoTransition;
+import com.transitionseverywhere.ChangeClipBounds;
+import com.transitionseverywhere.Explode;
+import com.transitionseverywhere.Recolor;
+import com.transitionseverywhere.Rotate;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
+import com.transitionseverywhere.extra.Scale;
 
 public class Home_activity extends AppCompatActivity implements View.OnClickListener {
 
@@ -60,8 +68,8 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Transition transition = new Slide();
-                transition.setDuration(1200);
+                Transition transition = new Scale();
+                transition.setDuration(600);
                 TransitionManager.beginDelayedTransition(r, transition);
                 t1.setVisibility(View.VISIBLE);
                 t2.setVisibility(View.VISIBLE);
@@ -92,6 +100,55 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         txt3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Home_activity.this, Phones_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView tv1 = (TextView) findViewById(R.id.text1);
+        tv1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this, Compare_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView tv2 = (TextView) findViewById(R.id.text2);
+        tv2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this, Customize_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView tv3 = (TextView) findViewById(R.id.text3);
+        tv3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this, Tips_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView tv4 = (TextView) findViewById(R.id.text4);
+        tv4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this, Goodlock_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView tv5 = (TextView) findViewById(R.id.text5);
+        tv5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this, About_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView tv7 = (TextView) findViewById(R.id.text7);
+        tv7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this, Fake_call_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView tv8 = (TextView) findViewById(R.id.text8);
+        tv8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this, Lte_only_activity.class));
             }
         });
 
@@ -153,35 +210,17 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
             }
         });
 
-        @SuppressLint("CutPasteId") ImageView btn6 = (ImageView) findViewById(R.id.image8);
-        btn6.setOnClickListener(new View.OnClickListener() {
+        @SuppressLint("CutPasteId") ImageView rbtn7 = (ImageView) findViewById(R.id.image7);
+        rbtn7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                try {
-                    try {
-                        Intent intent = new Intent();
-                        intent.setComponent(new ComponentName("com.android.phone", "com.android.phone.settings.RadioInfo"));
-                        startActivity(intent);
-                    } catch (Exception e) {
-                        Intent intent2 = new Intent();
-                        intent2.setComponent(new ComponentName("com.android.settings", "com.android.settings.RadioInfo"));
-                        startActivity(intent2);
-                    }
-                } catch (Exception e) {
-                    Toast.makeText(Home_activity.this, "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند", Toast.LENGTH_SHORT).show();
-                }
+                startActivity(new Intent(Home_activity.this, Fake_call_activity.class));
             }
         });
 
-        @SuppressLint("CutPasteId") ImageView btn7 = (ImageView) findViewById(R.id.image7);
-        btn7.setOnClickListener(new View.OnClickListener() {
+        @SuppressLint("CutPasteId") ImageView rbtn8 = (ImageView) findViewById(R.id.image8);
+        rbtn8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                try {
-                    Intent intent = new Intent();
-                    intent.setComponent(new ComponentName("com.samsung.android.incallui", "com.android.incallui.labs.LabsActivity"));
-                    startActivity(intent);
-                } catch (Exception e) {
-                    Toast.makeText(Home_activity.this, "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند", Toast.LENGTH_SHORT).show();
-                }
+                startActivity(new Intent(Home_activity.this, Lte_only_activity.class));
             }
         });
 
