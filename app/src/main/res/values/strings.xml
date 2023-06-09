@@ -23,6 +23,7 @@
     <string name="home_customize">شخصی سازی</string>
     <string name="home_tip">ترفندها و نکات جذاب</string>
     <string name="home_about">درباره ما</string>
+    <string name="home_info">اطلاعات دستگاه</string>
     <string name="home_goodlock">برنامه Goodlock</string>
     <string name="home_lte">LTE Only</string>
     <string name="home_call">تماس جعلی</string>
@@ -198,9 +199,9 @@
     //Fake_call_activity
     <string name="fake_call_title">تماس جعلی</string>
     <string name="fake_call_bt1">تماس جعلی</string>
-    <string name="fake_call_t1">سامسونگ اخیرا قابلیت مخفی رو روی گوشی هاش قرار داده که با اون میتونی تماس جعلی بگیری</string>
+    <string name="fake_call_t1">سامسونگ اخیرا یه قابلیت مخفی روی گوشی هاش قرار داده که با اون میتونی تماس جعلی بگیری</string>
     <string name="fake_call_t2">تنها مشکلی که وجود داره اینه که این قابلیت فقط برای اندروید 12 و 13 فعال هست و گوشی هایی که این آپدیت ها رو ندارن نمیتونن ازش استفاده کنن</string>
-    <string name="fake_call_t3">همچنین علاوه بر تماس جعلی میتونی چندتا از ویژگی های تماس رو شخصی سازی کنی که شخصی سازی کنی که در ادامه به طور کامل بهش پرداختیم</string>
+    <string name="fake_call_t3">همچنین علاوه بر تماس جعلی میتونی چندتا از ویژگی های تماس رو شخصی سازی کنی که در ادامه به طور کامل بهش پرداختیم</string>
     <string name="fake_call_t4">خب برای شروع اول رو دکمه زیر بزن تا وارد تنظیمات تماس جعلی بشی</string>
     <string name="fake_call_t5">تو قسمت 1 میتونی تماس جعلی بگیری</string>
     <string name="fake_call_t6">تو قسمت 2 میتونی تععین کنی که حسگر مجاورت چه زمان هایی فعال باشه (همیشه / در بازی / هرگز)</string>
@@ -227,6 +228,10 @@
     <string name="lte_only_t7">این قسمت به طور پیشفرض معمولا روی GSM/WCDMA/LTE قرار داره یعنی (2G /3G /4G)</string>
     <string name="lte_only_t8">کافیه روش بزنی و گزینه LTE Only (یعنی فقط 4G رو انتخاب کنی)</string>
     <string name="lte_only_t9">فقط دقت کن اگر گوشیت از VoLTE پشتیبانی نکنه، زمانی که LTE Only رو فعال کنی نمیتونی با گوشیت تماس (ارسالی یا دریافتی) بگیری. پس یادت باشه وقتی کارت با LTE Only تموم شد تنظیمات رو به حالت اولش برگردونی.</string>
+
+    //Device_info_activity
+    <string name="device_info_title">درباره گوشی</string>
+    <string name="device_info_t1">اینجا میتونی اطلاعات مختصری از گوشی خودت رو ببینی</string>
 
     //Customize_phone
     <string name="compare_phone_title">کدوم گوشی رو میخای مقایسه کنی؟</string>

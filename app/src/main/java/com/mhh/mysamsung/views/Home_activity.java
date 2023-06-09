@@ -138,6 +138,13 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
             }
         });
 
+        @SuppressLint("CutPasteId") TextView tv6 = (TextView) findViewById(R.id.text6);
+        tv6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this, Device_info_activity.class));
+            }
+        });
+
         @SuppressLint("CutPasteId") TextView tv7 = (TextView) findViewById(R.id.text7);
         tv7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -207,6 +214,13 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         rbtn5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Home_activity.this, Goodlock_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") ImageView rbtn6 = (ImageView) findViewById(R.id.image6);
+        rbtn6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Home_activity.this, Device_info_activity.class));
             }
         });
 
