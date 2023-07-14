@@ -17,6 +17,7 @@ import android.widget.TextView;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.phones_detail.full.galaxy_tab.Ph_tab_s8plus_full;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -25,20 +26,59 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Ph_tab_s8plus extends AppCompatActivity {
 
+    TextView title, tv1, tvv1, tv2, tvv2, tv3, tvv3, tv4, tvv4, sg1, sg2, sg3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ph_tab_s8plus);
+        setContentView(R.layout.activity_phone_main);
+
+        //Set Text -----------
+        title = findViewById(R.id.name);
+        title.setText(getResources().getString(R.string.phones_tab_s8plus));
+
+        tv1 = findViewById(R.id.tv1);
+        tv1.setText(getResources().getString(R.string.ph_tabs8plus_screen1));
+
+        tvv1 = findViewById(R.id.tvv1);
+        tvv1.setText(getResources().getString(R.string.ph_tabs8plus_screen2));
+
+        tv2 = findViewById(R.id.tv2);
+        tv2.setText(getResources().getString(R.string.ph_tabs8plus_hardware1));
+
+        tvv2 = findViewById(R.id.tvv2);
+        tvv2.setText(getResources().getString(R.string.ph_tabs8plus_hardware2));
+
+        tv3 = findViewById(R.id.tv3);
+        tv3.setText(getResources().getString(R.string.ph_tabs8plus_camera1));
+
+        tvv3 = findViewById(R.id.tvv3);
+        tvv3.setText(getResources().getString(R.string.ph_tabs8plus_camera2));
+
+        tv4 = findViewById(R.id.tv4);
+        tv4.setText(getResources().getString(R.string.ph_tabs8plus_battery1));
+
+        tvv4 = findViewById(R.id.tvv4);
+        tvv4.setText(getResources().getString(R.string.ph_tabs8plus_battery2));
+
+        sg1 = findViewById(R.id.tx10);
+        sg1.setText(getResources().getString(R.string.phones_tab_s8ultra));
+
+        sg2 = findViewById(R.id.tx11);
+        sg2.setText(getResources().getString(R.string.phones_tab_s8));
+
+        sg3 = findViewById(R.id.tx12);
+        sg3.setText(getResources().getString(R.string.phones_zfold4));
 
         //Gradient -----------
-        ConstraintLayout constraintLayout = findViewById(R.id.ph_tabs8plus);
+        ConstraintLayout constraintLayout = findViewById(R.id.phone_main);
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
 
         //Animation ------------
-        final ViewGroup r = findViewById(R.id.ph_tabs8plus);
+        final ViewGroup r = findViewById(R.id.phone_main);
         final CircleImageView t1 = findViewById(R.id.civ1);
         final TextView t2 = findViewById(R.id.name);
         final CardView t3 = findViewById(R.id.cv1);
@@ -75,7 +115,7 @@ public class Ph_tab_s8plus extends AppCompatActivity {
 
         //Image links
         CircleImageView circleImageView = (CircleImageView) findViewById(R.id.civ1);
-        new DownloadImageTask(circleImageView).execute("https://s6.uupload.ir/files/tab_s8+_brothers_(3)-800x800_rau6.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/tab_s8+_brothers_(3)-800x800_rau6.jpg").placeholder(R.drawable.phone).into(circleImageView);
 
         //button onclick
         @SuppressLint("CutPasteId") Button ph1 = (Button) findViewById(R.id.b1);

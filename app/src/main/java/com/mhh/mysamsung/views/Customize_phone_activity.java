@@ -27,13 +27,18 @@ import com.transitionseverywhere.TransitionManager;
 
 public class Customize_phone_activity extends AppCompatActivity {
 
+    CollapsingToolbarLayout collapsingToolbarLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customize_phone);
+        setContentView(R.layout.activity_phone_list);
+
+        collapsingToolbarLayout = findViewById(R.id.collapsing_toolbar);
+        collapsingToolbarLayout.setTitle(getResources().getString(R.string.customize_phone_title));
 
         //Gradient -----------
-        NestedScrollView nestedScrollView = findViewById(R.id.customize_phone);
+        NestedScrollView nestedScrollView = findViewById(R.id.phone_list);
         AnimationDrawable animationDrawable = (AnimationDrawable) nestedScrollView.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
@@ -46,7 +51,7 @@ public class Customize_phone_activity extends AppCompatActivity {
         animationDrawable2.start();
 
         //Animation ------------
-        final ViewGroup r = findViewById(R.id.customize_phone);
+        final ViewGroup r = findViewById(R.id.phone_list);
         final TextView t0 = findViewById(R.id.tv1);
         final Button t1 = findViewById(R.id.ph1);
         final Button t2 = findViewById(R.id.ph2);

@@ -2,11 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/phone_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/ph_zflip4"
     android:background="@drawable/gradient_list"
-    tools:context=".phones.galaxy_z.Ph_zflip4">
+    tools:context=".phones.galaxy_z.Ph_zfold4">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="10dp"
                     android:layout_toStartOf="@id/civ1"
-                    android:text="@string/phones_zflip4" />
+                    android:text="PhoneName" />
             </RelativeLayout>
 
             <androidx.cardview.widget.CardView
@@ -58,16 +58,17 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_toLeftOf="@+id/im1"
-                        android:text="@string/ph_zflip4_screen1"
+                        android:text="TextView"
                         android:textSize="15sp" />
 
                     <TextView
+                        android:id="@+id/tvv1"
                         style="@style/PhoneTextView2"
                         android:layout_below="@+id/tv1"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
                         android:layout_toLeftOf="@+id/im1"
-                        android:text="@string/ph_zflip4_screen2"
+                        android:text="TextView"
                         android:textSize="13sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -95,16 +96,17 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_toLeftOf="@+id/im2"
-                        android:text="@string/ph_zflip4_hardware1"
+                        android:text="TextView"
                         android:textSize="15sp" />
 
                     <TextView
+                        android:id="@+id/tvv2"
                         style="@style/PhoneTextView2"
                         android:layout_below="@+id/tv2"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
                         android:layout_toLeftOf="@+id/im2"
-                        android:text="@string/ph_zflip4_hardware2"
+                        android:text="TextView"
                         android:textSize="13sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -132,16 +134,17 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_toLeftOf="@+id/im3"
-                        android:text="@string/ph_zflip4_camera1"
+                        android:text="TextView"
                         android:textSize="15sp" />
 
                     <TextView
+                        android:id="@+id/tvv3"
                         style="@style/PhoneTextView2"
                         android:layout_below="@+id/tv3"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
                         android:layout_toLeftOf="@+id/im3"
-                        android:text="@string/ph_zflip4_camera2"
+                        android:text="TextView"
                         android:textSize="13sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -169,16 +172,17 @@
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="5dp"
                         android:layout_toLeftOf="@+id/im4"
-                        android:text="@string/ph_zflip4_battery1"
+                        android:text="TextView"
                         android:textSize="15sp" />
 
                     <TextView
+                        android:id="@+id/tvv4"
                         style="@style/PhoneTextView2"
                         android:layout_below="@+id/tv4"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="1dp"
                         android:layout_toLeftOf="@+id/im4"
-                        android:text="@string/ph_zflip4_battery2"
+                        android:text="TextView"
                         android:textSize="13sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -260,7 +264,7 @@
                             android:layout_below="@+id/tx9"
                             android:layout_marginHorizontal="5dp"
                             android:layout_marginTop="5dp"
-                            android:text="@string/phones_zfold4" />
+                            android:text="Suggest" />
 
                         <TextView
                             android:id="@+id/tx11"
@@ -268,7 +272,7 @@
                             android:layout_below="@+id/tx10"
                             android:layout_marginHorizontal="5dp"
                             android:layout_marginTop="5dp"
-                            android:text="@string/phones_zflip3" />
+                            android:text="Suggest" />
 
                         <TextView
                             android:id="@+id/tx12"
@@ -277,7 +281,7 @@
                             android:layout_marginHorizontal="5dp"
                             android:layout_marginTop="5dp"
                             android:layout_marginBottom="10dp"
-                            android:text="@string/phones_s22ultra" />
+                            android:text="Suggest" />
 
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>

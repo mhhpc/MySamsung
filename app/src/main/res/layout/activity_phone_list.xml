@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_list"
-    tools:context=".views.Customize_phone_activity">
+    tools:context=".views.Compare_phone_activity">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             <com.google.android.material.appbar.CollapsingToolbarLayout
                 android:id="@+id/collapsing_toolbar"
                 style="@style/CollapsingToolbarLayout3"
-                app:title="@string/customize_phone_title">
+                app:title="Title">
 
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
@@ -30,7 +30,7 @@
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.core.widget.NestedScrollView
-            android:id="@+id/customize_phone"
+            android:id="@+id/phone_list"
             style="@style/NestedScrollView">
 
             <LinearLayout

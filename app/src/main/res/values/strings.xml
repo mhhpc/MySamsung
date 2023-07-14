@@ -23,10 +23,13 @@
     <string name="home_customize">شخصی سازی</string>
     <string name="home_tip">ترفندها و نکات جذاب</string>
     <string name="home_about">درباره ما</string>
-    <string name="home_info">اطلاعات دستگاه</string>
+    <string name="home_test">تست گوشی</string>
     <string name="home_goodlock">برنامه Goodlock</string>
     <string name="home_lte">LTE Only</string>
     <string name="home_call">تماس جعلی</string>
+    <string name="home_t1">گوشی که دنبالشی اینجاست</string>
+    <string name="home_t2">پرکاربردها</string>
+    <string name="home_t3">ابزارها</string>
 
     //Search_activity
     <string name="app_search">جستجو</string>
@@ -230,8 +233,26 @@
     <string name="lte_only_t9">فقط دقت کن اگر گوشیت از VoLTE پشتیبانی نکنه، زمانی که LTE Only رو فعال کنی نمیتونی با گوشیت تماس (ارسالی یا دریافتی) بگیری. پس یادت باشه وقتی کارت با LTE Only تموم شد تنظیمات رو به حالت اولش برگردونی.</string>
 
     //Device_info_activity
-    <string name="device_info_title">درباره گوشی</string>
-    <string name="device_info_t1">اینجا میتونی اطلاعات مختصری از گوشی خودت رو ببینی</string>
+    <string name="device_info_title">تست گوشی</string>
+    <string name="device_info_t1">همه گوشی ها و تبلت های سامسونگ روش هایی برای تست سخت افزار و نرم افزار دارن که میتونید با استفاده از اونها از سلامت گوشی خودتون مطمئن بشید</string>
+    <string name="device_info_t2">این موضوع زمانی اهمیت پیدا میکنه که شما میخواید گوشی‌تون رو عوض کنید و از سلامت گوشی جدیدتون مطمئن بشید و چون این تست از طرف خود اندروید صورت میگیره کاملا قابل اطمینان هست.</string>
+    <string name="device_info_tt1">تست سخت افزار</string>
+    <string name="device_info_t3">برای ورود به قسمت تست سخت افزار اول باید در برنامه تلفن گوشی کد #*0#* رو شماره گیری کنید. (توجه کنید که ممکن است با توجه به مدل گوشی شما، گزینه های نمایش داده شده کمی متفاوت باشد)</string>
+    <string name="device_info_b1">ورود به تلفن</string>
+    <string name="device_info_t4">تو قسمت های A صفحه گوشی رنگ های مختلفی رو نشون میده تا از سلامت صفحه نمایش مطمئن یشید (ممکنه ظاهر تنظیمات باتوجه به نوع گوشی یکم تفاوت داشته باشه ولی مشکلی نداره)</string>
+    <string name="device_info_t5">تو قسمت B میتونید لرزش گوشی رو تست کنید</string>
+    <string name="device_info_t6">تو قسمت C میتونید دوربین پشت گوشی رو تست کنید</string>
+    <string name="device_info_t7">تو قسمت D میتونید وضعیت تمام سنسور های گوشی رو ببینید</string>
+    <string name="device_info_t8">تو قسمت E میتونید سلامت لمس صفحه نمایش گوشی رو چک کنید(باید تمام مربع ها رو با کشیدن انکشت رنگ کنید)</string>
+    <string name="device_info_t9">تو قسمت F میتونید سلامت اسپیکر های گوشی رو تست کنید (یه صورت استریو)</string>
+    <string name="device_info_t10">تو قسمت G میتونید سلامت دکمه های فیزیکی گوشی رو تست کنید (با فشردن هر دکمه رنگ نمایش داده شده عوض میشه)</string>
+    <string name="device_info_t11">تو قسمت H میتونید سلامت دوربین سلفی رو تست کنید</string>
+    <string name="device_info_t12">تو قسمت I میتونید وضعیت IC گوشی رو چک کنید</string>
+    <string name="device_info_t13">تو قسمت J میتونید نسخه نرم افزاری و مدل گوشیتون رو ببینید</string>
+    <string name="device_info_tt2">IMEI</string>
+    <string name="device_info_t14">تو این قسمت میتونید IMEI گوشیتون رو به صورت نرم افزاری ببینید و با IMEI روی جعبه گوشی چک کنید تا از اصالت گوشیتون مطمئن بشید. برای ورود به این قسمت باید در برنامه تلفن گوشی خود کد #06#* را شماره گیری کنید.</string>
+    <string name="device_info_tt3">درباره گوشی</string>
+    <string name="device_info_t15">و در پایان، خلاصه مشخصات گوشی خودت رو میتونی همین پایین ببینی</string>
 
     //Customize_phone
     <string name="compare_phone_title">کدوم گوشی رو میخای مقایسه کنی؟</string>

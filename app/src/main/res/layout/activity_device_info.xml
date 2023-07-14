@@ -37,16 +37,183 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/tv0"
-                    android:textSize="20sp"
-                    style="@style/TipsTitleTextView"
+                    android:id="@+id/tv1"
+                    style="@style/SimpleTextview"
                     android:layout_marginHorizontal="7dp"
                     android:layout_marginTop="10dp"
                     android:text="@string/device_info_t1" />
 
                 <TextView
-                    android:id="@+id/tv1"
-                    android:layout_below="@id/tv0"
+                    android:id="@+id/tv2"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv1"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/device_info_t2" />
+
+                <TextView
+                    android:id="@+id/tt1"
+                    style="@style/Customize_text"
+                    android:layout_below="@+id/tv2"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_app_title"
+                    android:text="@string/device_info_tt1" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tt1"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/device_info_t3" />
+
+                <Button
+                    android:id="@+id/bt1"
+                    style="@style/MyButton6"
+                    android:layout_below="@+id/tv3"
+                    android:layout_marginHorizontal="22dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/device_info_b1" />
+
+                <io.github.florent37.shapeofview.shapes.RoundRectView
+                    android:id="@+id/imv1"
+                    style="@style/PhoneShapeView"
+                    android:layout_below="@id/bt1"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/iv1"
+                        style="@style/PhoneImageView" />
+
+                </io.github.florent37.shapeofview.shapes.RoundRectView>
+
+                <TextView
+                    android:id="@+id/tv4"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/imv1"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/device_info_t4" />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv4"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/device_info_t5" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv5"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/device_info_t6" />
+
+                <TextView
+                    android:id="@+id/tv7"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv6"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/device_info_t7" />
+
+                <TextView
+                    android:id="@+id/tv8"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv7"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/device_info_t8" />
+
+                <TextView
+                    android:id="@+id/tv9"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv8"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/device_info_t9" />
+
+                <TextView
+                    android:id="@+id/tv10"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv9"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/device_info_t10" />
+
+                <TextView
+                    android:id="@+id/tv11"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv10"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/device_info_t11" />
+
+                <TextView
+                    android:id="@+id/tv12"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv11"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/device_info_t12" />
+
+                <TextView
+                    android:id="@+id/tv13"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tv12"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/device_info_t13" />
+
+                <TextView
+                    android:id="@+id/tt2"
+                    style="@style/Customize_text"
+                    android:layout_below="@+id/tv13"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_app_title"
+                    android:text="@string/device_info_tt2" />
+
+                <TextView
+                    android:id="@+id/tv14"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tt2"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/device_info_t14" />
+
+                <Button
+                    android:id="@+id/bt2"
+                    style="@style/MyButton6"
+                    android:layout_below="@+id/tv14"
+                    android:layout_marginHorizontal="22dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/device_info_b1" />
+
+                <TextView
+                    android:id="@+id/tt3"
+                    style="@style/Customize_text"
+                    android:layout_below="@+id/bt2"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_app_title"
+                    android:text="@string/device_info_tt3" />
+
+                <TextView
+                    android:id="@+id/tv15"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/tt3"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/device_info_t15" />
+
+                <TextView
+                    android:id="@+id/tvi"
+                    android:layout_below="@id/tv15"
                     android:textSize="20sp"
                     style="@style/SimpleTextview"
                     android:layout_marginHorizontal="7dp"

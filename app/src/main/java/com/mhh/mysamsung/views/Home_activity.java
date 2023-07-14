@@ -64,6 +64,7 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         final LinearLayout t4 = findViewById(R.id.f4);
         final LinearLayout t5 = findViewById(R.id.main);
         final LinearLayout t6 = findViewById(R.id.main2);
+        final LinearLayout t7 = findViewById(R.id.ll1);
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -77,6 +78,7 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
                 t4.setVisibility(View.VISIBLE);
                 t5.setVisibility(View.VISIBLE);
                 t6.setVisibility(View.VISIBLE);
+                t7.setVisibility(View.VISIBLE);
             }
         }, 200);
 
@@ -131,13 +133,6 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
             }
         });
 
-        @SuppressLint("CutPasteId") TextView tv5 = (TextView) findViewById(R.id.text5);
-        tv5.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Home_activity.this, About_activity.class));
-            }
-        });
-
         @SuppressLint("CutPasteId") TextView tv6 = (TextView) findViewById(R.id.text6);
         tv6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -182,7 +177,7 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         });
 
         //Buttons onclick
-        @SuppressLint("CutPasteId") ImageView rbtn1 = (ImageView) findViewById(R.id.image5);
+        @SuppressLint("CutPasteId") LinearLayout rbtn1 = (LinearLayout) findViewById(R.id.ll1);
         rbtn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Home_activity.this, About_activity.class));

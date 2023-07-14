@@ -17,6 +17,7 @@ import android.widget.TextView;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.phones_detail.full.galaxy_z.Ph_zflip4_full;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -25,20 +26,59 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Ph_zflip4 extends AppCompatActivity {
 
+    TextView title, tv1, tvv1, tv2, tvv2, tv3, tvv3, tv4, tvv4, sg1, sg2, sg3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ph_zflip4);
+        setContentView(R.layout.activity_phone_main);
+
+        //Set Text -----------
+        title = findViewById(R.id.name);
+        title.setText(getResources().getString(R.string.phones_zflip4));
+
+        tv1 = findViewById(R.id.tv1);
+        tv1.setText(getResources().getString(R.string.ph_zflip4_screen1));
+
+        tvv1 = findViewById(R.id.tvv1);
+        tvv1.setText(getResources().getString(R.string.ph_zflip4_screen2));
+
+        tv2 = findViewById(R.id.tv2);
+        tv2.setText(getResources().getString(R.string.ph_zflip4_hardware1));
+
+        tvv2 = findViewById(R.id.tvv2);
+        tvv2.setText(getResources().getString(R.string.ph_zflip4_hardware2));
+
+        tv3 = findViewById(R.id.tv3);
+        tv3.setText(getResources().getString(R.string.ph_zflip4_camera1));
+
+        tvv3 = findViewById(R.id.tvv3);
+        tvv3.setText(getResources().getString(R.string.ph_zflip4_camera2));
+
+        tv4 = findViewById(R.id.tv4);
+        tv4.setText(getResources().getString(R.string.ph_zflip4_battery1));
+
+        tvv4 = findViewById(R.id.tvv4);
+        tvv4.setText(getResources().getString(R.string.ph_zflip4_battery2));
+
+        sg1 = findViewById(R.id.tx10);
+        sg1.setText(getResources().getString(R.string.phones_zfold4));
+
+        sg2 = findViewById(R.id.tx11);
+        sg2.setText(getResources().getString(R.string.phones_zflip3));
+
+        sg3 = findViewById(R.id.tx12);
+        sg3.setText(getResources().getString(R.string.phones_s22ultra));
 
         //Gradient -----------
-        ConstraintLayout constraintLayout = findViewById(R.id.ph_zflip4);
+        ConstraintLayout constraintLayout = findViewById(R.id.phone_main);
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
 
         //Animation ------------
-        final ViewGroup r = findViewById(R.id.ph_zflip4);
+        final ViewGroup r = findViewById(R.id.phone_main);
         final CircleImageView t1 = findViewById(R.id.civ1);
         final TextView t2 = findViewById(R.id.name);
         final CardView t3 = findViewById(R.id.cv1);
@@ -75,7 +115,7 @@ public class Ph_zflip4 extends AppCompatActivity {
 
         //Image links
         CircleImageView circleImageView = (CircleImageView) findViewById(R.id.civ1);
-        new DownloadImageTask(circleImageView).execute("https://s6.uupload.ir/files/042f6098-82f6-439e-8d61-176a99ddcaff_qb74.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/042f6098-82f6-439e-8d61-176a99ddcaff_qb74.jpg").placeholder(R.drawable.phone).into(circleImageView);
 
         //button onclick
         @SuppressLint("CutPasteId") Button ph1 = (Button) findViewById(R.id.b1);
