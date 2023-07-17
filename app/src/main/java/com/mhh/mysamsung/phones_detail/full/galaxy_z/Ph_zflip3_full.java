@@ -14,7 +14,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.app.DownloadImageTask;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -76,12 +76,13 @@ public class Ph_zflip3_full extends AppCompatActivity {
             }
         },200);
 
+
         //Image links
         ImageView imageView = (ImageView) findViewById(R.id.iv1);
-        new DownloadImageTask(imageView).execute("https://s6.uupload.ir/files/infralist-com-sc1gjcninik-unsplash(1)_nuh4.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/infralist-com-sc1gjcninik-unsplash(1)_nuh4.jpg").into(imageView);
 
         ImageView imageView2 = (ImageView) findViewById(R.id.iv2);
-        new DownloadImageTask(imageView2).execute("https://s6.uupload.ir/files/zflip3_carousel_foldunfoldcombo_phantomblack_mo_tugg.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/zflip3_carousel_foldunfoldcombo_phantomblack_mo_tugg.jpg").into(imageView2);
 
     }
 }

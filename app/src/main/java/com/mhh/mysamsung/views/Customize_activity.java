@@ -13,16 +13,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.app.DownloadImageTask;
-import com.mhh.mysamsung.phones.galaxy_a.Ph_a73;
-import com.mhh.mysamsung.series.Serie_a;
 import com.squareup.picasso.Picasso;
-import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;

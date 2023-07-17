@@ -75,18 +75,13 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/lte_only_b1" />
 
-                <io.github.florent37.shapeofview.shapes.RoundRectView
+                <ImageView
                     android:id="@+id/imv1"
-                    style="@style/PhoneShapeView"
+                    style="@style/PhoneImageView2"
                     android:layout_below="@id/bt1"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginHorizontal="7dp"
-                    android:layout_marginTop="10dp">
-
-                    <ImageView
-                        android:id="@+id/iv1"
-                        style="@style/PhoneImageView" />
-
-                </io.github.florent37.shapeofview.shapes.RoundRectView>
+                    android:layout_marginTop="10dp" />
 
                 <TextView
                     android:id="@+id/tv5"

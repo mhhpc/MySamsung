@@ -2,7 +2,6 @@ package com.mhh.mysamsung.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.widget.NestedScrollView;
 
 import android.annotation.SuppressLint;
@@ -12,15 +11,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.CalendarView;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.series.Serie_a;
 import com.mhh.mysamsung.series.Serie_f;
 import com.mhh.mysamsung.series.Serie_j;
@@ -30,7 +24,6 @@ import com.mhh.mysamsung.series.Serie_s;
 import com.mhh.mysamsung.series.Serie_tab;
 import com.mhh.mysamsung.series.Serie_z;
 import com.squareup.picasso.Picasso;
-import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;

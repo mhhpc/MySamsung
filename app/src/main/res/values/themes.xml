@@ -76,7 +76,9 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:background">@drawable/gradient_list</item>
-        <item name="layout_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</item>
+        <item name="layout_behavior">
+            com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior
+        </item>
     </style>
 
     <style name="CollapsingToolbarLayout">
@@ -728,25 +730,13 @@
         <item name="android:visibility">invisible</item>
     </style>
 
-    <style name="PhoneShapeView">
+    <style name="PhoneImageView2">
+        <item name="android:src">@drawable/error</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:elevation">4dp</item>
-        <item name="shape_roundRect_bottomLeftRadius">10dp</item>
-        <item name="shape_roundRect_bottomRightRadius">10dp</item>
-        <item name="shape_roundRect_topLeftRadius">10dp</item>
-        <item name="shape_roundRect_topRightRadius">10dp</item>
-        <item name="android:visibility">invisible</item>
-    </style>
-
-    <style name="PhoneImageView">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
         <item name="android:scaleType">centerCrop</item>
         <item name="android:adjustViewBounds">true</item>
-        <item name="android:visibility">visible</item>
-        <item name="android:src">@drawable/loading</item>
+        <item name="android:visibility">invisible</item>
     </style>
 
 

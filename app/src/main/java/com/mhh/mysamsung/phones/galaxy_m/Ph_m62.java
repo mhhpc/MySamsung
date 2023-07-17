@@ -15,7 +15,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.phones_detail.full.galaxy_m.Ph_m62_full;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;

@@ -17,8 +17,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.views.Webview_activity;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -113,20 +113,19 @@ public class Ph_a52s_full extends AppCompatActivity {
 
         //Image links
         ImageView imageView = (ImageView) findViewById(R.id.iv1);
-        new DownloadImageTask(imageView).execute("https://s6.uupload.ir/files/infralist-com-sc1gjcninik-unsplash(1)_nuh4.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/infralist-com-sc1gjcninik-unsplash(1)_nuh4.jpg").into(imageView);
 
         ImageView imageView2 = (ImageView) findViewById(R.id.iv2);
-        new DownloadImageTask(imageView2).execute("https://s6.uupload.ir/files/4_zu_3_samsung_galaxy_a52s_8zjy.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/4_zu_3_samsung_galaxy_a52s_8zjy.jpg").into(imageView2);
 
         ImageView ImageView3 = (ImageView) findViewById(R.id.image1);
-        new DownloadImageTask(ImageView3).execute("https://s2.uupload.ir/files/360_197_1_kb1.jpg");
+        Picasso.get().load("https://s2.uupload.ir/files/360_197_1_kb1.jpg").into(ImageView3);
 
         ImageView ImageView4 = (ImageView) findViewById(R.id.image2);
-        new DownloadImageTask(ImageView4).execute("https://s2.uupload.ir/files/2019-7-0a8eee1d-c70b-4033-95c8-ea1b2615aa64-638baac6506e38df57e9cb02_gqp9.jpg");
+        Picasso.get().load("https://s2.uupload.ir/files/2019-7-0a8eee1d-c70b-4033-95c8-ea1b2615aa64-638baac6506e38df57e9cb02_gqp9.jpg").into(ImageView4);
 
         ImageView ImageView5 = (ImageView) findViewById(R.id.image3);
-        new DownloadImageTask(ImageView5).execute("https://s2.uupload.ir/files/gsmarena-com-logo-vector_b5sw.jpg");
-
+        Picasso.get().load("https://s2.uupload.ir/files/gsmarena-com-logo-vector_b5sw.jpg").into(ImageView5);
     }
 
     private void DomainName(String s) {

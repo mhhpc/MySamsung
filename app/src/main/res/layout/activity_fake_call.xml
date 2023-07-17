@@ -75,18 +75,13 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/fake_call_bt1" />
 
-                <io.github.florent37.shapeofview.shapes.RoundRectView
+                <ImageView
                     android:id="@+id/imv1"
-                    style="@style/PhoneShapeView"
+                    style="@style/PhoneImageView2"
                     android:layout_below="@id/bt1"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginHorizontal="7dp"
-                    android:layout_marginTop="10dp">
-
-                    <ImageView
-                        android:id="@+id/iv1"
-                        style="@style/PhoneImageView" />
-
-                </io.github.florent37.shapeofview.shapes.RoundRectView>
+                    android:layout_marginTop="10dp" />
 
                 <TextView
                     android:id="@+id/tv5"
@@ -136,18 +131,13 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/fake_call_t10" />
 
-                <io.github.florent37.shapeofview.shapes.RoundRectView
+                <ImageView
                     android:id="@+id/imv2"
-                    style="@style/PhoneShapeView"
+                    style="@style/PhoneImageView2"
                     android:layout_below="@id/tv10"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginHorizontal="7dp"
-                    android:layout_marginTop="10dp">
-
-                    <ImageView
-                        android:id="@+id/iv2"
-                        style="@style/PhoneImageView" />
-
-                </io.github.florent37.shapeofview.shapes.RoundRectView>
+                    android:layout_marginTop="10dp" />
 
                 <TextView
                     android:id="@+id/tv11"
@@ -197,19 +187,14 @@
                     android:layout_marginTop="5dp"
                     android:text="@string/fake_call_t16" />
 
-                <io.github.florent37.shapeofview.shapes.RoundRectView
+                <ImageView
                     android:id="@+id/imv3"
-                    style="@style/PhoneShapeView"
+                    style="@style/PhoneImageView2"
                     android:layout_below="@id/tv16"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginHorizontal="7dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp">
-
-                    <ImageView
-                        android:id="@+id/iv3"
-                        style="@style/PhoneImageView" />
-
-                </io.github.florent37.shapeofview.shapes.RoundRectView>
+                    android:layout_marginBottom="10dp"/>
 
             </RelativeLayout>
 

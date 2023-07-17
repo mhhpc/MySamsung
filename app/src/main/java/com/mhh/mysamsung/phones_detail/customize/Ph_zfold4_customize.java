@@ -21,9 +21,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.guide.Guide_background;
 import com.mhh.mysamsung.views.Webview_activity;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -149,19 +149,19 @@ public class Ph_zfold4_customize extends AppCompatActivity {
 
         //Image links
         ImageView imageView = (ImageView) findViewById(R.id.iv1);
-        new DownloadImageTask(imageView).execute("https://s2.uupload.ir/files/l-intro-1659397313_auna.jpg");
+        Picasso.get().load("https://s2.uupload.ir/files/l-intro-1659397313_auna.jpg").into(imageView);
 
         ImageView imageView2 = (ImageView) findViewById(R.id.iv2);
-        new DownloadImageTask(imageView2).execute("https://s6.uupload.ir/files/galaxy-z-fold4-share-image_ljha.jpg");
+        Picasso.get().load("https://s6.uupload.ir/files/galaxy-z-fold4-share-image_ljha.jpg").into(imageView2);
 
         ImageView imageView3 = (ImageView) findViewById(R.id.image1);
-        new DownloadImageTask(imageView3).execute("https://s2.uupload.ir/files/samsung-galaxy-z-fold-4-wallpapers-featured_seo4.jpg");
+        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold-4-wallpapers-featured_seo4.jpg").into(imageView3);
 
         ImageView imageView4 = (ImageView) findViewById(R.id.image1_1);
-        new DownloadImageTask(imageView4).execute("https://s2.uupload.ir/files/samsung-galaxy-z-fold-4-wallpapers-featured_seo4.jpg");
+        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold-4-wallpapers-featured_seo4.jpg").into(imageView4);
 
         ImageView imageView5 = (ImageView) findViewById(R.id.image2);
-        new DownloadImageTask(imageView5).execute("https://s2.uupload.ir/files/samsung-music-hero_w09t.jpg");
+        Picasso.get().load("https://s2.uupload.ir/files/samsung-music-hero_w09t.jpg").into(imageView5);
 
 
 

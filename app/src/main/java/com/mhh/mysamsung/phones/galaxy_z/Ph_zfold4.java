@@ -15,7 +15,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.phones_detail.check.galaxy_z.Ph_zfold4_check;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zfold4_compare;
 import com.mhh.mysamsung.phones_detail.customize.Ph_zfold4_customize;

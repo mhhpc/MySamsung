@@ -68,7 +68,7 @@ class Device_info_activity : AppCompatActivity() {
         val t17 = findViewById<TextView>(R.id.tt2)
         val t18 = findViewById<TextView>(R.id.tt3)
         val t19 = findViewById<TextView>(R.id.tvi)
-        val t20 = findViewById<RoundRectView>(R.id.imv1)
+        val t20 = findViewById<ImageView>(R.id.imv1)
         val t21 = findViewById<Button>(R.id.bt1)
         val t22 = findViewById<Button>(R.id.bt2)
 
@@ -120,10 +120,10 @@ class Device_info_activity : AppCompatActivity() {
         //Image links
 
         //Image links
-        val ImageView = findViewById<View>(R.id.iv1) as ImageView
+        val ImageView = findViewById<View>(R.id.imv1) as ImageView
         Picasso.get()
             .load("https://s8.uupload.ir/files/screenshot_20230615_122600_hwmoduletest_l516.jpg")
-            .placeholder(R.drawable.loading).into(ImageView)
+            .placeholder(R.drawable.progress_animation).error(R.drawable.error).into(ImageView)
 
     }
 

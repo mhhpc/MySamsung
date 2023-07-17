@@ -1,7 +1,6 @@
 package com.mhh.mysamsung.views;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 import androidx.core.widget.NestedScrollView;
 
 import android.graphics.drawable.AnimationDrawable;
@@ -15,13 +14,10 @@ import android.widget.TextView;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.app.DownloadImageTask;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
-
-import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Tips_activity extends AppCompatActivity {
 

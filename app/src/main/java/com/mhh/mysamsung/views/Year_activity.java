@@ -2,7 +2,6 @@ package com.mhh.mysamsung.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.widget.NestedScrollView;
 
 import android.annotation.SuppressLint;
@@ -12,14 +11,11 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.app.DownloadImageTask;
-import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold4;
 import com.mhh.mysamsung.year.Year_2021;
 import com.mhh.mysamsung.year.Year_2022;
 import com.mhh.mysamsung.year.Year_2023;

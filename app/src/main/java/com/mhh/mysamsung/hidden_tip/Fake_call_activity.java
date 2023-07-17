@@ -65,9 +65,9 @@ public class Fake_call_activity extends AppCompatActivity {
         final TextView t14 = findViewById(R.id.tv14);
         final TextView t15 = findViewById(R.id.tv15);
         final TextView t16 = findViewById(R.id.tv16);
-        final RoundRectView t17 = findViewById(R.id.imv1);
-        final RoundRectView t18 = findViewById(R.id.imv2);
-        final RoundRectView t20 = findViewById(R.id.imv3);
+        final ImageView t17 = findViewById(R.id.imv1);
+        final ImageView t18 = findViewById(R.id.imv2);
+        final ImageView t20 = findViewById(R.id.imv3);
         final Button t19 = findViewById(R.id.bt1);
 
 
@@ -117,13 +117,13 @@ public class Fake_call_activity extends AppCompatActivity {
         });
 
         //Image links
-        ImageView ImageView = (ImageView) findViewById(R.id.iv1);
-        Picasso.get().load("https://s8.uupload.ir/files/screenshot_20230605_173111_call(1)_eyjd.jpg").placeholder(R.drawable.loading).into(ImageView);
+        ImageView ImageView = (ImageView) findViewById(R.id.imv1);
+        Picasso.get().load("https://s8.uupload.ir/files/screenshot_20230605_173111_call(1)_eyjd.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(ImageView);
 
-        ImageView ImageView2 = (ImageView) findViewById(R.id.iv2);
-        Picasso.get().load("https://s8.uupload.ir/files/screenshot_20230605_173115_call(1)(1)_s46m.jpg").placeholder(R.drawable.loading).into(ImageView2);
+        ImageView ImageView2 = (ImageView) findViewById(R.id.imv2);
+        Picasso.get().load("https://s8.uupload.ir/files/screenshot_20230605_173115_call(1)(1)_s46m.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(ImageView2);
 
-        ImageView ImageView3 = (ImageView) findViewById(R.id.iv3);
-        Picasso.get().load("https://s8.uupload.ir/files/screenshot_20230608_183451_call(1)_9hik.jpg").placeholder(R.drawable.loading).into(ImageView3);
+        ImageView ImageView3 = (ImageView) findViewById(R.id.imv3);
+        Picasso.get().load("https://s8.uupload.ir/files/screenshot_20230608_183451_call(1)_9hik.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(ImageView3);
     }
 }

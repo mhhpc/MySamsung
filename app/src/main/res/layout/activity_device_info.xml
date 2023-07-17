@@ -76,18 +76,14 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/device_info_b1" />
 
-                <io.github.florent37.shapeofview.shapes.RoundRectView
+
+                <ImageView
                     android:id="@+id/imv1"
-                    style="@style/PhoneShapeView"
+                    style="@style/PhoneImageView2"
                     android:layout_below="@id/bt1"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginHorizontal="7dp"
-                    android:layout_marginTop="10dp">
-
-                    <ImageView
-                        android:id="@+id/iv1"
-                        style="@style/PhoneImageView" />
-
-                </io.github.florent37.shapeofview.shapes.RoundRectView>
+                    android:layout_marginTop="10dp" />
 
                 <TextView
                     android:id="@+id/tv4"
@@ -213,13 +209,13 @@
 
                 <TextView
                     android:id="@+id/tvi"
-                    android:layout_below="@id/tv15"
-                    android:textSize="20sp"
                     style="@style/SimpleTextview"
+                    android:layout_below="@id/tv15"
                     android:layout_marginHorizontal="7dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/device_info_title" />
+                    android:text="@string/device_info_title"
+                    android:textSize="20sp" />
 
             </RelativeLayout>
 

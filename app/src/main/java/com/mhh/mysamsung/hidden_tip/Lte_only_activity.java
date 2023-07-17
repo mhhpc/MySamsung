@@ -56,7 +56,7 @@ public class Lte_only_activity extends AppCompatActivity {
         final TextView t7 = findViewById(R.id.tv7);
         final TextView t8 = findViewById(R.id.tv8);
         final TextView t9 = findViewById(R.id.tv9);
-        final RoundRectView t10 = findViewById(R.id.imv1);
+        final ImageView t10 = findViewById(R.id.imv1);
         final Button t11 = findViewById(R.id.bt1);
 
 
@@ -103,8 +103,8 @@ public class Lte_only_activity extends AppCompatActivity {
         });
 
         //Image links
-        ImageView ImageView = (ImageView) findViewById(R.id.iv1);
-        Picasso.get().load("https://s8.uupload.ir/files/screenshot_20230605_183712_phone_services(2)_qqmp.jpg").placeholder(R.drawable.loading).into(ImageView);
+        ImageView ImageView = (ImageView) findViewById(R.id.imv1);
+        Picasso.get().load("https://s8.uupload.ir/files/screenshot_20230605_183712_phone_services(2)_qqmp.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(ImageView);
 
     }
 }

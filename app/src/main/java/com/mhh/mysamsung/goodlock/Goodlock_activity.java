@@ -19,7 +19,6 @@ import android.widget.Toast;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.app.DownloadImageTask;
 import com.mhh.mysamsung.guide.Goodlock_guide_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
