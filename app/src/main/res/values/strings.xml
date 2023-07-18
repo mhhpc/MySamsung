@@ -2,7 +2,7 @@
     <string name="app_name">MySamsung</string>
     <string name="app_name_persian">سامسونگ من</string>
 
-    <string name="app_version">نسخه 0.3</string>
+    <string name="app_version">نسخه 0.5</string>
 
     <string name="title_suggest">پیشنهادات</string>
 
@@ -83,6 +83,35 @@
     <string name="phones_j8">Galaxy J8</string>
     <string name="phones_j6">Galaxy J6</string>
     <string name="phones_j4">Galaxy J4</string>
+
+    <string name="phones_des_zfold4">بهترین پرچمدار تاشدنی</string>
+    <string name="phones_des_zflip4">پرچمدار تاشدنی کوچک</string>
+    <string name="phones_des_zfold3">بهترین پرچمدار تاشدنی</string>
+    <string name="phones_des_zflip3">پرچمدار تاشدنی کوچک</string>
+    <string name="phones_des_a73">قدرتمندترین میانرده</string>
+    <string name="phones_des_a53">میانرده ای قدرتمند</string>
+    <string name="phones_des_a33">میانرده ای قدرتمند</string>
+    <string name="phones_des_s22ultra">بهترین پرچمدار</string>
+    <string name="phones_des_s22plus">پرچمدار</string>
+    <string name="phones_des_s22">پرچمدار</string>
+    <string name="phones_des_s21fe">پرچمدار اقتصادی</string>
+    <string name="phones_des_a52s">میانرده ای قدرتمند</string>
+    <string name="phones_des_note20ultra">درحد پرچمدار</string>
+    <string name="phones_des_note20_5g">درحد پرچمدار</string>
+    <string name="phones_des_note20">درحد پرچمدار</string>
+    <string name="phones_des_m62">به صرفه</string>
+    <string name="phones_des_m53">به صرفه</string>
+    <string name="phones_des_m33">به صرفه</string>
+    <string name="phones_des_f23">اقتصادی</string>
+    <string name="phones_des_f42">اقتصادی</string>
+    <string name="phones_des_f13">اقتصادی</string>
+    <string name="phones_des_tab_s8ultra">تبلت</string>
+    <string name="phones_des_tab_s8plus">تبلت</string>
+    <string name="phones_des_tab_s8">تبلت</string>
+    <string name="phones_des_j8">اقتصادی</string>
+    <string name="phones_des_j6">اقتصادی</string>
+    <string name="phones_des_j4">اقتصادی</string>
+
     <string name="phones_s1">تنظیمات</string>
     <string name="phones_s2">جستجو</string>
 
@@ -1405,6 +1434,15 @@
     <string name="ph_s21fe_full_tvv5_11">درگاه USB Type-C</string>
     <string name="ph_s21fe_full_tvv1_12">مشکی، سفید، زیتونی، بنفش</string>
     <string name="ph_s21fe_full_tvv2_12">SM-G990B, SM-G990B/DS, SM-G990U, SM-G990U1, SM-G990W, SM-G990E, SM-G9900</string>
+    <string name="title_activity_ph_m53_picture">Ph_m53_picture</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 
     //###
     // Galaxy Note Full**********************

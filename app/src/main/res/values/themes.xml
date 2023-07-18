@@ -312,12 +312,14 @@
         <item name="android:layout_weight">1</item>
         <item name="android:layout_margin">5dp</item>
         <item name="android:src">@drawable/phone</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
     </style>
 
     <style name="CircleImage_series1">
         <item name="android:layout_width">150dp</item>
         <item name="android:layout_height">150dp</item>
         <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
         <item name="android:visibility">invisible</item>
         <item name="android:src">@drawable/phone</item>
         <item name="civ_border_color">#FFD700</item>
@@ -331,6 +333,7 @@
         <item name="android:layout_margin">5dp</item>
         <item name="android:visibility">invisible</item>
         <item name="android:src">@drawable/phone</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
         <item name="civ_border_color">#C0C0C0</item>
         <item name="civ_border_width">5dp</item>
     </style>
@@ -361,6 +364,7 @@
         <item name="civ_border_color">#3F51B5</item>
         <item name="civ_border_width">3dp</item>
         <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_centerVertical">true</item>
     </style>
 
     <style name="Phone_ImageView">
@@ -387,6 +391,7 @@
         <item name="android:padding">5dp</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
         <item name="android:textSize">20sp</item>
     </style>
 
@@ -394,6 +399,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/corner_text</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
         <item name="android:padding">5dp</item>
         <item name="android:textColor">@color/colorBlack</item>
         <item name="android:textSize">22sp</item>
@@ -407,6 +413,7 @@
         <item name="android:layout_weight">1</item>
         <item name="android:layout_margin">5dp</item>
         <item name="android:background">@drawable/corner_text</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
         <item name="android:padding">5dp</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/colorBlack</item>
@@ -616,6 +623,7 @@
         <item name="android:layout_margin">5dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:visibility">visible</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
     </style>
 
     <style name="TipsCardViewGoodlock">
@@ -624,6 +632,7 @@
         <item name="android:layout_margin">5dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:visibility">visible</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
     </style>
 
     <style name="TipsCardView2">
@@ -632,6 +641,7 @@
         <item name="android:layout_margin">5dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:visibility">visible</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
     </style>
 
     <style name="TipsTitleCardView">
@@ -739,5 +749,25 @@
         <item name="android:visibility">invisible</item>
     </style>
 
+
+    <style name="PhonesTextCardview1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="PhonesTextCardview2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
 
 </resources>

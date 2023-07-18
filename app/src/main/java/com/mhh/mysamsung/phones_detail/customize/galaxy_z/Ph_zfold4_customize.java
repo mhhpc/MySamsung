@@ -1,4 +1,4 @@
-package com.mhh.mysamsung.phones_detail.customize;
+package com.mhh.mysamsung.phones_detail.customize.galaxy_z;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;

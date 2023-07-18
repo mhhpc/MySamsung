@@ -12,6 +12,7 @@ import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -74,34 +75,33 @@ public class Phones_activity extends AppCompatActivity {
         //Animation ------------
         final ViewGroup r = findViewById(R.id.phones);
         final TextView t0 = findViewById(R.id.tv1);
-        final RelativeLayout t1 = findViewById(R.id.rl1);
-        final RelativeLayout t2 = findViewById(R.id.rl2);
-        final RelativeLayout t3 = findViewById(R.id.rl3);
-        final RelativeLayout t4 = findViewById(R.id.rl4);
-        final RelativeLayout t5 = findViewById(R.id.rl5);
-        final RelativeLayout t6 = findViewById(R.id.rl6);
-        final RelativeLayout t7 = findViewById(R.id.rl7);
-        final RelativeLayout t8 = findViewById(R.id.rl8);
-        final RelativeLayout t9 = findViewById(R.id.rl9);
-        final RelativeLayout t10 = findViewById(R.id.rl10);
-        final RelativeLayout t11 = findViewById(R.id.rl11);
-        final RelativeLayout t11_5 = findViewById(R.id.rl11_5);
-        final RelativeLayout t12 = findViewById(R.id.rl12);
-        final RelativeLayout t13 = findViewById(R.id.rl13);
-        final RelativeLayout t14 = findViewById(R.id.rl14);
-        final RelativeLayout t15 = findViewById(R.id.rl15);
-        final RelativeLayout t16 = findViewById(R.id.rl16);
-        final RelativeLayout t17 = findViewById(R.id.rl17);
-        final RelativeLayout t18 = findViewById(R.id.rl18);
-        final RelativeLayout t19 = findViewById(R.id.rl19);
-        final RelativeLayout t20 = findViewById(R.id.rl20);
-        final RelativeLayout t21 = findViewById(R.id.rl21);
-        final RelativeLayout t22 = findViewById(R.id.rl22);
-        final RelativeLayout t23 = findViewById(R.id.rl23);
-        final RelativeLayout t24 = findViewById(R.id.rl24);
-        final RelativeLayout t25 = findViewById(R.id.rl25);
-        final RelativeLayout t26 = findViewById(R.id.rl26);
-        final CardView rcv = findViewById(R.id.cv1);
+        final LinearLayout t1 = findViewById(R.id.ll1);
+        final LinearLayout t2 = findViewById(R.id.ll2);
+        final LinearLayout t3 = findViewById(R.id.ll3);
+        final LinearLayout t4 = findViewById(R.id.ll4);
+        final LinearLayout t5 = findViewById(R.id.ll5);
+        final LinearLayout t6 = findViewById(R.id.ll6);
+        final LinearLayout t7 = findViewById(R.id.ll7);
+        final LinearLayout t8 = findViewById(R.id.ll8);
+        final LinearLayout t9 = findViewById(R.id.ll9);
+        final LinearLayout t10 = findViewById(R.id.ll10);
+        final LinearLayout t11 = findViewById(R.id.ll11);
+        final LinearLayout t12 = findViewById(R.id.ll12);
+        final LinearLayout t13 = findViewById(R.id.ll13);
+        final LinearLayout t14 = findViewById(R.id.ll14);
+        final LinearLayout t15 = findViewById(R.id.ll15);
+        final LinearLayout t16 = findViewById(R.id.ll16);
+        final LinearLayout t17 = findViewById(R.id.ll17);
+        final LinearLayout t18 = findViewById(R.id.ll18);
+        final LinearLayout t19 = findViewById(R.id.ll19);
+        final LinearLayout t20 = findViewById(R.id.ll20);
+        final LinearLayout t21 = findViewById(R.id.ll21);
+        final LinearLayout t22 = findViewById(R.id.ll22);
+        final LinearLayout t23 = findViewById(R.id.ll23);
+        final LinearLayout t24 = findViewById(R.id.ll24);
+        final LinearLayout t25 = findViewById(R.id.ll25);
+        final LinearLayout t26 = findViewById(R.id.ll26);
+        final LinearLayout t27 = findViewById(R.id.ll27);
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -121,7 +121,6 @@ public class Phones_activity extends AppCompatActivity {
                 t9.setVisibility(View.VISIBLE);
                 t10.setVisibility(View.VISIBLE);
                 t11.setVisibility(View.VISIBLE);
-                t11_5.setVisibility(View.VISIBLE);
                 t12.setVisibility(View.VISIBLE);
                 t13.setVisibility(View.VISIBLE);
                 t14.setVisibility(View.VISIBLE);
@@ -137,482 +136,281 @@ public class Phones_activity extends AppCompatActivity {
                 t24.setVisibility(View.VISIBLE);
                 t25.setVisibility(View.VISIBLE);
                 t26.setVisibility(View.VISIBLE);
-                rcv.setVisibility(View.VISIBLE);
+                t27.setVisibility(View.VISIBLE);
             }
         },200);
 
         //Image links
 
-        CircleImageView circleImageView = (CircleImageView) findViewById(R.id.civ1);
+        CircleImageView circleImageView = (CircleImageView) findViewById(R.id.fciv1);
         Picasso.get().load("https://s6.uupload.ir/files/galaxy-z-fold4-share-image_ljha.jpg").placeholder(R.drawable.phone).into(circleImageView);
 
-        CircleImageView circleImageView2 = (CircleImageView) findViewById(R.id.civ2);
+        CircleImageView circleImageView2 = (CircleImageView) findViewById(R.id.fciv2);
         Picasso.get().load("https://s6.uupload.ir/files/042f6098-82f6-439e-8d61-176a99ddcaff_qb74.jpg").placeholder(R.drawable.phone).into(circleImageView2);
 
-        CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.civ3);
+        CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.fciv3);
         Picasso.get().load("https://s6.uupload.ir/files/182753_2020_nio9.jpg").placeholder(R.drawable.phone).into(circleImageView3);
 
-        CircleImageView circleImageView4 = (CircleImageView) findViewById(R.id.civ4);
+        CircleImageView circleImageView4 = (CircleImageView) findViewById(R.id.fciv4);
         Picasso.get().load("https://s6.uupload.ir/files/182332_2020_7zu6.jpg").placeholder(R.drawable.phone).into(circleImageView4);
 
-        CircleImageView circleImageView5 = (CircleImageView) findViewById(R.id.civ5);
+        CircleImageView circleImageView5 = (CircleImageView) findViewById(R.id.fciv5);
         Picasso.get().load("https://s6.uupload.ir/files/4182117_5uiw.jpg").placeholder(R.drawable.phone).into(circleImageView5);
 
-        CircleImageView circleImageView6 = (CircleImageView) findViewById(R.id.civ6);
+        CircleImageView circleImageView6 = (CircleImageView) findViewById(R.id.fciv6);
         Picasso.get().load("https://s6.uupload.ir/files/csm_untitled_2_7_432bb95979(1)_0m0d.jpg").placeholder(R.drawable.phone).into(circleImageView6);
 
-        CircleImageView circleImageView7 = (CircleImageView) findViewById(R.id.civ7);
+        CircleImageView circleImageView7 = (CircleImageView) findViewById(R.id.fciv7);
         Picasso.get().load("https://s6.uupload.ir/files/s22_5w1i.jpg").placeholder(R.drawable.phone).into(circleImageView7);
 
-        CircleImageView circleImageView8 = (CircleImageView) findViewById(R.id.civ8);
+        CircleImageView circleImageView8 = (CircleImageView) findViewById(R.id.fciv8);
         Picasso.get().load("https://s6.uupload.ir/files/311440-469190-medium_dcmu.jpg").placeholder(R.drawable.phone).into(circleImageView8);
 
-        CircleImageView circleImageView9 = (CircleImageView) findViewById(R.id.civ9);
+        CircleImageView circleImageView9 = (CircleImageView) findViewById(R.id.fciv9);
         Picasso.get().load("https://s6.uupload.ir/files/celular-smartphone-samsung-galaxy-s21fe-tela-6-128gb-e-5g_660422_1_9r36.jpg").placeholder(R.drawable.phone).into(circleImageView9);
 
-        CircleImageView circleImageView10 = (CircleImageView) findViewById(R.id.civ10);
+        CircleImageView circleImageView10 = (CircleImageView) findViewById(R.id.fciv10);
         Picasso.get().load("https://s6.uupload.ir/files/4_zu_3_samsung_galaxy_a52s_8zjy.jpg").placeholder(R.drawable.phone).into(circleImageView10);
 
-        CircleImageView circleImageView11 = (CircleImageView) findViewById(R.id.civ11);
+        CircleImageView circleImageView11 = (CircleImageView) findViewById(R.id.fciv11);
         Picasso.get().load("https://s6.uupload.ir/files/1_ip3a.jpg").placeholder(R.drawable.phone).into(circleImageView11);
 
-        CircleImageView circleImageView11_5 = (CircleImageView) findViewById(R.id.civ11_5);
+        CircleImageView circleImageView11_5 = (CircleImageView) findViewById(R.id.fciv12);
         Picasso.get().load("https://s6.uupload.ir/files/galaxy-note-20-5g-256gb-moi-99-like-new-han-quoc-chip-snapdragon-865_5pon.jpg").placeholder(R.drawable.phone).into(circleImageView11_5);
 
-        CircleImageView circleImageView12 = (CircleImageView) findViewById(R.id.civ12);
+        CircleImageView circleImageView12 = (CircleImageView) findViewById(R.id.fciv13);
         Picasso.get().load("https://s6.uupload.ir/files/003_galaxynote20_mysticbronze_front_with_pen_5vj3.jpg").placeholder(R.drawable.phone).into(circleImageView12);
 
-        CircleImageView circleImageView13 = (CircleImageView) findViewById(R.id.civ13);
+        CircleImageView circleImageView13 = (CircleImageView) findViewById(R.id.fciv14);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-z-fold-3-s-pen_38vd.jpg").placeholder(R.drawable.phone).into(circleImageView13);
 
-        CircleImageView circleImageView14 = (CircleImageView) findViewById(R.id.civ14);
+        CircleImageView circleImageView14 = (CircleImageView) findViewById(R.id.fciv15);
         Picasso.get().load("https://s6.uupload.ir/files/zflip3_carousel_foldunfoldcombo_phantomblack_mo_tugg.jpg").placeholder(R.drawable.phone).into(circleImageView14);
 
-        CircleImageView circleImageView15 = (CircleImageView) findViewById(R.id.civ15);
+        CircleImageView circleImageView15 = (CircleImageView) findViewById(R.id.fciv16);
         Picasso.get().load("https://s6.uupload.ir/files/840_560_23ls.jpg").placeholder(R.drawable.phone).into(circleImageView15);
 
-        CircleImageView circleImageView16 = (CircleImageView) findViewById(R.id.civ16);
+        CircleImageView circleImageView16 = (CircleImageView) findViewById(R.id.fciv17);
         Picasso.get().load("https://s6.uupload.ir/files/d619a06ecaea458e8e420bfe9a09096a7b3405dd_1630841890_f6ly.jpg").placeholder(R.drawable.phone).into(circleImageView16);
 
-        CircleImageView circleImageView17 = (CircleImageView) findViewById(R.id.civ17);
+        CircleImageView circleImageView17 = (CircleImageView) findViewById(R.id.fciv18);
         Picasso.get().load("https://s6.uupload.ir/files/619293036__0wt2.jpg").placeholder(R.drawable.phone).into(circleImageView17);
 
-        CircleImageView circleImageView18 = (CircleImageView) findViewById(R.id.civ18);
+        CircleImageView circleImageView18 = (CircleImageView) findViewById(R.id.fciv19);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-f23-aqua-green_y27t.jpg").placeholder(R.drawable.phone).into(circleImageView18);
 
-        CircleImageView circleImageView19 = (CircleImageView) findViewById(R.id.civ19);
+        CircleImageView circleImageView19 = (CircleImageView) findViewById(R.id.fciv20);
         Picasso.get().load("https://s6.uupload.ir/files/samsunggalaxyf42_0bfy.jpg").placeholder(R.drawable.phone).into(circleImageView19);
 
-        CircleImageView circleImageView20 = (CircleImageView) findViewById(R.id.civ20);
+        CircleImageView circleImageView20 = (CircleImageView) findViewById(R.id.fciv21);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-f13-1_sk5q.jpg").placeholder(R.drawable.phone).into(circleImageView20);
 
-        CircleImageView circleImageView21 = (CircleImageView) findViewById(R.id.civ21);
+        CircleImageView circleImageView21 = (CircleImageView) findViewById(R.id.fciv22);
         Picasso.get().load("https://s6.uupload.ir/files/tab_s8_ultra_-_brothers_(3)-800x800(1)_shd5.jpg").placeholder(R.drawable.phone).into(circleImageView21);
 
-        CircleImageView circleImageView22 = (CircleImageView) findViewById(R.id.civ22);
+        CircleImageView circleImageView22 = (CircleImageView) findViewById(R.id.fciv23);
         Picasso.get().load("https://s6.uupload.ir/files/tab_s8+_brothers_(3)-800x800_rau6.jpg").placeholder(R.drawable.phone).into(circleImageView22);
 
-        CircleImageView circleImageView23 = (CircleImageView) findViewById(R.id.civ23);
+        CircleImageView circleImageView23 = (CircleImageView) findViewById(R.id.fciv24);
         Picasso.get().load("https://s6.uupload.ir/files/92068379032934_6iho.jpg").placeholder(R.drawable.phone).into(circleImageView23);
 
-        CircleImageView circleImageView24 = (CircleImageView) findViewById(R.id.civ24);
+        CircleImageView circleImageView24 = (CircleImageView) findViewById(R.id.fciv25);
         Picasso.get().load("https://s6.uupload.ir/files/گوشی-samsung-galaxy-j8-سامسونگ_zsof.jpg").placeholder(R.drawable.phone).into(circleImageView24);
 
-        CircleImageView circleImageView25 = (CircleImageView) findViewById(R.id.civ25);
+        CircleImageView circleImageView25 = (CircleImageView) findViewById(R.id.fciv26);
         Picasso.get().load("https://s6.uupload.ir/files/گوشی-موبایل-سامسونگ-مدل-galaxy-j6-دو-سیم-کارت-ظرفیت-32-گیگابایت_hfqq.jpg").placeholder(R.drawable.phone).into(circleImageView25);
 
-        CircleImageView circleImageView26 = (CircleImageView) findViewById(R.id.civ26);
+        CircleImageView circleImageView26 = (CircleImageView) findViewById(R.id.fciv27);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-j4_0h1f.jpg").placeholder(R.drawable.phone).into(circleImageView26);
 
 
 
-
-        //text onclick =========================================
-
-        @SuppressLint("CutPasteId") TextView txt1 = (TextView) findViewById(R.id.tv1);
-        txt1.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Search_activity.class));
-            }
-        });
+        //ll onclick =========================================
 
         //button onclick
-        @SuppressLint("CutPasteId") Button ph1 = (Button) findViewById(R.id.ph1);
-        ph1.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_zfold4.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph2 = (Button) findViewById(R.id.ph2);
-        ph2.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_zflip4.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph3 = (Button) findViewById(R.id.ph3);
-        ph3.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_a73.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph4 = (Button) findViewById(R.id.ph4);
-        ph4.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_a53.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph5 = (Button) findViewById(R.id.ph5);
-        ph5.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_a33.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph6 = (Button) findViewById(R.id.ph6);
-        ph6.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_s22ultra.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph7 = (Button) findViewById(R.id.ph7);
-        ph7.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_s22plus.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph8 = (Button) findViewById(R.id.ph8);
-        ph8.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_s22.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph9 = (Button) findViewById(R.id.ph9);
-        ph9.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_s21fe.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph10 = (Button) findViewById(R.id.ph10);
-        ph10.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_a52s.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph11 = (Button) findViewById(R.id.ph11);
-        ph11.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_note20ultra.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph11_5 = (Button) findViewById(R.id.ph11_5);
-        ph11_5.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_note20_5g.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph12 = (Button) findViewById(R.id.ph12);
-        ph12.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_note20.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph13 = (Button) findViewById(R.id.ph13);
-        ph13.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_zfold3.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph14 = (Button) findViewById(R.id.ph14);
-        ph14.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_zflip3.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph15 = (Button) findViewById(R.id.ph15);
-        ph15.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_m53.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph16 = (Button) findViewById(R.id.ph16);
-        ph16.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_m62.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph17 = (Button) findViewById(R.id.ph17);
-        ph17.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_m33.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph18 = (Button) findViewById(R.id.ph18);
-        ph18.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_f23.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph19 = (Button) findViewById(R.id.ph19);
-        ph19.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_f42.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph20 = (Button) findViewById(R.id.ph20);
-        ph20.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_f13.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph21 = (Button) findViewById(R.id.ph21);
-        ph21.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_tab_s8ultra.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph22 = (Button) findViewById(R.id.ph22);
-        ph22.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_tab_s8plus.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph23 = (Button) findViewById(R.id.ph23);
-        ph23.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_tab_s8.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph24 = (Button) findViewById(R.id.ph24);
-        ph24.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_j8.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph25 = (Button) findViewById(R.id.ph25);
-        ph25.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_j6.class));
-            }
-        });
-
-        @SuppressLint("CutPasteId") Button ph26 = (Button) findViewById(R.id.ph26);
-        ph26.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(Phones_activity.this , Ph_j4.class));
-            }
-        });
-
-
-        //CIV onclick =========================================
-
-        //button onclick
-        @SuppressLint("CutPasteId") CircleImageView civ1 = (CircleImageView) findViewById(R.id.civ1);
+        @SuppressLint("CutPasteId") LinearLayout civ1 = (LinearLayout) findViewById(R.id.ll1);
         civ1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_zfold4.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ2 = (CircleImageView) findViewById(R.id.civ2);
+        @SuppressLint("CutPasteId") LinearLayout civ2 = (LinearLayout) findViewById(R.id.ll2);
         civ2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_zflip4.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ3 = (CircleImageView) findViewById(R.id.civ3);
+        @SuppressLint("CutPasteId") LinearLayout civ3 = (LinearLayout) findViewById(R.id.ll3);
         civ3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_a73.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ4 = (CircleImageView) findViewById(R.id.civ4);
+        @SuppressLint("CutPasteId") LinearLayout civ4 = (LinearLayout) findViewById(R.id.ll4);
         civ4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_a53.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ5 = (CircleImageView) findViewById(R.id.civ5);
+        @SuppressLint("CutPasteId") LinearLayout civ5 = (LinearLayout) findViewById(R.id.ll5);
         civ5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_a33.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ6 = (CircleImageView) findViewById(R.id.civ6);
+        @SuppressLint("CutPasteId") LinearLayout civ6 = (LinearLayout) findViewById(R.id.ll6);
         civ6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_s22ultra.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ7 = (CircleImageView) findViewById(R.id.civ7);
+        @SuppressLint("CutPasteId") LinearLayout civ7 = (LinearLayout) findViewById(R.id.ll7);
         civ7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_s22plus.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ8 = (CircleImageView) findViewById(R.id.civ8);
+        @SuppressLint("CutPasteId") LinearLayout civ8 = (LinearLayout) findViewById(R.id.ll8);
         civ8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_s22.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ9 = (CircleImageView) findViewById(R.id.civ9);
+        @SuppressLint("CutPasteId") LinearLayout civ9 = (LinearLayout) findViewById(R.id.ll9);
         civ9.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_s21fe.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ10 = (CircleImageView) findViewById(R.id.civ10);
+        @SuppressLint("CutPasteId") LinearLayout civ10 = (LinearLayout) findViewById(R.id.ll10);
         civ10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_a52s.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ11 = (CircleImageView) findViewById(R.id.civ11);
+        @SuppressLint("CutPasteId") LinearLayout civ11 = (LinearLayout) findViewById(R.id.ll11);
         civ11.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_note20ultra.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ11_5 = (CircleImageView) findViewById(R.id.civ11_5);
+        @SuppressLint("CutPasteId") LinearLayout civ11_5 = (LinearLayout) findViewById(R.id.ll12);
         civ11_5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_note20_5g.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ12 = (CircleImageView) findViewById(R.id.civ12);
+        @SuppressLint("CutPasteId") LinearLayout civ12 = (LinearLayout) findViewById(R.id.ll13);
         civ12.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_note20.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ13 = (CircleImageView) findViewById(R.id.civ13);
+        @SuppressLint("CutPasteId") LinearLayout civ13 = (LinearLayout) findViewById(R.id.ll14);
         civ13.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_zfold3.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ14 = (CircleImageView) findViewById(R.id.civ14);
+        @SuppressLint("CutPasteId") LinearLayout civ14 = (LinearLayout) findViewById(R.id.ll15);
         civ14.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_zflip3.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ15 = (CircleImageView) findViewById(R.id.civ15);
+        @SuppressLint("CutPasteId") LinearLayout civ15 = (LinearLayout) findViewById(R.id.ll16);
         civ15.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_m53.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ16 = (CircleImageView) findViewById(R.id.civ16);
+        @SuppressLint("CutPasteId") LinearLayout civ16 = (LinearLayout) findViewById(R.id.ll17);
         civ16.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_m62.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ17 = (CircleImageView) findViewById(R.id.civ17);
+        @SuppressLint("CutPasteId") LinearLayout civ17 = (LinearLayout) findViewById(R.id.ll18);
         civ17.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_m33.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ18 = (CircleImageView) findViewById(R.id.civ18);
+        @SuppressLint("CutPasteId") LinearLayout civ18 = (LinearLayout) findViewById(R.id.ll19);
         civ18.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_f23.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ19 = (CircleImageView) findViewById(R.id.civ19);
+        @SuppressLint("CutPasteId") LinearLayout civ19 = (LinearLayout) findViewById(R.id.ll20);
         civ19.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_f42.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ20 = (CircleImageView) findViewById(R.id.civ20);
+        @SuppressLint("CutPasteId") LinearLayout civ20 = (LinearLayout) findViewById(R.id.ll21);
         civ20.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_f13.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ21 = (CircleImageView) findViewById(R.id.civ21);
+        @SuppressLint("CutPasteId") LinearLayout civ21 = (LinearLayout) findViewById(R.id.ll22);
         civ21.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_tab_s8ultra.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ22 = (CircleImageView) findViewById(R.id.civ22);
+        @SuppressLint("CutPasteId") LinearLayout civ22 = (LinearLayout) findViewById(R.id.ll23);
         civ22.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_tab_s8plus.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ23 = (CircleImageView) findViewById(R.id.civ23);
+        @SuppressLint("CutPasteId") LinearLayout civ23 = (LinearLayout) findViewById(R.id.ll24);
         civ23.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_tab_s8.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ24 = (CircleImageView) findViewById(R.id.civ24);
+        @SuppressLint("CutPasteId") LinearLayout civ24 = (LinearLayout) findViewById(R.id.ll25);
         civ24.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_j8.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ25 = (CircleImageView) findViewById(R.id.civ25);
+        @SuppressLint("CutPasteId") LinearLayout civ25 = (LinearLayout) findViewById(R.id.ll26);
         civ25.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_j6.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CircleImageView civ26 = (CircleImageView) findViewById(R.id.civ26);
+        @SuppressLint("CutPasteId") LinearLayout civ26 = (LinearLayout) findViewById(R.id.ll27);
         civ26.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Ph_j4.class));

@@ -117,6 +117,21 @@ class Device_info_activity : AppCompatActivity() {
             }
         }
 
+        @SuppressLint("CutPasteId") val bt2 = findViewById<View>(R.id.bt2) as Button
+        bt2.setOnClickListener {
+            try {
+                val intent = Intent(Intent.ACTION_DIAL)
+                startActivity(intent)
+                startActivity(intent)
+            } catch (e: Exception) {
+                Toast.makeText(
+                    this,
+                    "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+        }
+
         //Image links
 
         //Image links

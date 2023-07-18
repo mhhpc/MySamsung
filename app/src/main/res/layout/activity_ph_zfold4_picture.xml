@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_list"
-    tools:context=".phones_detail.pictures.Ph_zfold4_picture">
+    tools:context=".phones_detail.pictures.galaxy_z.Ph_zfold4_picture">
 
     <ScrollView
         android:layout_width="match_parent"
