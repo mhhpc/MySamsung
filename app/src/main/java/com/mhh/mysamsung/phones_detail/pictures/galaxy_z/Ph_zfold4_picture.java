@@ -108,19 +108,19 @@ public class Ph_zfold4_picture extends AppCompatActivity {
         Picasso.get().load("https://s6.uupload.ir/files/galaxy-z-fold4-share-image_ljha.jpg").into(imageView2);
 
         ImageView imageView3 = (ImageView) findViewById(R.id.imv1);
-        Picasso.get().load("https://s2.uupload.ir/files/galaxy-z-fold4_highlights_kv_x23r.jpg").into(imageView3);
+        Picasso.get().load("https://s2.uupload.ir/files/galaxy-z-fold4_highlights_kv_x23r.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(imageView3);
 
         ImageView imageView4 = (ImageView) findViewById(R.id.imv2);
-        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-1(1)_ej4x.jpg").into(imageView4);
+        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-1(1)_ej4x.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(imageView4);
 
         ImageView imageView5 = (ImageView) findViewById(R.id.imv3);
-        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-2_j146_5161.jpg").into(imageView5);
+        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-2_j146_5161.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(imageView5);
 
         ImageView imageView6 = (ImageView) findViewById(R.id.imv4);
-        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-4_muht.jpg").into(imageView6);
+        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-4_muht.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(imageView6);
 
         ImageView imageView7 = (ImageView) findViewById(R.id.imv5);
-        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-3_rwc.jpg").into(imageView7);
+        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold4-5g-3_rwc.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(imageView7);
 
         ImageView imageView8 = (ImageView) findViewById(R.id.image1);
         Picasso.get().load("https://s2.uupload.ir/files/360_197_1_kb1.jpg").into(imageView8);

@@ -74,14 +74,14 @@ public class Ph_zfold4_compare extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DomainName("https://www.zoomit.ir/product/compare/mobile/samsung-galaxy-z-fold-4/");
+                DomainName("https://www.zoomit.ir/product/compare/mobile/samsung-galaxy-z-fold-4/samsung-galaxy-z-fold3/");
             }
         });
         @SuppressLint("CutPasteId") CardView b3 = (CardView) findViewById(R.id.ncv3);
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DomainName("https://www.gsmarena.com/compare.php3?idPhone1=11737");
+                DomainName("https://www.gsmarena.com/compare.php3?idPhone1=11737&idPhone2=10906");
             }
         });
 
@@ -110,5 +110,4 @@ public class Ph_zfold4_compare extends AppCompatActivity {
         startActivity(intent);
 
     }
-
 }

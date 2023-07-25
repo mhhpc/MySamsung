@@ -174,5 +174,4 @@ public class Ph_zfold4_customize extends AppCompatActivity {
         startActivity(intent);
 
     }
-
 }

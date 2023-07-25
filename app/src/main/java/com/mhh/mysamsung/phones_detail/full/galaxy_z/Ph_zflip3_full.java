@@ -4,16 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
+import com.mhh.mysamsung.phones_detail.full.galaxy_s.Ph_s22ultra_full;
+import com.mhh.mysamsung.views.Webview_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Transition;
@@ -50,6 +55,10 @@ public class Ph_zflip3_full extends AppCompatActivity {
         final CardView t13 = findViewById(R.id.cv10);
         final CardView t14 = findViewById(R.id.cv11);
         final CardView t15 = findViewById(R.id.cv12);
+        final LinearLayout t16 = findViewById(R.id.ll1);
+        final LinearLayout t17 = findViewById(R.id.ll2);
+        final LinearLayout t18 = findViewById(R.id.ll3);
+        final TextView t19 = findViewById(R.id.more);
 
 
         new Handler().postDelayed(new Runnable() {
@@ -73,8 +82,36 @@ public class Ph_zflip3_full extends AppCompatActivity {
                 t13.setVisibility(View.VISIBLE);
                 t14.setVisibility(View.VISIBLE);
                 t15.setVisibility(View.VISIBLE);
+                t16.setVisibility(View.VISIBLE);
+                t17.setVisibility(View.VISIBLE);
+                t18.setVisibility(View.VISIBLE);
+                t19.setVisibility(View.VISIBLE);
             }
         },200);
+
+
+        // Onclick
+        @SuppressLint("CutPasteId") CardView b1 = (CardView) findViewById(R.id.ncv1);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DomainName("https://www.samsung.com/iran/smartphones/galaxy-z-flip3-5g/specs/");
+            }
+        });
+        @SuppressLint("CutPasteId") CardView b2 = (CardView) findViewById(R.id.ncv2);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DomainName("https://www.zoomit.ir/product/samsung-galaxy-z-flip-3/");
+            }
+        });
+        @SuppressLint("CutPasteId") CardView b3 = (CardView) findViewById(R.id.ncv3);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DomainName("https://www.gsmarena.com/samsung_galaxy_z_flip3_5g-11044.php");
+            }
+        });
 
 
         //Image links
@@ -83,6 +120,23 @@ public class Ph_zflip3_full extends AppCompatActivity {
 
         ImageView imageView2 = (ImageView) findViewById(R.id.iv2);
         Picasso.get().load("https://s6.uupload.ir/files/zflip3_carousel_foldunfoldcombo_phantomblack_mo_tugg.jpg").into(imageView2);
+
+        ImageView ImageView3 = (ImageView) findViewById(R.id.image1);
+        Picasso.get().load("https://s2.uupload.ir/files/360_197_1_kb1.jpg").into(ImageView3);
+
+        ImageView ImageView4 = (ImageView) findViewById(R.id.image2);
+        Picasso.get().load("https://s2.uupload.ir/files/2019-7-0a8eee1d-c70b-4033-95c8-ea1b2615aa64-638baac6506e38df57e9cb02_gqp9.jpg").into(ImageView4);
+
+        ImageView ImageView5 = (ImageView) findViewById(R.id.image3);
+        Picasso.get().load("https://s2.uupload.ir/files/gsmarena-com-logo-vector_b5sw.jpg").into(ImageView5);
+
+    }
+
+    private void DomainName(String s) {
+
+        Intent intent = new Intent(Ph_zflip3_full.this, Webview_activity.class);
+        intent.putExtra("domin",s);
+        startActivity(intent);
 
     }
 }
