@@ -15,7 +15,15 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
+import com.mhh.mysamsung.phones_detail.check.galaxy_z.Ph_zflip3_check;
+import com.mhh.mysamsung.phones_detail.check.galaxy_z.Ph_zfold4_check;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zflip3_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zfold4_compare;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_z.Ph_zflip3_customize;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_z.Ph_zfold4_customize;
 import com.mhh.mysamsung.phones_detail.full.galaxy_z.Ph_zflip3_full;
+import com.mhh.mysamsung.phones_detail.pictures.galaxy_z.Ph_zflip3_picture;
+import com.mhh.mysamsung.phones_detail.pictures.galaxy_z.Ph_zfold4_picture;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -121,6 +129,34 @@ public class Ph_zflip3 extends AppCompatActivity {
         ph1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Ph_zflip3.this , Ph_zflip3_full.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph2 = (Button) findViewById(R.id.b2);
+        ph2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_zflip3.this , Ph_zflip3_check.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph3 = (Button) findViewById(R.id.b3);
+        ph3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_zflip3.this , Ph_zflip3_picture.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph4 = (Button) findViewById(R.id.b4);
+        ph4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_zflip3.this , Ph_zflip3_customize.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph5 = (Button) findViewById(R.id.b5);
+        ph5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_zflip3.this , Ph_zflip3_compare.class));
             }
         });
 

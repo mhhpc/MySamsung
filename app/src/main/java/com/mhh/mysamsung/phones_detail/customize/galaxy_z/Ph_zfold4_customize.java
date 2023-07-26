@@ -142,7 +142,7 @@ public class Ph_zfold4_customize extends AppCompatActivity {
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DomainName("https://uupload.ir/view/galaxy_32rm.mp3/");
+                DomainName("https://uupload.ir/view/over-the-horizon-2022_q529.mp3/");
             }
         });
 

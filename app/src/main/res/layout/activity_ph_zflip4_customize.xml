@@ -168,7 +168,7 @@
 
                     <TextView
                         style="@style/TipsTextView"
-                        android:text="@string/phones_customize_cv2" />
+                        android:text="@string/phones_customize_over2022" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
