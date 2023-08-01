@@ -109,5 +109,4 @@ public class Ph_zfold4_check extends AppCompatActivity {
         startActivity(intent);
 
     }
-
 }
