@@ -15,7 +15,15 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
+import com.mhh.mysamsung.phones_detail.check.galaxy_s.Ph_s21fe_check;
+import com.mhh.mysamsung.phones_detail.check.galaxy_s.Ph_s22plus_check;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s21fe_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s22plus_compare;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s21fe_customize;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s22plus_customize;
 import com.mhh.mysamsung.phones_detail.full.galaxy_s.Ph_s21fe_full;
+import com.mhh.mysamsung.phones_detail.pictures.galaxy_s.Ph_s21fe_picture;
+import com.mhh.mysamsung.phones_detail.pictures.galaxy_s.Ph_s22plus_picture;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -120,6 +128,38 @@ public class Ph_s21fe extends AppCompatActivity {
         ph1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Ph_s21fe.this , Ph_s21fe_full.class));
+            }
+        });
+
+        //button onclick
+        @SuppressLint("CutPasteId") Button ph2 = (Button) findViewById(R.id.b2);
+        ph2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_s21fe.this , Ph_s21fe_check.class));
+            }
+        });
+
+        //button onclick
+        @SuppressLint("CutPasteId") Button ph3 = (Button) findViewById(R.id.b3);
+        ph3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_s21fe.this , Ph_s21fe_picture.class));
+            }
+        });
+
+        //button onclick
+        @SuppressLint("CutPasteId") Button ph4 = (Button) findViewById(R.id.b4);
+        ph4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_s21fe.this , Ph_s21fe_customize.class));
+            }
+        });
+
+        //button onclick
+        @SuppressLint("CutPasteId") Button ph5 = (Button) findViewById(R.id.b5);
+        ph5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_s21fe.this , Ph_s21fe_compare.class));
             }
         });
 

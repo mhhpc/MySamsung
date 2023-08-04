@@ -154,6 +154,9 @@
             android:name=".phones_detail.customize.galaxy_s.Ph_s21fe_customize"
             android:exported="false" />
         <activity
+            android:name=".phones_detail.check.galaxy_s.Ph_s21fe_check"
+            android:exported="false" />
+        <activity
             android:name=".phones_detail.customize.galaxy_s.Ph_s22_customize"
             android:exported="false" />
         <activity
