@@ -6,4 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".phones_detail.customize.galaxy_m.Ph_m53_customize">
 
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

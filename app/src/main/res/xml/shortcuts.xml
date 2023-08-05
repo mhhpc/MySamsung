@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="all"
+        android:enabled="true"
+        android:icon="@drawable/all"
+        android:shortcutShortLabel="@string/home_all"
+        android:shortcutLongLabel="@string/home_all">
+
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="com.mhh.mysamsung"
+        android:targetClass="com.mhh.mysamsung.views.Phones_activity"/>
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="goodlock"
+        android:enabled="true"
+        android:icon="@drawable/home_goodluck"
+        android:shortcutShortLabel="@string/home_goodlock_simple"
+        android:shortcutLongLabel="@string/home_goodlock_simple">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.mhh.mysamsung"
+            android:targetClass="com.mhh.mysamsung.goodlock.Goodlock_activity"/>
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="lteonly"
+        android:enabled="true"
+        android:icon="@drawable/home_lte"
+        android:shortcutShortLabel="@string/home_lte"
+        android:shortcutLongLabel="@string/home_lte">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.mhh.mysamsung"
+            android:targetClass="com.mhh.mysamsung.hidden_tip.Lte_only_activity"/>
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="fakecall"
+        android:enabled="true"
+        android:icon="@drawable/home_call"
+        android:shortcutShortLabel="@string/home_call"
+        android:shortcutLongLabel="@string/home_call">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.mhh.mysamsung"
+            android:targetClass="com.mhh.mysamsung.hidden_tip.Fake_call_activity"/>
+
+    </shortcut>
+
+</shortcuts>

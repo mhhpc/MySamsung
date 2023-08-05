@@ -1,5 +1,7 @@
 package com.mhh.mysamsung.goodlock;
 
+import static android.app.PendingIntent.getActivity;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.core.widget.NestedScrollView;
@@ -7,7 +9,10 @@ import androidx.core.widget.NestedScrollView;
 import android.annotation.SuppressLint;
 import android.content.ComponentName;
 import android.content.Intent;
+import android.content.pm.ShortcutInfo;
+import android.content.pm.ShortcutManager;
 import android.graphics.drawable.AnimationDrawable;
+import android.graphics.drawable.Icon;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -20,10 +25,16 @@ import android.widget.Toast;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.guide.Goodlock_guide_activity;
+import com.mhh.mysamsung.phones.galaxy_a.Ph_a52s;
+import com.mhh.mysamsung.phones.galaxy_s.Ph_s22ultra;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class Goodlock_activity extends AppCompatActivity {
 
