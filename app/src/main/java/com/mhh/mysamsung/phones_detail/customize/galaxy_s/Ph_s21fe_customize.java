@@ -142,7 +142,7 @@ public class Ph_s21fe_customize extends AppCompatActivity {
         Picasso.get().load("https://s6.uupload.ir/files/celular-smartphone-samsung-galaxy-s21fe-tela-6-128gb-e-5g_660422_1_9r36.jpg").into(imageView2);
 
         ImageView imageView3 = (ImageView) findViewById(R.id.image1);
-        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold-4-wallpapers-featured_seo4.jpg").into(imageView3);
+        Picasso.get().load("https://s8.uupload.ir/files/desktop-wallpaper-samsung-galaxy-s21-fe-5g_sb0.jpg").into(imageView3);
 
         ImageView imageView5 = (ImageView) findViewById(R.id.image2);
         Picasso.get().load("https://s2.uupload.ir/files/samsung-music-hero_w09t.jpg").into(imageView5);

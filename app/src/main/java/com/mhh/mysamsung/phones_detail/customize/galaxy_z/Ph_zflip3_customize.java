@@ -153,10 +153,10 @@ public class Ph_zflip3_customize extends AppCompatActivity {
         Picasso.get().load("https://s6.uupload.ir/files/zflip3_carousel_foldunfoldcombo_phantomblack_mo_tugg.jpg").into(imageView2);
 
         ImageView imageView3 = (ImageView) findViewById(R.id.image1);
-        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold-4-wallpapers-featured_seo4.jpg").into(imageView3);
+        Picasso.get().load("https://s8.uupload.ir/files/samsung-galaxy-z-flip-3-wallpaper-11-ytechb-1024x1024_b3qx.jpg").into(imageView3);
 
         ImageView imageView4 = (ImageView) findViewById(R.id.image1_1);
-        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold-4-wallpapers-featured_seo4.jpg").into(imageView4);
+        Picasso.get().load("https://s8.uupload.ir/files/samsung-galaxy-z-flip-3-wallpaper-11-ytechb-1024x1024_b3qx.jpg").into(imageView4);
 
         ImageView imageView5 = (ImageView) findViewById(R.id.image2);
         Picasso.get().load("https://s2.uupload.ir/files/samsung-music-hero_w09t.jpg").into(imageView5);

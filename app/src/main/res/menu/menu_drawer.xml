@@ -4,7 +4,7 @@
     <item
         android:id="@+id/menu_channel"
         android:title="@string/menu_channel"
-        android:icon="@drawable/ic_message"/>
+        android:icon="@drawable/ic_message" />
 
     <item
         android:id="@+id/menu_rate"

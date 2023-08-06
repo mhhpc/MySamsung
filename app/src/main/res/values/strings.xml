@@ -24,8 +24,8 @@
     <string name="home_tip">ترفندها و نکات جذاب</string>
     <string name="home_about">درباره ما</string>
     <string name="home_test">تست گوشی</string>
-    <string name="home_goodlock">برنامه Goodlock</string>
-    <string name="home_goodlock_simple">Goodlock</string>
+    <string name="home_goodlock">برنامه GoodLock</string>
+    <string name="home_goodlock_simple">Good Lock</string>
     <string name="home_lte">LTE Only</string>
     <string name="home_call">تماس جعلی</string>
     <string name="home_t1">گوشی که دنبالشی اینجاست</string>
@@ -120,6 +120,7 @@
     <string name="about_b1">ارتباط با ما</string>
     <string name="about_b2">امتیاز به برنامه</string>
     <string name="about_b3">اشتراک گذاری برنامه</string>
+    <string name="about_t">حمایت از ما</string>
     <string name="about_tx1">ساخته شده توسط محمد حسین حمیدی</string>
     <string name="about_tx2">Copyright © 1401-1402 MHH Releases</string>
     <string name="about_tx3">1 Farvardin 1402 Released</string>

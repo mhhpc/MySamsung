@@ -16,6 +16,7 @@ import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -155,21 +156,21 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         });
 
         //Image buttons onclick
-        @SuppressLint("CutPasteId") ImageButton btn1 = (ImageButton) findViewById(R.id.b2);
+        @SuppressLint("CutPasteId") ImageView btn1 = (ImageView) findViewById(R.id.b2);
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Home_activity.this, Series_activity.class));
             }
         });
 
-        @SuppressLint("CutPasteId") ImageButton btn2 = (ImageButton) findViewById(R.id.b3);
+        @SuppressLint("CutPasteId") ImageView btn2 = (ImageView) findViewById(R.id.b3);
         btn2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Home_activity.this, Year_activity.class));
             }
         });
 
-        @SuppressLint("CutPasteId") ImageButton btn3 = (ImageButton) findViewById(R.id.b1);
+        @SuppressLint("CutPasteId") ImageView btn3 = (ImageView) findViewById(R.id.b1);
         btn3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Home_activity.this, Phones_activity.class));

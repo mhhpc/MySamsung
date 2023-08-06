@@ -153,10 +153,10 @@ public class Ph_s22_customize extends AppCompatActivity {
         Picasso.get().load("https://s6.uupload.ir/files/311440-469190-medium_dcmu.jpg").into(imageView2);
 
         ImageView imageView3 = (ImageView) findViewById(R.id.image1);
-        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold-4-wallpapers-featured_seo4.jpg").into(imageView3);
+        Picasso.get().load("https://s8.uupload.ir/files/hd-wallpaper-samsung-galaxy-s22-golden-background-ultra-computers-others-2022-samsung-galaxy-golden-background_xznk.jpg").into(imageView3);
 
         ImageView imageView4 = (ImageView) findViewById(R.id.image1_1);
-        Picasso.get().load("https://s2.uupload.ir/files/samsung-galaxy-z-fold-4-wallpapers-featured_seo4.jpg").into(imageView4);
+        Picasso.get().load("https://s8.uupload.ir/files/hd-wallpaper-samsung-galaxy-s22-golden-background-ultra-computers-others-2022-samsung-galaxy-golden-background_xznk.jpg").into(imageView4);
 
         ImageView imageView5 = (ImageView) findViewById(R.id.image2);
         Picasso.get().load("https://s2.uupload.ir/files/samsung-music-hero_w09t.jpg").into(imageView5);
