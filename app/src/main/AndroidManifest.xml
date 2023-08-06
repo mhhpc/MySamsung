@@ -95,16 +95,16 @@
             android:name=".phones_detail.pictures.galaxy_z.Ph_zflip4_picture"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.compare.galaxy_s.galaxy_a.Ph_a33_customize"
+            android:name=".phones_detail.customize.galaxy_a.Ph_a33_customize"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.compare.galaxy_s.galaxy_a.Ph_a53_customize"
+            android:name=".phones_detail.customize.galaxy_a.Ph_a53_customize"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.compare.galaxy_s.galaxy_a.Ph_a73_customize"
+            android:name=".phones_detail.customize.galaxy_a.Ph_a73_customize"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.compare.galaxy_s.galaxy_a.Ph_a52s_customize"
+            android:name=".phones_detail.customize.galaxy_a.Ph_a52s_customize"
             android:exported="false" />
         <activity
             android:name=".phones_detail.customize.galaxy_f.Ph_f42_customize"

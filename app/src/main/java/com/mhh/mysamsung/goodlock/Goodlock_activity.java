@@ -36,6 +36,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import io.github.muddz.styleabletoast.StyleableToast;
+
 public class Goodlock_activity extends AppCompatActivity {
 
     @Override
@@ -253,7 +255,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه LockStar را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast1), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -271,7 +273,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه QuickStar را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast2), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -289,7 +291,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Routine+ را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast3), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -307,7 +309,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه ClockFace را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast4), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -325,7 +327,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه MultiStar را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast5), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -343,7 +345,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه NavStar را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast6), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -361,7 +363,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه NiceShot را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast7), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -379,7 +381,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Home Up را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast8), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -397,7 +399,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه NotiStar را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast9), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -415,7 +417,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه RegiStar را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast10), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -433,7 +435,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Theme Park را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast11), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -451,7 +453,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Nice Catch را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast12), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -469,7 +471,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه One Hand Operation + را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast13), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -485,7 +487,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(intent);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Sound Assistant را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast14), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -503,7 +505,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Wonderland را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast15), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -521,7 +523,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Keys Cafe را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast16), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -539,7 +541,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Camera Assistant را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast17), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -557,7 +559,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Good Lock را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast18), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -575,7 +577,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Edge Touch را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast19), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -593,7 +595,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Pentastic را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast20), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -611,7 +613,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Battery Tracker را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast21), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -629,7 +631,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Battery Guardian را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast22), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -647,7 +649,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Galaxy App Booster را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast23), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -665,7 +667,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Thermal Guardian را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast24), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -683,7 +685,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Memory Guardian را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast25), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -701,7 +703,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Media File Guardian را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast26), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -719,7 +721,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Good Guardians را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast27), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
@@ -737,7 +739,7 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Goodlock_activity.this, "خطا! ابتدا آخرین نسخه Good Guardians Agent را دانلود، و دوباره امتحان کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast28), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }

@@ -45,9 +45,13 @@ dependencies {
     //lottie
     def lottieVersion = "5.2.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
+    //circle image
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     //shape and view
     implementation 'io.github.florent37:shapeofview:1.4.7'
     //picasso (ImageLoader)
-    implementation 'com.squareup.picasso:picasso:2.8'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //custom toast
+    implementation 'io.github.shashank02051997:FancyToast:2.0.2'
+    implementation 'io.github.muddz:styleabletoast:2.4.0'
 }

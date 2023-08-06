@@ -22,7 +22,7 @@ import com.squareup.picasso.Picasso
 import com.transitionseverywhere.Fade
 import com.transitionseverywhere.Transition
 import com.transitionseverywhere.TransitionManager
-import io.github.florent37.shapeofview.shapes.RoundRectView
+import io.github.muddz.styleabletoast.StyleableToast
 
 
 class Device_info_activity : AppCompatActivity() {
@@ -109,11 +109,7 @@ class Device_info_activity : AppCompatActivity() {
                 startActivity(intent)
                 startActivity(intent)
             } catch (e: Exception) {
-                Toast.makeText(
-                    this,
-                    "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند",
-                    Toast.LENGTH_SHORT
-                ).show()
+                StyleableToast.makeText(applicationContext, getString(R.string.phone_support2), Toast.LENGTH_LONG, R.style.support_toast).show()
             }
         }
 
@@ -124,11 +120,7 @@ class Device_info_activity : AppCompatActivity() {
                 startActivity(intent)
                 startActivity(intent)
             } catch (e: Exception) {
-                Toast.makeText(
-                    this,
-                    "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند",
-                    Toast.LENGTH_SHORT
-                ).show()
+                StyleableToast.makeText(applicationContext, getString(R.string.phone_support2), Toast.LENGTH_LONG, R.style.support_toast).show()
             }
         }
 

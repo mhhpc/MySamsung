@@ -24,6 +24,7 @@ import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
 import io.github.florent37.shapeofview.shapes.RoundRectView;
+import io.github.muddz.styleabletoast.StyleableToast;
 
 public class Lte_only_activity extends AppCompatActivity {
 
@@ -97,7 +98,7 @@ public class Lte_only_activity extends AppCompatActivity {
                         startActivity(intent2);
                     }
                 } catch (Exception e) {
-                    Toast.makeText(Lte_only_activity.this, "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.phone_support), Toast.LENGTH_LONG, R.style.support_toast).show();
                 }
             }
         });

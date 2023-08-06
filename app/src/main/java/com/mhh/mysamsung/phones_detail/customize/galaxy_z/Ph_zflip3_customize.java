@@ -28,6 +28,8 @@ import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
+import io.github.muddz.styleabletoast.StyleableToast;
+
 public class Ph_zflip3_customize extends AppCompatActivity {
 
     @Override
@@ -115,7 +117,7 @@ public class Ph_zflip3_customize extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Ph_zflip3_customize.this, "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند. لطفا مطابق راهنما عمل کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.phone_support), Toast.LENGTH_LONG, R.style.support_toast).show();
                 }
             }
         });
@@ -131,7 +133,7 @@ public class Ph_zflip3_customize extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Ph_zflip3_customize.this, "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند. لطفا از تنظیمات گوشی تغییر دهید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.phone_support), Toast.LENGTH_LONG, R.style.support_toast).show();
                 }
             }
         });

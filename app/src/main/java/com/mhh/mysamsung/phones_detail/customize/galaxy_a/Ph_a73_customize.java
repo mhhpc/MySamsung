@@ -1,4 +1,4 @@
-package com.mhh.mysamsung.phones_detail.compare.galaxy_s.galaxy_a;
+package com.mhh.mysamsung.phones_detail.customize.galaxy_a;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -28,22 +28,24 @@ import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
-public class Ph_a33_customize extends AppCompatActivity {
+import io.github.muddz.styleabletoast.StyleableToast;
+
+public class Ph_a73_customize extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ph_a33_customize);
+        setContentView(R.layout.activity_ph_a73_customize);
 
         //Gradient -----------
-        ConstraintLayout constraintLayout = findViewById(R.id.ph_a33_customize);
+        ConstraintLayout constraintLayout = findViewById(R.id.ph_a73_customize);
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
 
         //Animation ------------
-        final ViewGroup r = findViewById(R.id.ph_a33_customize);
+        final ViewGroup r = findViewById(R.id.ph_a73_customize);
         final RelativeLayout t1 = findViewById(R.id.view);
         final TextView t2 = findViewById(R.id.titleView1);
         final TextView t3 = findViewById(R.id.titleView2);
@@ -82,7 +84,7 @@ public class Ph_a33_customize extends AppCompatActivity {
         @SuppressLint("CutPasteId") Button b1 = (Button) findViewById(R.id.bt1);
         b1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Ph_a33_customize.this , Guide_background.class));
+                startActivity(new Intent(Ph_a73_customize.this , Guide_background.class));
             }
         });
 
@@ -90,7 +92,7 @@ public class Ph_a33_customize extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intentRate = new Intent(Intent.ACTION_VIEW);
-                intentRate.setData(Uri.parse("https://drive.google.com/drive/folders/12ihzpqHPK1XyIr-i36uy5vg_xW0jGmDV"));
+                intentRate.setData(Uri.parse("https://drive.google.com/drive/folders/15zaj5zKuID-8pgm0bp8a3bJmQEfjzN3s"));
                 startActivity(intentRate);
             }
         });
@@ -106,7 +108,7 @@ public class Ph_a33_customize extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Ph_a33_customize.this, "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند. لطفا مطابق راهنما عمل کنید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.phone_support), Toast.LENGTH_LONG, R.style.support_toast).show();
                 }
             }
         });
@@ -122,7 +124,7 @@ public class Ph_a33_customize extends AppCompatActivity {
                     startActivity(res);
                 }catch (Exception e)
                 {
-                    Toast.makeText(Ph_a33_customize.this, "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند. لطفا از تنظیمات گوشی تغییر دهید.", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.phone_support), Toast.LENGTH_LONG, R.style.support_toast).show();
                 }
             }
         });
@@ -141,10 +143,10 @@ public class Ph_a33_customize extends AppCompatActivity {
         Picasso.get().load("https://s2.uupload.ir/files/l-intro-1659397313_auna.jpg").into(imageView);
 
         ImageView imageView2 = (ImageView) findViewById(R.id.iv2);
-        Picasso.get().load("https://s6.uupload.ir/files/4182117_5uiw.jpg").into(imageView2);
+        Picasso.get().load("https://s6.uupload.ir/files/182753_2020_nio9.jpg").into(imageView2);
 
         ImageView imageView3 = (ImageView) findViewById(R.id.image1);
-        Picasso.get().load("https://s8.uupload.ir/files/wp10905299_v101.jpg").into(imageView3);
+        Picasso.get().load("https://s8.uupload.ir/files/hd-wallpaper-galaxy-a73-are-now-available-to-samsung-a53_6vxd.jpg").into(imageView3);
 
         ImageView imageView5 = (ImageView) findViewById(R.id.image2);
         Picasso.get().load("https://s2.uupload.ir/files/samsung-music-hero_w09t.jpg").into(imageView5);
@@ -155,7 +157,7 @@ public class Ph_a33_customize extends AppCompatActivity {
     }
     private void DomainName(String s) {
 
-        Intent intent = new Intent(Ph_a33_customize.this, Webview_activity.class);
+        Intent intent = new Intent(Ph_a73_customize.this, Webview_activity.class);
         intent.putExtra("domin",s);
         startActivity(intent);
 

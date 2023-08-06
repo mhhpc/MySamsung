@@ -15,16 +15,11 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.phones.galaxy_s.Ph_s22ultra;
 import com.mhh.mysamsung.phones_detail.check.galaxy_a.Ph_a73_check;
-import com.mhh.mysamsung.phones_detail.check.galaxy_s.Ph_s22ultra_check;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a73_compare;
-import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s22ultra_compare;
-import com.mhh.mysamsung.phones_detail.compare.galaxy_s.galaxy_a.Ph_a73_customize;
-import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s22ultra_customize;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_a.Ph_a73_customize;
 import com.mhh.mysamsung.phones_detail.full.galaxy_a.Ph_a73_full;
 import com.mhh.mysamsung.phones_detail.pictures.galaxy_a.Ph_a73_picture;
-import com.mhh.mysamsung.phones_detail.pictures.galaxy_s.Ph_s22ultra_picture;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;

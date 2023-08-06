@@ -39,6 +39,8 @@ import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 import com.transitionseverywhere.extra.Scale;
 
+import io.github.muddz.styleabletoast.StyleableToast;
+
 public class Home_activity extends AppCompatActivity implements View.OnClickListener {
 
     DrawerLayout drawerLayout;

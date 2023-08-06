@@ -26,6 +26,7 @@ import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
 import io.github.florent37.shapeofview.shapes.RoundRectView;
+import io.github.muddz.styleabletoast.StyleableToast;
 
 public class Fake_call_activity extends AppCompatActivity {
 
@@ -111,7 +112,7 @@ public class Fake_call_activity extends AppCompatActivity {
                     intent.setComponent(new ComponentName("com.samsung.android.incallui", "com.android.incallui.labs.LabsActivity"));
                     startActivity(intent);
                 } catch (Exception e) {
-                    Toast.makeText(Fake_call_activity.this, "گوشی شما از این قابلیت پشتیبانی نمی\u200Cکند", Toast.LENGTH_SHORT).show();
+                    StyleableToast.makeText(getApplicationContext(), getString(R.string.phone_support), Toast.LENGTH_LONG, R.style.support_toast).show();
                 }
             }
         });

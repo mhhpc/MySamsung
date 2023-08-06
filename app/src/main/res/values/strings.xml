@@ -6,6 +6,10 @@
 
     <string name="title_suggest">پیشنهادات</string>
 
+    <string name="coming_soon">به زودی</string>
+    <string name="phone_support">گوشی شما از این قابلیت پشتیبانی نمی‌کند. لطفا از تنظیمات گوشی، تنظیم کنید.</string>
+    <string name="phone_support2">گوشی شما از این قابلیت پشتیبانی نمی‌کند.</string>
+
 
     //menu_drawer
     <string name="menu_channel">ارتباط با ما</string>
@@ -159,7 +163,7 @@
     <string name="customize_t3">معرفی برنامه های شخصی سازی گوشی</string>
     <string name="customize_t4">قابلیت های مخفی گوشی سامسونگ</string>
 
-    //Customize_activity
+    //Goodlock_activity
     <string name="goodlock_title">Goodlock</string>
     <string name="goodlock_download">دانلود و بروزرسانی</string>
     <string name="goodlock_guide">راهنمایی</string>
@@ -222,6 +226,35 @@
     <string name="goodlock_t27">اجرا کننده مجموعه برنامه های Good Guardians</string>
     <string name="goodlock_tv28">Good Guardians Agent (dependency)</string>
     <string name="goodlock_t28">نظارت برنامه های Good Guardians</string>
+
+    <string name="goodlock_toast1">خطا! ابتدا آخرین نسخه LockStar را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast2">خطا! ابتدا آخرین نسخه QuickStar را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast3">خطا! ابتدا آخرین نسخه Routine+ را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast4">خطا! ابتدا آخرین نسخه ClockFace را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast5">خطا! ابتدا آخرین نسخه MultiStar را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast6">خطا! ابتدا آخرین نسخه NavStar را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast7">خطا! ابتدا آخرین نسخه NiceShot را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast8">خطا! ابتدا آخرین نسخه Home Up را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast9">خطا! ابتدا آخرین نسخه NotiStar را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast10">خطا! ابتدا آخرین نسخه RegiStar را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast11">خطا! ابتدا آخرین نسخه Theme Park را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast12">خطا! ابتدا آخرین نسخه Nice Catch را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast13">خطا! ابتدا آخرین نسخه One Hand Operation + را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast14">خطا! ابتدا آخرین نسخه Sound Assistant را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast15">خطا! ابتدا آخرین نسخه Wonderland را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast16">خطا! ابتدا آخرین نسخه Keys Cafe را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast17">خطا! ابتدا آخرین نسخه Camera Assistant را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast18">خطا! ابتدا آخرین نسخه Good Lock را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast19">خطا! ابتدا آخرین نسخه Edge Touch را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast20">خطا! ابتدا آخرین نسخه Pentastic را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast21">خطا! ابتدا آخرین نسخه Battery Tracker را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast22">خطا! ابتدا آخرین نسخه Battery Guardian را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast23">خطا! ابتدا آخرین نسخه Galaxy App Booster را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast24">خطا! ابتدا آخرین نسخه Thermal Guardian را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast25">خطا! ابتدا آخرین نسخه Memory Guardian را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast26">خطا! ابتدا آخرین نسخه Media File Guardian را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast27">خطا! ابتدا آخرین نسخه Good Guardians را دانلود، و دوباره امتحان کنید.</string>
+    <string name="goodlock_toast28">خطا! ابتدا آخرین نسخه Good Guardians Agent را دانلود، و دوباره امتحان کنید.</string>
 
     //Compare_activity
     <string name="compare_title">مقایسه</string>
