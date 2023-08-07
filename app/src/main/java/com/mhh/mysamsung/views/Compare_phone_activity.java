@@ -13,13 +13,30 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a33_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a52s_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a53_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a73_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_note.Ph_note20_5g_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_note.Ph_note20_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_note.Ph_note20ultra_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s21fe_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s22_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s22plus_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s22ultra_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zflip3_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zflip4_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zfold3_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zfold4_compare;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
+
+import io.github.muddz.styleabletoast.StyleableToast;
 
 public class Compare_phone_activity extends AppCompatActivity {
 
@@ -126,6 +143,188 @@ public class Compare_phone_activity extends AppCompatActivity {
         bt1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Compare_phone_activity.this , Ph_zfold4_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt2 = (Button) findViewById(R.id.ph2);
+        bt2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_zflip4_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt3 = (Button) findViewById(R.id.ph3);
+        bt3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_a73_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt4 = (Button) findViewById(R.id.ph4);
+        bt4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_a53_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt5 = (Button) findViewById(R.id.ph5);
+        bt5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_a33_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt6 = (Button) findViewById(R.id.ph6);
+        bt6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_s22ultra_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt7 = (Button) findViewById(R.id.ph7);
+        bt7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_s22plus_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt8 = (Button) findViewById(R.id.ph8);
+        bt8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_s22_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt9 = (Button) findViewById(R.id.ph9);
+        bt9.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_s21fe_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt10 = (Button) findViewById(R.id.ph10);
+        bt10.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_a52s_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt11 = (Button) findViewById(R.id.ph11);
+        bt11.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_note20ultra_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt12 = (Button) findViewById(R.id.ph12);
+        bt12.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_note20_5g_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt13 = (Button) findViewById(R.id.ph13);
+        bt13.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_note20_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt14 = (Button) findViewById(R.id.ph14);
+        bt14.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_zfold3_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt15 = (Button) findViewById(R.id.ph15);
+        bt15.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Compare_phone_activity.this , Ph_zflip3_compare.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt16 = (Button) findViewById(R.id.ph16);
+        bt16.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt17 = (Button) findViewById(R.id.ph17);
+        bt17.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt18 = (Button) findViewById(R.id.ph18);
+        bt18.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt19 = (Button) findViewById(R.id.ph19);
+        bt19.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt20 = (Button) findViewById(R.id.ph20);
+        bt20.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt21 = (Button) findViewById(R.id.ph21);
+        bt21.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt22 = (Button) findViewById(R.id.ph22);
+        bt22.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt23 = (Button) findViewById(R.id.ph23);
+        bt23.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt24 = (Button) findViewById(R.id.ph24);
+        bt24.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt25 = (Button) findViewById(R.id.ph25);
+        bt25.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt26 = (Button) findViewById(R.id.ph26);
+        bt26.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt27 = (Button) findViewById(R.id.ph27);
+        bt27.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
             }
         });
 
