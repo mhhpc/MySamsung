@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_list"
-    tools:context=".views.Customize_activity">
+    tools:context=".views.Hidden_tips_activity">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -17,10 +16,9 @@
             style="@style/AppbarTitle2">
 
             <com.google.android.material.appbar.CollapsingToolbarLayout
-                app:maxLines="1"
                 android:id="@+id/collapsing_toolbar"
                 style="@style/CollapsingToolbarLayout2"
-                app:title="@string/customize_title">
+                app:title="@string/hidden_tips_title">
 
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
@@ -31,31 +29,21 @@
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.core.widget.NestedScrollView
-            android:id="@+id/customize"
+            android:id="@+id/hidden_tips"
             style="@style/NestedScrollView">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-
-                <TextView
-                    android:id="@+id/tv1"
-                    style="@style/TipsTitleTextView"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_marginTop="10dp"
-                    android:text="@string/customize_titr" />
-
                 <LinearLayout
                     android:id="@+id/ll1"
                     style="@style/TipsLinearLayout"
-                    android:layout_below="@+id/tv1"
                     android:layout_marginTop="5dp">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cv1"
                         style="@style/TipsCardView"
-                        android:layout_height="200dp"
                         app:cardCornerRadius="30dp">
 
                         <ImageView
@@ -64,16 +52,9 @@
 
                         <TextView
                             style="@style/TipsTextView"
-                            android:text="@string/customize_t1" />
+                            android:text="@string/hidden_tips_t1" />
 
                     </androidx.cardview.widget.CardView>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/ll2"
-                    style="@style/TipsLinearLayout"
-                    android:layout_below="@+id/ll1"
-                    android:layout_marginTop="5dp">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cv2"
@@ -86,9 +67,17 @@
 
                         <TextView
                             style="@style/TipsTextView"
-                            android:text="@string/customize_t2" />
+                            android:text="@string/hidden_tips_t2" />
 
                     </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll2"
+                    android:layout_below="@id/ll1"
+                    style="@style/TipsLinearLayout"
+                    android:layout_marginTop="5dp">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cv3"
@@ -101,32 +90,10 @@
 
                         <TextView
                             style="@style/TipsTextView"
-                            android:text="@string/customize_t3" />
+                            android:text="@string/hidden_tips_t3" />
 
                     </androidx.cardview.widget.CardView>
-                </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/ll3"
-                    style="@style/TipsLinearLayout"
-                    android:layout_below="@+id/ll2"
-                    android:layout_marginTop="5dp">
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/cv4"
-                        style="@style/TipsCardView"
-                        android:layout_height="150dp"
-                        app:cardCornerRadius="30dp">
-
-                        <ImageView
-                            android:id="@+id/iv4"
-                            style="@style/TipsImageView" />
-
-                        <TextView
-                            style="@style/TipsTextView"
-                            android:text="@string/customize_t4" />
-
-                    </androidx.cardview.widget.CardView>
                 </LinearLayout>
 
             </RelativeLayout>

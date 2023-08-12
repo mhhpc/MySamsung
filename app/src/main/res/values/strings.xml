@@ -2,7 +2,7 @@
     <string name="app_name">MySamsung</string>
     <string name="app_name_persian">سامسونگ من</string>
 
-    <string name="app_version">نسخه 0.5</string>
+    <string name="app_version">نسخه 0.6</string>
 
     <string name="title_suggest">پیشنهادات</string>
 
@@ -34,7 +34,7 @@
     <string name="home_call">تماس جعلی</string>
     <string name="home_t1">گوشی که دنبالشی اینجاست</string>
     <string name="home_t2">پرکاربردها</string>
-    <string name="home_t3">ابزارها</string>
+    <string name="home_t3">ابزارهای مخفی</string>
 
     //Search_activity
     <string name="app_search">جستجو</string>
@@ -139,7 +139,7 @@
     <string name="ertebat_b6">آپارات</string>
     <string name="ertebat_b7">بازار</string>
 
-    //Ertebat_activity
+    //Tips_activity
     <string name="tips_title">ترفندها و نکات جذاب</string>
     <string name="tips_titr">تو این بخش میتونی ترفندها و نکاتی رو پیدا کنی که هم جذاب هستن هم کاربردی ...</string>
     <string name="tips_t1">توضیحاتی درباره سری گوشی های سامسونگ</string>
@@ -317,6 +317,26 @@
     <string name="device_info_t14">تو این قسمت میتونید IMEI گوشیتون رو به صورت نرم افزاری ببینید و با IMEI روی جعبه گوشی چک کنید تا از اصالت گوشیتون مطمئن بشید. برای ورود به این قسمت باید در برنامه تلفن گوشی خود کد #06#* را شماره گیری کنید.</string>
     <string name="device_info_tt3">درباره گوشی</string>
     <string name="device_info_t15">و در پایان، خلاصه مشخصات گوشی خودت رو میتونی همین پایین ببینی</string>
+
+    //Customize_samsung_activity
+    <string name="customize_samsung_title">شخصی سازی سامسونگ</string>
+    <string name="customize_samsung_t1">شخصی سازی به سبک Good Lock</string>
+
+    //Hidden_tips_activity
+    <string name="hidden_tips_title">قابلیت های مخفی</string>
+    <string name="hidden_tips_t1">فقط 4G</string>
+    <string name="hidden_tips_t2">تماس جعلی</string>
+    <string name="hidden_tips_t3">تست گوشی</string>
+
+    //Customize_goodlock_activity
+    <string name="customize_goodlock_title">برنامه Good Lock</string>
+    <string name="customize_goodlock_t1">برنامه Good Lock نسخه رسمی برنامه شخصی سازی گوشی های سامسونگ است که با نصب آن میتوانید علاوه بر امکانات شخصی سازی پیشفرض گوشی از قابلیت های جدید برای شخصی سازی گوشی خود استفاده کنید. \n\n
+    بعد از نصب برنامه Good Lock شما به افزونه های مختلفی دسترسی پیدا می‌کنید که با هرکدام از آنها میتوانید بخش های مختلفی از رابط گاربری گوشی خود را مطابق سلیقه خود تغییر دهید.</string>
+    <string name="customize_goodlock_t2">این افزونه ها را باید به طور مستقیم از GalaxyStore دانلود کنید و با توجه به محدودیت هایی که سامسونگ برای کشور ما اعمال کرده، ممکن است دسترسی به همه افزونه ها از این طریق با مشکل مواجه شود. \n\n
+        علاوه بر این سامسونگ، برخی از این افزونه هارا فقط برای گوشی های پرچمدار خود توسعه داده و گوشی های میانرده و پایین رده به آنها دسترسی ندارند. \n\n
+    اما ما، در *سامسونگ من* بخش خاصی را برای GoodLock اختصاص دادیم که شما با استفاده از آن میتوانید بدون تحریم و بدون توجه به مدل گوشیتون از این افزونه ها استفاده کنید. البته ذکر این نکته مهم است که برخی از این افزونه ها محدودیت نسخه اندروید دارند. یعنی اگر نسخه اندروید شما کمتر از نسخه مجاز باشد، هیچ راهی برای دسترسی به آن نخواهید داشت.</string>
+    <string name="customize_goodlock_t3">برای توضیحات کامل تر و دسترسی به این افزونه ها روی دکمه زیر کلیک کنید.</string>
+    <string name="customize_goodlock_bt1">Good Lock</string>
 
     //Customize_phone
     <string name="compare_phone_title">کدوم گوشی رو میخای مقایسه کنی؟</string>
@@ -1622,9 +1642,12 @@
     <string name="ph_note20_full_tvv4_3">1080 در 2400 پیکسل، نسبت 20:9 (~393 پیکسل در اینچ تراکم پیکسلی)</string>
     <string name="ph_note20_full_tvv6_3">کورنینگ گوریلا گلس 5</string>
     <string name="ph_note20_full_tvv7_3">پشتیبانی از +HDR10</string>
-    ///////<string name="ph_note20_full_tvv8_3">نرخ نوسازی 120 هرتز در حالت FHD و 60 هرتز در حالت QHD</string>
-    ///////<string name="ph_note20_full_tvv9_3">نرخ نوسازی تصویر 120 هرتز</string>
-    ///////<string name="ph_note20_full_tvv10_3">نرخ ثبت لمس 240 هرتز</string>
+    ///////
+    <string name="ph_note20_full_tvv8_3">نرخ نوسازی 120 هرتز در حالت FHD و 60 هرتز در حالت QHD</string>
+    ///////
+    <string name="ph_note20_full_tvv9_3">نرخ نوسازی تصویر 120 هرتز</string>
+    ///////
+    <string name="ph_note20_full_tvv10_3">نرخ ثبت لمس 240 هرتز</string>
     <string name="ph_note20_full_tvv1_4">در زمان عرضه اندروید 10 و One UI 3.0</string>
     <string name="ph_note20_full_tvv2_4">Exynos 990 (هفت نانومتر+)- Global</string>
     <string name="ph_note20_full_tvv2_4.1">Qualcomm SM8250 Snapdragon 865 5G+ (هفت نانومتر+)- USA</string>
@@ -1637,7 +1660,8 @@
     <string name="ph_note20_full_tvv3_5">UFS 3.0</string>
     <string name="ph_note20_full_tvv1_6">لنز واید: 12 مگاپیکسل، 26 میلی‌متر، 1.8 میکرومتر سایز پیکسل، 1/1.76 اینچ سایز سنسور، فوکوس خودکار دوال پیکسل، لرزش‌گیر اپتیکال تصویر، f1.8</string>
     <string name="ph_note20_full_tvv2_6">لنز تله‌فوتو: 64 مگاپیکسل، 27میلی‌متر، 0.8 میکرومتر سایز پیکسل، f2.0، فوکوس خودکار با تشخیص فاز، 1/1.72 اینچ سایز سنسور، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 3 برابر</string>
-    ///////<string name="ph_note20_full_tvv2_6.1">لنز تله‌فوتو: 10 مگاپیکسل، 70میلی‌متر، 1.12 میکرومتر سایز پیکسل، f2.4، فوکوس خودکار با تشخیص فاز، 1/3.52 اینچ سایز سنسور، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 3 برابر</string>
+    ///////
+    <string name="ph_note20_full_tvv2_6.1">لنز تله‌فوتو: 10 مگاپیکسل، 70میلی‌متر، 1.12 میکرومتر سایز پیکسل، f2.4، فوکوس خودکار با تشخیص فاز، 1/3.52 اینچ سایز سنسور، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 3 برابر</string>
     <string name="ph_note20_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 120 درجه، 13 میلی‌متر، 1.4 میکرومتر سایز پیکسل، 1/2.55 اینچ سایز سنسور</string>
     <string name="ph_note20_full_tvv4_6">فلش LED، پانوراما، auto-HDR</string>
     <string name="ph_note20_full_tvv5_6">8K@24fps, 4K@30/60fps, 1080p@30/60/240fps, 720p@960fps, HDR10+, stereo sound rec., gyro-EIS and OIS</string>

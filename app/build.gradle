@@ -11,7 +11,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 1
-        versionName "0.5"
+        versionName "0.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -52,6 +52,5 @@ dependencies {
     //picasso (ImageLoader)
     implementation 'com.squareup.picasso:picasso:2.71828'
     //custom toast
-    implementation 'io.github.shashank02051997:FancyToast:2.0.2'
     implementation 'io.github.muddz:styleabletoast:2.4.0'
 }

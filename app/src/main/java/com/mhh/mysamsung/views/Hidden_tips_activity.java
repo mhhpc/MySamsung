@@ -13,28 +13,25 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
+import com.mhh.mysamsung.hidden_tip.Fake_call_activity;
+import com.mhh.mysamsung.hidden_tip.Lte_only_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
-import io.github.muddz.styleabletoast.StyleableToast;
-
-public class Customize_activity extends AppCompatActivity {
-    CardView cardView;
+public class Hidden_tips_activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customize);
+        setContentView(R.layout.activity_hidden_tips);
 
         //Gradient -----------
-        NestedScrollView nestedScrollView = findViewById(R.id.customize);
+        NestedScrollView nestedScrollView = findViewById(R.id.hidden_tips);
         AnimationDrawable animationDrawable = (AnimationDrawable) nestedScrollView.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
@@ -47,11 +44,9 @@ public class Customize_activity extends AppCompatActivity {
         animationDrawable2.start();
 
         //Animation ------------
-        final ViewGroup r = findViewById(R.id.customize);
-        final TextView t1 = findViewById(R.id.tv1);
-        final LinearLayout t2 = findViewById(R.id.ll1);
-        final LinearLayout t3 = findViewById(R.id.ll2);
-        final LinearLayout t4 = findViewById(R.id.ll3);
+        final ViewGroup r = findViewById(R.id.hidden_tips);
+        final LinearLayout t1 = findViewById(R.id.ll1);
+        final LinearLayout t2 = findViewById(R.id.ll2);
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -61,52 +56,38 @@ public class Customize_activity extends AppCompatActivity {
                 TransitionManager.beginDelayedTransition(r,transition);
                 t1.setVisibility(View.VISIBLE);
                 t2.setVisibility(View.VISIBLE);
-                t3.setVisibility(View.VISIBLE);
-                t4.setVisibility(View.VISIBLE);
             }
         },200);
+
+        //Image links
+        ImageView imageView1 = (ImageView) findViewById(R.id.iv1);
+        Picasso.get().load("https://s8.uupload.ir/files/5g-4g-phone-altered_eoe3.jpg").into(imageView1);
+
+        ImageView imageView2 = (ImageView) findViewById(R.id.iv2);
+        Picasso.get().load("https://s8.uupload.ir/files/screenshot_20230608_183451_call(1)_9hik.jpg").into(imageView2);
+
+        ImageView imageView3 = (ImageView) findViewById(R.id.iv3);
+        Picasso.get().load("https://s8.uupload.ir/files/samsung-test-hardware_pymj.jpg").into(imageView3);
 
         //onclock
         @SuppressLint("CutPasteId") CardView crd1 = (CardView) findViewById(R.id.cv1);
         crd1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_activity.this , Customize_phone_activity.class));
+                startActivity(new Intent(Hidden_tips_activity.this , Lte_only_activity.class));
             }
         });
 
         @SuppressLint("CutPasteId") CardView crd2 = (CardView) findViewById(R.id.cv2);
         crd2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_activity.this , Customize_samsung_activity.class));
+                startActivity(new Intent(Hidden_tips_activity.this , Fake_call_activity.class));
             }
         });
 
-        @SuppressLint("CutPasteId") CardView crd4 = (CardView) findViewById(R.id.cv4);
-        crd4.setOnClickListener(new View.OnClickListener() {
+        @SuppressLint("CutPasteId") CardView crd3 = (CardView) findViewById(R.id.cv3);
+        crd3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_activity.this , Hidden_tips_activity.class));
-            }
-        });
-
-        //Image links
-        ImageView ImageView = (ImageView) findViewById(R.id.iv1);
-        Picasso.get().load("https://s6.uupload.ir/files/original-eeb1737899376345315b264b25fbd995_i3.jpg").into(ImageView);
-
-        ImageView ImageView2 = (ImageView) findViewById(R.id.iv2);
-        Picasso.get().load("https://s6.uupload.ir/files/f85e3828a42112b58c2ebc1ddc57aece_8qn9.jpg").into(ImageView2);
-
-        ImageView ImageView3 = (ImageView) findViewById(R.id.iv3);
-        Picasso.get().load("https://s6.uupload.ir/files/original-b501a5f12e64ccfd7343d6de10fb17e7_5lsx.jpg").into(ImageView3);
-
-        ImageView ImageView4 = (ImageView) findViewById(R.id.iv4);
-        Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-note-8-second-hand_91kj.jpg").into(ImageView4);
-
-        //Toast ------------
-        cardView = findViewById(R.id.cv3);
-        cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+                startActivity(new Intent(Hidden_tips_activity.this , Device_info_activity.class));
             }
         });
 

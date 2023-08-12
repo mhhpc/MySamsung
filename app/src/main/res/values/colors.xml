@@ -8,4 +8,5 @@
     <color name="colorBlack">#000000</color>
     <color name="ColorWhite">#ffffff</color>
     <color name="ColorSubBlack">#666666</color>
+    <color name="ColorGray">#BF666666</color>
 </resources>
