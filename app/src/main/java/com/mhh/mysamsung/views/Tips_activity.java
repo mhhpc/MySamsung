@@ -1,8 +1,11 @@
 package com.mhh.mysamsung.views;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.core.widget.NestedScrollView;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,6 +17,7 @@ import android.widget.TextView;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
+import com.mhh.mysamsung.hidden_tip.Lte_only_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -101,6 +105,21 @@ public class Tips_activity extends AppCompatActivity {
 
         ImageView ImageView12 = (ImageView) findViewById(R.id.iv12);
         Picasso.get().load("https://s6.uupload.ir/files/20170729_snapdragon_835_vs_exynos_8895_1b3.jpg").into(ImageView12);
+
+        //onclock
+        @SuppressLint("CutPasteId") CardView crd1 = (CardView) findViewById(R.id.cv1);
+        crd1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Tips_activity.this , Tips_series_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView crd2 = (CardView) findViewById(R.id.cv2);
+        crd2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Tips_activity.this , Tips_software_activity.class));
+            }
+        });
 
     }
 }

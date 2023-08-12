@@ -16,6 +16,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".views.Tips_software_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Tips_series_activity"
+            android:exported="false" />
+        <activity
             android:name=".views.Customize_goodlock_activity"
             android:exported="false" />
         <activity

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.Tips_series_activity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ctr_bg">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            style="@style/AppbarTitle2">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                style="@style/CollapsingToolbarLayout2"
+                app:title="@string/tips_series_title">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    style="@style/Toolbar" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/tips_series"
+            style="@style/NestedScrollView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv0"
+                    style="@style/SimpleTextview"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tips_series_tx0" />
+
+                <TextView
+                    android:id="@+id/t1"
+                    style="@style/Customize_text"
+                    android:layout_below="@+id/tv0"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_app_title"
+                    android:text="@string/tips_series_t1" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/t1"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tips_series_tx1" />
+
+                <TextView
+                    android:id="@+id/t2"
+                    style="@style/Customize_text"
+                    android:layout_below="@+id/tv1"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_app_title"
+                    android:text="@string/tips_series_t2" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/t2"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tips_series_tx2" />
+
+                <TextView
+                    android:id="@+id/t3"
+                    style="@style/Customize_text"
+                    android:layout_below="@+id/tv2"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_app_title"
+                    android:text="@string/tips_series_t3" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/t3"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tips_series_tx3" />
+
+                <TextView
+                    android:id="@+id/t4"
+                    style="@style/Customize_text"
+                    android:layout_below="@+id/tv3"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_app_title"
+                    android:text="@string/tips_series_t4" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/t4"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tips_series_tx4" />
+
+                <TextView
+                    android:id="@+id/t5"
+                    style="@style/Customize_text"
+                    android:layout_below="@+id/tv4"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_app_title"
+                    android:text="@string/tips_series_t5" />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/t5"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tips_series_tx5" />
+
+                <TextView
+                    android:id="@+id/t6"
+                    style="@style/Customize_text"
+                    android:layout_below="@+id/tv5"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_app_title"
+                    android:text="@string/tips_series_t6" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/t6"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tips_series_tx6" />
+
+                <TextView
+                    android:id="@+id/t7"
+                    style="@style/Customize_text"
+                    android:layout_below="@+id/tv6"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_app_title"
+                    android:text="@string/tips_series_t7" />
+
+                <TextView
+                    android:id="@+id/tv7"
+                    style="@style/SimpleTextview"
+                    android:layout_below="@id/t7"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/tips_series_tx7" />
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
