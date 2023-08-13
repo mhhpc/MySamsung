@@ -76,7 +76,7 @@ public class Fake_call_activity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Transition transition = new Fade();
+                Transition transition = new Slide();
                 transition.setDuration(1200);
                 TransitionManager.beginDelayedTransition(r,transition);
                 t1.setVisibility(View.VISIBLE);

@@ -19,6 +19,7 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.hidden_tip.Lte_only_activity;
 import com.transitionseverywhere.Fade;
+import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
@@ -66,7 +67,7 @@ public class Tips_series_activity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Transition transition = new Fade();
+                Transition transition = new Slide();
                 transition.setDuration(1200);
                 TransitionManager.beginDelayedTransition(r,transition);
                 t0.setVisibility(View.VISIBLE);

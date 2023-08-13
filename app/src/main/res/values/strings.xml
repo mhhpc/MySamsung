@@ -166,8 +166,9 @@
     //Goodlock_activity
     <string name="goodlock_title">Good Lock</string>
     <string name="goodlock_detail">جزئیات</string>
+    <string name="goodlock_home_download">دانلود</string>
     <string name="goodlock_download">دانلود و بروزرسانی</string>
-    <string name="goodlock_guide">راهنمایی</string>
+    <string name="goodlock_guide">درباره GoodLock</string>
     <string name="goodlock_titr1">Unit</string>
     <string name="goodlock_titr2">Family</string>
     <string name="goodlock_titr3">Guardians</string>

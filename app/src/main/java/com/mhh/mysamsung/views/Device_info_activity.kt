@@ -20,8 +20,10 @@ import com.google.android.material.appbar.CollapsingToolbarLayout
 import com.mhh.mysamsung.R
 import com.squareup.picasso.Picasso
 import com.transitionseverywhere.Fade
+import com.transitionseverywhere.Slide
 import com.transitionseverywhere.Transition
 import com.transitionseverywhere.TransitionManager
+import com.transitionseverywhere.extra.Scale
 import io.github.muddz.styleabletoast.StyleableToast
 
 
@@ -73,7 +75,7 @@ class Device_info_activity : AppCompatActivity() {
         val t22 = findViewById<Button>(R.id.bt2)
 
         Handler().postDelayed({
-            val transition: Transition = Fade()
+            val transition: Transition = Slide()
             transition.duration = 1200
             TransitionManager.beginDelayedTransition(r, transition)
             t1.visibility = View.VISIBLE

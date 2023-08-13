@@ -20,6 +20,7 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Fade;
+import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
@@ -65,7 +66,7 @@ public class Lte_only_activity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Transition transition = new Fade();
+                Transition transition = new Slide();
                 transition.setDuration(1200);
                 TransitionManager.beginDelayedTransition(r,transition);
                 t1.setVisibility(View.VISIBLE);

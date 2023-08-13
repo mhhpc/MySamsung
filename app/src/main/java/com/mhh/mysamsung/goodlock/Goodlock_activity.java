@@ -10,10 +10,12 @@ import android.annotation.SuppressLint;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -219,7 +221,7 @@ public class Goodlock_activity extends AppCompatActivity {
         ImageView imageView28 = (ImageView) findViewById(R.id.iv28);
         Picasso.get().load("https://s8.uupload.ir/files/63c6c629db296_bqb.png").placeholder(R.drawable.phone).into(imageView28);
 
-        //Onclick
+        //Onclick -- Base
 
         @SuppressLint("CutPasteId") CardView bu1 = (CardView) findViewById(R.id.cv02);
         bu1.setOnClickListener(new View.OnClickListener() {
@@ -231,11 +233,11 @@ public class Goodlock_activity extends AppCompatActivity {
         @SuppressLint("CutPasteId") CardView bu2 = (CardView) findViewById(R.id.cv01);
         bu2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Goodlock_activity.this , Goodlock_guide_activity.class));
+                startActivity(new Intent(Goodlock_activity.this , Customize_goodlock_activity.class));
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b1 = (LinearLayout) findViewById(R.id.ll1);
+        @SuppressLint("CutPasteId") CardView b1 = (CardView) findViewById(R.id.cv1);
         b1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -253,7 +255,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b2 = (LinearLayout) findViewById(R.id.ll2);
+        @SuppressLint("CutPasteId") CardView b2 = (CardView) findViewById(R.id.cv2);
         b2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -271,7 +273,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b3 = (LinearLayout) findViewById(R.id.ll3);
+        @SuppressLint("CutPasteId") CardView b3 = (CardView) findViewById(R.id.cv3);
         b3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -289,7 +291,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b4 = (LinearLayout) findViewById(R.id.ll4);
+        @SuppressLint("CutPasteId") CardView b4 = (CardView) findViewById(R.id.cv4);
         b4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -307,7 +309,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b5 = (LinearLayout) findViewById(R.id.ll5);
+        @SuppressLint("CutPasteId") CardView b5 = (CardView) findViewById(R.id.cv5);
         b5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -325,7 +327,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b6 = (LinearLayout) findViewById(R.id.ll6);
+        @SuppressLint("CutPasteId") CardView b6 = (CardView) findViewById(R.id.cv6);
         b6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -343,7 +345,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b7 = (LinearLayout) findViewById(R.id.ll7);
+        @SuppressLint("CutPasteId") CardView b7 = (CardView) findViewById(R.id.cv7);
         b7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -361,7 +363,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b8 = (LinearLayout) findViewById(R.id.ll8);
+        @SuppressLint("CutPasteId") CardView b8 = (CardView) findViewById(R.id.cv8);
         b8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -379,7 +381,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b9 = (LinearLayout) findViewById(R.id.ll9);
+        @SuppressLint("CutPasteId") CardView b9 = (CardView) findViewById(R.id.cv9);
         b9.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -397,7 +399,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b10 = (LinearLayout) findViewById(R.id.ll10);
+        @SuppressLint("CutPasteId") CardView b10 = (CardView) findViewById(R.id.cv10);
         b10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -415,7 +417,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b11 = (LinearLayout) findViewById(R.id.ll11);
+        @SuppressLint("CutPasteId") CardView b11 = (CardView) findViewById(R.id.cv11);
         b11.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -433,7 +435,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b12 = (LinearLayout) findViewById(R.id.ll12);
+        @SuppressLint("CutPasteId") CardView b12 = (CardView) findViewById(R.id.cv12);
         b12.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -451,7 +453,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b13 = (LinearLayout) findViewById(R.id.ll13);
+        @SuppressLint("CutPasteId") CardView b13 = (CardView) findViewById(R.id.cv13);
         b13.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -469,7 +471,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b14 = (LinearLayout) findViewById(R.id.ll14);
+        @SuppressLint("CutPasteId") CardView b14 = (CardView) findViewById(R.id.cv14);
         b14.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -485,7 +487,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b15 = (LinearLayout) findViewById(R.id.ll15);
+        @SuppressLint("CutPasteId") CardView b15 = (CardView) findViewById(R.id.cv15);
         b15.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -503,7 +505,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b16 = (LinearLayout) findViewById(R.id.ll16);
+        @SuppressLint("CutPasteId") CardView b16 = (CardView) findViewById(R.id.cv16);
         b16.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -521,7 +523,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b17 = (LinearLayout) findViewById(R.id.ll17);
+        @SuppressLint("CutPasteId") CardView b17 = (CardView) findViewById(R.id.cv17);
         b17.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -539,7 +541,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b18 = (LinearLayout) findViewById(R.id.ll18);
+        @SuppressLint("CutPasteId") CardView b18 = (CardView) findViewById(R.id.cv18);
         b18.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -557,7 +559,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b19 = (LinearLayout) findViewById(R.id.ll19);
+        @SuppressLint("CutPasteId") CardView b19 = (CardView) findViewById(R.id.cv19);
         b19.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -575,7 +577,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b20 = (LinearLayout) findViewById(R.id.ll20);
+        @SuppressLint("CutPasteId") CardView b20 = (CardView) findViewById(R.id.cv20);
         b20.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -593,7 +595,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b21 = (LinearLayout) findViewById(R.id.ll21);
+        @SuppressLint("CutPasteId") CardView b21 = (CardView) findViewById(R.id.cv21);
         b21.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -611,7 +613,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b22 = (LinearLayout) findViewById(R.id.ll22);
+        @SuppressLint("CutPasteId") CardView b22 = (CardView) findViewById(R.id.cv22);
         b22.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -629,7 +631,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b23 = (LinearLayout) findViewById(R.id.ll23);
+        @SuppressLint("CutPasteId") CardView b23 = (CardView) findViewById(R.id.cv23);
         b23.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -647,7 +649,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b24 = (LinearLayout) findViewById(R.id.ll24);
+        @SuppressLint("CutPasteId") CardView b24 = (CardView) findViewById(R.id.cv24);
         b24.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -665,7 +667,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b25 = (LinearLayout) findViewById(R.id.ll25);
+        @SuppressLint("CutPasteId") CardView b25 = (CardView) findViewById(R.id.cv25);
         b25.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -683,7 +685,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b26 = (LinearLayout) findViewById(R.id.ll26);
+        @SuppressLint("CutPasteId") CardView b26 = (CardView) findViewById(R.id.cv26);
         b26.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -701,7 +703,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b27 = (LinearLayout) findViewById(R.id.ll27);
+        @SuppressLint("CutPasteId") CardView b27 = (CardView) findViewById(R.id.cv27);
         b27.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -719,7 +721,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint("CutPasteId") LinearLayout b28 = (LinearLayout) findViewById(R.id.ll28);
+        @SuppressLint("CutPasteId") CardView b28 = (CardView) findViewById(R.id.cv28);
         b28.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -737,11 +739,256 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        //onclock
-        @SuppressLint("CutPasteId") CardView crd1 = (CardView) findViewById(R.id.cvd18);
-        crd1.setOnClickListener(new View.OnClickListener() {
+        //onclock -- detail
+        @SuppressLint("CutPasteId") CardView crd18 = (CardView) findViewById(R.id.cvde18);
+        crd18.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Goodlock_activity.this , Customize_goodlock_activity.class));
+            }
+        });
+
+        //onclick -- download
+
+        @SuppressLint("CutPasteId") CardView a1 = (CardView) findViewById(R.id.cvd1);
+        a1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.systemui.lockstar?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a2 = (CardView) findViewById(R.id.cvd2);
+        a2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.qstuner?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a3 = (CardView) findViewById(R.id.cvd3);
+        a3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.app.routineplus?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a4 = (CardView) findViewById(R.id.cvd4);
+        a4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.app.clockface?session_id=W_5b3118446179dabe887855fcd11b5940"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a5 = (CardView) findViewById(R.id.cvd5);
+        a5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.multistar?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a6 = (CardView) findViewById(R.id.cvd6);
+        a6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.systemui.navillera?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a7 = (CardView) findViewById(R.id.cvd7);
+        a7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.app.captureplugin?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a8 = (CardView) findViewById(R.id.cvd8);
+        a8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.app.homestar?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a9 = (CardView) findViewById(R.id.cvd9);
+        a9.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.systemui.notilus?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a10 = (CardView) findViewById(R.id.cvd10);
+        a10.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.app.galaxyregistry?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a11 = (CardView) findViewById(R.id.cvd11);
+        a11.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.themedesigner?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a12 = (CardView) findViewById(R.id.cvd12);
+        a12.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.app.goodcatch?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a13 = (CardView) findViewById(R.id.cvd13);
+        a13.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.sidegesturepad?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a14 = (CardView) findViewById(R.id.cvd14);
+        a14.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.soundassistant?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a15 = (CardView) findViewById(R.id.cvd15);
+        a15.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.wonderland.wallpaper?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a16 = (CardView) findViewById(R.id.cvd16);
+        a16.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.keyscafe?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a17 = (CardView) findViewById(R.id.cvd17);
+        a17.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.app.cameraassistant?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a18 = (CardView) findViewById(R.id.cvd18);
+        a18.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.goodlock?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a19 = (CardView) findViewById(R.id.cvd19);
+        a19.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.app.edgetouch?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a20 = (CardView) findViewById(R.id.cvd20);
+        a20.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.pentastic?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a21 = (CardView) findViewById(R.id.cvd21);
+        a21.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.android.samsung.batteryusage?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a22 = (CardView) findViewById(R.id.cvd22);
+        a22.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.statsd?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a23 = (CardView) findViewById(R.id.cvd23);
+        a23.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.appbooster?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a24 = (CardView) findViewById(R.id.cvd24);
+        a24.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.thermalguardian?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a25 = (CardView) findViewById(R.id.cvd25);
+        a25.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.memoryguardian?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a26 = (CardView) findViewById(R.id.cvd26);
+        a26.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.samsung.android.mediaguardian?langCd=en"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView a27 = (CardView) findViewById(R.id.cvd27);
+        a27.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.android.samsung.utilityapp"));
+                startActivity(intentRate);
             }
         });
 
