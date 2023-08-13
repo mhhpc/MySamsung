@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
@@ -23,7 +24,11 @@ import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
+import io.github.muddz.styleabletoast.StyleableToast;
+
 public class Tips_activity extends AppCompatActivity {
+
+    CardView cardView1, cardView2, cardView3, cardView4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,6 +123,81 @@ public class Tips_activity extends AppCompatActivity {
         crd2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Tips_activity.this , Tips_software_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView crd4 = (CardView) findViewById(R.id.cv4);
+        crd4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Tips_activity.this , Tips_z_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView crd5 = (CardView) findViewById(R.id.cv5);
+        crd5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Tips_activity.this , Tips_note_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView crd6 = (CardView) findViewById(R.id.cv6);
+        crd6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Tips_activity.this , Tips_s_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView crd7 = (CardView) findViewById(R.id.cv7);
+        crd7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Tips_activity.this , Tips_a_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView crd8 = (CardView) findViewById(R.id.cv8);
+        crd8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Tips_activity.this , Tips_m_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView crd9 = (CardView) findViewById(R.id.cv9);
+        crd9.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Tips_activity.this , Tips_f_activity.class));
+            }
+        });
+
+        //Toast ------------
+        cardView1 = findViewById(R.id.cv3);
+        cardView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        cardView2 = findViewById(R.id.cv10);
+        cardView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        cardView3 = findViewById(R.id.cv11);
+        cardView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
+            }
+        });
+
+        cardView4 = findViewById(R.id.cv12);
+        cardView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
             }
         });
 

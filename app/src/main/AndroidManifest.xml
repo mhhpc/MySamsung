@@ -16,6 +16,24 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".views.Tips_f_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Tips_m_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Tips_a_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Tips_s_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Tips_note_activity"
+            android:exported="false" />
+        <activity
+            android:name=".views.Tips_z_activity"
+            android:exported="false" />
+        <activity
             android:name=".views.Tips_software_activity"
             android:exported="false" />
         <activity
@@ -202,7 +220,7 @@
             android:name=".year.Year_2023"
             android:exported="false" />
         <activity
-            android:name=".guide.Goodlock_guide_activity"
+            android:name=".goodlock.Goodlock_guide_activity"
             android:exported="false" />
         <activity
             android:name=".goodlock.Goodlock_download_activity"

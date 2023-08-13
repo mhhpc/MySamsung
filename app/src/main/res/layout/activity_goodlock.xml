@@ -146,10 +146,10 @@
 
                             <TextView
                                 android:id="@+id/tv2"
-                                android:layout_toRightOf="@id/iv2"
-                                android:textColor="#009688"
                                 style="@style/GoodlockTextView"
-                                android:text="@string/goodlock_tv2" />
+                                android:layout_toRightOf="@id/iv2"
+                                android:text="@string/goodlock_tv2"
+                                android:textColor="#009688" />
 
                             <TextView
                                 android:id="@+id/t2"
@@ -444,9 +444,9 @@
                             <TextView
                                 android:id="@+id/tv10"
                                 style="@style/GoodlockTextView"
-                                android:textColor="#3F51B5"
                                 android:layout_toRightOf="@id/iv10"
-                                android:text="@string/goodlock_tv10" />
+                                android:text="@string/goodlock_tv10"
+                                android:textColor="#3F51B5" />
 
                             <TextView
                                 android:id="@+id/t10"
@@ -676,9 +676,9 @@
                             <TextView
                                 android:id="@+id/tv16"
                                 style="@style/GoodlockTextView"
-                                android:textColor="#673AB7"
                                 android:layout_toRightOf="@id/iv16"
-                                android:text="@string/goodlock_tv16" />
+                                android:text="@string/goodlock_tv16"
+                                android:textColor="#673AB7" />
 
                             <TextView
                                 android:id="@+id/t16"
@@ -714,9 +714,9 @@
                             <TextView
                                 android:id="@+id/tv17"
                                 style="@style/GoodlockTextView"
-                                android:textColor="#3F51B5"
                                 android:layout_toRightOf="@id/iv17"
-                                android:text="@string/goodlock_tv17" />
+                                android:text="@string/goodlock_tv17"
+                                android:textColor="#3F51B5" />
 
                             <TextView
                                 android:id="@+id/t17"
@@ -752,9 +752,9 @@
                             <TextView
                                 android:id="@+id/tv18"
                                 style="@style/GoodlockTextView"
-                                android:textColor="#CF0046"
                                 android:layout_toRightOf="@id/iv18"
-                                android:text="@string/goodlock_tv18" />
+                                android:text="@string/goodlock_tv18"
+                                android:textColor="#CF0046" />
 
                             <TextView
                                 android:id="@+id/t18"
@@ -762,6 +762,26 @@
                                 android:layout_below="@+id/tv18"
                                 android:layout_toRightOf="@id/iv18"
                                 android:text="@string/goodlock_t18" />
+
+                            <LinearLayout
+                                android:id="@+id/lld18"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/t18"
+                                android:layout_marginTop="5dp"
+                                android:layout_toRightOf="@id/iv18">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvd18"
+                                    style="@style/TipsCardView3"
+                                    android:backgroundTint="#009688"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_detail" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </RelativeLayout>
 
@@ -826,10 +846,10 @@
 
                             <TextView
                                 android:id="@+id/tv20"
-                                android:textColor="#9C27B0"
                                 style="@style/GoodlockTextView"
                                 android:layout_toRightOf="@id/iv20"
-                                android:text="@string/goodlock_tv20" />
+                                android:text="@string/goodlock_tv20"
+                                android:textColor="#9C27B0" />
 
                             <TextView
                                 android:id="@+id/t20"
@@ -910,8 +930,8 @@
 
                             <TextView
                                 android:id="@+id/tv22"
-                                android:layout_toRightOf="@id/iv22"
                                 style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv22"
                                 android:text="@string/goodlock_tv22" />
 
                             <TextView
@@ -947,8 +967,8 @@
 
                             <TextView
                                 android:id="@+id/tv23"
-                                android:layout_toRightOf="@id/iv23"
                                 style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv23"
                                 android:text="@string/goodlock_tv23" />
 
                             <TextView
@@ -984,8 +1004,8 @@
 
                             <TextView
                                 android:id="@+id/tv24"
-                                android:layout_toRightOf="@id/iv24"
                                 style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv24"
                                 android:text="@string/goodlock_tv24" />
 
                             <TextView
@@ -1021,8 +1041,8 @@
 
                             <TextView
                                 android:id="@+id/tv25"
-                                android:layout_toRightOf="@id/iv25"
                                 style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv25"
                                 android:text="@string/goodlock_tv25" />
 
                             <TextView
@@ -1058,8 +1078,8 @@
 
                             <TextView
                                 android:id="@+id/tv26"
-                                android:layout_toRightOf="@id/iv26"
                                 style="@style/GoodlockTextView"
+                                android:layout_toRightOf="@id/iv26"
                                 android:text="@string/goodlock_tv26" />
 
                             <TextView
@@ -1095,10 +1115,10 @@
 
                             <TextView
                                 android:id="@+id/tv27"
-                                android:textColor="#CF0046"
-                                android:layout_toRightOf="@id/iv27"
                                 style="@style/GoodlockTextView"
-                                android:text="@string/goodlock_tv27" />
+                                android:layout_toRightOf="@id/iv27"
+                                android:text="@string/goodlock_tv27"
+                                android:textColor="#CF0046" />
 
                             <TextView
                                 android:id="@+id/t27"
@@ -1133,10 +1153,10 @@
 
                             <TextView
                                 android:id="@+id/tv28"
-                                android:textColor="#CF0046"
-                                android:layout_toRightOf="@id/iv28"
                                 style="@style/GoodlockTextView"
-                                android:text="@string/goodlock_tv28" />
+                                android:layout_toRightOf="@id/iv28"
+                                android:text="@string/goodlock_tv28"
+                                android:textColor="#CF0046" />
 
                             <TextView
                                 android:id="@+id/t28"

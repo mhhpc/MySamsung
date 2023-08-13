@@ -9,10 +9,7 @@ import androidx.core.widget.NestedScrollView;
 import android.annotation.SuppressLint;
 import android.content.ComponentName;
 import android.content.Intent;
-import android.content.pm.ShortcutInfo;
-import android.content.pm.ShortcutManager;
 import android.graphics.drawable.AnimationDrawable;
-import android.graphics.drawable.Icon;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -24,17 +21,11 @@ import android.widget.Toast;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
-import com.mhh.mysamsung.guide.Goodlock_guide_activity;
-import com.mhh.mysamsung.phones.galaxy_a.Ph_a52s;
-import com.mhh.mysamsung.phones.galaxy_s.Ph_s22ultra;
+import com.mhh.mysamsung.views.Customize_goodlock_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 import io.github.muddz.styleabletoast.StyleableToast;
 
@@ -743,6 +734,14 @@ public class Goodlock_activity extends AppCompatActivity {
                     startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
+            }
+        });
+
+        //onclock
+        @SuppressLint("CutPasteId") CardView crd1 = (CardView) findViewById(R.id.cvd18);
+        crd1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Goodlock_activity.this , Customize_goodlock_activity.class));
             }
         });
 

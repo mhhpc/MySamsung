@@ -1,4 +1,4 @@
-package com.mhh.mysamsung.guide;
+package com.mhh.mysamsung.goodlock;
 
 import androidx.appcompat.app.AppCompatActivity;
 
