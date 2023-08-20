@@ -51,10 +51,18 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/tips_software_t2" />
 
+                <ImageView
+                    android:id="@+id/imv1"
+                    style="@style/PhoneImageView2"
+                    android:layout_below="@id/tv2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp" />
+
                 <TextView
                     android:id="@+id/tv3"
                     style="@style/SimpleTextview"
-                    android:layout_below="@id/tv2"
+                    android:layout_below="@id/imv1"
                     android:layout_marginHorizontal="7dp"
                     android:layout_marginTop="10dp"
                     android:text="@string/tips_software_t3" />

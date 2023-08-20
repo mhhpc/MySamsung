@@ -18,6 +18,7 @@ import android.widget.TextView;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.hidden_tip.Lte_only_activity;
+import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -60,9 +61,7 @@ public class Tips_series_activity extends AppCompatActivity {
         final TextView t12 = findViewById(R.id.t5);
         final TextView t13 = findViewById(R.id.t6);
         final TextView t14 = findViewById(R.id.t7);
-
-
-
+        final ImageView t15 = findViewById(R.id.imv1);
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -85,8 +84,13 @@ public class Tips_series_activity extends AppCompatActivity {
                 t12.setVisibility(View.VISIBLE);
                 t13.setVisibility(View.VISIBLE);
                 t14.setVisibility(View.VISIBLE);
+                t15.setVisibility(View.VISIBLE);
             }
         },200);
+
+        //Image links
+        ImageView ImageView = (ImageView) findViewById(R.id.imv1);
+        Picasso.get().load("https://s6.uupload.ir/files/galaxy-s-series-history_thumb728_9ok7.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(ImageView);
 
     }
 }

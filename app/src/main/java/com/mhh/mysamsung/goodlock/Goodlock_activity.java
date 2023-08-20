@@ -226,7 +226,7 @@ public class Goodlock_activity extends AppCompatActivity {
         @SuppressLint("CutPasteId") CardView bu1 = (CardView) findViewById(R.id.cv02);
         bu1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
+                startActivity(new Intent(Goodlock_activity.this , Goodlock_guide_activity.class));
             }
         });
 
@@ -249,8 +249,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast1), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
-
                 }
             }
         });
@@ -267,7 +265,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast2), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -285,7 +282,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast3), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -303,7 +299,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast4), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -321,7 +316,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast5), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -339,7 +333,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast6), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -357,7 +350,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast7), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -375,7 +367,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast8), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -393,7 +384,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast9), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -411,7 +401,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast10), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -429,7 +418,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast11), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -447,7 +435,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast12), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -465,7 +452,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast13), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -481,7 +467,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast14), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -499,7 +484,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast15), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -517,7 +501,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast16), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -535,7 +518,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast17), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -553,7 +535,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast18), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -571,7 +552,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast19), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -589,7 +569,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast20), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -607,7 +586,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast21), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -625,7 +603,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast22), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -643,7 +620,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast23), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -661,7 +637,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast24), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -679,7 +654,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast25), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -697,7 +671,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast26), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -715,7 +688,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast27), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -733,7 +705,6 @@ public class Goodlock_activity extends AppCompatActivity {
                 }catch (Exception e)
                 {
                     StyleableToast.makeText(getApplicationContext(), getString(R.string.goodlock_toast28), Toast.LENGTH_LONG, R.style.goodlock_toast).show();
-                    startActivity(new Intent(Goodlock_activity.this , Goodlock_download_activity.class));
 
                 }
             }
@@ -747,7 +718,7 @@ public class Goodlock_activity extends AppCompatActivity {
             }
         });
 
-        //onclick -- download
+        //onclick -- download galaxystore
 
         @SuppressLint("CutPasteId") CardView a1 = (CardView) findViewById(R.id.cvd1);
         a1.setOnClickListener(new View.OnClickListener() {
@@ -988,6 +959,433 @@ public class Goodlock_activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentRate = new Intent(Intent.ACTION_VIEW);
                 intentRate.setData(Uri.parse("https://galaxystore.samsung.com/detail/com.android.samsung.utilityapp"));
+                startActivity(intentRate);
+            }
+        });
+
+        //onclick ------------ download apkmirror
+
+        @SuppressLint("CutPasteId") CardView p1 = (CardView) findViewById(R.id.cva1);
+        p1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/lockstar/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p2 = (CardView) findViewById(R.id.cva2);
+        p2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/quickstar/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p3 = (CardView) findViewById(R.id.cva3);
+        p3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/good-lock-labs/samsung-routine/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p4 = (CardView) findViewById(R.id.cva4);
+        p4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/samsung-clockface/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p5 = (CardView) findViewById(R.id.cva5);
+        p5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/samsung-multistar/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p6 = (CardView) findViewById(R.id.cva6);
+        p6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/samsung-navstar/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p7 = (CardView) findViewById(R.id.cva7);
+        p7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/nice-shot/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p8 = (CardView) findViewById(R.id.cva8);
+        p8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/home-up/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p9 = (CardView) findViewById(R.id.cva9);
+        p9.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/notistar/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p10 = (CardView) findViewById(R.id.cva10);
+        p10.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/good-lock-labs/registar/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p11 = (CardView) findViewById(R.id.cva11);
+        p11.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/samsung-theme-park/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p12 = (CardView) findViewById(R.id.cva12);
+        p12.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/nice-catch/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p13 = (CardView) findViewById(R.id.cva13);
+        p13.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/one-hand-operation/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p14 = (CardView) findViewById(R.id.cva14);
+        p14.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/soundassistant/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p15 = (CardView) findViewById(R.id.cva15);
+        p15.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/wonderland/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p16 = (CardView) findViewById(R.id.cva16);
+        p16.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/good-lock-labs/keys-cafe/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p17 = (CardView) findViewById(R.id.cva17);
+        p17.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/good-lock-labs/camera-assistant/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p18 = (CardView) findViewById(R.id.cva18);
+        p18.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/good-lock-2018/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p19 = (CardView) findViewById(R.id.cva19);
+        p19.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/edge-touch/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p20 = (CardView) findViewById(R.id.cva20);
+        p20.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/pentastic/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p21 = (CardView) findViewById(R.id.cva21);
+        p21.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/battery-tracker/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p22 = (CardView) findViewById(R.id.cva22);
+        p22.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/battery-guardian/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p23 = (CardView) findViewById(R.id.cva23);
+        p23.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/app-booster/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p24 = (CardView) findViewById(R.id.cva24);
+        p24.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/samsung-thermal-guardian/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p25 = (CardView) findViewById(R.id.cva25);
+        p25.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/samsung-memory-guardian/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p26 = (CardView) findViewById(R.id.cva26);
+        p26.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/media-file-guardian/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p27 = (CardView) findViewById(R.id.cva27);
+        p27.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/pentastic/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView p28 = (CardView) findViewById(R.id.cva28);
+        p28.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/galaxy-labs/"));
+                startActivity(intentRate);
+            }
+        });
+
+        //onclick ------------ download dailymobile
+
+        @SuppressLint("CutPasteId") CardView d1 = (CardView) findViewById(R.id.cvi1);
+        d1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.apkmirror.com/apk/samsung-electronics-co-ltd/galaxy-labs-agent/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d2 = (CardView) findViewById(R.id.cvi2);
+        d2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/54517/samsung-quickstar/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d4 = (CardView) findViewById(R.id.cvi4);
+        d4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/71227/samsung-clockface/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d5 = (CardView) findViewById(R.id.cvi5);
+        d5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/85134/samsung-multistar/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d6 = (CardView) findViewById(R.id.cvi6);
+        d6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/81479/samsung-navstar/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d8 = (CardView) findViewById(R.id.cvi8);
+        d8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/81467/samsung-home-up/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d10 = (CardView) findViewById(R.id.cvi10);
+        d10.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/84485/samsung-registar/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d11 = (CardView) findViewById(R.id.cvi11);
+        d11.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/56568/samsung-theme-park/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d12 = (CardView) findViewById(R.id.cvi12);
+        d12.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/78663/samsung-nice-catch/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d13 = (CardView) findViewById(R.id.cvi13);
+        d13.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/56278/samsung-one-hand-operation/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d14 = (CardView) findViewById(R.id.cvi14);
+        d14.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/77772/soundassistant/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d15 = (CardView) findViewById(R.id.cvi15);
+        d15.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/78672/samsung-wonderland/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d16 = (CardView) findViewById(R.id.cvi16);
+        d16.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/77748/keys-cafe-samsung/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d18 = (CardView) findViewById(R.id.cvi18);
+        d18.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/71147/samsung-good-lock/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d20 = (CardView) findViewById(R.id.cvi20);
+        d20.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/78681/samsung-pentastic/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d21 = (CardView) findViewById(R.id.cvi21);
+        d21.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/57172/samsung-galaxy-labs/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d22 = (CardView) findViewById(R.id.cvi22);
+        d22.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/57172/samsung-galaxy-labs/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d23 = (CardView) findViewById(R.id.cvi23);
+        d23.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/57172/samsung-galaxy-labs/"));
+                startActivity(intentRate);
+            }
+        });
+
+        @SuppressLint("CutPasteId") CardView d27 = (CardView) findViewById(R.id.cvi27);
+        d27.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.dailymobile.ir/57172/samsung-galaxy-labs/"));
                 startActivity(intentRate);
             }
         });

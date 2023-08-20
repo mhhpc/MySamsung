@@ -223,9 +223,6 @@
             android:name=".goodlock.Goodlock_guide_activity"
             android:exported="false" />
         <activity
-            android:name=".goodlock.Goodlock_download_activity"
-            android:exported="false" />
-        <activity
             android:name=".goodlock.Goodlock_activity"
             android:exported="false" />
         <activity

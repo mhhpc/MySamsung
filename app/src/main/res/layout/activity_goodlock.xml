@@ -74,7 +74,7 @@
 
                         <TextView
                             style="@style/TipsTextView"
-                            android:text="@string/goodlock_download" />
+                            android:text="@string/goodlock_guide2" />
 
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
@@ -129,13 +129,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd1"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes1"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde1"
+                                android:layout_toRightOf="@id/iv1">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva1"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi1"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -187,13 +215,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd2"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes2"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde2"
+                                android:layout_toRightOf="@id/iv2">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva2"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi2"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -244,8 +300,7 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd3"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
@@ -253,6 +308,25 @@
                                         android:text="@string/goodlock_home_download" />
 
                                 </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes3"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde3"
+                                android:layout_toRightOf="@id/iv3">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva3"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
                             </LinearLayout>
 
                         </RelativeLayout>
@@ -301,13 +375,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd4"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes4"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde4"
+                                android:layout_toRightOf="@id/iv4">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva4"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi4"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -358,13 +460,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd5"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes5"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde5"
+                                android:layout_toRightOf="@id/iv5">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva5"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi5"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -415,13 +545,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd6"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes6"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde6"
+                                android:layout_toRightOf="@id/iv6">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva6"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi6"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -472,13 +630,30 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd7"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes7"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde7"
+                                android:layout_toRightOf="@id/iv7">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva7"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -529,13 +704,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd8"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes8"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde8"
+                                android:layout_toRightOf="@id/iv8">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva8"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi8"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -586,13 +789,30 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd9"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes9"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde9"
+                                android:layout_toRightOf="@id/iv9">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva9"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -644,13 +864,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd10"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes10"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde10"
+                                android:layout_toRightOf="@id/iv10">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva10"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi10"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -710,13 +958,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd11"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes11"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde11"
+                                android:layout_toRightOf="@id/iv11">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva11"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi11"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -767,13 +1043,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd12"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes12"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde12"
+                                android:layout_toRightOf="@id/iv12">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva12"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi12"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -824,13 +1128,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd13"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes13"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde13"
+                                android:layout_toRightOf="@id/iv13">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva13"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi13"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -881,13 +1213,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd14"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes14"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde14"
+                                android:layout_toRightOf="@id/iv14">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva14"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi14"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -938,13 +1298,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd15"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes15"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde15"
+                                android:layout_toRightOf="@id/iv15">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva15"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi15"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -996,13 +1384,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd16"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes16"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde16"
+                                android:layout_toRightOf="@id/iv16">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva16"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi16"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1054,13 +1470,30 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd17"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes17"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde17"
+                                android:layout_toRightOf="@id/iv17">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva17"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1112,8 +1545,7 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd18"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
@@ -1124,13 +1556,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvde18"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#DA8200"
+                                    style="@style/TipsCardView5"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_detail" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes18"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde18"
+                                android:layout_toRightOf="@id/iv18">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva18"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi18"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1181,13 +1641,30 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd19"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes19"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde19"
+                                android:layout_toRightOf="@id/iv19">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva19"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1239,13 +1716,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd20"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes20"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde20"
+                                android:layout_toRightOf="@id/iv20">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva20"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi20"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1305,13 +1810,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd21"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes21"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde21"
+                                android:layout_toRightOf="@id/iv21">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva21"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi21"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1362,13 +1895,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd22"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes22"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde22"
+                                android:layout_toRightOf="@id/iv22">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva22"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi22"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1419,13 +1980,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd23"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes23"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde23"
+                                android:layout_toRightOf="@id/iv23">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva23"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi23"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1476,13 +2065,30 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd24"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes24"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde24"
+                                android:layout_toRightOf="@id/iv24">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva24"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1533,13 +2139,30 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd25"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes25"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde25"
+                                android:layout_toRightOf="@id/iv25">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva25"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1590,13 +2213,30 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd26"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes26"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde26"
+                                android:layout_toRightOf="@id/iv26">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva26"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1648,13 +2288,41 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/cvd27"
-                                    style="@style/TipsCardView3"
-                                    android:backgroundTint="#009688"
+                                    style="@style/TipsCardView4"
                                     app:cardCornerRadius="15dp">
 
                                     <TextView
                                         style="@style/GoodlockTextView4"
                                         android:text="@string/goodlock_home_download" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lldes27"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/llde27"
+                                android:layout_toRightOf="@id/iv27">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva27"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cvi27"
+                                    style="@style/TipsCardView6"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_mobile" />
 
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -1696,6 +2364,24 @@
                                 android:layout_below="@+id/tv28"
                                 android:layout_toRightOf="@id/iv28"
                                 android:text="@string/goodlock_t28" />
+
+                            <LinearLayout
+                                android:id="@+id/lldes28"
+                                style="@style/TipsLinearLayout2"
+                                android:layout_below="@+id/t28"
+                                android:layout_toRightOf="@id/iv28">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cva28"
+                                    style="@style/TipsCardView3"
+                                    app:cardCornerRadius="15dp">
+
+                                    <TextView
+                                        style="@style/GoodlockTextView4"
+                                        android:text="@string/goodlock_home_apkmirror" />
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
                         </RelativeLayout>
 

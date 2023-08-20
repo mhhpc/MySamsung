@@ -2,11 +2,9 @@ package com.mhh.mysamsung.views;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.annotation.SuppressLint;
-import android.content.ComponentName;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
@@ -16,30 +14,18 @@ import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.goodlock.Goodlock_activity;
-import com.mhh.mysamsung.goodlock.Goodlock_download_activity;
 import com.mhh.mysamsung.hidden_tip.Fake_call_activity;
 import com.mhh.mysamsung.hidden_tip.Lte_only_activity;
-import com.transitionseverywhere.AutoTransition;
-import com.transitionseverywhere.ChangeClipBounds;
-import com.transitionseverywhere.Explode;
-import com.transitionseverywhere.Recolor;
-import com.transitionseverywhere.Rotate;
-import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 import com.transitionseverywhere.extra.Scale;
-
-import io.github.muddz.styleabletoast.StyleableToast;
 
 public class Home_activity extends AppCompatActivity implements View.OnClickListener {
 

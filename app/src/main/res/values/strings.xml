@@ -166,8 +166,10 @@
     //Goodlock_activity
     <string name="goodlock_title">Good Lock</string>
     <string name="goodlock_detail">جزئیات</string>
-    <string name="goodlock_home_download">دانلود</string>
-    <string name="goodlock_download">دانلود و بروزرسانی</string>
+    <string name="goodlock_home_download">GalaxyStore</string>
+    <string name="goodlock_home_apkmirror">APKMirror</string>
+    <string name="goodlock_home_mobile">موبایل روز</string>
+    <string name="goodlock_guide2">راهنمایی</string>
     <string name="goodlock_guide">درباره GoodLock</string>
     <string name="goodlock_titr1">Unit</string>
     <string name="goodlock_titr2">Family</string>
@@ -257,6 +259,18 @@
     <string name="goodlock_toast26">خطا! ابتدا آخرین نسخه Media File Guardian را دانلود، و دوباره امتحان کنید.</string>
     <string name="goodlock_toast27">خطا! ابتدا آخرین نسخه Good Guardians را دانلود، و دوباره امتحان کنید.</string>
     <string name="goodlock_toast28">خطا! ابتدا آخرین نسخه Good Guardians Agent را دانلود، و دوباره امتحان کنید.</string>
+
+    //Goodlock_guide
+    <string name="goodlock_guide_title">راهنمایی</string>
+    <string name="goodlock_guide_t1">شما می‌توانید افزونه های GoodLock و GoodGuardian را از طریق دکمه های موجود (GalaxyStore , APKMirror , موبایل‌روز) دانلود کنید و با کلیک کردن بر روی کادر مربوط به آن افزونه از برنامه مربوطه استفاده کنید. \n\n
+    دقت کنید که از نظر ما همچنان بهترین روش دانلود افزونه ها، دانلود از طریق GalaxyStore می‌باشد. اما اگر به دلیل وجود محدودیت ها نتوانستید از طریق GalaxyStore دانلود کنید، می‌توانید از APKMirror افزونه مورد نظر را دانلود کنید. دقت داشته باشید که برای ورود به سایت APKMirror و دانلود افزونه باید از ابزار های تحریم شکن (تغییر ip) استفاده کنید. و در آخر اگر با این روش هم مشکل داشتید می‌توانید از بخش *موبایل روز* افزونه خود را دانلود کنید. اما توجه داشته باشید که امکان دارد که افزونه موجود در این روش، نسخه بروز نباشد.</string>
+    <string name="goodlock_guide_t2">دستگاه های دارای One UI Core که شامل سری A00 هستند و همچنین همه سری های M و F از افزونه های GoodLock پشتیبانی نمی‌کنند. \n\n
+    سری A10 و A20 فقط با افزونه های بخش Family سازگار هستند. \n\n
+    دقت کنید که ممکن است برخی از افزونه ها به دلیل محدودیت نرم‌افزاری روی سری های A10 و A20 و A30 و J قابل نصب نباشند. \n\n
+    فقط دستگاه های سری S و Z و Note و Tab S به همه افزونه ها و ویژگی ها دسترسی دارند. \n\n
+    توجه داشته باشید که همه افزونه های GoodLock و GoodGuardian توسط تیم سامسونگ توسعه داده شده‌اند و رسمی هستند و ما نمی‌توانیم عملکرد آنها را تغییر دهیم.</string>
+    <string name="goodlock_guide_t3">برای اینکه تنظیمات LockStar، MultiStar، NotiStar و QuickStar پس از راه‌اندازی مجدد در One UI 2 و جدیدتر باقی بماند، باید GoodLock را نصب کنید. اگرچه GoodLock در واقع کار نمی‌کند و به شما پیامی مانند *Country not supported* یا *The mapper value returned null* را می‌دهد، اما مانند یک مدیر برای افزونه های Unit عمل می کند تا کاملاً کاربردی باشد. نصب GoodLock در One UI 1 و Oreo مورد نیاز نیست.</string>
+    <string name="goodlock_guide_t4">از زمان به‌روزرسانی‌های فوریه 2022، ماژول‌های بخش Guardians به GoodGuardians و GoodGuardiansAgent نیاز دارند. این دو همچنین مانند ناظر برای ماژول های Guardians عمل می کنند تا کاملاً کاربردی باشند. بنابراین، حتی اگر هنگام راه‌اندازی GoodGuardians پیامی مانند «کشور پشتیبانی نمی‌شود» را مشاهده کنید، به هر حال آنها باید روی گوشی شما نصب باشند.</string>
 
     //Compare_activity
     <string name="compare_title">مقایسه</string>

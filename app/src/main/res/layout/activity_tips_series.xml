@@ -43,10 +43,18 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/tips_series_tx0" />
 
+                <ImageView
+                    android:id="@+id/imv1"
+                    style="@style/PhoneImageView2"
+                    android:layout_below="@id/tv0"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="10dp" />
+
                 <TextView
                     android:id="@+id/t1"
                     style="@style/Customize_text"
-                    android:layout_below="@+id/tv0"
+                    android:layout_below="@+id/imv1"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/corner_app_title"
