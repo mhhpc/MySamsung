@@ -16,6 +16,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".year.Year_2018"
+            android:exported="false" />
+        <activity
+            android:name=".year.Year_2020"
+            android:exported="false" />
+        <activity
             android:name=".views.Tips_f_activity"
             android:exported="false" />
         <activity

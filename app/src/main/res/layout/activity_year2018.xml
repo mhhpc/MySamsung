@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".year.Year_2021">
+    tools:context=".year.Year_2018">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             <com.google.android.material.appbar.CollapsingToolbarLayout
                 android:id="@+id/collapsing_toolbar"
                 style="@style/CollapsingToolbarLayout2"
-                app:title="@string/year_2021">
+                app:title="@string/year_2018">
 
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
@@ -29,7 +29,7 @@
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.core.widget.NestedScrollView
-            android:id="@+id/year2021"
+            android:id="@+id/year2018"
             style="@style/NestedScrollView">
 
             <LinearLayout
@@ -60,7 +60,7 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/fcv1"
                         style="@style/TipsCardViewGoodlock"
-                        app:cardBackgroundColor="#E6E6FA"
+                        app:cardBackgroundColor="#6AC600"
                         app:cardCornerRadius="20dp">
 
                         <RelativeLayout
@@ -76,13 +76,13 @@
                                 android:id="@+id/ftv1"
                                 style="@style/PhonesTextCardview1"
                                 android:layout_toLeftOf="@id/fciv1"
-                                android:text="@string/phones_a52s" />
+                                android:text="@string/phones_j8" />
 
                             <TextView
                                 style="@style/PhonesTextCardview2"
                                 android:layout_below="@id/ftv1"
                                 android:layout_toLeftOf="@id/fciv1"
-                                android:text="@string/phones_des_a52s" />
+                                android:text="@string/phones_des_j8" />
 
 
                         </RelativeLayout>
@@ -98,7 +98,7 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/fcv2"
                         style="@style/TipsCardViewGoodlock"
-                        app:cardBackgroundColor="#FF80ED"
+                        app:cardBackgroundColor="#6AC600"
                         app:cardCornerRadius="20dp">
 
                         <RelativeLayout
@@ -114,13 +114,13 @@
                                 android:id="@+id/ftv2"
                                 style="@style/PhonesTextCardview1"
                                 android:layout_toRightOf="@id/fciv2"
-                                android:text="@string/phones_zfold3" />
+                                android:text="@string/phones_j6" />
 
                             <TextView
                                 style="@style/PhonesTextCardview2"
                                 android:layout_below="@id/ftv2"
                                 android:layout_toRightOf="@id/fciv2"
-                                android:text="@string/phones_des_zfold3" />
+                                android:text="@string/phones_des_j6" />
 
                         </RelativeLayout>
 
@@ -135,7 +135,7 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/fcv3"
                         style="@style/TipsCardViewGoodlock"
-                        app:cardBackgroundColor="#FF80ED"
+                        app:cardBackgroundColor="#6AC600"
                         app:cardCornerRadius="20dp">
 
                         <RelativeLayout
@@ -151,88 +151,13 @@
                                 android:id="@+id/ftv3"
                                 style="@style/PhonesTextCardview1"
                                 android:layout_toLeftOf="@id/fciv3"
-                                android:text="@string/phones_zflip3" />
+                                android:text="@string/phones_j4" />
 
                             <TextView
                                 style="@style/PhonesTextCardview2"
                                 android:layout_below="@id/ftv3"
                                 android:layout_toLeftOf="@id/fciv3"
-                                android:text="@string/phones_des_zflip3" />
-
-
-                        </RelativeLayout>
-
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/ll4"
-                    style="@style/TipsLinearLayout"
-                    android:layout_marginTop="5dp">
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/fcv4"
-                        style="@style/TipsCardViewGoodlock"
-                        app:cardBackgroundColor="#FF8092"
-                        app:cardCornerRadius="20dp">
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:id="@+id/fciv4"
-                                style="@style/CircleImage_phones3"
-                                android:layout_alignParentLeft="true" />
-
-                            <TextView
-                                android:id="@+id/ftv4"
-                                style="@style/PhonesTextCardview1"
-                                android:layout_toRightOf="@id/fciv4"
-                                android:text="@string/phones_m62" />
-
-                            <TextView
-                                style="@style/PhonesTextCardview2"
-                                android:layout_below="@id/ftv4"
-                                android:layout_toRightOf="@id/fciv4"
-                                android:text="@string/phones_des_m62" />
-
-                        </RelativeLayout>
-
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/ll5"
-                    style="@style/TipsLinearLayout"
-                    android:layout_marginTop="5dp">
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/fcv5"
-                        style="@style/TipsCardViewGoodlock"
-                        app:cardBackgroundColor="#FFC376"
-                        app:cardCornerRadius="20dp">
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <de.hdodenhof.circleimageview.CircleImageView
-                                android:id="@+id/fciv5"
-                                style="@style/CircleImage_phones3"
-                                android:layout_alignParentRight="true" />
-
-                            <TextView
-                                android:id="@+id/ftv5"
-                                style="@style/PhonesTextCardview1"
-                                android:layout_toLeftOf="@id/fciv5"
-                                android:text="@string/phones_f42" />
-
-                            <TextView
-                                style="@style/PhonesTextCardview2"
-                                android:layout_below="@id/ftv5"
-                                android:layout_toLeftOf="@id/fciv5"
-                                android:text="@string/phones_des_f42" />
+                                android:text="@string/phones_des_j4" />
 
 
                         </RelativeLayout>
