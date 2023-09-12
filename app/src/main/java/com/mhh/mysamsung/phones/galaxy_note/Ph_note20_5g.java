@@ -15,7 +15,11 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
+import com.mhh.mysamsung.phones_detail.check.galaxy_note.Ph_note20_5g_check;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_note.Ph_note20_5g_compare;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_note.Ph_note20_5g_customize;
 import com.mhh.mysamsung.phones_detail.full.galaxy_note.Ph_note20_5g_full;
+import com.mhh.mysamsung.phones_detail.pictures.galaxy_note.Ph_note20_5g_picture;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -120,6 +124,34 @@ public class Ph_note20_5g extends AppCompatActivity {
         ph1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Ph_note20_5g.this , Ph_note20_5g_full.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph2 = (Button) findViewById(R.id.b2);
+        ph2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_note20_5g.this , Ph_note20_5g_check.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph3 = (Button) findViewById(R.id.b3);
+        ph3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_note20_5g.this , Ph_note20_5g_picture.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph4 = (Button) findViewById(R.id.b4);
+        ph4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_note20_5g.this , Ph_note20_5g_customize.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph5 = (Button) findViewById(R.id.b5);
+        ph5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Ph_note20_5g.this , Ph_note20_5g_compare.class));
             }
         });
 

@@ -2,10 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ph_s22ultra_picture"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_list"
-    android:id="@+id/ph_s22ultra_picture"
     tools:context=".phones_detail.pictures.galaxy_s.Ph_s22ultra_picture">
 
     <ScrollView
