@@ -31,7 +31,8 @@ import com.transitionseverywhere.TransitionManager;
 
 import io.github.muddz.styleabletoast.StyleableToast;
 
-public class Ph_s22ultra_customize extends AppCompatActivity {
+public class
+Ph_s22ultra_customize extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
