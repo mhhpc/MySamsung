@@ -97,7 +97,7 @@ public class Ph_note20ultra_picture extends AppCompatActivity {
         Picasso.get().load("https://s2.uupload.ir/files/e108-smartphone-wechsel-dich-wie-oft-kaufen-nutzer-ein-neues-handy_zgzr.jpg").into(imageView);
 
         ImageView imageView2 = (ImageView) findViewById(R.id.iv2);
-        Picasso.get().load("https://s6.uupload.ir/files/csm_untitled_2_7_432bb95979(1)_0m0d.jpg").into(imageView2);
+        Picasso.get().load("https://s6.uupload.ir/files/1_ip3a.jpg").into(imageView2);
 
         ImageView imageView3 = (ImageView) findViewById(R.id.imv1);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-note20-ultra-1_e90.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(imageView3);

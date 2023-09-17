@@ -96,7 +96,7 @@ public class Ph_note20_5g_picture extends AppCompatActivity {
         Picasso.get().load("https://s2.uupload.ir/files/e108-smartphone-wechsel-dich-wie-oft-kaufen-nutzer-ein-neues-handy_zgzr.jpg").into(imageView);
 
         ImageView imageView2 = (ImageView) findViewById(R.id.iv2);
-        Picasso.get().load("https://s6.uupload.ir/files/csm_untitled_2_7_432bb95979(1)_0m0d.jpg").into(imageView2);
+        Picasso.get().load("https://s6.uupload.ir/files/galaxy-note-20-5g-256gb-moi-99-like-new-han-quoc-chip-snapdragon-865_5pon.jpg").into(imageView2);
 
         ImageView imageView3 = (ImageView) findViewById(R.id.imv1);
         Picasso.get().load("https://s6.uupload.ir/files/gallery-01-c1-lockup-mysticgray-1600x1200_fy8s.jpg").placeholder(R.drawable.progress_animation).error(R.drawable.error).into(imageView3);

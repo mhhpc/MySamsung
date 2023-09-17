@@ -68,7 +68,7 @@ public class Ph_note20ultra_check extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DomainName("https://www.samsung.com/us/business/mobile/phones/galaxy-note/galaxy-note20-ultra-5g-128gb-certified-re-newed-sm5n986uzkaxaa/");
+                DomainName("https://www.samsung.com/latin_en/smartphones/galaxy-note20/performance/");
             }
         });
         @SuppressLint("CutPasteId") CardView b2 = (CardView) findViewById(R.id.ncv2);
