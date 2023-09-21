@@ -228,6 +228,14 @@ public class Phones_activity extends AppCompatActivity {
         //ll onclick =========================================
 
         //button onclick
+
+        @SuppressLint("CutPasteId") TextView tv1 = (TextView) findViewById(R.id.tv1);
+        tv1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Phones_activity.this , Search_activity.class));
+            }
+        });
+
         @SuppressLint("CutPasteId") LinearLayout civ1 = (LinearLayout) findViewById(R.id.ll1);
         civ1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

@@ -68,8 +68,35 @@ public class Search_activity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("");
 
-        title = new String[]{"شروع", "درباره", "درباره", "درباره", "درباره", "درباره", "A52s", "a52s"};
-        description = new String[]{"دسته بندی ها", "درباره برنامه", "درباره برنامه", "درباره برنامه", "درباره برنامه", "درباره برنامه", "h", "i"};
+        title = new String[]{"همه گوشی ها", "سال ساخت", "سری ها", "مقایسه", "شخصی سازی"
+                             , "ترفندها و نکات جذاب", "برنامه GoodLock", "تست گوشی", "تماس جعلی", "LTE Only"
+                             , "ارتباط با ما", "شخصی سازی سامسونگ", "درباره ما", "قابلیت های مخفی", "درباره GoodLock"
+                             , "پشتیبانی نرم افزاری سامسونگ", "بررسی سری گوشی ها", "سری Z", "سری S", "سری Note"
+                             , "سری A", "سری M", "سری F", "سری Tab", "سری J"
+                             , "راهنمایی GoodLock", "بررسی سری Z", "بررسی سری S", "بررسی سری A", "بررسی سری Note"
+                             , "بررسی سری M", "بررسی سری F", "بررسی سری J", "بررسی سری Tab"
+                             , "سال 2022", "سال 2021", "سال 2020", "سال 2018", "Galaxy Z Fold4"
+                             , "Galaxy Z Flip4", "Galaxy Z Fold3", "Galaxy Z Flip3", "Galaxy A73 5G", "Galaxy A53 5G"
+                             , "Galaxy A33 5G", "Galaxy S22 Ultra", "Galaxy S22 Plus", "Galaxy S22", "Galaxy S21 FE"
+                             , "Galaxy A52s 5G", "Galaxy Note20 Ultra", "Galaxy Note20 5G", "Galaxy Note20", "Galaxy M62"
+                             , "Galaxy M53", "Galaxy M33", "Galaxy F23", "Galaxy F42", "Galaxy F13"
+                             , "Galaxy Tab S8 Ultra", "Galaxy Tab S8 Plus", "Galaxy Tab S8", "Galaxy J8", "Galaxy J6"
+                             , "Galaxy J4"};
+
+        description = new String[]{"گوشی که دنبالشی اینجاست", "دسته بندی گوشی\u200Cها بر اساس سال ساخت", "همه سری گوشی های سامسونگ", "همه چی رو باهم مقایسه کن", "بر اساس سلیقه شما"
+                                   , "یادگیری", "شخصی سازی به سبک رسمی", "تست به روش پیشمهادی سامسونگ", "همه رو غافلگیر کن !", "آنتن دهی بهتر گوشی"
+                                   , "سازندگان برنامه سامسونگ من", "روش های شخصی سازی", "سازندگان برنامه سامسونگ من", "چیزهایی که نمیدونستی!", "برنامه GoodLock"
+                                   , "آپدیت اندروید و امنیتی", "سری های مختلف سامسونگ", "گوشی های تاشو", "گوشی های پرجمدار", "درحد پرچمدار"
+                                   , "میانرده قدرتمند", "اقتصادی", "به صرفه", "تبلت", "میانرده قدیمی"
+                                   , "روش استفاده از افزونه های GoodLock", "بررسی تخصصی سری ها", "بررسی تخصصی سری ها", "بررسی تخصصی سری ها", "بررسی تخصصی سری ها"
+                                   , "بررسی تخصصی سری ها", "بررسی تخصصی سری ها", "بررسی تخصصی سری ها", "بررسی تخصصی سری ها"
+                                   , "گوشی های سال 2022", "گوشی های سال 2021", "گوشی های سال 2020", "گوشی های سال 2018", "Galaxy Z"
+                                   , "Galaxy Z", "Galaxy Z", "Galaxy Z", "Galaxy A", "Galaxy A"
+                                   , "Galaxy A", "Galaxy S", "Galaxy S", "Galaxy S", "Galaxy S"
+                                   , "Galaxy A", "Galaxy NOTE", "Galaxy NOTE", "Galaxy NOTE", "Galaxy M"
+                                   , "Galaxy M", "Galaxy M", "Galaxy F", "Galaxy F", "Galaxy F"
+                                   , "Galaxy TAB", "Galaxy TAB", "Galaxy TAB", "Galaxy J", "Galaxy J"
+                                   , "Galaxy J"};
 
 
         listView = findViewById(R.id.listView);
