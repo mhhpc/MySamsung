@@ -18,6 +18,8 @@ import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.phones.galaxy_m.Ph_m33;
 import com.mhh.mysamsung.phones.galaxy_m.Ph_m53;
 import com.mhh.mysamsung.phones.galaxy_m.Ph_m62;
+import com.mhh.mysamsung.views.Tips_a_activity;
+import com.mhh.mysamsung.views.Tips_m_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -81,6 +83,14 @@ public class Serie_m extends AppCompatActivity {
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.civ3);
         Picasso.get().load("https://s6.uupload.ir/files/619293036__0wt2.jpg").placeholder(R.drawable.phone).into(circleImageView3);
 
+
+        //onclick suggest
+        @SuppressLint("CutPasteId") TextView sg = (TextView) findViewById(R.id.tx10);
+        sg.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_m.this , Tips_m_activity.class));
+            }
+        });
 
         //text onclick =========================================
 

@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.phones_detail.full.galaxy_f.Ph_f42_full;
@@ -22,6 +23,7 @@ import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import io.github.muddz.styleabletoast.StyleableToast;
 
 public class Ph_f42 extends AppCompatActivity {
 
@@ -120,7 +122,35 @@ public class Ph_f42 extends AppCompatActivity {
         @SuppressLint("CutPasteId") Button ph1 = (Button) findViewById(R.id.b1);
         ph1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Ph_f42.this , Ph_f42_full.class));
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_SHORT, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph2 = (Button) findViewById(R.id.b2);
+        ph2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_SHORT, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph3 = (Button) findViewById(R.id.b3);
+        ph3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_SHORT, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph4 = (Button) findViewById(R.id.b4);
+        ph4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_SHORT, R.style.soon_toast).show();
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button ph5 = (Button) findViewById(R.id.b5);
+        ph5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_SHORT, R.style.soon_toast).show();
             }
         });
 

@@ -2,7 +2,7 @@
     <string name="app_name">MySamsung</string>
     <string name="app_name_persian">سامسونگ من</string>
 
-    <string name="app_version">نسخه 0.6</string>
+    <string name="app_version">نسخه 1.0</string>
 
     <string name="title_suggest">پیشنهادات</string>
 
@@ -129,7 +129,7 @@
     <string name="about_t">حمایت از ما</string>
     <string name="about_tx1">ساخته شده توسط محمد حسین حمیدی</string>
     <string name="about_tx2">Copyright © 1401-1402 MHH Releases</string>
-    <string name="about_tx3">1 Farvardin 1402 Released</string>
+    <string name="about_tx3">1 Mehr 1402 Released</string>
 
     //Ertebat_activity
     <string name="ertebat_title">ارتباط با ما</string>

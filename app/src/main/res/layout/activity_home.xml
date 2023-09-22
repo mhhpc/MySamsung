@@ -62,17 +62,6 @@
                     app:srcCompat="@drawable/ic_search"
                     app:tint="@color/ColorWhite" />
 
-                <ImageView
-                    android:id="@+id/imageView_setting"
-                    android:layout_width="27dp"
-                    android:layout_height="27dp"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="12dp"
-                    android:layout_toRightOf="@id/imageView_search"
-                    android:padding="2dp"
-                    app:srcCompat="@drawable/ic_settings"
-                    app:tint="@color/ColorWhite" />
-
 
             </RelativeLayout>
 

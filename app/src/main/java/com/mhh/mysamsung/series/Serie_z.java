@@ -20,6 +20,8 @@ import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip3;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip4;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold3;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold4;
+import com.mhh.mysamsung.views.Tips_a_activity;
+import com.mhh.mysamsung.views.Tips_z_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -84,6 +86,14 @@ public class Serie_z extends AppCompatActivity {
 
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.civ3);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-z-fold-3-s-pen_38vd.jpg").placeholder(R.drawable.phone).into(circleImageView3);
+
+        //onclick suggest
+        @SuppressLint("CutPasteId") TextView sg = (TextView) findViewById(R.id.tx10);
+        sg.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_z.this , Tips_z_activity.class));
+            }
+        });
 
         //text onclick =========================================
 

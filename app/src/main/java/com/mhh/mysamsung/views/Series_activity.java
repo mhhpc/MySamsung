@@ -129,6 +129,14 @@ public class Series_activity extends AppCompatActivity {
             }
         });
 
+        //onclick suggest
+        @SuppressLint("CutPasteId") TextView sg = (TextView) findViewById(R.id.tx10);
+        sg.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Series_activity.this , Tips_series_activity.class));
+            }
+        });
+
         //buttons onclick =======================================
 
         @SuppressLint("CutPasteId") CircleImageView btn1 = (CircleImageView) findViewById(R.id.s);

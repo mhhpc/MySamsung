@@ -18,6 +18,8 @@ import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.phones.galaxy_f.Ph_f13;
 import com.mhh.mysamsung.phones.galaxy_f.Ph_f23;
 import com.mhh.mysamsung.phones.galaxy_f.Ph_f42;
+import com.mhh.mysamsung.views.Tips_a_activity;
+import com.mhh.mysamsung.views.Tips_f_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -80,6 +82,14 @@ public class Serie_f extends AppCompatActivity {
 
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.civ3);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-f13-1_sk5q.jpg").placeholder(R.drawable.phone).into(circleImageView3);
+
+        //onclick suggest
+        @SuppressLint("CutPasteId") TextView sg = (TextView) findViewById(R.id.tx10);
+        sg.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_f.this , Tips_f_activity.class));
+            }
+        });
 
         //text onclick =========================================
 

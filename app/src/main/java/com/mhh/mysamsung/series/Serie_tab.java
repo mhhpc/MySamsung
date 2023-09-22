@@ -12,6 +12,7 @@ import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
@@ -24,6 +25,7 @@ import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import io.github.muddz.styleabletoast.StyleableToast;
 
 public class Serie_tab extends AppCompatActivity {
 
@@ -81,6 +83,14 @@ public class Serie_tab extends AppCompatActivity {
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.civ3);
         Picasso.get().load("https://s6.uupload.ir/files/92068379032934_6iho.jpg").placeholder(R.drawable.phone).into(circleImageView3);
 
+
+        //onclick suggest
+        @SuppressLint("CutPasteId") TextView sg = (TextView) findViewById(R.id.tx10);
+        sg.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_SHORT, R.style.soon_toast).show();
+            }
+        });
 
         //text onclick =========================================
 

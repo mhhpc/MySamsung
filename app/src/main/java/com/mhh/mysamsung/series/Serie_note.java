@@ -18,6 +18,8 @@ import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.phones.galaxy_note.Ph_note20;
 import com.mhh.mysamsung.phones.galaxy_note.Ph_note20_5g;
 import com.mhh.mysamsung.phones.galaxy_note.Ph_note20ultra;
+import com.mhh.mysamsung.views.Tips_a_activity;
+import com.mhh.mysamsung.views.Tips_note_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -82,6 +84,14 @@ public class Serie_note extends AppCompatActivity {
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.civ3);
         Picasso.get().load("https://s6.uupload.ir/files/003_galaxynote20_mysticbronze_front_with_pen_5vj3.jpg").placeholder(R.drawable.phone).into(circleImageView3);
 
+
+        //onclick suggest
+        @SuppressLint("CutPasteId") TextView sg = (TextView) findViewById(R.id.tx10);
+        sg.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_note.this , Tips_note_activity.class));
+            }
+        });
 
         //text onclick =========================================
 

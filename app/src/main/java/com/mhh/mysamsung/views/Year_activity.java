@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
@@ -99,7 +100,15 @@ public class Year_activity extends AppCompatActivity {
             }
         });
 
-        //onclock
+        //onclick suggest
+        @SuppressLint("CutPasteId") TextView sg = (TextView) findViewById(R.id.tx2);
+        sg.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Year_activity.this , Tips_software_activity.class));
+            }
+        });
+
+        //onclick
         @SuppressLint("CutPasteId") CardView crd2 = (CardView) findViewById(R.id.cv2);
         crd2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

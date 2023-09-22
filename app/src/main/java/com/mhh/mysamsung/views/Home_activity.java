@@ -232,7 +232,6 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         navigationView = findViewById(R.id.navigationView);
         imageView_menu = findViewById(R.id.imageView_menu);
         imageView_search = findViewById(R.id.imageView_search);
-        imageView_settings = findViewById(R.id.imageView_setting);
 
         navigationView.bringToFront();
     }
@@ -241,7 +240,6 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
 
         imageView_menu.setOnClickListener(this);
         imageView_search.setOnClickListener(this);
-        imageView_settings.setOnClickListener(this);
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -295,11 +293,6 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
 
         if (v == imageView_search) {
             Intent intent = new Intent(this, Search_activity.class);
-            startActivity(intent);
-        }
-
-        if (v == imageView_settings) {
-            Intent intent = new Intent(this, Settings_activity.class);
             startActivity(intent);
         }
 

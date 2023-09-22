@@ -20,6 +20,9 @@ import com.mhh.mysamsung.phones.galaxy_a.Ph_a33;
 import com.mhh.mysamsung.phones.galaxy_a.Ph_a52s;
 import com.mhh.mysamsung.phones.galaxy_a.Ph_a53;
 import com.mhh.mysamsung.phones.galaxy_a.Ph_a73;
+import com.mhh.mysamsung.views.Tips_a_activity;
+import com.mhh.mysamsung.views.Tips_software_activity;
+import com.mhh.mysamsung.views.Year_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -84,6 +87,14 @@ public class Serie_a extends AppCompatActivity {
 
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.civ3);
         Picasso.get().load("https://s6.uupload.ir/files/4_zu_3_samsung_galaxy_a52s_8zjy.jpg").placeholder(R.drawable.phone).into(circleImageView3);
+
+        //onclick suggest
+        @SuppressLint("CutPasteId") TextView sg = (TextView) findViewById(R.id.tx10);
+        sg.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Serie_a.this , Tips_a_activity.class));
+            }
+        });
 
         //text onclick =========================================
 
