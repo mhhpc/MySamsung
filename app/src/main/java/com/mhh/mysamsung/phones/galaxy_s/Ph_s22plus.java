@@ -15,6 +15,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.mhh.mysamsung.R;
+import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip4;
+import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold4;
 import com.mhh.mysamsung.phones_detail.check.galaxy_s.Ph_s22plus_check;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s22plus_compare;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s22plus_customize;
@@ -119,6 +121,28 @@ public class Ph_s22plus extends AppCompatActivity {
         //Image links
         CircleImageView circleImageView = (CircleImageView) findViewById(R.id.civ1);
         Picasso.get().load("https://s6.uupload.ir/files/s22_5w1i.jpg").placeholder(R.drawable.phone).into(circleImageView);
+
+        //suggest onclick
+        @SuppressLint("CutPasteId") TextView sg1 = (TextView) findViewById(R.id.tx10);
+        sg1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext() , Ph_s22.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView sg2 = (TextView) findViewById(R.id.tx11);
+        sg2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext() , Ph_zfold4.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView sg3 = (TextView) findViewById(R.id.tx12);
+        sg3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext() , Ph_s22ultra.class));
+            }
+        });
 
         //button onclick
         @SuppressLint("CutPasteId") Button ph1 = (Button) findViewById(R.id.b1);

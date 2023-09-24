@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mhh.mysamsung.R;
+import com.mhh.mysamsung.phones.galaxy_a.Ph_a73;
 import com.mhh.mysamsung.phones_detail.full.galaxy_j.Ph_j6_full;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
@@ -117,6 +118,28 @@ public class Ph_j6 extends AppCompatActivity {
         //Image links
         CircleImageView circleImageView = (CircleImageView) findViewById(R.id.civ1);
         Picasso.get().load("https://s6.uupload.ir/files/گوشی-موبایل-سامسونگ-مدل-galaxy-j6-دو-سیم-کارت-ظرفیت-32-گیگابایت_hfqq.jpg").placeholder(R.drawable.phone).into(circleImageView);
+
+        //suggest onclick
+        @SuppressLint("CutPasteId") TextView sg1 = (TextView) findViewById(R.id.tx10);
+        sg1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext() , Ph_j8.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView sg2 = (TextView) findViewById(R.id.tx11);
+        sg2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext() , Ph_j4.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView sg3 = (TextView) findViewById(R.id.tx12);
+        sg3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext() , Ph_a73.class));
+            }
+        });
 
         //button onclick
         @SuppressLint("CutPasteId") Button ph1 = (Button) findViewById(R.id.b1);

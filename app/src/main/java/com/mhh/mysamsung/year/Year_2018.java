@@ -21,6 +21,7 @@ import com.mhh.mysamsung.phones.galaxy_j.Ph_j8;
 import com.mhh.mysamsung.phones.galaxy_note.Ph_note20;
 import com.mhh.mysamsung.phones.galaxy_note.Ph_note20_5g;
 import com.mhh.mysamsung.phones.galaxy_note.Ph_note20ultra;
+import com.mhh.mysamsung.views.Search_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -78,6 +79,14 @@ public class Year_2018 extends AppCompatActivity {
 
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.fciv3);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-j4_0h1f.jpg").placeholder(R.drawable.phone).into(circleImageView3);
+
+        //button onclick
+        @SuppressLint("CutPasteId") TextView tx1 = (TextView) findViewById(R.id.tv1);
+        tx1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Year_2018.this , Search_activity.class));
+            }
+        });
 
         //button onclick
         @SuppressLint("CutPasteId") LinearLayout civ1 = (LinearLayout) findViewById(R.id.ll1);

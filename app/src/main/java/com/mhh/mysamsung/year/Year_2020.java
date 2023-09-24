@@ -23,6 +23,7 @@ import com.mhh.mysamsung.phones.galaxy_note.Ph_note20_5g;
 import com.mhh.mysamsung.phones.galaxy_note.Ph_note20ultra;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip3;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold3;
+import com.mhh.mysamsung.views.Search_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -69,6 +70,14 @@ public class Year_2020 extends AppCompatActivity {
                 t3.setVisibility(View.VISIBLE);
             }
         },200);
+
+        //button onclick
+        @SuppressLint("CutPasteId") TextView tx1 = (TextView) findViewById(R.id.tv1);
+        tx1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Year_2020.this , Search_activity.class));
+            }
+        });
 
         //Image links
 

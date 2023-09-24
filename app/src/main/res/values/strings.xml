@@ -2,7 +2,7 @@
     <string name="app_name">MySamsung</string>
     <string name="app_name_persian">سامسونگ من</string>
 
-    <string name="app_version">نسخه 1.0</string>
+    <string name="app_version">نسخه 1.0.1</string>
 
     <string name="title_suggest">پیشنهادات</string>
 
@@ -313,6 +313,17 @@
     <string name="lte_only_t7">این قسمت به طور پیشفرض معمولا روی GSM/WCDMA/LTE قرار داره یعنی (2G /3G /4G)</string>
     <string name="lte_only_t8">کافیه روش بزنی و گزینه LTE Only (یعنی فقط 4G رو انتخاب کنی)</string>
     <string name="lte_only_t9">فقط دقت کن اگر گوشیت از VoLTE پشتیبانی نکنه، زمانی که LTE Only رو فعال کنی نمیتونی با گوشیت تماس (ارسالی یا دریافتی) بگیری. پس یادت باشه وقتی کارت با LTE Only تموم شد تنظیمات رو به حالت اولش برگردونی.</string>
+
+    //Guide_background_activity
+    <string name="guide_background_title">تنظیم پس زمینه</string>
+    <string name="guide_background_t1">اگر با تنظیم کردن عکس یا فیلم به عنوان پس زمینه مشکل داری این آموزش میتونه بهت کمک کنه.</string>
+    <string name="guide_background_t2">برای شروع، توی صفحه اصلی سامسونگ، جایی که هیج آیکون یا ویجتی نباشه چند ثانیه انگشتت رو نگه دار تا گزینه های زیر ظاهر بشن.</string>
+    <string name="guide_background_t3">حالا روی گزینه Wallpaper and Style بزن تا وارد تنظیمات پس زمینه بشی. \n\n
+    میتونی از اپلیکیشن Settings (تنظیمات) هم این قسمت (Wallpaper and Style) رو پیدا کنی.</string>
+    <string name="guide_background_t4">حالا وارد Change Wallpaper (تغییر پس زمینه) بشید.</string>
+    <string name="guide_background_t5">خب ... از اینجا میتونید پس زمینه مورد نظر خودتون رو انتخاب کنید و تغییرات رو اعمال کنید. \n\n
+    میتونید از بین پس زمینه های رسمی گوشی یا عکس ها و فیلم های گالری و ... پس زمینه رو تنظیم کنید.</string>
+    <string name="guide_background_t6">میتونید از توی گالری چند عکس یا حتی فیلم رو برای پس زمینه تنظیم کنید.</string>
 
     //Device_info_activity
     <string name="device_info_title">تست گوشی</string>

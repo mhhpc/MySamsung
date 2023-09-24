@@ -32,6 +32,7 @@ import com.mhh.mysamsung.phones.galaxy_tab.Ph_tab_s8ultra;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip4;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold4;
 import com.mhh.mysamsung.views.Phones_activity;
+import com.mhh.mysamsung.views.Search_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -104,6 +105,14 @@ public class Year_2022 extends AppCompatActivity {
                 t16.setVisibility(View.VISIBLE);
             }
         },200);
+
+        //button onclick
+        @SuppressLint("CutPasteId") TextView tx1 = (TextView) findViewById(R.id.tv1);
+        tx1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Year_2022.this , Search_activity.class));
+            }
+        });
 
         //Image links
 

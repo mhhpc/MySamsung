@@ -25,6 +25,7 @@ import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip3;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip4;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold3;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold4;
+import com.mhh.mysamsung.views.Search_activity;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -75,6 +76,14 @@ public class Year_2021 extends AppCompatActivity {
                 t5.setVisibility(View.VISIBLE);
             }
         },200);
+
+        //button onclick
+        @SuppressLint("CutPasteId") TextView tx1 = (TextView) findViewById(R.id.tv1);
+        tx1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Year_2021.this , Search_activity.class));
+            }
+        });
 
         //Image links
 

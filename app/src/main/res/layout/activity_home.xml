@@ -519,6 +519,7 @@
 
                         <ImageView
                             android:id="@+id/iv1"
+                            android:src="@drawable/poster"
                             style="@style/TipsImageView" />
 
                         <TextView

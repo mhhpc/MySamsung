@@ -1,11 +1,14 @@
 package com.mhh.mysamsung.views;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.annotation.SuppressLint;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -54,6 +57,13 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         final LinearLayout t5 = findViewById(R.id.main);
         final LinearLayout t6 = findViewById(R.id.main2);
         final LinearLayout t7 = findViewById(R.id.ll1);
+
+        //first run dialog --------------
+        SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
+        boolean firstStart = prefs.getBoolean("firstStart", true);
+        if (firstStart) {
+            showStartDialog();
+        }
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -270,7 +280,7 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
                     case R.id.menu_share:
                         Intent intentSend = new Intent();
                         intentSend.setAction(Intent.ACTION_SEND);
-                        intentSend.putExtra(Intent.EXTRA_TEXT, "سلام \n به راحتی میتونی اپلیکیشن سامسونگ من رو از لینک زیر دانلود کنی ;) \n https://cafebazaar.ir/developer/mhhossein");
+                        intentSend.putExtra(Intent.EXTRA_TEXT, "سلام \n به راحتی میتونی اپلیکیشن سامسونگ من رو از لینک زیر دانلود کنی ;) \n https://cafebazaar.ir/developer/781503171866");
                         intentSend.setType("text/plain");
 
                         Intent share = Intent.createChooser(intentSend, null);
@@ -305,5 +315,24 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
         } else {
             super.onBackPressed();
         }
+    }
+
+    //first run dialog ----------------------
+    private void showStartDialog() {
+        new AlertDialog.Builder(this)
+                .setTitle("توجه")
+                .setMessage("هنگام ورود به هر قسمت از برنامه برای اولین بار، اینترنت خود را روشن نگه دارید تا بهترین تجربه را از سامسونگ من داشته باشید (:")
+                .setPositiveButton("تایید", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                })
+                .create().show();
+
+        SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putBoolean("firstStart", false);
+        editor.apply();
     }
 }

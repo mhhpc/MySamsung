@@ -119,6 +119,28 @@ public class Ph_a53 extends AppCompatActivity {
         CircleImageView circleImageView = (CircleImageView) findViewById(R.id.civ1);
         Picasso.get().load("https://s6.uupload.ir/files/182332_2020_7zu6.jpg").placeholder(R.drawable.phone).into(circleImageView);
 
+        //suggest onclick
+        @SuppressLint("CutPasteId") TextView sg1 = (TextView) findViewById(R.id.tx10);
+        sg1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext() , Ph_a73.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView sg2 = (TextView) findViewById(R.id.tx11);
+        sg2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext() , Ph_a52s.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") TextView sg3 = (TextView) findViewById(R.id.tx12);
+        sg3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext() , Ph_a33.class));
+            }
+        });
+
         //button onclick
         @SuppressLint("CutPasteId") Button ph1 = (Button) findViewById(R.id.b1);
         ph1.setOnClickListener(new View.OnClickListener() {
