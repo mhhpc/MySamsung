@@ -7,6 +7,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -91,23 +92,26 @@ public class Ph_a73_full extends AppCompatActivity {
         // Onclick
         @SuppressLint("CutPasteId") CardView b1 = (CardView) findViewById(R.id.ncv1);
         b1.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                DomainName("https://www.samsung.com/iran/smartphones/galaxy-a/galaxy-a73-5g-awesome-white-256gb-sm-a736bzwhmea/#specs");
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.samsung.com/iran/smartphones/galaxy-a/galaxy-a73-5g-awesome-white-256gb-sm-a736bzwhmea/#specs"));
+                startActivity(intentRate);
             }
         });
         @SuppressLint("CutPasteId") CardView b2 = (CardView) findViewById(R.id.ncv2);
         b2.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                DomainName("https://www.zoomit.ir/product/samsung-galaxy-a73/");
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.zoomit.ir/product/samsung-galaxy-a73/"));
+                startActivity(intentRate);
             }
         });
         @SuppressLint("CutPasteId") CardView b3 = (CardView) findViewById(R.id.ncv3);
         b3.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                DomainName("https://www.gsmarena.com/samsung_galaxy_a73_5g-11257.php");
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.gsmarena.com/samsung_galaxy_a73_5g-11257.php"));
+                startActivity(intentRate);
             }
         });
 
@@ -126,14 +130,6 @@ public class Ph_a73_full extends AppCompatActivity {
 
         ImageView ImageView5 = (ImageView) findViewById(R.id.image3);
         Picasso.get().load("https://s2.uupload.ir/files/gsmarena-com-logo-vector_b5sw.jpg").into(ImageView5);
-
-    }
-
-    private void DomainName(String s) {
-
-        Intent intent = new Intent(Ph_a73_full.this, Webview_activity.class);
-        intent.putExtra("domin",s);
-        startActivity(intent);
 
     }
 }

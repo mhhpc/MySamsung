@@ -7,6 +7,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -63,16 +64,18 @@ public class Ph_note20_check extends AppCompatActivity {
         // Onclick
         @SuppressLint("CutPasteId") CardView b1 = (CardView) findViewById(R.id.ncv1);
         b1.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                DomainName("https://www.samsung.com/uk/smartphones/galaxy-note/galaxy-note20-5g-mystic-bronze-256gb-certified-re-newed-sm5n981bzngeub/");
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.samsung.com/uk/smartphones/galaxy-note/galaxy-note20-5g-mystic-bronze-256gb-certified-re-newed-sm5n981bzngeub/"));
+                startActivity(intentRate);
             }
         });
         @SuppressLint("CutPasteId") CardView b2 = (CardView) findViewById(R.id.ncv2);
         b2.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                DomainName("https://www.zoomit.ir/mobile-review/361700-samsung-galaxy-note-20-ultra-review/");
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.zoomit.ir/mobile-review/361700-samsung-galaxy-note-20-ultra-review/"));
+                startActivity(intentRate);
             }
         });
 
@@ -88,13 +91,6 @@ public class Ph_note20_check extends AppCompatActivity {
 
         ImageView imageView4 = (ImageView) findViewById(R.id.image2);
         Picasso.get().load("https://s2.uupload.ir/files/2019-7-0a8eee1d-c70b-4033-95c8-ea1b2615aa64-638baac6506e38df57e9cb02_gqp9.jpg").into(imageView4);
-
-    }
-    private void DomainName(String s) {
-
-        Intent intent = new Intent(Ph_note20_check.this, Webview_activity.class);
-        intent.putExtra("domin",s);
-        startActivity(intent);
 
     }
 }

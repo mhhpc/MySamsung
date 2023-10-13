@@ -7,6 +7,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -80,23 +81,26 @@ public class Ph_zfold4_picture extends AppCompatActivity {
         // Onclick
         @SuppressLint("CutPasteId") CardView b1 = (CardView) findViewById(R.id.ncv1);
         b1.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                DomainName("https://www.samsung.com/iran/smartphones/galaxy-z-fold4/showroom/#see-in-360");
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.samsung.com/iran/smartphones/galaxy-z-fold4/showroom/#see-in-360"));
+                startActivity(intentRate);
             }
         });
         @SuppressLint("CutPasteId") CardView b2 = (CardView) findViewById(R.id.ncv2);
         b2.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                DomainName("https://www.gsmarena.com/samsung_galaxy_z_fold4-pictures-11737.php");
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.gsmarena.com/samsung_galaxy_z_fold4-pictures-11737.php"));
+                startActivity(intentRate);
             }
         });
         @SuppressLint("CutPasteId") CardView b3 = (CardView) findViewById(R.id.ncv3);
         b3.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                DomainName("https://www.zoomit.ir/product/samsung-galaxy-z-fold-4/photos/");
+                Intent intentRate = new Intent(Intent.ACTION_VIEW);
+                intentRate.setData(Uri.parse("https://www.zoomit.ir/product/samsung-galaxy-z-fold-4/photos/"));
+                startActivity(intentRate);
             }
         });
 
@@ -130,14 +134,6 @@ public class Ph_zfold4_picture extends AppCompatActivity {
 
         ImageView imageView10 = (ImageView) findViewById(R.id.image3);
         Picasso.get().load("https://s2.uupload.ir/files/2019-7-0a8eee1d-c70b-4033-95c8-ea1b2615aa64-638baac6506e38df57e9cb02_gqp9.jpg").into(imageView10);
-
-    }
-
-    private void DomainName(String s) {
-
-        Intent intent = new Intent(Ph_zfold4_picture.this, Webview_activity.class);
-        intent.putExtra("domin",s);
-        startActivity(intent);
 
     }
 }
