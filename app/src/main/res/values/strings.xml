@@ -2,7 +2,7 @@
     <string name="app_name">MySamsung</string>
     <string name="app_name_persian">سامسونگ من</string>
 
-    <string name="app_version">نسخه 1.0.3</string>
+    <string name="app_version">نسخه 1.0.4</string>
 
     <string name="title_suggest">پیشنهادات</string>
 
@@ -127,9 +127,11 @@
     <string name="about_b2">امتیاز به برنامه</string>
     <string name="about_b3">اشتراک گذاری برنامه</string>
     <string name="about_t">حمایت از ما</string>
+    <string name="about_t2">(:</string>
     <string name="about_tx1">ساخته شده توسط محمد حسین حمیدی</string>
     <string name="about_tx2">Copyright © 1401-1402 MHH Releases</string>
-    <string name="about_tx3">1 Mehr 1402 Released</string>
+    <string name="about_tx3">25 Mehr 1402 Released</string>
+    <string name="about_tx4">تمامی محتوای موجود در این برنامه متعلق به تیم (سامسونگ من) می‌باشد</string>
 
     //Ertebat_activity
     <string name="ertebat_title">ارتباط با ما</string>
@@ -264,8 +266,8 @@
 
     //Goodlock_guide
     <string name="goodlock_guide_title">راهنمایی</string>
-    <string name="goodlock_guide_t1">شما می‌توانید افزونه های GoodLock و GoodGuardian را از طریق دکمه های موجود (GalaxyStore , APKMirror , موبایل‌روز) دانلود کنید و با کلیک کردن بر روی کادر مربوط به آن افزونه از برنامه مربوطه استفاده کنید. \n\n
-    دقت کنید که از نظر ما همچنان بهترین روش دانلود افزونه ها، دانلود از طریق GalaxyStore می‌باشد. اما اگر به دلیل وجود محدودیت ها نتوانستید از طریق GalaxyStore دانلود کنید، می‌توانید از APKMirror افزونه مورد نظر را دانلود کنید. دقت داشته باشید که برای ورود به سایت APKMirror و دانلود افزونه باید از ابزار های تحریم شکن (تغییر ip) استفاده کنید. و در آخر اگر با این روش هم مشکل داشتید می‌توانید از بخش *موبایل روز* افزونه خود را دانلود کنید. اما توجه داشته باشید که امکان دارد که افزونه موجود در این روش، نسخه بروز نباشد.</string>
+    <string name="goodlock_guide_t1">شما می‌توانید افزونه های GoodLock و GoodGuardian را با کلیک کردن بر روی کادر مربوط به آن، پیدا، و از آنها بدون تحریم استفاده کنید. \n\n
+    دقت کنید که از نظر ما همچنان بهترین روش دانلود افزونه ها، دانلود از طریق GalaxyStore می‌باشد. اما اگر به دلیل وجود محدودیت ها نتوانستید از طریق GalaxyStore دانلود کنید، می‌توانید از APKMirror افزونه مورد نظر را دانلود کنید. دقت داشته باشید که برای ورود به سایت APKMirror و دانلود افزونه باید از ابزار های تحریم شکن (تغییر ip) استفاده کنید.</string>
     <string name="goodlock_guide_t2">دستگاه های دارای One UI Core که شامل سری A00 هستند و همچنین همه سری های M و F از افزونه های GoodLock پشتیبانی نمی‌کنند. \n\n
     سری A10 و A20 فقط با افزونه های بخش Family سازگار هستند. \n\n
     دقت کنید که ممکن است برخی از افزونه ها به دلیل محدودیت نرم‌افزاری روی سری های A10 و A20 و A30 و J قابل نصب نباشند. \n\n
@@ -285,7 +287,7 @@
     <string name="fake_call_title">تماس جعلی</string>
     <string name="fake_call_bt1">تماس جعلی</string>
     <string name="fake_call_t1">سامسونگ اخیرا یه قابلیت مخفی روی گوشی هاش قرار داده که با اون میتونی تماس جعلی بگیری</string>
-    <string name="fake_call_t2">تنها مشکلی که وجود داره اینه که این قابلیت فقط برای اندروید 12 و 13 فعال هست و گوشی هایی که این آپدیت ها رو ندارن نمیتونن ازش استفاده کنن</string>
+    <string name="fake_call_t2">تنها مشکلی که وجود داره اینه که این قابلیت فقط برای اندروید 12 و 13 (نه کمتر و نه بیشتر!) فعال هست و گوشی هایی که این آپدیت ها رو ندارن نمیتونن ازش استفاده کنن</string>
     <string name="fake_call_t3">همچنین علاوه بر تماس جعلی میتونی چندتا از ویژگی های تماس رو شخصی سازی کنی که در ادامه به طور کامل بهش پرداختیم</string>
     <string name="fake_call_t4">خب برای شروع اول رو دکمه زیر بزن تا وارد تنظیمات تماس جعلی بشی</string>
     <string name="fake_call_t5">تو قسمت 1 میتونی تماس جعلی بگیری</string>

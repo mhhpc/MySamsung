@@ -43,9 +43,7 @@ public class About_activity extends AppCompatActivity {
         final TextView t2 = findViewById(R.id.tx1);
         final TextView t3 = findViewById(R.id.tx2);
         final CardView t4 = findViewById(R.id.cardView);
-        final TextView t7 = findViewById(R.id.tx3);
-        final TextView t8 = findViewById(R.id.tx4);
-        final TextView t9 = findViewById(R.id.tx5);
+        final CardView t5 = findViewById(R.id.cardView2);
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -58,9 +56,7 @@ public class About_activity extends AppCompatActivity {
                 t2.setVisibility(View.VISIBLE);
                 t3.setVisibility(View.VISIBLE);
                 t4.setVisibility(View.VISIBLE);
-                t7.setVisibility(View.VISIBLE);
-                t8.setVisibility(View.VISIBLE);
-                t9.setVisibility(View.VISIBLE);
+                t5.setVisibility(View.VISIBLE);
             }
         },200);
 
