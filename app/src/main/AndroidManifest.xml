@@ -16,6 +16,27 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".phones.galaxy_a.Ph_a54"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_a.Ph_a34"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_z.Ph_zfold5"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_z.Ph_zflip5"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_s.Ph_s23ultra"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_s.Ph_s23plus"
+            android:exported="false" />
+        <activity
+            android:name=".phones.galaxy_s.Ph_s23"
+            android:exported="false" />
+        <activity
             android:name=".year.Year_2018"
             android:exported="false" />
         <activity

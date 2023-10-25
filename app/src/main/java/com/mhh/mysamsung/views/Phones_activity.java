@@ -19,8 +19,10 @@ import android.widget.TextView;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.phones.galaxy_a.Ph_a33;
+import com.mhh.mysamsung.phones.galaxy_a.Ph_a34;
 import com.mhh.mysamsung.phones.galaxy_a.Ph_a52s;
 import com.mhh.mysamsung.phones.galaxy_a.Ph_a53;
+import com.mhh.mysamsung.phones.galaxy_a.Ph_a54;
 import com.mhh.mysamsung.phones.galaxy_a.Ph_a73;
 import com.mhh.mysamsung.phones.galaxy_f.Ph_f13;
 import com.mhh.mysamsung.phones.galaxy_f.Ph_f23;
@@ -38,13 +40,18 @@ import com.mhh.mysamsung.phones.galaxy_s.Ph_s21fe;
 import com.mhh.mysamsung.phones.galaxy_s.Ph_s22;
 import com.mhh.mysamsung.phones.galaxy_s.Ph_s22plus;
 import com.mhh.mysamsung.phones.galaxy_s.Ph_s22ultra;
+import com.mhh.mysamsung.phones.galaxy_s.Ph_s23;
+import com.mhh.mysamsung.phones.galaxy_s.Ph_s23plus;
+import com.mhh.mysamsung.phones.galaxy_s.Ph_s23ultra;
 import com.mhh.mysamsung.phones.galaxy_tab.Ph_tab_s8;
 import com.mhh.mysamsung.phones.galaxy_tab.Ph_tab_s8plus;
 import com.mhh.mysamsung.phones.galaxy_tab.Ph_tab_s8ultra;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip3;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip4;
+import com.mhh.mysamsung.phones.galaxy_z.Ph_zflip5;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold3;
 import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold4;
+import com.mhh.mysamsung.phones.galaxy_z.Ph_zfold5;
 import com.squareup.picasso.Picasso;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
@@ -75,6 +82,13 @@ public class Phones_activity extends AppCompatActivity {
         //Animation ------------
         final ViewGroup r = findViewById(R.id.phones);
         final TextView t0 = findViewById(R.id.tv1);
+        final LinearLayout t106 = findViewById(R.id.ll106);
+        final LinearLayout t105 = findViewById(R.id.ll105);
+        final LinearLayout t104 = findViewById(R.id.ll104);
+        final LinearLayout t103 = findViewById(R.id.ll103);
+        final LinearLayout t102 = findViewById(R.id.ll102);
+        final LinearLayout t101 = findViewById(R.id.ll101);
+        final LinearLayout t100 = findViewById(R.id.ll100);
         final LinearLayout t1 = findViewById(R.id.ll1);
         final LinearLayout t2 = findViewById(R.id.ll2);
         final LinearLayout t3 = findViewById(R.id.ll3);
@@ -110,6 +124,13 @@ public class Phones_activity extends AppCompatActivity {
                 transition.setDuration(1200);
                 TransitionManager.beginDelayedTransition(r,transition);
                 t0.setVisibility(View.VISIBLE);
+                t106.setVisibility(View.VISIBLE);
+                t105.setVisibility(View.VISIBLE);
+                t104.setVisibility(View.VISIBLE);
+                t103.setVisibility(View.VISIBLE);
+                t102.setVisibility(View.VISIBLE);
+                t101.setVisibility(View.VISIBLE);
+                t100.setVisibility(View.VISIBLE);
                 t1.setVisibility(View.VISIBLE);
                 t2.setVisibility(View.VISIBLE);
                 t3.setVisibility(View.VISIBLE);
@@ -141,6 +162,27 @@ public class Phones_activity extends AppCompatActivity {
         },200);
 
         //Image links
+
+        CircleImageView circleImageView106 = (CircleImageView) findViewById(R.id.fciv106);
+        Picasso.get().load("https://s6.uupload.ir/files/sm-f946bzkdafa-2_4cvq.jpg").placeholder(R.drawable.phone).into(circleImageView106);
+
+        CircleImageView circleImageView105 = (CircleImageView) findViewById(R.id.fciv105);
+        Picasso.get().load("https://s6.uupload.ir/files/sm-f731blgaafa-2_fbap.jpg").placeholder(R.drawable.phone).into(circleImageView105);
+
+        CircleImageView circleImageView104 = (CircleImageView) findViewById(R.id.fciv104);
+        Picasso.get().load("https://s6.uupload.ir/files/sm-a546ezkaafa-2_3oqc.jpg").placeholder(R.drawable.phone).into(circleImageView104);
+
+        CircleImageView circleImageView103 = (CircleImageView) findViewById(R.id.fciv103);
+        Picasso.get().load("https://s6.uupload.ir/files/sm-a346ezsaafa-2_yu5k.jpg").placeholder(R.drawable.phone).into(circleImageView103);
+
+        CircleImageView circleImageView102 = (CircleImageView) findViewById(R.id.fciv102);
+        Picasso.get().load("https://s6.uupload.ir/files/sm-s918bzgcafa-2_avwv.jpg").placeholder(R.drawable.phone).into(circleImageView102);
+
+        CircleImageView circleImageView101 = (CircleImageView) findViewById(R.id.fciv101);
+        Picasso.get().load("https://s6.uupload.ir/files/sm-s911bzkcafa-1_axff.jpg").placeholder(R.drawable.phone).into(circleImageView101);
+
+        CircleImageView circleImageView100 = (CircleImageView) findViewById(R.id.fciv100);
+        Picasso.get().load("https://s6.uupload.ir/files/s23-cotton-600x600_tax8.jpg").placeholder(R.drawable.phone).into(circleImageView100);
 
         CircleImageView circleImageView = (CircleImageView) findViewById(R.id.fciv1);
         Picasso.get().load("https://s6.uupload.ir/files/galaxy-z-fold4-share-image_ljha.jpg").placeholder(R.drawable.phone).into(circleImageView);
@@ -233,6 +275,55 @@ public class Phones_activity extends AppCompatActivity {
         tv1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(Phones_activity.this , Search_activity.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") LinearLayout civ106 = (LinearLayout) findViewById(R.id.ll106);
+        civ106.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Phones_activity.this , Ph_zfold5.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") LinearLayout civ105 = (LinearLayout) findViewById(R.id.ll105);
+        civ105.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Phones_activity.this , Ph_zflip5.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") LinearLayout civ104 = (LinearLayout) findViewById(R.id.ll104);
+        civ104.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Phones_activity.this , Ph_a54.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") LinearLayout civ103 = (LinearLayout) findViewById(R.id.ll103);
+        civ103.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Phones_activity.this , Ph_a34.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") LinearLayout civ102 = (LinearLayout) findViewById(R.id.ll102);
+        civ102.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Phones_activity.this , Ph_s23ultra.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") LinearLayout civ101 = (LinearLayout) findViewById(R.id.ll101);
+        civ101.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Phones_activity.this , Ph_s23plus.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") LinearLayout civ100 = (LinearLayout) findViewById(R.id.ll100);
+        civ100.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Phones_activity.this , Ph_s23.class));
             }
         });
 

@@ -91,15 +91,6 @@ public class Year_activity extends AppCompatActivity {
         ImageView ImageView5 = (ImageView) findViewById(R.id.iv5);
         Picasso.get().load("https://s6.uupload.ir/files/new-year-2018_8gul.jpg").into(ImageView5);
 
-        //Toast ------------
-        cardView1 = findViewById(R.id.cv1);
-        cardView1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                StyleableToast.makeText(getApplicationContext(), getString(R.string.coming_soon), Toast.LENGTH_LONG, R.style.soon_toast).show();
-            }
-        });
-
         //onclick suggest
         @SuppressLint("CutPasteId") TextView sg = (TextView) findViewById(R.id.tx2);
         sg.setOnClickListener(new View.OnClickListener() {
@@ -109,6 +100,13 @@ public class Year_activity extends AppCompatActivity {
         });
 
         //onclick
+        @SuppressLint("CutPasteId") CardView crd1 = (CardView) findViewById(R.id.cv1);
+        crd1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Year_activity.this , Year_2023.class));
+            }
+        });
+
         @SuppressLint("CutPasteId") CardView crd2 = (CardView) findViewById(R.id.cv2);
         crd2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

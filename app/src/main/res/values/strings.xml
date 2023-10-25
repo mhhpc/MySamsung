@@ -63,6 +63,13 @@
 
     //Phones_activity
     <string name="phones_title">همه گوشی های سامسونگ</string>
+    <string name="phones_zfold5">Galaxy Z Fold5</string>
+    <string name="phones_zflip5">Galaxy Z Flip5</string>
+    <string name="phones_a54">Galaxy A54 5G</string>
+    <string name="phones_a34">Galaxy A34 5G</string>
+    <string name="phones_s23ultra">Galaxy S23 Ultra</string>
+    <string name="phones_s23plus">Galaxy S23 Plus</string>
+    <string name="phones_s23">Galaxy S23</string>
     <string name="phones_zfold4">Galaxy Z Fold4</string>
     <string name="phones_zflip4">Galaxy Z Flip4</string>
     <string name="phones_zfold3">Galaxy Z Fold3</string>
@@ -91,18 +98,25 @@
     <string name="phones_j6">Galaxy J6</string>
     <string name="phones_j4">Galaxy J4</string>
 
-    <string name="phones_des_zfold4">بهترین پرچمدار تاشدنی</string>
+    <string name="phones_des_zfold5">بهترین پرچمدار تاشدنی 2022</string>
+    <string name="phones_des_zflip5">پرچمدار تاشدنی کوچک</string>
+    <string name="phones_des_a54">قدرتمندترین میانرده 2023</string>
+    <string name="phones_des_a34">میانرده ای قدرتمند</string>
+    <string name="phones_des_s23ultra">بهترین پرچمدار</string>
+    <string name="phones_des_s23plus">پرچمدار</string>
+    <string name="phones_des_s23">پرچمدار</string>
+    <string name="phones_des_zfold4">بهترین پرچمدار تاشدنی 2022</string>
     <string name="phones_des_zflip4">پرچمدار تاشدنی کوچک</string>
-    <string name="phones_des_zfold3">بهترین پرچمدار تاشدنی</string>
+    <string name="phones_des_zfold3">بهترین پرچمدار تاشدنی 2021</string>
     <string name="phones_des_zflip3">پرچمدار تاشدنی کوچک</string>
-    <string name="phones_des_a73">قدرتمندترین میانرده</string>
+    <string name="phones_des_a73">قدرتمندترین میانرده 2022</string>
     <string name="phones_des_a53">میانرده ای قدرتمند</string>
     <string name="phones_des_a33">میانرده ای قدرتمند</string>
-    <string name="phones_des_s22ultra">بهترین پرچمدار</string>
-    <string name="phones_des_s22plus">پرچمدار</string>
-    <string name="phones_des_s22">پرچمدار</string>
+    <string name="phones_des_s22ultra">بهترین پرچمدار 2022</string>
+    <string name="phones_des_s22plus">پرچمدار 2022</string>
+    <string name="phones_des_s22">پرچمدار 2022</string>
     <string name="phones_des_s21fe">پرچمدار اقتصادی</string>
-    <string name="phones_des_a52s">میانرده ای قدرتمند</string>
+    <string name="phones_des_a52s">قدرتمندترین میانرده 2021</string>
     <string name="phones_des_note20ultra">درحد پرچمدار</string>
     <string name="phones_des_note20_5g">درحد پرچمدار</string>
     <string name="phones_des_note20">درحد پرچمدار</string>

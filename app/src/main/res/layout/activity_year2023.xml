@@ -6,4 +6,319 @@
     android:layout_height="match_parent"
     tools:context=".year.Year_2023">
 
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ctr_bg">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            style="@style/AppbarTitle2">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                style="@style/CollapsingToolbarLayout2"
+                app:title="@string/year_2023">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    style="@style/Toolbar" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/year2023"
+            style="@style/NestedScrollView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/corner_text"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/search_hint"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25sp"
+                    android:visibility="invisible" />
+
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    style="@style/TipsLinearLayout"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fcv1"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardBackgroundColor="#FF80ED"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/fciv1"
+                                style="@style/CircleImage_phones3"
+                                android:layout_alignParentRight="true" />
+
+                            <TextView
+                                android:id="@+id/ftv1"
+                                style="@style/PhonesTextCardview1"
+                                android:layout_toLeftOf="@id/fciv1"
+                                android:text="@string/phones_zfold5" />
+
+                            <TextView
+                                style="@style/PhonesTextCardview2"
+                                android:layout_below="@id/ftv1"
+                                android:layout_toLeftOf="@id/fciv1"
+                                android:text="@string/phones_des_zfold5" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll2"
+                    style="@style/TipsLinearLayout"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fcv2"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardBackgroundColor="#FF80ED"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/fciv2"
+                                style="@style/CircleImage_phones3"
+                                android:layout_alignParentLeft="true" />
+
+                            <TextView
+                                android:id="@+id/ftv2"
+                                style="@style/PhonesTextCardview1"
+                                android:layout_toRightOf="@id/fciv2"
+                                android:text="@string/phones_zflip5" />
+
+                            <TextView
+                                style="@style/PhonesTextCardview2"
+                                android:layout_below="@id/ftv2"
+                                android:layout_toRightOf="@id/fciv2"
+                                android:text="@string/phones_des_zflip5" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll3"
+                    style="@style/TipsLinearLayout"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fcv3"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardBackgroundColor="#E6E6FA"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/fciv3"
+                                style="@style/CircleImage_phones3"
+                                android:layout_alignParentRight="true" />
+
+                            <TextView
+                                android:id="@+id/ftv3"
+                                style="@style/PhonesTextCardview1"
+                                android:layout_toLeftOf="@id/fciv3"
+                                android:text="@string/phones_a54" />
+
+                            <TextView
+                                style="@style/PhonesTextCardview2"
+                                android:layout_below="@id/ftv3"
+                                android:layout_toLeftOf="@id/fciv3"
+                                android:text="@string/phones_des_a54" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll4"
+                    style="@style/TipsLinearLayout"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fcv4"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardBackgroundColor="#E6E6FA"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/fciv4"
+                                style="@style/CircleImage_phones3"
+                                android:layout_alignParentLeft="true" />
+
+                            <TextView
+                                android:id="@+id/ftv4"
+                                style="@style/PhonesTextCardview1"
+                                android:layout_toRightOf="@id/fciv4"
+                                android:text="@string/phones_a34" />
+
+                            <TextView
+                                style="@style/PhonesTextCardview2"
+                                android:layout_below="@id/ftv4"
+                                android:layout_toRightOf="@id/fciv4"
+                                android:text="@string/phones_des_a34" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll5"
+                    style="@style/TipsLinearLayout"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fcv5"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardBackgroundColor="#00FFFF"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/fciv5"
+                                style="@style/CircleImage_phones3"
+                                android:layout_alignParentRight="true" />
+
+                            <TextView
+                                android:id="@+id/ftv5"
+                                style="@style/PhonesTextCardview1"
+                                android:layout_toLeftOf="@id/fciv5"
+                                android:text="@string/phones_s23ultra" />
+
+                            <TextView
+                                style="@style/PhonesTextCardview2"
+                                android:layout_below="@id/ftv5"
+                                android:layout_toLeftOf="@id/fciv5"
+                                android:text="@string/phones_des_s23ultra" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll6"
+                    style="@style/TipsLinearLayout"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fcv6"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardBackgroundColor="#00FFFF"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/fciv6"
+                                style="@style/CircleImage_phones3"
+                                android:layout_alignParentLeft="true" />
+
+                            <TextView
+                                android:id="@+id/ftv6"
+                                style="@style/PhonesTextCardview1"
+                                android:layout_toRightOf="@id/fciv6"
+                                android:text="@string/phones_s23plus" />
+
+                            <TextView
+                                style="@style/PhonesTextCardview2"
+                                android:layout_below="@id/ftv6"
+                                android:layout_toRightOf="@id/fciv6"
+                                android:text="@string/phones_des_s23plus" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll7"
+                    style="@style/TipsLinearLayout"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fcv7"
+                        style="@style/TipsCardViewGoodlock"
+                        app:cardBackgroundColor="#00FFFF"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/fciv7"
+                                style="@style/CircleImage_phones3"
+                                android:layout_alignParentRight="true" />
+
+                            <TextView
+                                android:id="@+id/ftv7"
+                                style="@style/PhonesTextCardview1"
+                                android:layout_toLeftOf="@id/fciv7"
+                                android:text="@string/phones_s23" />
+
+                            <TextView
+                                style="@style/PhonesTextCardview2"
+                                android:layout_below="@id/ftv7"
+                                android:layout_toLeftOf="@id/fciv7"
+                                android:text="@string/phones_des_s23" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
