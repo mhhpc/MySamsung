@@ -121,7 +121,7 @@
                                 android:id="@+id/ftv105"
                                 style="@style/PhonesTextCardview1"
                                 android:layout_toLeftOf="@id/fciv105"
-                                android:text="@string/phones_zfold5" />
+                                android:text="@string/phones_zflip5" />
 
                             <TextView
                                 style="@style/PhonesTextCardview2"

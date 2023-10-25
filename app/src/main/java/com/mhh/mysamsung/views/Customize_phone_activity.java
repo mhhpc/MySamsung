@@ -17,8 +17,10 @@ import android.widget.Toast;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mhh.mysamsung.R;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a33_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a34_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a52s_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a53_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a54_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_a.Ph_a73_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_note.Ph_note20_5g_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_note.Ph_note20_compare;
@@ -27,12 +29,19 @@ import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s21fe_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s22_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s22plus_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s22ultra_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s23_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s23plus_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_s.Ph_s23ultra_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zflip3_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zflip4_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zflip5_compare;
 import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zfold3_compare;
+import com.mhh.mysamsung.phones_detail.compare.galaxy_z.Ph_zfold5_compare;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_a.Ph_a33_customize;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_a.Ph_a34_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_a.Ph_a52s_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_a.Ph_a53_customize;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_a.Ph_a54_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_a.Ph_a73_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_note.Ph_note20_5g_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_note.Ph_note20_customize;
@@ -41,10 +50,15 @@ import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s21fe_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s22_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s22plus_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s22ultra_customize;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s23_customize;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s23plus_customize;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_s.Ph_s23ultra_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_z.Ph_zflip3_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_z.Ph_zflip4_customize;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_z.Ph_zflip5_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_z.Ph_zfold3_customize;
 import com.mhh.mysamsung.phones_detail.customize.galaxy_z.Ph_zfold4_customize;
+import com.mhh.mysamsung.phones_detail.customize.galaxy_z.Ph_zfold5_customize;
 import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -79,6 +93,13 @@ public class Customize_phone_activity extends AppCompatActivity {
         //Animation ------------
         final ViewGroup r = findViewById(R.id.phone_list);
         final TextView t0 = findViewById(R.id.tv1);
+        final Button t100 = findViewById(R.id.ph100);
+        final Button t101 = findViewById(R.id.ph101);
+        final Button t102 = findViewById(R.id.ph102);
+        final Button t103 = findViewById(R.id.ph103);
+        final Button t104 = findViewById(R.id.ph104);
+        final Button t105 = findViewById(R.id.ph105);
+        final Button t106 = findViewById(R.id.ph106);
         final Button t1 = findViewById(R.id.ph1);
         final Button t2 = findViewById(R.id.ph2);
         final Button t3 = findViewById(R.id.ph3);
@@ -113,6 +134,13 @@ public class Customize_phone_activity extends AppCompatActivity {
                 Transition transition = new Slide();
                 transition.setDuration(1200);
                 TransitionManager.beginDelayedTransition(r,transition);
+                t100.setVisibility(View.VISIBLE);
+                t101.setVisibility(View.VISIBLE);
+                t102.setVisibility(View.VISIBLE);
+                t103.setVisibility(View.VISIBLE);
+                t104.setVisibility(View.VISIBLE);
+                t105.setVisibility(View.VISIBLE);
+                t106.setVisibility(View.VISIBLE);
                 t0.setVisibility(View.VISIBLE);
                 t1.setVisibility(View.VISIBLE);
                 t2.setVisibility(View.VISIBLE);
@@ -145,6 +173,56 @@ public class Customize_phone_activity extends AppCompatActivity {
         },200);
 
         //onclock
+
+        @SuppressLint("CutPasteId") Button bt100 = (Button) findViewById(R.id.ph100);
+        bt100.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Customize_phone_activity.this , Ph_zfold5_customize.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt101 = (Button) findViewById(R.id.ph101);
+        bt101.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Customize_phone_activity.this , Ph_zflip5_customize.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt102 = (Button) findViewById(R.id.ph102);
+        bt102.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Customize_phone_activity.this , Ph_a54_customize.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt103 = (Button) findViewById(R.id.ph103);
+        bt103.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Customize_phone_activity.this , Ph_a34_customize.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt104 = (Button) findViewById(R.id.ph104);
+        bt104.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Customize_phone_activity.this , Ph_s23ultra_customize.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt105 = (Button) findViewById(R.id.ph105);
+        bt105.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Customize_phone_activity.this , Ph_s23plus_customize.class));
+            }
+        });
+
+        @SuppressLint("CutPasteId") Button bt106 = (Button) findViewById(R.id.ph106);
+        bt106.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Customize_phone_activity.this , Ph_s23_customize.class));
+            }
+        });
+
         @SuppressLint("CutPasteId") TextView txt1 = (TextView) findViewById(R.id.tv1);
         txt1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

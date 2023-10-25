@@ -54,6 +54,55 @@
                     android:visibility="invisible" />
 
                 <Button
+                    android:id="@+id/ph106"
+                    style="@style/MyButton5"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/phones_zfold5" />
+
+                <Button
+                    android:id="@+id/ph105"
+                    style="@style/MyButton5"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/phones_zflip5" />
+
+                <Button
+                    android:id="@+id/ph104"
+                    style="@style/MyButton5"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/phones_a54" />
+
+                <Button
+                    android:id="@+id/ph103"
+                    style="@style/MyButton5"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/phones_a34" />
+
+                <Button
+                    android:id="@+id/ph102"
+                    style="@style/MyButton5"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/phones_s23ultra" />
+
+                <Button
+                    android:id="@+id/ph101"
+                    style="@style/MyButton5"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/phones_s23plus" />
+
+                <Button
+                    android:id="@+id/ph100"
+                    style="@style/MyButton5"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/phones_s23" />
+
+                <Button
                     android:id="@+id/ph1"
                     style="@style/MyButton5"
                     android:layout_marginHorizontal="10dp"

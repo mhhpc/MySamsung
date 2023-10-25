@@ -51,7 +51,7 @@
                     android:layout_below="@+id/civ1"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="5dp"
-                    android:text="@string/phones_a73" />
+                    android:text="@string/phones_a54" />
 
                 <LinearLayout
                     android:id="@+id/main"
@@ -82,28 +82,144 @@
                     <TextView
                         android:id="@+id/tv2"
                         style="@style/SeriesTextView3"
-                        android:text="@string/phones_a53" />
+                        android:text="@string/phones_a34" />
 
                     <TextView
                         android:id="@+id/tv3"
                         style="@style/SeriesTextView3"
-                        android:text="@string/phones_a52s" />
+                        android:text="@string/phones_a73" />
 
                 </LinearLayout>
 
 
-                <Button
-                    android:id="@+id/b1"
-                    style="@style/MyButton2"
-                    android:layout_below="@+id/view"
-                    android:layout_marginHorizontal="22dp"
-                    android:layout_marginTop="15dp"
-                    android:text="@string/phones_a33" />
+                <LinearLayout
+                    android:id="@+id/lila"
+                    android:layout_below="@id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll1"
+                        style="@style/TipsLinearLayout"
+                        android:layout_marginTop="5dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/fcv1"
+                            style="@style/TipsCardViewGoodlock"
+                            app:cardBackgroundColor="#E6E6FA"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/fciv1"
+                                    style="@style/CircleImage_phones3"
+                                    android:layout_alignParentRight="true" />
+
+                                <TextView
+                                    android:id="@+id/ftv1"
+                                    style="@style/PhonesTextCardview1"
+                                    android:layout_toLeftOf="@id/fciv1"
+                                    android:text="@string/phones_a52s" />
+
+                                <TextView
+                                    style="@style/PhonesTextCardview2"
+                                    android:layout_below="@id/ftv1"
+                                    android:layout_toLeftOf="@id/fciv1"
+                                    android:text="@string/phones_des_a52s" />
+
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll2"
+                        style="@style/TipsLinearLayout"
+                        android:layout_marginTop="5dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/fcv2"
+                            style="@style/TipsCardViewGoodlock"
+                            app:cardBackgroundColor="#E6E6FA"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/fciv2"
+                                    style="@style/CircleImage_phones3"
+                                    android:layout_alignParentLeft="true" />
+
+                                <TextView
+                                    android:id="@+id/ftv2"
+                                    style="@style/PhonesTextCardview1"
+                                    android:layout_toRightOf="@id/fciv2"
+                                    android:text="@string/phones_a53" />
+
+                                <TextView
+                                    style="@style/PhonesTextCardview2"
+                                    android:layout_below="@id/ftv2"
+                                    android:layout_toRightOf="@id/fciv2"
+                                    android:text="@string/phones_des_a53" />
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll3"
+                        style="@style/TipsLinearLayout"
+                        android:layout_marginTop="5dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/fcv3"
+                            style="@style/TipsCardViewGoodlock"
+                            app:cardBackgroundColor="#E6E6FA"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/fciv3"
+                                    style="@style/CircleImage_phones3"
+                                    android:layout_alignParentRight="true" />
+
+                                <TextView
+                                    android:id="@+id/ftv3"
+                                    style="@style/PhonesTextCardview1"
+                                    android:layout_toLeftOf="@id/fciv3"
+                                    android:text="@string/phones_a33" />
+
+                                <TextView
+                                    style="@style/PhonesTextCardview2"
+                                    android:layout_below="@id/ftv3"
+                                    android:layout_toLeftOf="@id/fciv3"
+                                    android:text="@string/phones_des_a33" />
+
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv1"
                     style="@style/SuggestCardView"
-                    android:layout_below="@+id/b1"
+                    android:layout_below="@+id/lila"
                     android:layout_marginHorizontal="15dp">
 
                     <RelativeLayout
