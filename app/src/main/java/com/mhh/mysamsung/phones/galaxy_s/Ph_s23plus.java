@@ -11,6 +11,6 @@ public class Ph_s23plus extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ph_s23plus);
+        setContentView(R.layout.activity_phone_main);
     }
 }

@@ -11,6 +11,6 @@ public class Ph_zfold5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ph_zfold5);
+        setContentView(R.layout.activity_phone_main);
     }
 }

@@ -514,6 +514,26 @@
     // Galaxy Z **********************
     //###
 
+    //ph_zfold5
+    <string name="ph_zfold5_screen1">7.6 اینچ</string>
+    <string name="ph_zfold5_screen2">1812 x 2176 پیکسل</string>
+    <string name="ph_zfold5_hardware1">12 گیگابایت رم</string>
+    <string name="ph_zfold5_hardware2">Snapdragon 8 Gen 2</string>
+    <string name="ph_zfold5_camera1">50/12/10 مگاپیکسل</string>
+    <string name="ph_zfold5_camera2">سلفی 10/4 مگاپیکسل</string>
+    <string name="ph_zfold5_battery1">4400 میلی آمپر ساعت</string>
+    <string name="ph_zfold5_battery2">لیتیوم پلیمری</string>
+
+    //ph_zflip5
+    <string name="ph_zflip5_screen1">6.7 اینچ</string>
+    <string name="ph_zflip5_screen2">1080 x 2640 پیکسل</string>
+    <string name="ph_zflip5_hardware1">8 گیگابایت رم</string>
+    <string name="ph_zflip5_hardware2">Snapdragon 8 Gen 2</string>
+    <string name="ph_zflip5_camera1">12/12 مگاپیکسل</string>
+    <string name="ph_zflip5_camera2">سلفی 10 مگاپیکسل</string>
+    <string name="ph_zflip5_battery1">3700 میلی آمپر ساعت</string>
+    <string name="ph_zflip5_battery2">لیتیوم پلیمری</string>
+
     //ph_zfold4
     <string name="ph_zfold4_screen1">7.6 اینچ</string>
     <string name="ph_zfold4_screen2">1812 x 2176 پیکسل</string>
@@ -559,6 +579,26 @@
     // Galaxy A **********************
     //###
 
+    //ph_a54 5G
+    <string name="ph_a54_screen1">6.4 اینچ</string>
+    <string name="ph_a54_screen2">1080 x 2340 پیکسل</string>
+    <string name="ph_a54_hardware1">6/8 گیگابایت رم</string>
+    <string name="ph_a54_hardware2">Exynos 1380</string>
+    <string name="ph_a54_camera1">50/12/5 مگاپیکسل</string>
+    <string name="ph_a54_camera2">سلفی 32 مگاپیکسل</string>
+    <string name="ph_a54_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_a54_battery2">لیتیوم پلیمری</string>
+
+    //ph_a34 5G
+    <string name="ph_a34_screen1">6.6 اینچ</string>
+    <string name="ph_a34_screen2">1080 x 2340 پیکسل</string>
+    <string name="ph_a34_hardware1">6/8 گیگابایت رم</string>
+    <string name="ph_a34_hardware2">Dimensity 1080</string>
+    <string name="ph_a34_camera1">48/8/5 مگاپیکسل</string>
+    <string name="ph_a34_camera2">سلفی 13 مگاپیکسل</string>
+    <string name="ph_a34_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_a34_battery2">لیتیوم پلیمری</string>
+
     //ph_a73 5G
     <string name="ph_a73_screen1">6.7 اینچ</string>
     <string name="ph_a73_screen2">1080 x 2400 پیکسل</string>
@@ -602,6 +642,36 @@
     //###
     // Galaxy S **********************
     //###
+
+    //ph_s23ultra
+    <string name="ph_s23ultra_screen1">6.8 اینچ</string>
+    <string name="ph_s23ultra_screen2">1440 x 3080 پیکسل</string>
+    <string name="ph_s23ultra_hardware1">8/12 گیگابایت رم</string>
+    <string name="ph_s23ultra_hardware2">Snapdragon 8 Gen 2</string>
+    <string name="ph_s23ultra_camera1">200/12/10/10 مگاپیکسل</string>
+    <string name="ph_s23ultra_camera2">سلفی 12 مگاپیکسل</string>
+    <string name="ph_s23ultra_battery1">5000 میلی آمپر ساعت</string>
+    <string name="ph_s23ultra_battery2">لیتیوم یونی</string>
+
+    //ph_s23plus
+    <string name="ph_s23plus_screen1">6.6 اینچ</string>
+    <string name="ph_s23plus_screen2">1080 x 2340 پیکسل</string>
+    <string name="ph_s23plus_hardware1">8 گیگابایت رم</string>
+    <string name="ph_s23plus_hardware2">Snapdragon 8 Gen 2</string>
+    <string name="ph_s23plus_camera1">50/12/10 مگاپیکسل</string>
+    <string name="ph_s23plus_camera2">سلفی 12 مگاپیکسل</string>
+    <string name="ph_s23plus_battery1">4700 میلی آمپر ساعت</string>
+    <string name="ph_s23plus_battery2">لیتیوم یونی</string>
+
+    //ph_s23
+    <string name="ph_s23_screen1">6.1 اینچ</string>
+    <string name="ph_s23_screen2">1080 x 2340 پیکسل</string>
+    <string name="ph_s23_hardware1">8 گیگابایت رم</string>
+    <string name="ph_s23_hardware2">Snapdragon 8 Gen 2</string>
+    <string name="ph_s23_camera1">50/12/10 مگاپیکسل</string>
+    <string name="ph_s23_camera2">سلفی 12 مگاپیکسل</string>
+    <string name="ph_s23_battery1">3900 میلی آمپر ساعت</string>
+    <string name="ph_s23_battery2">لیتیوم یونی</string>
 
     //ph_s22ultra
     <string name="ph_s22ultra_screen1">6.8 اینچ</string>

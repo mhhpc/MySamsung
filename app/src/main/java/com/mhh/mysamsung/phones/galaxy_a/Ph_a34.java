@@ -11,6 +11,6 @@ public class Ph_a34 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ph_a34);
+        setContentView(R.layout.activity_phone_main);
     }
 }

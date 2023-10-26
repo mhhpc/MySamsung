@@ -133,7 +133,7 @@ public class Customize_phone_activity extends AppCompatActivity {
             public void run() {
                 Transition transition = new Slide();
                 transition.setDuration(1200);
-                TransitionManager.beginDelayedTransition(r,transition);
+                TransitionManager.beginDelayedTransition(r, transition);
                 t100.setVisibility(View.VISIBLE);
                 t101.setVisibility(View.VISIBLE);
                 t102.setVisibility(View.VISIBLE);
@@ -170,168 +170,168 @@ public class Customize_phone_activity extends AppCompatActivity {
                 t26.setVisibility(View.VISIBLE);
                 t27.setVisibility(View.VISIBLE);
             }
-        },200);
+        }, 200);
 
         //onclock
 
         @SuppressLint("CutPasteId") Button bt100 = (Button) findViewById(R.id.ph100);
         bt100.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_zfold5_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_zfold5_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt101 = (Button) findViewById(R.id.ph101);
         bt101.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_zflip5_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_zflip5_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt102 = (Button) findViewById(R.id.ph102);
         bt102.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_a54_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_a54_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt103 = (Button) findViewById(R.id.ph103);
         bt103.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_a34_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_a34_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt104 = (Button) findViewById(R.id.ph104);
         bt104.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_s23ultra_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_s23ultra_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt105 = (Button) findViewById(R.id.ph105);
         bt105.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_s23plus_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_s23plus_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt106 = (Button) findViewById(R.id.ph106);
         bt106.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_s23_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_s23_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") TextView txt1 = (TextView) findViewById(R.id.tv1);
         txt1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Search_activity.class));
+                startActivity(new Intent(Customize_phone_activity.this, Search_activity.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt1 = (Button) findViewById(R.id.ph1);
         bt1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_zfold4_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_zfold4_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt2 = (Button) findViewById(R.id.ph2);
         bt2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_zflip4_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_zflip4_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt3 = (Button) findViewById(R.id.ph3);
         bt3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_a73_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_a73_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt4 = (Button) findViewById(R.id.ph4);
         bt4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_a53_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_a53_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt5 = (Button) findViewById(R.id.ph5);
         bt5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_a33_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_a33_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt6 = (Button) findViewById(R.id.ph6);
         bt6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_s22ultra_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_s22ultra_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt7 = (Button) findViewById(R.id.ph7);
         bt7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_s22plus_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_s22plus_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt8 = (Button) findViewById(R.id.ph8);
         bt8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_s22_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_s22_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt9 = (Button) findViewById(R.id.ph9);
         bt9.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_s21fe_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_s21fe_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt10 = (Button) findViewById(R.id.ph10);
         bt10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_a52s_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_a52s_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt11 = (Button) findViewById(R.id.ph11);
         bt11.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_note20ultra_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_note20ultra_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt12 = (Button) findViewById(R.id.ph12);
         bt12.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_note20_5g_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_note20_5g_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt13 = (Button) findViewById(R.id.ph13);
         bt13.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_note20_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_note20_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt14 = (Button) findViewById(R.id.ph14);
         bt14.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_zfold3_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_zfold3_customize.class));
             }
         });
 
         @SuppressLint("CutPasteId") Button bt15 = (Button) findViewById(R.id.ph15);
         bt15.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Customize_phone_activity.this , Ph_zflip3_customize.class));
+                startActivity(new Intent(Customize_phone_activity.this, Ph_zflip3_customize.class));
             }
         });
 
