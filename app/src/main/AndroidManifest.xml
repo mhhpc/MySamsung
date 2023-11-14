@@ -52,7 +52,7 @@
             android:name=".phones_detail.full.galaxy_s.Ph_s23_full"
             android:exported="false" />
         <activity
-            android:name=".phones_detail.full.galaxy_a.Ph_a54"
+            android:name=".phones_detail.full.galaxy_a.Ph_a54_full"
             android:exported="false" />
         <activity
             android:name=".phones_detail.full.galaxy_a.Ph_a34_full"
