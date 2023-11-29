@@ -162,106 +162,139 @@ public class Phones_activity extends AppCompatActivity {
         },200);
 
         //Image links
-
+        //zfold5
         CircleImageView circleImageView106 = (CircleImageView) findViewById(R.id.fciv106);
         Picasso.get().load("https://s6.uupload.ir/files/sm-f946bzkdafa-2_4cvq.jpg").placeholder(R.drawable.phone).into(circleImageView106);
 
+        //zflip5
         CircleImageView circleImageView105 = (CircleImageView) findViewById(R.id.fciv105);
         Picasso.get().load("https://s6.uupload.ir/files/sm-f731blgaafa-2_fbap.jpg").placeholder(R.drawable.phone).into(circleImageView105);
 
+        //a54
         CircleImageView circleImageView104 = (CircleImageView) findViewById(R.id.fciv104);
         Picasso.get().load("https://s6.uupload.ir/files/sm-a546ezkaafa-2_3oqc.jpg").placeholder(R.drawable.phone).into(circleImageView104);
 
+        //a34
         CircleImageView circleImageView103 = (CircleImageView) findViewById(R.id.fciv103);
         Picasso.get().load("https://s6.uupload.ir/files/sm-a346ezsaafa-2_yu5k.jpg").placeholder(R.drawable.phone).into(circleImageView103);
 
+        //s23ultra
         CircleImageView circleImageView102 = (CircleImageView) findViewById(R.id.fciv102);
         Picasso.get().load("https://s6.uupload.ir/files/sm-s918bzgcafa-2_avwv.jpg").placeholder(R.drawable.phone).into(circleImageView102);
 
+        //s23plus
         CircleImageView circleImageView101 = (CircleImageView) findViewById(R.id.fciv101);
         Picasso.get().load("https://s6.uupload.ir/files/sm-s911bzkcafa-1_axff.jpg").placeholder(R.drawable.phone).into(circleImageView101);
 
+        //s23
         CircleImageView circleImageView100 = (CircleImageView) findViewById(R.id.fciv100);
         Picasso.get().load("https://s6.uupload.ir/files/s23-cotton-600x600_tax8.jpg").placeholder(R.drawable.phone).into(circleImageView100);
 
+        //zfold4
         CircleImageView circleImageView = (CircleImageView) findViewById(R.id.fciv1);
         Picasso.get().load("https://s6.uupload.ir/files/galaxy-z-fold4-share-image_ljha.jpg").placeholder(R.drawable.phone).into(circleImageView);
 
+        //zflip4
         CircleImageView circleImageView2 = (CircleImageView) findViewById(R.id.fciv2);
         Picasso.get().load("https://s6.uupload.ir/files/042f6098-82f6-439e-8d61-176a99ddcaff_qb74.jpg").placeholder(R.drawable.phone).into(circleImageView2);
 
+        //a73
         CircleImageView circleImageView3 = (CircleImageView) findViewById(R.id.fciv3);
         Picasso.get().load("https://s6.uupload.ir/files/182753_2020_nio9.jpg").placeholder(R.drawable.phone).into(circleImageView3);
 
+        //a53
         CircleImageView circleImageView4 = (CircleImageView) findViewById(R.id.fciv4);
         Picasso.get().load("https://s6.uupload.ir/files/182332_2020_7zu6.jpg").placeholder(R.drawable.phone).into(circleImageView4);
 
+        //a33
         CircleImageView circleImageView5 = (CircleImageView) findViewById(R.id.fciv5);
         Picasso.get().load("https://s6.uupload.ir/files/4182117_5uiw.jpg").placeholder(R.drawable.phone).into(circleImageView5);
 
+        //s22ultra
         CircleImageView circleImageView6 = (CircleImageView) findViewById(R.id.fciv6);
         Picasso.get().load("https://s6.uupload.ir/files/csm_untitled_2_7_432bb95979(1)_0m0d.jpg").placeholder(R.drawable.phone).into(circleImageView6);
 
+        //s22plus
         CircleImageView circleImageView7 = (CircleImageView) findViewById(R.id.fciv7);
         Picasso.get().load("https://s6.uupload.ir/files/s22_5w1i.jpg").placeholder(R.drawable.phone).into(circleImageView7);
 
+        //s22
         CircleImageView circleImageView8 = (CircleImageView) findViewById(R.id.fciv8);
         Picasso.get().load("https://s6.uupload.ir/files/311440-469190-medium_dcmu.jpg").placeholder(R.drawable.phone).into(circleImageView8);
 
+        //s21fe
         CircleImageView circleImageView9 = (CircleImageView) findViewById(R.id.fciv9);
         Picasso.get().load("https://s6.uupload.ir/files/celular-smartphone-samsung-galaxy-s21fe-tela-6-128gb-e-5g_660422_1_9r36.jpg").placeholder(R.drawable.phone).into(circleImageView9);
 
+        //s52s
         CircleImageView circleImageView10 = (CircleImageView) findViewById(R.id.fciv10);
         Picasso.get().load("https://s6.uupload.ir/files/4_zu_3_samsung_galaxy_a52s_8zjy.jpg").placeholder(R.drawable.phone).into(circleImageView10);
 
+        //note20ultra
         CircleImageView circleImageView11 = (CircleImageView) findViewById(R.id.fciv11);
         Picasso.get().load("https://s6.uupload.ir/files/1_ip3a.jpg").placeholder(R.drawable.phone).into(circleImageView11);
 
+        //note205g
         CircleImageView circleImageView11_5 = (CircleImageView) findViewById(R.id.fciv12);
         Picasso.get().load("https://s6.uupload.ir/files/galaxy-note-20-5g-256gb-moi-99-like-new-han-quoc-chip-snapdragon-865_5pon.jpg").placeholder(R.drawable.phone).into(circleImageView11_5);
 
+        //note20
         CircleImageView circleImageView12 = (CircleImageView) findViewById(R.id.fciv13);
         Picasso.get().load("https://s6.uupload.ir/files/003_galaxynote20_mysticbronze_front_with_pen_5vj3.jpg").placeholder(R.drawable.phone).into(circleImageView12);
 
+        //zfold3
         CircleImageView circleImageView13 = (CircleImageView) findViewById(R.id.fciv14);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-z-fold-3-s-pen_38vd.jpg").placeholder(R.drawable.phone).into(circleImageView13);
 
+        //zflip3
         CircleImageView circleImageView14 = (CircleImageView) findViewById(R.id.fciv15);
         Picasso.get().load("https://s6.uupload.ir/files/zflip3_carousel_foldunfoldcombo_phantomblack_mo_tugg.jpg").placeholder(R.drawable.phone).into(circleImageView14);
 
+        //m53
         CircleImageView circleImageView15 = (CircleImageView) findViewById(R.id.fciv16);
         Picasso.get().load("https://s6.uupload.ir/files/840_560_23ls.jpg").placeholder(R.drawable.phone).into(circleImageView15);
 
+        //m62
         CircleImageView circleImageView16 = (CircleImageView) findViewById(R.id.fciv17);
         Picasso.get().load("https://s6.uupload.ir/files/d619a06ecaea458e8e420bfe9a09096a7b3405dd_1630841890_f6ly.jpg").placeholder(R.drawable.phone).into(circleImageView16);
 
+        //m33
         CircleImageView circleImageView17 = (CircleImageView) findViewById(R.id.fciv18);
         Picasso.get().load("https://s6.uupload.ir/files/619293036__0wt2.jpg").placeholder(R.drawable.phone).into(circleImageView17);
 
+        //f23
         CircleImageView circleImageView18 = (CircleImageView) findViewById(R.id.fciv19);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-f23-aqua-green_y27t.jpg").placeholder(R.drawable.phone).into(circleImageView18);
 
+        //f42
         CircleImageView circleImageView19 = (CircleImageView) findViewById(R.id.fciv20);
         Picasso.get().load("https://s6.uupload.ir/files/samsunggalaxyf42_0bfy.jpg").placeholder(R.drawable.phone).into(circleImageView19);
 
+        //f13
         CircleImageView circleImageView20 = (CircleImageView) findViewById(R.id.fciv21);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-f13-1_sk5q.jpg").placeholder(R.drawable.phone).into(circleImageView20);
 
+        //tabs8ultra
         CircleImageView circleImageView21 = (CircleImageView) findViewById(R.id.fciv22);
         Picasso.get().load("https://s6.uupload.ir/files/tab_s8_ultra_-_brothers_(3)-800x800(1)_shd5.jpg").placeholder(R.drawable.phone).into(circleImageView21);
 
+        //tabs8plus
         CircleImageView circleImageView22 = (CircleImageView) findViewById(R.id.fciv23);
         Picasso.get().load("https://s6.uupload.ir/files/tab_s8+_brothers_(3)-800x800_rau6.jpg").placeholder(R.drawable.phone).into(circleImageView22);
 
+        //tabs8
         CircleImageView circleImageView23 = (CircleImageView) findViewById(R.id.fciv24);
         Picasso.get().load("https://s6.uupload.ir/files/92068379032934_6iho.jpg").placeholder(R.drawable.phone).into(circleImageView23);
 
+        //j8
         CircleImageView circleImageView24 = (CircleImageView) findViewById(R.id.fciv25);
         Picasso.get().load("https://s6.uupload.ir/files/گوشی-samsung-galaxy-j8-سامسونگ_zsof.jpg").placeholder(R.drawable.phone).into(circleImageView24);
 
+        //j6
         CircleImageView circleImageView25 = (CircleImageView) findViewById(R.id.fciv26);
         Picasso.get().load("https://s6.uupload.ir/files/گوشی-موبایل-سامسونگ-مدل-galaxy-j6-دو-سیم-کارت-ظرفیت-32-گیگابایت_hfqq.jpg").placeholder(R.drawable.phone).into(circleImageView25);
 
+        //j4
         CircleImageView circleImageView26 = (CircleImageView) findViewById(R.id.fciv27);
         Picasso.get().load("https://s6.uupload.ir/files/samsung-galaxy-j4_0h1f.jpg").placeholder(R.drawable.phone).into(circleImageView26);
 
