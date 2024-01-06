@@ -161,6 +161,5 @@ public class Ph_s23_customize extends AppCompatActivity {
         intent.putExtra("domin",s);
         startActivity(intent);
 
-
     }
 }
