@@ -2,7 +2,7 @@
     <string name="app_name">MySamsung</string>
     <string name="app_name_persian">سامسونگ من</string>
 
-    <string name="app_version">نسخه 1.0.4</string>
+    <string name="app_version">نسخه 1.0.4 (BETA)</string>
 
     <string name="title_suggest">پیشنهادات</string>
 
@@ -144,7 +144,7 @@
     <string name="about_t2">(:</string>
     <string name="about_tx1">ساخته شده توسط محمد حسین حمیدی</string>
     <string name="about_tx2">Copyright © 1401-1402 MHH Releases</string>
-    <string name="about_tx3">25 Mehr 1402 Released</string>
+    <string name="about_tx3">7 Bahman 1402 Released (BETA)</string>
     <string name="about_tx4">تمامی محتوای موجود در این برنامه متعلق به تیم (سامسونگ من) می‌باشد</string>
 
     //Ertebat_activity
@@ -1444,6 +1444,65 @@
     //###
     // Galaxy S Full**********************
     //###
+
+    //phones_full_s23ultra_full_tvv
+    <string name="ph_s23ultra_full_tvv1_1">1 فوریه 2023</string>
+    <string name="ph_s23ultra_full_tvv2_1">عرضه شده در 17 فوریه 2023</string>
+    <string name="ph_s23ultra_full_tvv1_2">163.4 در 78.1 در 8.9 میلی‌متر</string>
+    <string name="ph_s23ultra_full_tvv3_2">234 گرم</string>
+    <string name="ph_s23ultra_full_tvv4_2">جلوی شیشه‌ای (گوریلا گلس 2Victus)، پشت شیشه‌ای (گوریلا گلس 2Victus)، فریم آلومینیومی</string>
+    <string name="ph_s23ultra_full_tvv5_2">گواهی IP68 برای مقاوت در برابر نفوذ آب و گرد و غبار (تا 1.5 متر برای 30 دقیقه)</string>
+    <string name="ph_s23ultra_full_tvv6_2">قلم استایلوس (ادغام بلوتوث، شتاب‌سنج، ژیروسکوپ)</string>
+    <string name="ph_s23ultra_full_tvv1_3">Dynamic AMOLED 2X</string>
+    <string name="ph_s23ultra_full_tvv2_3">6.8 اینچ، 114.7 سانتی متر مربع (~89.9% نسبت صفحه نمایش به بدنه)</string>
+    <string name="ph_s23ultra_full_tvv4_3">1440 در 3088 پیکسل (~500 پیکسل در اینچ تراکم پیکسلی)</string>
+    <string name="ph_s23ultra_full_tvv6_3">کورنینگ گوریلا گلس 2Victus</string>
+    <string name="ph_s23ultra_full_tvv7_3">پشتیبانی از +HDR10</string>
+    <string name="ph_s23ultra_full_tvv8_3">حداکثر روشنایی 1750 نیت (peak)</string>
+    <string name="ph_s23ultra_full_tvv9_3">نرخ نوسازی تصویر 120 هرتز</string>
+    <string name="ph_s23ultra_full_tvv1_4">در زمان عرضه اندروید 13 و One UI 5.1</string>
+    <string name="ph_s23ultra_full_tvv2_4">Qualcomm SM8550-AC Snapdragon 8 Gen 2 (چهار نانومتر)</string>
+    <string name="ph_s23ultra_full_tvv3_4">8 هسته‌ای (یک هسته‌ی 3.36 گیگاهرتز Cortex-X3 و دو هسته‌ی 2.8 گیگاهرتز Cortex-A715 و دو هسته‌ی 2.8 گیگاهرتز Cortex-A710 و سه هسته‌ی 2.0 گیگاهرتز Cortex-A510)</string>
+    <string name="ph_s23ultra_full_tvv4_4">Adreno 740</string>
+    <string name="ph_s23ultra_full_tvv1_5">خیر</string>
+    <string name="ph_s23ultra_full_tvv2_5">256 گیگابایت با 8 گیگابایت رم ، 256 گیگابایت با 12 گیگابایت رم، 512 گیگابایت با 12 گیگابایت رم، 1 ترابایت با 12 گیگابایت رم</string>
+    <string name="ph_s23ultra_full_tvv3_5">UFS 4.0</string>
+    <string name="ph_s23ultra_full_tvv1_6">لنز واید: 200 مگاپیکسل، 24 میلی‌متر، 0.6 میکرومتر سایز پیکسل، 1/3.52 اینچ سایز سنسور، فوکوس خودکار دوال پیکسل، فوکوس خودکار لیزری، لرزش‌گیر اپتیکال تصویر، f1.7</string>
+    <string name="ph_s23ultra_full_tvv2_6">لنز پریسکوپ تله‌فوتو: 10 مگاپیکسل، 230 میلی‌متر، 1.12 میکرومتر سایز پیکسل، 1/3.52 اینچ سایز سنسور، فوکوس خودکار دوال پیکسل، بزرگ‌نمایی اپتیکال 10 برابر، لرزش‌گیر اپتیکال تصویر، f4.9</string>
+    <string name="ph_s23ultra_full_tvv2_6.1">لنز تله‌فوتو: 10 مگاپیکسل، 70میلی‌متر، 1.12 میکرومتر سایز پیکسل، f2.4، فوکوس خودکار با تشخیص فاز، 1/3.52 اینچ سایز سنسور، لرزش‌گیر اپتیکال تصویر، بزرگ‌نمایی اپتیکال 3 برابر</string>
+    <string name="ph_s23ultra_full_tvv3_6">لنز اولتراواید: 12 مگاپیکسل، f2.2، پوشش 120 درجه، 13 میلی‌متر، 1.4 میکرومتر سایز پیکسل، 1/2.55 اینچ سایز سنسور</string>
+    <string name="ph_s23ultra_full_tvv4_6">فلش LED، پانوراما، auto-HDR</string>
+    <string name="ph_s23ultra_full_tvv5_6">8K@24/30fps, 4K@30/60fps, 1080p@30/60/240fps, 1080p@960fps, HDR10+, stereo sound rec., gyro-EIS</string>
+    <string name="ph_s23ultra_full_tvv1_7">12 مگاپیکسل، 26 میلی‌متر (واید)، فوکوس خودکار دوال پیکسل، f2.2</string>
+    <string name="ph_s23ultra_full_tvv3_7">Dual video call, Auto-HDR, HDR10+</string>
+    <string name="ph_s23ultra_full_tvv4_7">4K@30/60fps, 1080p@30fps</string>
+    <string name="ph_s23ultra_full_tvv1_8">استریو (دوگانه)</string>
+    <string name="ph_s23ultra_full_tvv2_8">خیر</string>
+    <string name="ph_s23ultra_full_tvv3_8">صدای 32 بیت / 384 کیلوهرتز</string>
+    <string name="ph_s23ultra_full_tvv4_8">تنظیم شده توسط AKG</string>
+    <string name="ph_s23ultra_full_tvv0_9">GSM / CDMA / HSPA / EVDO / LTE / 5G</string>
+    <string name="ph_s23ultra_full_tvv1_9">Wi-Fi 6E (802.11ax) a/b/g/n/ac/ax</string>
+    <string name="ph_s23ultra_full_tvv2_9">سه بانده (Tri-Band)</string>
+    <string name="ph_s23ultra_full_tvv3_9">وای‌فای دایرکت (Wi-Fi Direct)</string>
+    <string name="ph_s23ultra_full_tvv4_9">هات اسپات (Wi-Fi Hotspot)</string>
+    <string name="ph_s23ultra_full_tvv5_9">نسخه 5.3</string>
+    <string name="ph_s23ultra_full_tvv6_9">پشتیبانی از A2DP</string>
+    <string name="ph_s23ultra_full_tvv7_9">از نوع کم مصرف یا LE</string>
+    <string name="ph_s23ultra_full_tvv9_9">GPS/A-GPS/GLONASS/GALILEO/BDS</string>
+    <string name="ph_s23ultra_full_tvv10_9">بله</string>
+    <string name="ph_s23ultra_full_tvv11_9">خیر</string>
+    <string name="ph_s23ultra_full_tvv12_9">تک سیم‌‌‌کارت (نانو سیم و eSIM) یا دو سیم‌کارت dual stand-by (2 نانو سیم + eSIM)</string>
+    <string name="ph_s23ultra_full_tvv1_10">حسگر اثرانگشت (زیر نمایشگر (اولتراسونیک))، شتاب‌سنج، ژیروسکوپ، حسگر مجاورت، قطب‌نما، فشارسنج هوا</string>
+    <string name="ph_s23ultra_full_tvv2_10">Ultra Wideband (UWB) support</string>
+    <string name="ph_s23ultra_full_tvv3_10">Samsung DeX (پشتیبانی از تجربه دسکتاپ)، Samsung Wireless DeX(desktop experience support)</string>
+    <string name="ph_s23ultra_full_tvv1_11">لیتیوم یونی، 5000 میلی‌آمپر ساعت، غیر قابل تعویض توسط کاربر</string>
+    <string name="ph_s23ultra_full_tvv2_11">شارژ سریع 45 وات</string>
+    <string name="ph_s23ultra_full_tvv3_11">شارژ سریع بی‌سیم 15 وات Qi و PMA</string>
+    <string name="ph_s23ultra_full_tvv4_11">شارژ معکوس بی‌سیم 4.5 وات</string>
+    <string name="ph_s23ultra_full_tvv4_11.1">پشتیبانی از فناوری Power Delivery 3</string>
+    <string name="ph_s23ultra_full_tvv5_11">درگاه USB Type-C 3.2</string>
+    <string name="ph_s23ultra_full_tvv1_12">مشکی، سبز، بنفش روشن، کرم، نوک مدادی، آبی، سبز لیمویی، قرمز</string>
+    <string name="ph_s23ultra_full_tvv2_12">SM-S918B, SM-S918B/DS, SM-S918U, SM-S918U1, SM-S918W, SM-S918N, SM-S9180, SM-S918E, SM-S918E/DS</string>
 
     //phones_full_s23plus_full_tvv
     <string name="ph_s23plus_full_tvv1_1">1 فوریه 2023</string>
