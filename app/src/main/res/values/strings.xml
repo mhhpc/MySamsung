@@ -12,7 +12,6 @@
 
 
     //menu_drawer
-    <string name="menu_channel">ارتباط با ما</string>
     <string name="menu_rate">امتیاز به برنامه</string>
     <string name="menu_share">اشتراک گذاری برنامه</string>
     <string name="menu_aboutUs">درباره سامسونگ من</string>
@@ -137,14 +136,13 @@
     <string name="phones_s2">جستجو</string>
 
     //About_activity
-    <string name="about_b1">ارتباط با ما</string>
     <string name="about_b2">امتیاز به برنامه</string>
     <string name="about_b3">اشتراک گذاری برنامه</string>
     <string name="about_t">حمایت از ما</string>
-    <string name="about_t2">(:</string>
+    <string name="about_t2">(: درباره ما :)</string>
     <string name="about_tx1">ساخته شده توسط محمد حسین حمیدی</string>
-    <string name="about_tx2">Copyright © 1401-1402 MHH Releases</string>
-    <string name="about_tx3">7 Bahman 1402 Released (BETA)</string>
+    <string name="about_tx2">Copyright © 1401-1403 MHH Releases</string>
+    <string name="about_tx3">1 Farvardin 1403 Released</string>
     <string name="about_tx4">تمامی محتوای موجود در این برنامه متعلق به تیم (سامسونگ من) می‌باشد</string>
 
     //Ertebat_activity

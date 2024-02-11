@@ -102,16 +102,6 @@
                         android:visibility="visible">
 
                         <ImageView
-                            android:id="@+id/b1"
-                            android:layout_width="0dp"
-                            android:layout_height="60dp"
-                            android:layout_marginHorizontal="5dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_weight="1"
-                            android:foreground="?attr/selectableItemBackground"
-                            android:src="@drawable/ertebat" />
-
-                        <ImageView
                             android:id="@+id/b2"
                             android:layout_width="0dp"
                             android:layout_height="60dp"
@@ -140,20 +130,6 @@
                         android:layout_below="@id/main"
                         android:layout_marginTop="5dp"
                         android:visibility="visible">
-
-                        <TextView
-                            android:id="@+id/t1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginHorizontal="5dp"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginBottom="10dp"
-                            android:layout_weight="1"
-                            android:foreground="?attr/selectableItemBackground"
-                            android:gravity="center"
-                            android:text="@string/about_b1"
-                            android:textColor="@color/colorBlack"
-                            android:textSize="15sp" />
 
                         <TextView
                             android:id="@+id/t2"
@@ -215,11 +191,20 @@
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
+                    <ImageView
+                        android:id="@+id/prof"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/tx3"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/profile" />
+
                     <TextView
                         android:id="@+id/tx4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/tx3"
+                        android:layout_below="@+id/prof"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:gravity="center"
@@ -264,10 +249,96 @@
                         android:textColor="@color/colorBlack"
                         android:textSize="15sp" />
 
+                    <LinearLayout
+                        android:id="@+id/n1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tx7"
+                        android:layout_marginBottom="20dp"
+                        android:visibility="visible">
+
+                        <ImageView
+                            android:id="@+id/bn1"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/gmail" />
+
+                        <ImageView
+                            android:id="@+id/bn2"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/weblog" />
+
+                        <ImageView
+                            android:id="@+id/bn3"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/telegram" />
+
+                        <ImageView
+                            android:id="@+id/bn4"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/instagram" />
+
+                        <ImageView
+                            android:id="@+id/bn5"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/eitaa" />
+
+                        <ImageView
+                            android:id="@+id/bn6"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/aparat" />
+
+                        <ImageView
+                            android:id="@+id/bn7"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/bazaar" />
+
+                    </LinearLayout>
+
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
 
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_below="@+id/cardView2"
+                android:layout_marginTop="-50dp"
+                android:id="@+id/lottie2"
+                style="@style/AppbarLottie"
+                app:lottie_rawRes="@raw/ertebat" />
 
         </LinearLayout>
 

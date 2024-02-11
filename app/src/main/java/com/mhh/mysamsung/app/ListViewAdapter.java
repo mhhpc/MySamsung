@@ -55,7 +55,6 @@ import com.mhh.mysamsung.views.Customize_activity;
 import com.mhh.mysamsung.views.Customize_goodlock_activity;
 import com.mhh.mysamsung.views.Customize_samsung_activity;
 import com.mhh.mysamsung.views.Device_info_activity;
-import com.mhh.mysamsung.views.Ertebat_activity;
 import com.mhh.mysamsung.views.Hidden_tips_activity;
 import com.mhh.mysamsung.views.Phones_activity;
 import com.mhh.mysamsung.views.Series_activity;
@@ -180,10 +179,6 @@ public class ListViewAdapter extends BaseAdapter{
                 }
                 if (modellist.get(postition).getTitle().equals("LTE Only")){
                     Intent intent = new Intent(mContext, Lte_only_activity.class);
-                    mContext.startActivity(intent);
-                }
-                if (modellist.get(postition).getTitle().equals("ارتباط با ما")){
-                    Intent intent = new Intent(mContext, Ertebat_activity.class);
                     mContext.startActivity(intent);
                 }
                 if (modellist.get(postition).getTitle().equals("شخصی سازی سامسونگ")){

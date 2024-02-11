@@ -755,9 +755,6 @@
             android:name=".views.About_activity"
             android:exported="false" />
         <activity
-            android:name=".views.Ertebat_activity"
-            android:exported="false" />
-        <activity
             android:name=".views.Home_activity"
             android:exported="false" />
         <activity

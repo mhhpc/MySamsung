@@ -255,10 +255,6 @@ public class Home_activity extends AppCompatActivity implements View.OnClickList
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
-                    case R.id.menu_channel:
-                        drawerLayout.closeDrawers();
-                        startActivity(new Intent(Home_activity.this, Ertebat_activity.class));
-                        break;
 
                     case R.id.menu_rate:
                         drawerLayout.closeDrawers();
